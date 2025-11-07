@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "lastUpdated": "2025-11-06T12:00:00Z",
+  "defaultLanguage": "ar",
+  "languages": ["ar", "en"],
+  "groups": [
+    {
+      "id": "getting_started",
+      "title": {"ar": "البدء", "en": "Getting Started"},
+      "order": 1,
+      "sections": ["what_is_quran_library"]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what_is_quran_library",
+      "title": {
+        "ar": "ما هي مكتبة القرآن؟",
+        "en": "What is Quran Library?"
+      },
+      "order": 1,
+      "keywords": ["quran", "library", "intro", "documentation"],
+      "blocks": [
+        {
+          "type": "title",
+          "content": {
+            "ar": "ما هي مكتبة القرآن؟",
+            "en": "What is Quran Library?"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "مكتبة القرآن هي مكتبة Flutter شاملة ومتقدمة لعرض القرآن الكريم مع دعم البحث والإشارات المرجعية والتفسير وتشغيل الصوت.",
+            "en": "Quran Library is a comprehensive Flutter package to display the Holy Quran with search, bookmarks, tafsir, and audio playback."
+          }
+        },
+        {
+          "type": "feature_list",
+          "content": {"ar": "الميزات الرئيسية", "en": "Main Features"},
+          "props": {
+            "items": [
+              {"ar": "عرض كامل للمصحف بخطوط جميلة", "en": "Full Quran rendering with beautiful fonts"},
+              {"ar": "بحث سريع في الآيات والسور", "en": "Fast search in verses and surahs"},
+              {"ar": "علامات مرجعية وإدارة مرنة", "en": "Flexible bookmarks management"},
+              {"ar": "تشغيل صوتي ودعم العمل دون اتصال", "en": "Audio playback with offline support"}
+            ]
+          }
+        },
+        {
+          "type": "note",
+          "content": {
+            "ar": "يمكن إدارة هذا المحتوى بالكامل من ملف JSON دون الحاجة إلى تعديل الكود.",
+            "en": "This content is fully managed via JSON without editing code."
+          }
+        }
+      ]
+    }
+  ]
+}
