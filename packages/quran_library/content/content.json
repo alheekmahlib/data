@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2025-11-10T06:10:20.098267Z",
+  "lastUpdated": "2025-11-10T07:04:16.825178Z",
   "defaultLanguage": "ar",
   "languages": [
     "ar",
@@ -69,8 +69,26 @@
       "order": 3,
       "sections": [
         "fonts_download",
-        "tafsir_feature",
-        "audio_playback"
+        "tafsir_feature"
+      ]
+    },
+    {
+      "id": "audio_playback_group",
+      "title": {
+        "ar": "تشغيل الصوت",
+        "en": "Audio Playback",
+        "bn": "শব্দ চালু করুন",
+        "id": "Putar Audio",
+        "ur": "آواز چلائیں",
+        "tr": "Ses çalma",
+        "ku": "دەنگ کارپێکردن",
+        "ms": "Mainkan Audio",
+        "es": "Reproducir sonido"
+      },
+      "order": 4,
+      "sections": [
+        "play_ayah_audio",
+        "play_surah_audio"
       ]
     },
     {
@@ -86,7 +104,7 @@
         "ms": "pelbagai",
         "es": "Miscelánea"
       },
-      "order": 4,
+      "order": 5,
       "sections": [
         "sources",
         "license"
@@ -792,12 +810,102 @@
             "ar": "تحميل الخطوط",
             "en": "Fonts Download",
             "bn": "ফন্টস ডাউনলোড",
-            "id": "Unduhan Font",
+            "id": "Pengunduhan Font",
             "ur": "فونٹس ڈاؤن لوڈ",
             "tr": "Yazı Tipleri İndirme",
             "ku": "فۆنتەکان داگرتن",
             "ms": "Muat Turun Fon",
             "es": "Descarga de Fuentes"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "## لتحميل خطوط القرآن، أمامك خياران:",
+            "en": "## To download Quran fonts, you have two options:",
+            "bn": "## কুরআন ফন্ট ডাউনলোড করার জন্য, আপনার কাছে দুটি বিকল্প রয়েছে:",
+            "id": "## Untuk mengunduh font Quran, Anda memiliki dua pilihan:",
+            "ur": "## قرآن فونٹس ڈاؤن لوڈ کرنے کے لیے، آپ کے پاس دو اختیارات ہیں:",
+            "tr": "## Kuran yazı tiplerini indirmek için iki seçeneğiniz vardır:",
+            "ku": "## بۆ داگرتنی فۆنتەکانی قورئان، دوو بژاردەت هەیە:",
+            "ms": "## Untuk memuat turun fon Quran, anda mempunyai dua pilihan:",
+            "es": "## Para descargar fuentes del Corán, tienes dos opciones:"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "### أما بالنسبة لاستخدام الحوار الافتراضي، فيمكنك تعديل النمط الخاص به.",
+            "en": "### As for using the default dialog, you can modify the style in it.",
+            "bn": "### ডিফল্ট ডায়ালগ ব্যবহার করার ক্ষেত্রে, আপনি এর মধ্যে স্টাইল পরিবর্তন করতে পারেন।",
+            "id": "### Mengenai penggunaan dialog default, Anda dapat memodifikasi style di dalamnya.",
+            "ur": "### جہاں تک ڈیفالٹ ڈائیلاگ کے استعمال کا تعلق ہے، آپ اس میں اسٹائل میں ترمیم کر سکتے ہیں۔",
+            "tr": "### Varsayılan iletişim kutusunu kullanmaya gelince, içindeki stili değiştirebilirsiniz.",
+            "ku": "### سەبارەت بە بەکارهێنانی دایەلۆگی بنەڕەتی، دەتوانیت ستایلەکەی تێیدا بگۆڕیت.",
+            "ms": "### Bagi penggunaan dialog lalai, anda boleh mengubah suai gaya di dalamnya.",
+            "es": "### En cuanto a usar el diálogo predeterminado, puedes modificar el estilo en él."
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "### أو يمكنك إنشاء تصميمك الخاص باستخدام جميع دوال تحميل الخطوط.\n## يتطلب نظام macOS منك طلب استحقاق (entitlement) محدد للوصول إلى الشبكة.",
+            "en": "### Or you can create your own design using all the functions for downloading fonts. ## macOS needs you to request a specific entitlement in order to access the network.",
+            "bn": "### অথবা আপনি ফন্ট ডাউনলোডের জন্য সমস্ত ফাংশন ব্যবহার করে আপনার নিজস্ব ডিজাইন তৈরি করতে পারেন। ## macOS-এর নেটওয়ার্ক অ্যাক্সেস করার জন্য একটি নির্দিষ্ট এনটাইটেলমেন্ট অনুরোধ করার প্রয়োজন।",
+            "id": "### Atau Anda dapat membuat desain Anda sendiri menggunakan semua fungsi untuk mengunduh font. ## macOS mengharuskan Anda meminta hak khusus (entitlement) untuk mengakses jaringan.",
+            "ur": "### یا آپ فونٹس ڈاؤن لوڈ کرنے کے تمام فنکشنز کا استعمال کرتے ہوئے اپنا ڈیزائن بنا سکتے ہیں۔ ## نیٹ ورک تک رسائی حاصل کرنے کے لیے macOS کو آپ سے ایک مخصوص اینٹائٹلمنٹ کی درخواست کرنے کی ضرورت ہے۔",
+            "tr": "### Veya font indirme için tüm fonksiyonları kullanarak kendi tasarımınızı oluşturabilirsiniz. ## macOS, ağa erişmek için belirli bir yetkilendirme (entitlement) talep etmenizi gerektirir.",
+            "ku": "### یان دەتوانیت دیزاینی تایبەت بە خۆت دروست بکەیت بە بەکارهێنانی هەموو فەنکشنەکانی داگرتنی فۆنتەکان. ## macOS پێویستی بەوەیە کە داوای ئیختیاراتێکی تایبەت بکەیت بۆ ئەوەی دەستت بە تۆڕەکە بگات.",
+            "ms": "### Atau anda boleh mencipta reka bentuk anda sendiri menggunakan semua fungsi untuk memuat turun fon.\n## macOS memerlukan anda untuk meminta entitlement tertentu bagi mengakses rangkaian.",
+            "es": "### O puedes crear tu propio diseño utilizando todas las funciones para descargar fuentes. ## macOS requiere que solicites un derecho específico para acceder a la red."
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "للقيام بذلك: افتح macos/Runner/DebugProfile.entitlements وأضف زوج المفتاح والقيمة التالي.",
+            "en": "To do that: open macos/Runner/DebugProfile.entitlements and add the following key-value pair.",
+            "bn": "এটি করার জন্য: `macos/Runner/DebugProfile.entitlements` খুলুন এবং নিম্নলিখিত কী-ভ্যালু পেয়ার যোগ করুন।",
+            "id": "Untuk melakukan itu: buka `macos/Runner/DebugProfile.entitlements` dan tambahkan pasangan kunci-nilai berikut.",
+            "ur": "اس کے لیے: macos/Runner/DebugProfile.entitlements کھولیں اور درج ذیل کلیدی-قدر جوڑا شامل کریں۔",
+            "tr": "Bunu yapmak için: macos/Runner/DebugProfile.entitlements dosyasını açın ve aşağıdaki anahtar-değer çiftini ekleyin.",
+            "ku": "بۆ ئەنجامدانی ئەوە: macos/Runner/DebugProfile.entitlements بکەوە و جووتە-بەهای کلیل-بەهای خوارەوە زیاد بکە.",
+            "ms": "Untuk melakukan itu: buka macos/Runner/DebugProfile.entitlements dan tambah pasangan kunci-nilai berikut.",
+            "es": "Para hacer eso: abre macos/Runner/DebugProfile.entitlements y añade el siguiente par clave-valor."
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "<key>com.apple.security.network.client</key>\n<true/>",
+            "en": "<key>com.apple.security.network.client</key>\n<true/>",
+            "bn": "<key>com.apple.security.network.client</key>\n<true/>",
+            "id": "<key>com.apple.security.network.client</key>\n<true/>",
+            "ur": "<key>com.apple.security.network.client</key>\n<true/>",
+            "tr": "<key>com.apple.security.network.client</key>\n<true/>",
+            "ku": "<key>com.apple.security.network.client</key>\n<true/>",
+            "ms": "<key>com.apple.security.network.client</key>\n<true/>",
+            "es": "<key>com.apple.security.network.client</key>\n<true/>"
+          },
+          "props": {
+            "language": "xml"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
+            "en": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
+            "bn": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
+            "id": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
+            "ur": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
+            "tr": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
+            "ku": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
+            "ms": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
+            "es": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;"
+          },
+          "props": {
+            "language": "dart"
           }
         }
       ]
@@ -860,241 +968,6 @@
             "ku": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
             "ms": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
             "es": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);"
-          },
-          "props": {
-            "language": "dart"
-          }
-        }
-      ]
-    },
-    {
-      "id": "audio_playback",
-      "title": {
-        "ar": "تشغيل الصوت",
-        "en": "Audio Playback",
-        "bn": "অডিও প্লেব্যাক",
-        "id": "Pemutaran Audio",
-        "ur": "آڈیو پلے بیک",
-        "tr": "Ses Çalma",
-        "ku": "پالپێدانی دەنگ",
-        "ms": "Main Pemain Audio",
-        "es": "Reproducción de Audio"
-      },
-      "order": 3,
-      "keywords": [
-        "audio",
-        "playback"
-      ],
-      "blocks": [
-        {
-          "type": "title",
-          "content": {
-            "ar": "تشغيل الصوت",
-            "en": "Audio Playback",
-            "bn": "অডিও প্লেব্যাক",
-            "id": "Pemutaran Audio",
-            "ur": "آڈیو پلے بیک",
-            "tr": "Ses Çalma",
-            "ku": "لێدانی دەنگ",
-            "ms": "Main Pemain Audio",
-            "es": "Reproducción de Audio"
-          }
-        },
-        {
-          "type": "subtitle",
-          "content": {
-            "ar": "توفر هذه الجزئية إمكانيات شاملة لتشغيل صوت القرآن الكريم مع دعم التشغيل في الخلفية وإدارة متقدمة لملفات الصوت.",
-            "en": "This section provides comprehensive capabilities for audio playback of the Holy Quran with background playback support and advanced audio file management.",
-            "bn": "এই অংশটি পবিত্র কুরআনের অডিও প্লেব্যাকের জন্য ব্যাপক ক্ষমতা প্রদান করে, সাথে ব্যাকগ্রাউন্ড প্লেব্যাক সমর্থন এবং উন্নত অডিও ফাইল ব্যবস্থাপনা।",
-            "id": "Bagian ini menyediakan kemampuan komprehensif untuk pemutaran audio Al-Qur'an dengan dukungan pemutaran latar belakang dan manajemen berkas audio yang canggih.",
-            "ur": "یہ حصہ پس منظر میں چلانے کی حمایت اور جدید آڈیو فائل کے انتظام کے ساتھ قرآن پاک کی آڈیو پلے بیک کے لیے جامع صلاحیتیں فراہم کرتا ہے۔",
-            "tr": "Bu bölüm, arka planda oynatma desteği ve gelişmiş ses dosyası yönetimi ile Kur'an-ı Kerim'in sesli çalınması için kapsamlı yetenekler sunar.",
-            "ku": "ئەم بەشە توانایەکی گشتگیر دابین دەکات بۆ لێدانی دەنگی قورئانی پیرۆز لەگەڵ پشتگیری لێدانی پاشبنەما و بەڕێوەبردنی پێشکەوتووی فایلە دەنگییەکان.",
-            "ms": "Bahagian ini menyediakan keupayaan komprehensif untuk main balik audio Al-Quran dengan sokongan main balik latar belakang dan pengurusan fail audio yang canggih.",
-            "es": "Esta sección proporciona capacidades integrales para la reproducción de audio del Sagrado Corán con soporte de reproducción en segundo plano y gestión avanzada de archivos de audio."
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "* ### تشغيل الصوت الشعري",
-            "en": "* ### Verse Audio Playback",
-            "bn": "* ### পদ অডিও প্লেব্যাক",
-            "id": "* ### Pemutaran Audio Ayat",
-            "ur": "* ### آیت آڈیو پلے بیک",
-            "tr": "* ### Ayet Ses Çalma",
-            "ku": "* ### لێدانی دەنگی ئایەتی قورئان",
-            "ms": "* ### Mainan Semula Audio Ayat",
-            "es": "* ### Reproducción de Audio de Verso"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 1, // Unique ayah number\nplaySingleAyah: true, // true for single ayah, false to continue\n);\n\n/// Move to next verse and play it\nawait QuranLibrary().seekNextAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 5,\n);\n\n/// Move to previous verse and play it\nawait QuranLibrary().seekPreviousAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 10,\n);",
-            "en": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 1, // Unique ayah number\nplaySingleAyah: true, // true for single ayah, false to continue\n);\n\n/// Move to next verse and play it\nawait QuranLibrary().seekNextAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 5,\n);\n\n/// Move to previous verse and play it\nawait QuranLibrary().seekPreviousAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 10,\n);",
-            "bn": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 1, // Unique ayah number\nplaySingleAyah: true, // true for single ayah, false to continue\n);\n\n/// Move to next verse and play it\nawait QuranLibrary().seekNextAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 5,\n);\n\n/// Move to previous verse and play it\nawait QuranLibrary().seekPreviousAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 10,\n);",
-            "id": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 1, // Unique ayah number\nplaySingleAyah: true, // true for single ayah, false to continue\n);\n\n/// Move to next verse and play it\nawait QuranLibrary().seekNextAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 5,\n);\n\n/// Move to previous verse and play it\nawait QuranLibrary().seekPreviousAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 10,\n);",
-            "ur": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 1, // Unique ayah number\nplaySingleAyah: true, // true for single ayah, false to continue\n);\n\n/// Move to next verse and play it\nawait QuranLibrary().seekNextAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 5,\n);\n\n/// Move to previous verse and play it\nawait QuranLibrary().seekPreviousAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 10,\n);",
-            "tr": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 1, // Unique ayah number\nplaySingleAyah: true, // true for single ayah, false to continue\n);\n\n/// Move to next verse and play it\nawait QuranLibrary().seekNextAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 5,\n);\n\n/// Move to previous verse and play it\nawait QuranLibrary().seekPreviousAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 10,\n);",
-            "ku": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 1, // Unique ayah number\nplaySingleAyah: true, // true for single ayah, false to continue\n);\n\n/// Move to next verse and play it\nawait QuranLibrary().seekNextAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 5,\n);\n\n/// Move to previous verse and play it\nawait QuranLibrary().seekPreviousAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 10,\n);",
-            "ms": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 1, // Unique ayah number\nplaySingleAyah: true, // true for single ayah, false to continue\n);\n\n/// Move to next verse and play it\nawait QuranLibrary().seekNextAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 5,\n);\n\n/// Move to previous verse and play it\nawait QuranLibrary().seekPreviousAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 10,\n);",
-            "es": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 1, // Unique ayah number\nplaySingleAyah: true, // true for single ayah, false to continue\n);\n\n/// Move to next verse and play it\nawait QuranLibrary().seekNextAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 5,\n);\n\n/// Move to previous verse and play it\nawait QuranLibrary().seekPreviousAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 10,\n);"
-          },
-          "props": {
-            "language": "dart"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "* ### تشغيل صوت السورة",
-            "en": "* ### Surah Audio Playback",
-            "bn": "* ### সূরা অডিও প্লেব্যাক",
-            "id": "* ### Pemutaran Audio Surah",
-            "ur": "* ### سورۃ آڈیو پلے بیک",
-            "tr": "* ### Sure Ses Oynatma",
-            "ku": "* ### لێدانەوەی دەنگی سوورەت",
-            "ms": "* ### Main balik Audio Surah",
-            "es": "* ### Reproducción de Audio de la Sura"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "/// Play a complete surah from beginning to end\nawait QuranLibrary().playSurah(surahNumber: 1); // Al-Fatihah\nawait QuranLibrary().playSurah(surahNumber: 2); // Al-Baqarah\n\n/// Move to next surah and play it\nawait QuranLibrary().seekToNextSurah();\n\n/// Move to previous surah and play it\nawait QuranLibrary().seekToPreviousSurah();",
-            "en": "/// Play a complete surah from beginning to end\nawait QuranLibrary().playSurah(surahNumber: 1); // Al-Fatihah\nawait QuranLibrary().playSurah(surahNumber: 2); // Al-Baqarah\n\n/// Move to next surah and play it\nawait QuranLibrary().seekToNextSurah();\n\n/// Move to previous surah and play it\nawait QuranLibrary().seekToPreviousSurah();",
-            "bn": "/// Play a complete surah from beginning to end\nawait QuranLibrary().playSurah(surahNumber: 1); // Al-Fatihah\nawait QuranLibrary().playSurah(surahNumber: 2); // Al-Baqarah\n\n/// Move to next surah and play it\nawait QuranLibrary().seekToNextSurah();\n\n/// Move to previous surah and play it\nawait QuranLibrary().seekToPreviousSurah();",
-            "id": "/// Play a complete surah from beginning to end\nawait QuranLibrary().playSurah(surahNumber: 1); // Al-Fatihah\nawait QuranLibrary().playSurah(surahNumber: 2); // Al-Baqarah\n\n/// Move to next surah and play it\nawait QuranLibrary().seekToNextSurah();\n\n/// Move to previous surah and play it\nawait QuranLibrary().seekToPreviousSurah();",
-            "ur": "/// Play a complete surah from beginning to end\nawait QuranLibrary().playSurah(surahNumber: 1); // Al-Fatihah\nawait QuranLibrary().playSurah(surahNumber: 2); // Al-Baqarah\n\n/// Move to next surah and play it\nawait QuranLibrary().seekToNextSurah();\n\n/// Move to previous surah and play it\nawait QuranLibrary().seekToPreviousSurah();",
-            "tr": "/// Play a complete surah from beginning to end\nawait QuranLibrary().playSurah(surahNumber: 1); // Al-Fatihah\nawait QuranLibrary().playSurah(surahNumber: 2); // Al-Baqarah\n\n/// Move to next surah and play it\nawait QuranLibrary().seekToNextSurah();\n\n/// Move to previous surah and play it\nawait QuranLibrary().seekToPreviousSurah();",
-            "ku": "/// Play a complete surah from beginning to end\nawait QuranLibrary().playSurah(surahNumber: 1); // Al-Fatihah\nawait QuranLibrary().playSurah(surahNumber: 2); // Al-Baqarah\n\n/// Move to next surah and play it\nawait QuranLibrary().seekToNextSurah();\n\n/// Move to previous surah and play it\nawait QuranLibrary().seekToPreviousSurah();",
-            "ms": "/// Play a complete surah from beginning to end\nawait QuranLibrary().playSurah(surahNumber: 1); // Al-Fatihah\nawait QuranLibrary().playSurah(surahNumber: 2); // Al-Baqarah\n\n/// Move to next surah and play it\nawait QuranLibrary().seekToNextSurah();\n\n/// Move to previous surah and play it\nawait QuranLibrary().seekToPreviousSurah();",
-            "es": "/// Play a complete surah from beginning to end\nawait QuranLibrary().playSurah(surahNumber: 1); // Al-Fatihah\nawait QuranLibrary().playSurah(surahNumber: 2); // Al-Baqarah\n\n/// Move to next surah and play it\nawait QuranLibrary().seekToNextSurah();\n\n/// Move to previous surah and play it\nawait QuranLibrary().seekToPreviousSurah();"
-          },
-          "props": {
-            "language": "dart"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "* ### إدارة التنزيلات",
-            "en": "* ### Download Management",
-            "bn": "* ### ডাউনলোড ব্যবস্থাপনা",
-            "id": "* ### Manajemen Unduhan",
-            "ur": "* ### ڈاؤن لوڈ کا انتظام",
-            "tr": "* ### İndirme Yönetimi",
-            "ku": "* ### بەڕێوەبردنی داگرتن",
-            "ms": "* ### Pengurusan Muat Turun",
-            "es": "* ### Gestión de Descargas"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "/// Start downloading a surah for offline playback\nawait QuranLibrary().startDownloadSurah(surahNumber: 1);\n\n/// Cancel ongoing download\nQuranLibrary().cancelDownloadSurah();",
-            "en": "/// Start downloading a surah for offline playback\nawait QuranLibrary().startDownloadSurah(surahNumber: 1);\n\n/// Cancel ongoing download\nQuranLibrary().cancelDownloadSurah();",
-            "bn": "/// Start downloading a surah for offline playback\nawait QuranLibrary().startDownloadSurah(surahNumber: 1);\n\n/// Cancel ongoing download\nQuranLibrary().cancelDownloadSurah();",
-            "id": "/// Start downloading a surah for offline playback\nawait QuranLibrary().startDownloadSurah(surahNumber: 1);\n\n/// Cancel ongoing download\nQuranLibrary().cancelDownloadSurah();",
-            "ur": "/// Start downloading a surah for offline playback\nawait QuranLibrary().startDownloadSurah(surahNumber: 1);\n\n/// Cancel ongoing download\nQuranLibrary().cancelDownloadSurah();",
-            "tr": "/// Start downloading a surah for offline playback\nawait QuranLibrary().startDownloadSurah(surahNumber: 1);\n\n/// Cancel ongoing download\nQuranLibrary().cancelDownloadSurah();",
-            "ku": "/// Start downloading a surah for offline playback\nawait QuranLibrary().startDownloadSurah(surahNumber: 1);\n\n/// Cancel ongoing download\nQuranLibrary().cancelDownloadSurah();",
-            "ms": "/// Start downloading a surah for offline playback\nawait QuranLibrary().startDownloadSurah(surahNumber: 1);\n\n/// Cancel ongoing download\nQuranLibrary().cancelDownloadSurah();",
-            "es": "/// Start downloading a surah for offline playback\nawait QuranLibrary().startDownloadSurah(surahNumber: 1);\n\n/// Cancel ongoing download\nQuranLibrary().cancelDownloadSurah();"
-          },
-          "props": {
-            "language": "dart"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "* ### التحكم في الموضع والاستئناف",
-            "en": "* ### Position Control & Resume",
-            "bn": "* ### পজিশন কন্ট্রোল এবং রিজিউম",
-            "id": "* ### Kontrol Posisi & Lanjutkan",
-            "ur": "* ### پوزیشن کنٹرول اور ریزیوم",
-            "tr": "* ### Konum Kontrolü ve Devam Ettirme",
-            "ku": "* ### کۆنتڕۆڵی شوێن و درێژەدانەوە",
-            "ms": "* ### Kawalan Kedudukan & Sambung Semula",
-            "es": "* ### Control de Posición y Reanudación"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "/// Get current/last surah number\nint currentSurah = QuranLibrary().currentAndLastSurahNumber;\n\n/// Get last position as formatted text (like \"05:23\")\nString lastTimeText = QuranLibrary().formatLastPositionToTime;\n\n/// Get last position as Duration object for programming operations\nDuration lastDuration = QuranLibrary().formatLastPositionToDuration;\n\n/// Play from the last position where user stopped\nawait QuranLibrary().playLastPosition();",
-            "en": "/// Get current/last surah number\nint currentSurah = QuranLibrary().currentAndLastSurahNumber;\n\n/// Get last position as formatted text (like \"05:23\")\nString lastTimeText = QuranLibrary().formatLastPositionToTime;\n\n/// Get last position as Duration object for programming operations\nDuration lastDuration = QuranLibrary().formatLastPositionToDuration;\n\n/// Play from the last position where user stopped\nawait QuranLibrary().playLastPosition();",
-            "bn": "/// Get current/last surah number\nint currentSurah = QuranLibrary().currentAndLastSurahNumber;\n\n/// Get last position as formatted text (like \"05:23\")\nString lastTimeText = QuranLibrary().formatLastPositionToTime;\n\n/// Get last position as Duration object for programming operations\nDuration lastDuration = QuranLibrary().formatLastPositionToDuration;\n\n/// Play from the last position where user stopped\nawait QuranLibrary().playLastPosition();",
-            "id": "/// Get current/last surah number\nint currentSurah = QuranLibrary().currentAndLastSurahNumber;\n\n/// Get last position as formatted text (like \"05:23\")\nString lastTimeText = QuranLibrary().formatLastPositionToTime;\n\n/// Get last position as Duration object for programming operations\nDuration lastDuration = QuranLibrary().formatLastPositionToDuration;\n\n/// Play from the last position where user stopped\nawait QuranLibrary().playLastPosition();",
-            "ur": "/// Get current/last surah number\nint currentSurah = QuranLibrary().currentAndLastSurahNumber;\n\n/// Get last position as formatted text (like \"05:23\")\nString lastTimeText = QuranLibrary().formatLastPositionToTime;\n\n/// Get last position as Duration object for programming operations\nDuration lastDuration = QuranLibrary().formatLastPositionToDuration;\n\n/// Play from the last position where user stopped\nawait QuranLibrary().playLastPosition();",
-            "tr": "/// Get current/last surah number\nint currentSurah = QuranLibrary().currentAndLastSurahNumber;\n\n/// Get last position as formatted text (like \"05:23\")\nString lastTimeText = QuranLibrary().formatLastPositionToTime;\n\n/// Get last position as Duration object for programming operations\nDuration lastDuration = QuranLibrary().formatLastPositionToDuration;\n\n/// Play from the last position where user stopped\nawait QuranLibrary().playLastPosition();",
-            "ku": "/// Get current/last surah number\nint currentSurah = QuranLibrary().currentAndLastSurahNumber;\n\n/// Get last position as formatted text (like \"05:23\")\nString lastTimeText = QuranLibrary().formatLastPositionToTime;\n\n/// Get last position as Duration object for programming operations\nDuration lastDuration = QuranLibrary().formatLastPositionToDuration;\n\n/// Play from the last position where user stopped\nawait QuranLibrary().playLastPosition();",
-            "ms": "/// Get current/last surah number\nint currentSurah = QuranLibrary().currentAndLastSurahNumber;\n\n/// Get last position as formatted text (like \"05:23\")\nString lastTimeText = QuranLibrary().formatLastPositionToTime;\n\n/// Get last position as Duration object for programming operations\nDuration lastDuration = QuranLibrary().formatLastPositionToDuration;\n\n/// Play from the last position where user stopped\nawait QuranLibrary().playLastPosition();",
-            "es": "/// Get current/last surah number\nint currentSurah = QuranLibrary().currentAndLastSurahNumber;\n\n/// Get last position as formatted text (like \"05:23\")\nString lastTimeText = QuranLibrary().formatLastPositionToTime;\n\n/// Get last position as Duration object for programming operations\nDuration lastDuration = QuranLibrary().formatLastPositionToDuration;\n\n/// Play from the last position where user stopped\nawait QuranLibrary().playLastPosition();"
-          },
-          "props": {
-            "language": "dart"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "* ### مثال صوتي كامل",
-            "en": "* ### Complete Audio Example",
-            "bn": "* ### সম্পূর্ণ অডিও উদাহরণ",
-            "id": "* ### Contoh Audio Lengkap",
-            "ur": "* ### مکمل آڈیو مثال",
-            "tr": "* ### Tam Ses Örneği",
-            "ku": "* ### نموونەی دەنگی تەواو",
-            "ms": "* ### Contoh Audio Lengkap",
-            "es": "* ### Ejemplo Completo de Audio"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "class AudioControlExample extends StatefulWidget {\n@override\n_AudioControlExampleState createState() => _AudioControlExampleState();\n}\n\nclass _AudioControlExampleState extends State<AudioControlExample> {\n@override\nWidget build(BuildContext context) {\nreturn Scaffold(\nappBar: AppBar(title: Text('Quran Audio Player')),\nbody: Column(\nchildren: [\n// Display current surah\nText('Current Surah: ${QuranLibrary().currentAndLastSurahNumber}'),\n\n// Display last position\nText('Last Position: ${QuranLibrary().formatLastPositionToTime}'),\n\n// Control buttons\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\n// Play from last position\nElevatedButton(\nonPressed: () => QuranLibrary().playLastPosition(),\nchild: Text('Resume from where you left'),\n),\n\n// Play Al-Fatihah\nElevatedButton(\nonPressed: () => QuranLibrary().playSurah(surahNumber: 1),\nchild: Text('Surah Al-Fatihah'),\n),\n],\n),\n\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\n// Previous surah\nIconButton(\nonPressed: () => QuranLibrary().seekToPreviousSurah(),\nicon: Icon(Icons.skip_previous),\n),\n\n// Previous ayah\nIconButton(\nonPressed: () => QuranLibrary().seekPreviousAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 10,\n),\nicon: Icon(Icons.fast_rewind),\n),\n\n// Next ayah\nIconButton(\nonPressed: () => QuranLibrary().seekNextAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 5,\n),\nicon: Icon(Icons.fast_forward),\n),\n\n// Next surah\nIconButton(\nonPressed: () => QuranLibrary().seekToNextSurah(),\nicon: Icon(Icons.skip_next),\n),\n],\n),\n\n// Download buttons\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\nElevatedButton(\nonPressed: () => QuranLibrary().startDownloadSurah(surahNumber: 2),\nchild: Text('Download Surah Al-Baqarah'),\n),\n\nElevatedButton(\nonPressed: () => QuranLibrary().cancelDownloadSurah(),\nchild: Text('Cancel Download'),\n),\n],\n),\n],\n),\n);\n}\n}",
-            "en": "class AudioControlExample extends StatefulWidget {\n@override\n_AudioControlExampleState createState() => _AudioControlExampleState();\n}\n\nclass _AudioControlExampleState extends State<AudioControlExample> {\n@override\nWidget build(BuildContext context) {\nreturn Scaffold(\nappBar: AppBar(title: Text('Quran Audio Player')),\nbody: Column(\nchildren: [\n// Display current surah\nText('Current Surah: ${QuranLibrary().currentAndLastSurahNumber}'),\n\n// Display last position\nText('Last Position: ${QuranLibrary().formatLastPositionToTime}'),\n\n// Control buttons\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\n// Play from last position\nElevatedButton(\nonPressed: () => QuranLibrary().playLastPosition(),\nchild: Text('Resume from where you left'),\n),\n\n// Play Al-Fatihah\nElevatedButton(\nonPressed: () => QuranLibrary().playSurah(surahNumber: 1),\nchild: Text('Surah Al-Fatihah'),\n),\n],\n),\n\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\n// Previous surah\nIconButton(\nonPressed: () => QuranLibrary().seekToPreviousSurah(),\nicon: Icon(Icons.skip_previous),\n),\n\n// Previous ayah\nIconButton(\nonPressed: () => QuranLibrary().seekPreviousAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 10,\n),\nicon: Icon(Icons.fast_rewind),\n),\n\n// Next ayah\nIconButton(\nonPressed: () => QuranLibrary().seekNextAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 5,\n),\nicon: Icon(Icons.fast_forward),\n),\n\n// Next surah\nIconButton(\nonPressed: () => QuranLibrary().seekToNextSurah(),\nicon: Icon(Icons.skip_next),\n),\n],\n),\n\n// Download buttons\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\nElevatedButton(\nonPressed: () => QuranLibrary().startDownloadSurah(surahNumber: 2),\nchild: Text('Download Surah Al-Baqarah'),\n),\n\nElevatedButton(\nonPressed: () => QuranLibrary().cancelDownloadSurah(),\nchild: Text('Cancel Download'),\n),\n],\n),\n],\n),\n);\n}\n}",
-            "bn": "class AudioControlExample extends StatefulWidget {\n@override\n_AudioControlExampleState createState() => _AudioControlExampleState();\n}\n\nclass _AudioControlExampleState extends State<AudioControlExample> {\n@override\nWidget build(BuildContext context) {\nreturn Scaffold(\nappBar: AppBar(title: Text('Quran Audio Player')),\nbody: Column(\nchildren: [\n// Display current surah\nText('Current Surah: ${QuranLibrary().currentAndLastSurahNumber}'),\n\n// Display last position\nText('Last Position: ${QuranLibrary().formatLastPositionToTime}'),\n\n// Control buttons\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\n// Play from last position\nElevatedButton(\nonPressed: () => QuranLibrary().playLastPosition(),\nchild: Text('Resume from where you left'),\n),\n\n// Play Al-Fatihah\nElevatedButton(\nonPressed: () => QuranLibrary().playSurah(surahNumber: 1),\nchild: Text('Surah Al-Fatihah'),\n),\n],\n),\n\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\n// Previous surah\nIconButton(\nonPressed: () => QuranLibrary().seekToPreviousSurah(),\nicon: Icon(Icons.skip_previous),\n),\n\n// Previous ayah\nIconButton(\nonPressed: () => QuranLibrary().seekPreviousAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 10,\n),\nicon: Icon(Icons.fast_rewind),\n),\n\n// Next ayah\nIconButton(\nonPressed: () => QuranLibrary().seekNextAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 5,\n),\nicon: Icon(Icons.fast_forward),\n),\n\n// Next surah\nIconButton(\nonPressed: () => QuranLibrary().seekToNextSurah(),\nicon: Icon(Icons.skip_next),\n),\n],\n),\n\n// Download buttons\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\nElevatedButton(\nonPressed: () => QuranLibrary().startDownloadSurah(surahNumber: 2),\nchild: Text('Download Surah Al-Baqarah'),\n),\n\nElevatedButton(\nonPressed: () => QuranLibrary().cancelDownloadSurah(),\nchild: Text('Cancel Download'),\n),\n],\n),\n],\n),\n);\n}\n}",
-            "id": "class AudioControlExample extends StatefulWidget {\n@override\n_AudioControlExampleState createState() => _AudioControlExampleState();\n}\n\nclass _AudioControlExampleState extends State<AudioControlExample> {\n@override\nWidget build(BuildContext context) {\nreturn Scaffold(\nappBar: AppBar(title: Text('Quran Audio Player')),\nbody: Column(\nchildren: [\n// Display current surah\nText('Current Surah: ${QuranLibrary().currentAndLastSurahNumber}'),\n\n// Display last position\nText('Last Position: ${QuranLibrary().formatLastPositionToTime}'),\n\n// Control buttons\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\n// Play from last position\nElevatedButton(\nonPressed: () => QuranLibrary().playLastPosition(),\nchild: Text('Resume from where you left'),\n),\n\n// Play Al-Fatihah\nElevatedButton(\nonPressed: () => QuranLibrary().playSurah(surahNumber: 1),\nchild: Text('Surah Al-Fatihah'),\n),\n],\n),\n\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\n// Previous surah\nIconButton(\nonPressed: () => QuranLibrary().seekToPreviousSurah(),\nicon: Icon(Icons.skip_previous),\n),\n\n// Previous ayah\nIconButton(\nonPressed: () => QuranLibrary().seekPreviousAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 10,\n),\nicon: Icon(Icons.fast_rewind),\n),\n\n// Next ayah\nIconButton(\nonPressed: () => QuranLibrary().seekNextAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 5,\n),\nicon: Icon(Icons.fast_forward),\n),\n\n// Next surah\nIconButton(\nonPressed: () => QuranLibrary().seekToNextSurah(),\nicon: Icon(Icons.skip_next),\n),\n],\n),\n\n// Download buttons\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\nElevatedButton(\nonPressed: () => QuranLibrary().startDownloadSurah(surahNumber: 2),\nchild: Text('Download Surah Al-Baqarah'),\n),\n\nElevatedButton(\nonPressed: () => QuranLibrary().cancelDownloadSurah(),\nchild: Text('Cancel Download'),\n),\n],\n),\n],\n),\n);\n}\n}",
-            "ur": "class AudioControlExample extends StatefulWidget {\n@override\n_AudioControlExampleState createState() => _AudioControlExampleState();\n}\n\nclass _AudioControlExampleState extends State<AudioControlExample> {\n@override\nWidget build(BuildContext context) {\nreturn Scaffold(\nappBar: AppBar(title: Text('Quran Audio Player')),\nbody: Column(\nchildren: [\n// Display current surah\nText('Current Surah: ${QuranLibrary().currentAndLastSurahNumber}'),\n\n// Display last position\nText('Last Position: ${QuranLibrary().formatLastPositionToTime}'),\n\n// Control buttons\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\n// Play from last position\nElevatedButton(\nonPressed: () => QuranLibrary().playLastPosition(),\nchild: Text('Resume from where you left'),\n),\n\n// Play Al-Fatihah\nElevatedButton(\nonPressed: () => QuranLibrary().playSurah(surahNumber: 1),\nchild: Text('Surah Al-Fatihah'),\n),\n],\n),\n\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\n// Previous surah\nIconButton(\nonPressed: () => QuranLibrary().seekToPreviousSurah(),\nicon: Icon(Icons.skip_previous),\n),\n\n// Previous ayah\nIconButton(\nonPressed: () => QuranLibrary().seekPreviousAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 10,\n),\nicon: Icon(Icons.fast_rewind),\n),\n\n// Next ayah\nIconButton(\nonPressed: () => QuranLibrary().seekNextAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 5,\n),\nicon: Icon(Icons.fast_forward),\n),\n\n// Next surah\nIconButton(\nonPressed: () => QuranLibrary().seekToNextSurah(),\nicon: Icon(Icons.skip_next),\n),\n],\n),\n\n// Download buttons\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\nElevatedButton(\nonPressed: () => QuranLibrary().startDownloadSurah(surahNumber: 2),\nchild: Text('Download Surah Al-Baqarah'),\n),\n\nElevatedButton(\nonPressed: () => QuranLibrary().cancelDownloadSurah(),\nchild: Text('Cancel Download'),\n),\n],\n),\n],\n),\n);\n}\n}",
-            "tr": "class AudioControlExample extends StatefulWidget {\n@override\n_AudioControlExampleState createState() => _AudioControlExampleState();\n}\n\nclass _AudioControlExampleState extends State<AudioControlExample> {\n@override\nWidget build(BuildContext context) {\nreturn Scaffold(\nappBar: AppBar(title: Text('Quran Audio Player')),\nbody: Column(\nchildren: [\n// Display current surah\nText('Current Surah: ${QuranLibrary().currentAndLastSurahNumber}'),\n\n// Display last position\nText('Last Position: ${QuranLibrary().formatLastPositionToTime}'),\n\n// Control buttons\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\n// Play from last position\nElevatedButton(\nonPressed: () => QuranLibrary().playLastPosition(),\nchild: Text('Resume from where you left'),\n),\n\n// Play Al-Fatihah\nElevatedButton(\nonPressed: () => QuranLibrary().playSurah(surahNumber: 1),\nchild: Text('Surah Al-Fatihah'),\n),\n],\n),\n\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\n// Previous surah\nIconButton(\nonPressed: () => QuranLibrary().seekToPreviousSurah(),\nicon: Icon(Icons.skip_previous),\n),\n\n// Previous ayah\nIconButton(\nonPressed: () => QuranLibrary().seekPreviousAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 10,\n),\nicon: Icon(Icons.fast_rewind),\n),\n\n// Next ayah\nIconButton(\nonPressed: () => QuranLibrary().seekNextAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 5,\n),\nicon: Icon(Icons.fast_forward),\n),\n\n// Next surah\nIconButton(\nonPressed: () => QuranLibrary().seekToNextSurah(),\nicon: Icon(Icons.skip_next),\n),\n],\n),\n\n// Download buttons\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\nElevatedButton(\nonPressed: () => QuranLibrary().startDownloadSurah(surahNumber: 2),\nchild: Text('Download Surah Al-Baqarah'),\n),\n\nElevatedButton(\nonPressed: () => QuranLibrary().cancelDownloadSurah(),\nchild: Text('Cancel Download'),\n),\n],\n),\n],\n),\n);\n}\n}",
-            "ku": "class AudioControlExample extends StatefulWidget {\n@override\n_AudioControlExampleState createState() => _AudioControlExampleState();\n}\n\nclass _AudioControlExampleState extends State<AudioControlExample> {\n@override\nWidget build(BuildContext context) {\nreturn Scaffold(\nappBar: AppBar(title: Text('Quran Audio Player')),\nbody: Column(\nchildren: [\n// Display current surah\nText('Current Surah: ${QuranLibrary().currentAndLastSurahNumber}'),\n\n// Display last position\nText('Last Position: ${QuranLibrary().formatLastPositionToTime}'),\n\n// Control buttons\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\n// Play from last position\nElevatedButton(\nonPressed: () => QuranLibrary().playLastPosition(),\nchild: Text('Resume from where you left'),\n),\n\n// Play Al-Fatihah\nElevatedButton(\nonPressed: () => QuranLibrary().playSurah(surahNumber: 1),\nchild: Text('Surah Al-Fatihah'),\n),\n],\n),\n\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\n// Previous surah\nIconButton(\nonPressed: () => QuranLibrary().seekToPreviousSurah(),\nicon: Icon(Icons.skip_previous),\n),\n\n// Previous ayah\nIconButton(\nonPressed: () => QuranLibrary().seekPreviousAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 10,\n),\nicon: Icon(Icons.fast_rewind),\n),\n\n// Next ayah\nIconButton(\nonPressed: () => QuranLibrary().seekNextAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 5,\n),\nicon: Icon(Icons.fast_forward),\n),\n\n// Next surah\nIconButton(\nonPressed: () => QuranLibrary().seekToNextSurah(),\nicon: Icon(Icons.skip_next),\n),\n],\n),\n\n// Download buttons\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\nElevatedButton(\nonPressed: () => QuranLibrary().startDownloadSurah(surahNumber: 2),\nchild: Text('Download Surah Al-Baqarah'),\n),\n\nElevatedButton(\nonPressed: () => QuranLibrary().cancelDownloadSurah(),\nchild: Text('Cancel Download'),\n),\n],\n),\n],\n),\n);\n}\n}",
-            "ms": "class AudioControlExample extends StatefulWidget {\n@override\n_AudioControlExampleState createState() => _AudioControlExampleState();\n}\n\nclass _AudioControlExampleState extends State<AudioControlExample> {\n@override\nWidget build(BuildContext context) {\nreturn Scaffold(\nappBar: AppBar(title: Text('Quran Audio Player')),\nbody: Column(\nchildren: [\n// Display current surah\nText('Current Surah: ${QuranLibrary().currentAndLastSurahNumber}'),\n\n// Display last position\nText('Last Position: ${QuranLibrary().formatLastPositionToTime}'),\n\n// Control buttons\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\n// Play from last position\nElevatedButton(\nonPressed: () => QuranLibrary().playLastPosition(),\nchild: Text('Resume from where you left'),\n),\n\n// Play Al-Fatihah\nElevatedButton(\nonPressed: () => QuranLibrary().playSurah(surahNumber: 1),\nchild: Text('Surah Al-Fatihah'),\n),\n],\n),\n\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\n// Previous surah\nIconButton(\nonPressed: () => QuranLibrary().seekToPreviousSurah(),\nicon: Icon(Icons.skip_previous),\n),\n\n// Previous ayah\nIconButton(\nonPressed: () => QuranLibrary().seekPreviousAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 10,\n),\nicon: Icon(Icons.fast_rewind),\n),\n\n// Next ayah\nIconButton(\nonPressed: () => QuranLibrary().seekNextAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 5,\n),\nicon: Icon(Icons.fast_forward),\n),\n\n// Next surah\nIconButton(\nonPressed: () => QuranLibrary().seekToNextSurah(),\nicon: Icon(Icons.skip_next),\n),\n],\n),\n\n// Download buttons\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\nElevatedButton(\nonPressed: () => QuranLibrary().startDownloadSurah(surahNumber: 2),\nchild: Text('Download Surah Al-Baqarah'),\n),\n\nElevatedButton(\nonPressed: () => QuranLibrary().cancelDownloadSurah(),\nchild: Text('Cancel Download'),\n),\n],\n),\n],\n),\n);\n}\n}",
-            "es": "class AudioControlExample extends StatefulWidget {\n@override\n_AudioControlExampleState createState() => _AudioControlExampleState();\n}\n\nclass _AudioControlExampleState extends State<AudioControlExample> {\n@override\nWidget build(BuildContext context) {\nreturn Scaffold(\nappBar: AppBar(title: Text('Quran Audio Player')),\nbody: Column(\nchildren: [\n// Display current surah\nText('Current Surah: ${QuranLibrary().currentAndLastSurahNumber}'),\n\n// Display last position\nText('Last Position: ${QuranLibrary().formatLastPositionToTime}'),\n\n// Control buttons\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\n// Play from last position\nElevatedButton(\nonPressed: () => QuranLibrary().playLastPosition(),\nchild: Text('Resume from where you left'),\n),\n\n// Play Al-Fatihah\nElevatedButton(\nonPressed: () => QuranLibrary().playSurah(surahNumber: 1),\nchild: Text('Surah Al-Fatihah'),\n),\n],\n),\n\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\n// Previous surah\nIconButton(\nonPressed: () => QuranLibrary().seekToPreviousSurah(),\nicon: Icon(Icons.skip_previous),\n),\n\n// Previous ayah\nIconButton(\nonPressed: () => QuranLibrary().seekPreviousAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 10,\n),\nicon: Icon(Icons.fast_rewind),\n),\n\n// Next ayah\nIconButton(\nonPressed: () => QuranLibrary().seekNextAyah(\ncontext: context,\ncurrentAyahUniqueNumber: 5,\n),\nicon: Icon(Icons.fast_forward),\n),\n\n// Next surah\nIconButton(\nonPressed: () => QuranLibrary().seekToNextSurah(),\nicon: Icon(Icons.skip_next),\n),\n],\n),\n\n// Download buttons\nRow(\nmainAxisAlignment: MainAxisAlignment.spaceEvenly,\nchildren: [\nElevatedButton(\nonPressed: () => QuranLibrary().startDownloadSurah(surahNumber: 2),\nchild: Text('Download Surah Al-Baqarah'),\n),\n\nElevatedButton(\nonPressed: () => QuranLibrary().cancelDownloadSurah(),\nchild: Text('Cancel Download'),\n),\n],\n),\n],\n),\n);\n}\n}"
-          },
-          "props": {
-            "language": "dart"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "* ### يمكنك أيضًا استخدام خط المصحف الافتراضي أو خط النسخ",
-            "en": "* ### You can also use the default Quran font or Naskh font",
-            "bn": "* ### আপনি ডিফল্ট কুরআন ফন্ট বা নস্খ ফন্টও ব্যবহার করতে পারেন",
-            "id": "* ### Anda juga dapat menggunakan font Quran bawaan atau font Naskh",
-            "ur": "* ### آپ ڈیفالٹ قرآن فونٹ یا نسخ فونٹ بھی استعمال کر سکتے ہیں۔",
-            "tr": "* ### Ayrıca varsayılan Kuran yazı tipini veya Naskh yazı tipini de kullanabilirsiniz",
-            "ku": "* ### دەتوانیت هەروەها فۆنتی قورئانی بنەڕەتی یان فۆنتی نەخ بەکاربهێنیت",
-            "ms": "* ### Anda juga boleh menggunakan fon Quran lalai atau fon Naskh",
-            "es": "* ### También puede usar la fuente predeterminada del Corán o la fuente Naskh"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "/// [hafsStyle] is the default style for Quran so all special characters will be rendered correctly\nQuranLibrary().hafsStyle;\n\n/// [naskhStyle] is the default style for other text.\nQuranLibrary().naskhStyle;",
-            "en": "/// [hafsStyle] is the default style for Quran so all special characters will be rendered correctly\nQuranLibrary().hafsStyle;\n\n/// [naskhStyle] is the default style for other text.\nQuranLibrary().naskhStyle;",
-            "bn": "/// [hafsStyle] is the default style for Quran so all special characters will be rendered correctly\nQuranLibrary().hafsStyle;\n\n/// [naskhStyle] is the default style for other text.\nQuranLibrary().naskhStyle;",
-            "id": "/// [hafsStyle] is the default style for Quran so all special characters will be rendered correctly\nQuranLibrary().hafsStyle;\n\n/// [naskhStyle] is the default style for other text.\nQuranLibrary().naskhStyle;",
-            "ur": "/// [hafsStyle] is the default style for Quran so all special characters will be rendered correctly\nQuranLibrary().hafsStyle;\n\n/// [naskhStyle] is the default style for other text.\nQuranLibrary().naskhStyle;",
-            "tr": "/// [hafsStyle] is the default style for Quran so all special characters will be rendered correctly\nQuranLibrary().hafsStyle;\n\n/// [naskhStyle] is the default style for other text.\nQuranLibrary().naskhStyle;",
-            "ku": "/// [hafsStyle] is the default style for Quran so all special characters will be rendered correctly\nQuranLibrary().hafsStyle;\n\n/// [naskhStyle] is the default style for other text.\nQuranLibrary().naskhStyle;",
-            "ms": "/// [hafsStyle] is the default style for Quran so all special characters will be rendered correctly\nQuranLibrary().hafsStyle;\n\n/// [naskhStyle] is the default style for other text.\nQuranLibrary().naskhStyle;",
-            "es": "/// [hafsStyle] is the default style for Quran so all special characters will be rendered correctly\nQuranLibrary().hafsStyle;\n\n/// [naskhStyle] is the default style for other text.\nQuranLibrary().naskhStyle;"
           },
           "props": {
             "language": "dart"
@@ -1236,6 +1109,140 @@
             "ku": "MIT بۆ کۆد. فۆنتەکانی QCF لە ڕێگەی کتێبخانەی گشتگیری قورئانی (QUL) دابین دەکرێن. دڵنیابە لە پابەندبوون بە مەرجەکانی QUL (و هەر مەرجێکی سەرچاوەی KFGQPC) کاتێک ئەپڵیکەیشنەکان دابەش دەکەیت کە ئەم سەروەتانە لەخۆدەگرن یان کۆیان دەکەنەوە. زیاتر لەسەر مۆڵەتەکە [لێرە](LICENSE) بخوێنەوە.",
             "ms": "MIT untuk kod. Fon QCF disediakan melalui Perpustakaan Universal Quranik (QUL). Pastikan anda mematuhi terma QUL (dan sebarang terma KFGQPC huluan) apabila mengedarkan aplikasi yang menyertakan atau menggabungkan aset-aset ini. Baca lebih lanjut mengenai lesen [di sini](LICENSE).",
             "es": "MIT para el código. Las fuentes QCF se proporcionan a través de la Biblioteca Universal Coránica (QUL). Asegúrese de cumplir con los términos de QUL (y cualquier término ascendente de KFGQPC) al distribuir aplicaciones que incluyan o agrupen estos activos. Lea más sobre la licencia [aquí](LICENSE)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "play_ayah_audio",
+      "title": {
+        "ar": "تشغيل صوت الآية",
+        "en": "Play Ayah Audio",
+        "bn": "আয়াত অডিও বাজান",
+        "id": "Putar Audio Ayah",
+        "ur": "آیت آڈیو چلائیں",
+        "tr": "Ayah Sesini Çal",
+        "ku": "Play Ayah Audio",
+        "ms": "Mainkan Audio Ayah",
+        "es": "Reproducir Audio del Ayah"
+      },
+      "order": 1,
+      "keywords": [
+        "play",
+        "ayah",
+        "audio"
+      ],
+      "blocks": [
+        {
+          "type": "title",
+          "content": {
+            "ar": "تشغيل صوت الآية",
+            "en": "Play Ayah Audio",
+            "bn": "আয়াত অডিও চালান",
+            "id": "Putar Audio Ayah",
+            "ur": "آیت آڈیو چلائیں",
+            "tr": "Ayah Sesini Çal",
+            "ku": "Play Ayah Audio",
+            "ms": "Mainkan Audio Ayah",
+            "es": "Reproducir Audio del Ayah"
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "لتشغيل آية واحدة:",
+            "en": "To play a single Ayah:",
+            "bn": "একটি একক আয়াত চালানোর জন্য:",
+            "id": "Untuk memainkan satu Ayah:",
+            "ur": "کسی ایک آیت کو چلانے کے لیے:",
+            "tr": "Tek bir Ayet çalmak için:",
+            "ku": "بۆ لێدانی یەک ئایەت:",
+            "ms": "Untuk memainkan satu Ayah:",
+            "es": "Para reproducir una sola Ayah:"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "en": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "bn": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "id": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "ur": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "tr": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "ku": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "ms": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "es": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);"
+          },
+          "props": {
+            "language": "dart"
+          }
+        }
+      ]
+    },
+    {
+      "id": "play_surah_audio",
+      "title": {
+        "ar": "تشغيل صوت السورة",
+        "en": "Play Surah Audio",
+        "bn": "সূরা অডিও চালান",
+        "id": "Putar Audio Surah",
+        "ur": "سورۃ آڈیو چلائیں",
+        "tr": "Surah Sesini Çal",
+        "ku": "ژەنینى دەنگى سوورەت",
+        "ms": "Dengar Audio Surah",
+        "es": "Reproducir Audio de Sura"
+      },
+      "order": 2,
+      "keywords": [
+        "play",
+        "surah",
+        "audio"
+      ],
+      "blocks": [
+        {
+          "type": "title",
+          "content": {
+            "ar": "تشغيل صوت السورة",
+            "en": "Play Surah Audio",
+            "bn": "সূরা অডিও চালান",
+            "id": "Putar Audio Surah",
+            "ur": "سورۃ آڈیو چلائیں",
+            "tr": "Surah Sesini Çal",
+            "ku": "ژەنینى دەنگى سوورەت",
+            "ms": "Dengar Audio Surah",
+            "es": "Reproducir Audio de Sura"
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "لتشغيل سورة كاملة:",
+            "en": "To play a whole Surah:",
+            "bn": "সম্পূর্ণ সূরা চালানোর জন্য:",
+            "id": "Untuk memainkan seluruh Surah:",
+            "ur": "پوری سورت چلانے کے لیے:",
+            "tr": "Tüm bir Sureyi oynatmak için:",
+            "ku": "بۆ لێدانی تەواوی سوورەتێک:",
+            "ms": "Untuk memainkan seluruh Surah:",
+            "es": "Para reproducir una Surah completa:"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "en": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "bn": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "id": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "ur": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "tr": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "ku": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "ms": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "es": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);"
+          },
+          "props": {
+            "language": "dart"
           }
         }
       ]
