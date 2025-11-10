@@ -97,7 +97,7 @@
     {
       "id": "getting_started_content",
       "title": {
-        "ar": "Getting started",
+        "ar": "البدء",
         "en": "Getting started",
         "bn": "শুরু করা",
         "id": "Memulai",
@@ -116,7 +116,7 @@
         {
           "type": "title",
           "content": {
-            "ar": "Getting started",
+            "ar": "البدء",
             "en": "Getting started",
             "bn": "শুরু করা",
             "id": "Memulai",
@@ -130,7 +130,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "**Android** The required permissions for audio playback (`WAKE_LOCK`, and `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) are automatically added by the package. You don't need to manually edit your AndroidManifest.xml. Additionally, to enable system-integrated audio controls (notification/lockscreen) using `audio_service`, your app's MainActivity must extend `AudioServiceActivity`: Kotlin:",
+            "ar": "**Android** يتم تلقائيًا إضافة الأذونات المطلوبة لتشغيل الصوت (`WAKE_LOCK`، و `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) بواسطة الحزمة. لست بحاجة إلى تعديل ملف AndroidManifest.xml يدويًا. بالإضافة إلى ذلك، لتمكين عناصر التحكم في الصوت المدمجة في النظام (الإشعارات/شاشة القفل) باستخدام `audio_service`، يجب أن يمتد `MainActivity` الخاص بتطبيقك من `AudioServiceActivity`: Kotlin:",
             "en": "**Android** The required permissions for audio playback (`WAKE_LOCK`, and `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) are automatically added by the package. You don't need to manually edit your AndroidManifest.xml. Additionally, to enable system-integrated audio controls (notification/lockscreen) using `audio_service`, your app's MainActivity must extend `AudioServiceActivity`: Kotlin:",
             "bn": "**অ্যান্ড্রয়েড** অডিও প্লেব্যাকের জন্য প্রয়োজনীয় অনুমতিগুলি (`WAKE_LOCK`, এবং `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) প্যাকেজ দ্বারা স্বয়ংক্রিয়ভাবে যুক্ত করা হয়। আপনার AndroidManifest.xml ম্যানুয়ালি সম্পাদনা করার প্রয়োজন নেই। উপরন্তু, `audio_service` ব্যবহার করে সিস্টেম-ইন্টিগ্রেটেড অডিও নিয়ন্ত্রণগুলি (নোটিফিকেশন/লকস্ক্রিন) সক্ষম করতে, আপনার অ্যাপের MainActivity অবশ্যই `AudioServiceActivity` প্রসারিত করবে: কটলিন:",
             "id": "**Android** Izin yang diperlukan untuk pemutaran audio (`WAKE_LOCK`, dan `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) secara otomatis ditambahkan oleh paket. Anda tidak perlu mengedit AndroidManifest.xml Anda secara manual. Selain itu, untuk mengaktifkan kontrol audio terintegrasi sistem (notifikasi/layar kunci) menggunakan `audio_service`, MainActivity aplikasi Anda harus memperluas `AudioServiceActivity`: Kotlin:",
@@ -161,7 +161,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "Java:",
+            "ar": "جافا:",
             "en": "Java:",
             "bn": "জাভা:",
             "id": "Jawa:",
@@ -192,7 +192,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "If you don't apply this change, the audio will still work locally, but `AudioService.init()` may fail and system controls won't be available.",
+            "ar": "إذا لم تقم بتطبيق هذا التغيير، فسيظل الصوت يعمل محليًا، ولكن قد يفشل `AudioService.init()` ولن تكون عناصر التحكم في النظام متاحة.",
             "en": "If you don't apply this change, the audio will still work locally, but `AudioService.init()` may fail and system controls won't be available.",
             "bn": "যদি আপনি এই পরিবর্তনটি প্রয়োগ না করেন, তাহলে অডিও এখনও স্থানীয়ভাবে কাজ করবে, কিন্তু `AudioService.init()` ব্যর্থ হতে পারে এবং সিস্টেম নিয়ন্ত্রণগুলি উপলব্ধ হবে না।",
             "id": "Jika Anda tidak menerapkan perubahan ini, audio akan tetap berfungsi secara lokal, tetapi `AudioService.init()` dapat gagal dan kontrol sistem tidak akan tersedia.",
@@ -206,7 +206,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "**iOS** For background audio playback, you must add the following to your app's `Info.plist`:",
+            "ar": "**iOS** لتشغيل الصوت في الخلفية، يجب عليك إضافة ما يلي إلى ملف `Info.plist` الخاص بتطبيقك:",
             "en": "**iOS** For background audio playback, you must add the following to your app's `Info.plist`:",
             "bn": "**iOS** প্রেক্ষাপট অডিও প্লেব্যাকের জন্য, আপনাকে আপনার অ্যাপের `Info.plist`-এ নিম্নলিখিতটি যোগ করতে হবে:",
             "id": "**iOS** Untuk pemutaran audio latar belakang, Anda harus menambahkan yang berikut ke `Info.plist` aplikasi Anda:",
@@ -237,7 +237,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "This allows audio playback to continue when the app is in the background. In the `pubspec.yaml` of your flutter project, add the following dependency:",
+            "ar": "هذا يسمح باستمرار تشغيل الصوت عندما يكون التطبيق في الخلفية. في ملف `pubspec.yaml` لمشروع فلاتر الخاص بك، أضف التبعية التالية:",
             "en": "This allows audio playback to continue when the app is in the background. In the `pubspec.yaml` of your flutter project, add the following dependency:",
             "bn": "এটি অ্যাপটি ব্যাকগ্রাউন্ডে থাকা সত্ত্বেও অডিও প্লেব্যাক চালিয়ে যাওয়ার অনুমতি দেয়। আপনার ফ্লাটার প্রকল্পের `pubspec.yaml`-এ নিম্নলিখিত নির্ভরতা (dependency) যোগ করুন:",
             "id": "Ini memungkinkan pemutaran audio untuk terus berjalan ketika aplikasi berada di latar belakang. Di dalam `pubspec.yaml` proyek Flutter Anda, tambahkan dependensi berikut:",
@@ -268,7 +268,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "Import it:",
+            "ar": "قم باستيراده:",
             "en": "Import it:",
             "bn": "আমদানি করুন:",
             "id": "Impor itu:",
@@ -299,7 +299,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "Initialize it:",
+            "ar": "قم بتهيئته:",
             "en": "Initialize it:",
             "bn": "এটি প্রাথমিকীকরণ করুন:",
             "id": "Inisialisasikannya:",
@@ -332,7 +332,7 @@
     {
       "id": "basic_quran_screen",
       "title": {
-        "ar": "Basic Quran Screen",
+        "ar": "شاشة القرآن الأساسية",
         "en": "Basic Quran Screen",
         "bn": "সাধারণ কুরআন স্ক্রিন",
         "id": "Layar Quran Dasar",
@@ -352,7 +352,7 @@
         {
           "type": "title",
           "content": {
-            "ar": "Basic Quran Screen",
+            "ar": "شاشة القرآن الأساسية",
             "en": "Basic Quran Screen",
             "bn": "মৌলিক কুরআন স্ক্রিন",
             "id": "Layar Quran Dasar",
@@ -383,7 +383,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "**or give it some options:**",
+            "ar": "**أو إعطاؤه بعض الخيارات:**",
             "en": "**or give it some options:**",
             "bn": "**অথবা এটিকে কিছু বিকল্প দিন:**",
             "id": "**atau berikan beberapa opsi:**",
@@ -416,7 +416,7 @@
     {
       "id": "individual_surah_display",
       "title": {
-        "ar": "Individual Surah Display",
+        "ar": "العرض الفردي للسور",
         "en": "Individual Surah Display",
         "bn": "স্বতন্ত্র সূরা প্রদর্শন",
         "id": "Tampilan Surah Individu",
@@ -436,7 +436,7 @@
         {
           "type": "title",
           "content": {
-            "ar": "Individual Surah Display",
+            "ar": "العرض الفردي للسور",
             "en": "Individual Surah Display",
             "bn": "স্বতন্ত্র সূরা প্রদর্শন",
             "id": "Tampilan Surah Individu",
@@ -469,7 +469,7 @@
     {
       "id": "single_ayah_display",
       "title": {
-        "ar": "Single Ayah Display",
+        "ar": "عرض آية واحدة",
         "en": "Single Ayah Display",
         "bn": "একক আয়াত প্রদর্শন",
         "id": "Tampilan Ayah Tunggal",
@@ -489,7 +489,7 @@
         {
           "type": "title",
           "content": {
-            "ar": "Single Ayah Display",
+            "ar": "عرض آية واحدة",
             "en": "Single Ayah Display",
             "bn": "একক আয়াত প্রদর্শন",
             "id": "Tampilan Ayah Tunggal",
@@ -522,7 +522,7 @@
     {
       "id": "partial_pages_highlighting",
       "title": {
-        "ar": "Partial Pages (single or range) + Highlighting",
+        "ar": "الصفحات الجزئية (مفردة أو نطاق) + التظليل",
         "en": "Partial Pages (single or range) + Highlighting",
         "bn": "আংশিক পৃষ্ঠা (একক বা পরিসর) + হাইলাইটিং",
         "id": "Halaman Parsial (tunggal atau rentang) + Penyorotan",
@@ -546,7 +546,7 @@
         {
           "type": "title",
           "content": {
-            "ar": "Partial Pages (single or range) + Highlighting",
+            "ar": "الصفحات الجزئية (مفردة أو نطاق) + التظليل",
             "en": "Partial Pages (single or range) + Highlighting",
             "bn": "আংশিক পৃষ্ঠা (একক বা পরিসর) + হাইলাইটিং",
             "id": "Halaman Parsial (tunggal atau rentang) + Penyorotan",
@@ -560,7 +560,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "You can display just one specific page or a range of pages using `QuranPagesScreen`. Requirements:",
+            "ar": "يمكنك عرض صفحة واحدة محددة أو مجموعة من الصفحات باستخدام `QuranPagesScreen`. المتطلبات:",
             "en": "You can display just one specific page or a range of pages using `QuranPagesScreen`. Requirements:",
             "bn": "আপনি `QuranPagesScreen` ব্যবহার করে শুধুমাত্র একটি নির্দিষ্ট পৃষ্ঠা বা একাধিক পৃষ্ঠার একটি পরিসর প্রদর্শন করতে পারেন। প্রয়োজনীয়তা:",
             "id": "Anda dapat menampilkan hanya satu halaman spesifik atau rentang halaman menggunakan `QuranPagesScreen`. Persyaratan:",
@@ -574,7 +574,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "Pass the parent widget context via `parentContext`.",
+            "ar": "قم بتمرير سياق الودجت الأصل عبر `parentContext`.",
             "en": "Pass the parent widget context via `parentContext`.",
             "bn": "প্যারেন্ট উইজেট কনটেক্সট `parentContext`-এর মাধ্যমে পাস করুন।",
             "id": "Teruskan konteks widget induk melalui `parentContext`.",
@@ -588,7 +588,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "Choose either a single `page` or a range using `startPage` and `endPage`. Basic examples:",
+            "ar": "اختر إما `page` واحدة أو نطاقًا باستخدام `startPage` و `endPage`. أمثلة أساسية:",
             "en": "Choose either a single `page` or a range using `startPage` and `endPage`. Basic examples:",
             "bn": "হয় একটি একক `page` অথবা `startPage` এবং `endPage` ব্যবহার করে একটি পরিসর নির্বাচন করুন। মৌলিক উদাহরণ:",
             "id": "Pilih salah satu `page` tunggal atau rentang menggunakan `startPage` dan `endPage`. Contoh-contoh dasar:",
@@ -619,7 +619,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "Programmatic highlighting (by surah/ayah numbers):",
+            "ar": "التمييز البرمجي (حسب أرقام السور/الآيات):",
             "en": "Programmatic highlighting (by surah/ayah numbers):",
             "bn": "প্রোগ্রাম্যাটিক হাইলাইটিং (সূরা/আয়াত সংখ্যা দ্বারা):",
             "id": "Penyorotan terprogram (berdasarkan nomor surah/ayat):",
@@ -650,7 +650,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "Optional multi-select mode (keeps multiple ayahs selected on long-press):",
+            "ar": "وضع الاختيار المتعدد الاختياري (يُبقي آيات متعددة مُختارة عند الضغط المطوَّل):",
             "en": "Optional multi-select mode (keeps multiple ayahs selected on long-press):",
             "bn": "ঐচ্ছিক বহু-নির্বাচন মোড (দীর্ঘ-চাপের মাধ্যমে একাধিক আয়াত নির্বাচন করে রাখে):",
             "id": "Mode multi-pilih opsional (mempertahankan beberapa ayat terpilih pada penekanan lama):",
@@ -681,7 +681,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "Notes:",
+            "ar": "ملاحظات:",
             "en": "Notes:",
             "bn": "দ্রষ্টব্য:",
             "id": "Catatan:",
@@ -695,7 +695,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "`QuranPagesScreen` is a StatelessWidget.",
+            "ar": "`QuranPagesScreen` هو StatelessWidget.",
             "en": "`QuranPagesScreen` is a StatelessWidget.",
             "bn": "`QuranPagesScreen` একটি `StatelessWidget` হয়।",
             "id": "`QuranPagesScreen` adalah sebuah StatelessWidget.",
@@ -709,7 +709,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "Highlighting is applied programmatically and does not replace manual selection.",
+            "ar": "يُطبَّق الإبراز برمجيًا ولا يحل محل التحديد اليدوي.",
             "en": "Highlighting is applied programmatically and does not replace manual selection.",
             "bn": "হাইলাইটিং প্রোগ্রাম্যাটিকভাবে প্রয়োগ করা হয় এবং ম্যানুয়াল নির্বাচনকে প্রতিস্থাপন করে না।",
             "id": "Penyorotan diterapkan secara terprogram dan tidak menggantikan pemilihan manual.",
@@ -723,7 +723,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "You can combine multiple highlighting inputs; they’ll be merged internally.",
+            "ar": "يمكنك دمج مدخلات تمييز متعددة؛ سيتم دمجها داخليًا.",
             "en": "You can combine multiple highlighting inputs; they’ll be merged internally.",
             "bn": "আপনি একাধিক হাইলাইটিং ইনপুটস একত্রিত করতে পারেন; সেগুলিকে অভ্যন্তরীণভাবে মার্জ করা হবে।",
             "id": "Anda dapat menggabungkan beberapa input penyorotan; input tersebut akan digabungkan secara internal.",
@@ -737,7 +737,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "**Using GetSingleAyah in a list:**",
+            "ar": "**استخدام GetSingleAyah في قائمة:**",
             "en": "**Using GetSingleAyah in a list:**",
             "bn": "**একটি তালিকায় GetSingleAyah ব্যবহার:**",
             "id": "**Menggunakan GetSingleAyah dalam sebuah daftar:**",
@@ -770,7 +770,7 @@
     {
       "id": "fonts_download",
       "title": {
-        "ar": "Fonts Download",
+        "ar": "تحميل الخطوط",
         "en": "Fonts Download",
         "bn": "ফন্টস ডাউনলোড",
         "id": "Pengunduhan Font",
@@ -789,7 +789,7 @@
         {
           "type": "title",
           "content": {
-            "ar": "Fonts Download",
+            "ar": "تحميل الخطوط",
             "en": "Fonts Download",
             "bn": "ফন্টস ডাউনলোড",
             "id": "Unduhan Font",
@@ -805,7 +805,7 @@
     {
       "id": "tafsir_feature",
       "title": {
-        "ar": "Tafsir",
+        "ar": "تفسير",
         "en": "Tafsir",
         "bn": "তাফসীর",
         "id": "Tafsir",
@@ -823,7 +823,7 @@
         {
           "type": "title",
           "content": {
-            "ar": "Tafsir",
+            "ar": "تفسير",
             "en": "Tafsir",
             "bn": "তাফসীর",
             "id": "Tafsir",
@@ -837,7 +837,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "* ### Usage Example",
+            "ar": "* ### مثال للاستخدام",
             "en": "* ### Usage Example",
             "bn": "* ### ব্যবহারের উদাহরণ",
             "id": "* ### Contoh Penggunaan",
@@ -870,7 +870,7 @@
     {
       "id": "audio_playback",
       "title": {
-        "ar": "Audio Playback",
+        "ar": "تشغيل الصوت",
         "en": "Audio Playback",
         "bn": "অডিও প্লেব্যাক",
         "id": "Pemutaran Audio",
@@ -889,7 +889,7 @@
         {
           "type": "title",
           "content": {
-            "ar": "Audio Playback",
+            "ar": "تشغيل الصوت",
             "en": "Audio Playback",
             "bn": "অডিও প্লেব্যাক",
             "id": "Pemutaran Audio",
@@ -903,7 +903,7 @@
         {
           "type": "subtitle",
           "content": {
-            "ar": "This section provides comprehensive capabilities for audio playback of the Holy Quran with background playback support and advanced audio file management.",
+            "ar": "توفر هذه الجزئية إمكانيات شاملة لتشغيل صوت القرآن الكريم مع دعم التشغيل في الخلفية وإدارة متقدمة لملفات الصوت.",
             "en": "This section provides comprehensive capabilities for audio playback of the Holy Quran with background playback support and advanced audio file management.",
             "bn": "এই অংশটি পবিত্র কুরআনের অডিও প্লেব্যাকের জন্য ব্যাপক ক্ষমতা প্রদান করে, সাথে ব্যাকগ্রাউন্ড প্লেব্যাক সমর্থন এবং উন্নত অডিও ফাইল ব্যবস্থাপনা।",
             "id": "Bagian ini menyediakan kemampuan komprehensif untuk pemutaran audio Al-Qur'an dengan dukungan pemutaran latar belakang dan manajemen berkas audio yang canggih.",
@@ -917,7 +917,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "* ### Verse Audio Playback",
+            "ar": "* ### تشغيل الصوت الشعري",
             "en": "* ### Verse Audio Playback",
             "bn": "* ### পদ অডিও প্লেব্যাক",
             "id": "* ### Pemutaran Audio Ayat",
@@ -948,7 +948,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "* ### Surah Audio Playback",
+            "ar": "* ### تشغيل صوت السورة",
             "en": "* ### Surah Audio Playback",
             "bn": "* ### সূরা অডিও প্লেব্যাক",
             "id": "* ### Pemutaran Audio Surah",
@@ -979,7 +979,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "* ### Download Management",
+            "ar": "* ### إدارة التنزيلات",
             "en": "* ### Download Management",
             "bn": "* ### ডাউনলোড ব্যবস্থাপনা",
             "id": "* ### Manajemen Unduhan",
@@ -1010,7 +1010,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "* ### Position Control & Resume",
+            "ar": "* ### التحكم في الموضع والاستئناف",
             "en": "* ### Position Control & Resume",
             "bn": "* ### পজিশন কন্ট্রোল এবং রিজিউম",
             "id": "* ### Kontrol Posisi & Lanjutkan",
@@ -1041,7 +1041,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "* ### Complete Audio Example",
+            "ar": "* ### مثال صوتي كامل",
             "en": "* ### Complete Audio Example",
             "bn": "* ### সম্পূর্ণ অডিও উদাহরণ",
             "id": "* ### Contoh Audio Lengkap",
@@ -1072,7 +1072,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "* ### You can also use the default Quran font or Naskh font",
+            "ar": "* ### يمكنك أيضًا استخدام خط المصحف الافتراضي أو خط النسخ",
             "en": "* ### You can also use the default Quran font or Naskh font",
             "bn": "* ### আপনি ডিফল্ট কুরআন ফন্ট বা নস্খ ফন্টও ব্যবহার করতে পারেন",
             "id": "* ### Anda juga dapat menggunakan font Quran bawaan atau font Naskh",
@@ -1105,7 +1105,7 @@
     {
       "id": "sources",
       "title": {
-        "ar": "Sources",
+        "ar": "المصادر",
         "en": "Sources",
         "bn": "উৎসসমূহ",
         "id": "Sumber",
@@ -1123,7 +1123,7 @@
         {
           "type": "title",
           "content": {
-            "ar": "Sources",
+            "ar": "المصادر",
             "en": "Sources",
             "bn": "উৎসসমূহ",
             "id": "Sumber",
@@ -1137,7 +1137,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "Quran text and metadata: King Fahd Glorious Quran Printing Complex — Quran Developer Portal",
+            "ar": "نص القرآن والبيانات الوصفية: مجمع الملك فهد لطباعة المصحف الشريف — بوابة مطوري القرآن",
             "en": "Quran text and metadata: King Fahd Glorious Quran Printing Complex — Quran Developer Portal",
             "bn": "কুরআন পাঠ্য এবং মেটাডেটা: কিং ফাহদ গ্লোরিয়াস কুরআন প্রিন্টিং কমপ্লেক্স — কুরআন ডেভেলপার পোর্টাল",
             "id": "Teks dan metadata Quran: Kompleks Percetakan Al-Quran Raja Fahd — Portal Pengembang Quran",
@@ -1165,7 +1165,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "Fonts, Tafsir, and Translations: Quranic Universal Library (QUL) by Tarteel",
+            "ar": "الخطوط، والتفسير، والترجمات: المكتبة العالمية القرآنية (QUL) من ترتيل",
             "en": "Fonts, Tafsir, and Translations: Quranic Universal Library (QUL) by Tarteel",
             "bn": "ফন্ট, তাফসীর, এবং অনুবাদ: তারতীল কর্তৃক কুরআনিক ইউনিভার্সাল লাইব্রেরি (QUL)",
             "id": "Font, Tafsir, dan Terjemahan: Perpustakaan Universal Qur'an (QUL) oleh Tarteel",
@@ -1195,7 +1195,7 @@
     {
       "id": "license",
       "title": {
-        "ar": "License",
+        "ar": "ترخيص",
         "en": "License",
         "bn": "লাইসেন্স",
         "id": "Lisensi",
@@ -1213,7 +1213,7 @@
         {
           "type": "title",
           "content": {
-            "ar": "License",
+            "ar": "ترخيص",
             "en": "License",
             "bn": "লাইসেন্স",
             "id": "Lisensi",
@@ -1227,7 +1227,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "MIT for code. QCF fonts are provided via Quranic Universal Library (QUL). Ensure you comply with QUL terms (and any upstream KFGQPC terms) when distributing applications that include or bundle these assets. Read more about the license [here](LICENSE).",
+            "ar": "ترخيص MIT للشيفرة. يتم توفير خطوط QCF عبر المكتبة القرآنية العالمية (QUL). تأكد من التزامك بشروط QUL (وأي شروط سابقة لـ KFGQPC) عند توزيع التطبيقات التي تتضمن أو تدمج هذه الأصول. اقرأ المزيد عن الترخيص [هنا](LICENSE).",
             "en": "MIT for code. QCF fonts are provided via Quranic Universal Library (QUL). Ensure you comply with QUL terms (and any upstream KFGQPC terms) when distributing applications that include or bundle these assets. Read more about the license [here](LICENSE).",
             "bn": "কোডের জন্য MIT। QCF ফন্টগুলি কুরআনীয় ইউনিভার্সাল লাইব্রেরি (QUL)-এর মাধ্যমে সরবরাহ করা হয়। এই সম্পদগুলি অন্তর্ভুক্ত বা বান্ডিল করে এমন অ্যাপ্লিকেশন বিতরণ করার সময় আপনি QUL শর্তাবলী (এবং যেকোনো আপস্ট্রিম KFGQPC শর্তাবলী) মেনে চলছেন তা নিশ্চিত করুন। লাইসেন্স সম্পর্কে আরও পড়ুন [এখানে](LICENSE)।",
             "id": "MIT untuk kode. Font QCF disediakan melalui Pustaka Universal Quran (QUL). Pastikan Anda mematuhi persyaratan QUL (dan persyaratan KFGQPC hulu mana pun) saat mendistribusikan aplikasi yang menyertakan atau menggabungkan aset-aset ini. Baca lebih lanjut tentang lisensi [di sini](LICENSE).",
