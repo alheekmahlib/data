@@ -29,7 +29,8 @@
       },
       "order": 5,
       "sections": [
-        "about_library"
+        "about_library",
+        "sources"
       ]
     },
     {
