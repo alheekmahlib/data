@@ -49,7 +49,7 @@
       "order": 2,
       "sections": [
         "installation",
-        "getting_started_content"
+        "permissions"
       ]
     },
     {
@@ -109,24 +109,6 @@
       "sections": [
         "play_ayah_audio",
         "play_surah_audio"
-      ]
-    },
-    {
-      "id": "miscellaneous",
-      "title": {
-        "ar": "متفرقات",
-        "en": "Sources",
-        "bn": "বিবিধ",
-        "id": "Lain-lain",
-        "ur": "متفرقات",
-        "tr": "Çeşitli",
-        "ku": "جۆراوجۆر",
-        "ms": "pelbagai",
-        "es": "Miscelánea"
-      },
-      "order": 6,
-      "sections": [
-        "license"
       ]
     }
   ],
@@ -268,31 +250,17 @@
       ],
       "blocks": [
         {
-          "type": "title",
-          "content": {
-            "ar": "شاشة القرآن الأساسية",
-            "en": "Basic Quran Screen",
-            "bn": "মৌলিক কুরআন স্ক্রিন",
-            "id": "Layar Quran Dasar",
-            "ur": "بنیادی قرآن سکرین",
-            "tr": "Temel Kuran Ekranı",
-            "ku": "شاشەی بنەڕەتی قورئان",
-            "ms": "Skrin Asas Al-Quran",
-            "es": "Pantalla Básica del Corán"
-          }
-        },
-        {
           "type": "code",
           "content": {
-            "ar": "/// You can just add it to your code like this:\nclass MyQuranPage extends StatelessWidget {\n\n@override\nWidget build(BuildContext context) {\nreturn QuranLibraryScreen(\nparentContext: context, // Required\n);\n}\n}",
-            "en": "/// You can just add it to your code like this:\nclass MyQuranPage extends StatelessWidget {\n\n@override\nWidget build(BuildContext context) {\nreturn QuranLibraryScreen(\nparentContext: context, // Required\n);\n}\n}",
-            "bn": "/// You can just add it to your code like this:\nclass MyQuranPage extends StatelessWidget {\n\n@override\nWidget build(BuildContext context) {\nreturn QuranLibraryScreen(\nparentContext: context, // Required\n);\n}\n}",
-            "id": "/// You can just add it to your code like this:\nclass MyQuranPage extends StatelessWidget {\n\n@override\nWidget build(BuildContext context) {\nreturn QuranLibraryScreen(\nparentContext: context, // Required\n);\n}\n}",
-            "ur": "/// You can just add it to your code like this:\nclass MyQuranPage extends StatelessWidget {\n\n@override\nWidget build(BuildContext context) {\nreturn QuranLibraryScreen(\nparentContext: context, // Required\n);\n}\n}",
-            "tr": "/// You can just add it to your code like this:\nclass MyQuranPage extends StatelessWidget {\n\n@override\nWidget build(BuildContext context) {\nreturn QuranLibraryScreen(\nparentContext: context, // Required\n);\n}\n}",
-            "ku": "/// You can just add it to your code like this:\nclass MyQuranPage extends StatelessWidget {\n\n@override\nWidget build(BuildContext context) {\nreturn QuranLibraryScreen(\nparentContext: context, // Required\n);\n}\n}",
-            "ms": "/// You can just add it to your code like this:\nclass MyQuranPage extends StatelessWidget {\n\n@override\nWidget build(BuildContext context) {\nreturn QuranLibraryScreen(\nparentContext: context, // Required\n);\n}\n}",
-            "es": "/// You can just add it to your code like this:\nclass MyQuranPage extends StatelessWidget {\n\n@override\nWidget build(BuildContext context) {\nreturn QuranLibraryScreen(\nparentContext: context, // Required\n);\n}\n}"
+            "ar": "/// You can just add it to your code like this:\nclass MyQuranPage extends StatelessWidget {\n  \n  @override\n  Widget build(BuildContext context) {\n    return QuranLibraryScreen(\n      parentContext: context, // Required\n    );\n  }\n}",
+            "en": "/// You can just add it to your code like this:\nclass MyQuranPage extends StatelessWidget {\n  \n  @override\n  Widget build(BuildContext context) {\n    return QuranLibraryScreen(\n      parentContext: context, // Required\n    );\n  }\n}",
+            "bn": "/// You can just add it to your code like this:\nclass MyQuranPage extends StatelessWidget {\n  \n  @override\n  Widget build(BuildContext context) {\n    return QuranLibraryScreen(\n      parentContext: context, // Required\n    );\n  }\n}",
+            "id": "/// You can just add it to your code like this:\nclass MyQuranPage extends StatelessWidget {\n  \n  @override\n  Widget build(BuildContext context) {\n    return QuranLibraryScreen(\n      parentContext: context, // Required\n    );\n  }\n}",
+            "ur": "/// You can just add it to your code like this:\nclass MyQuranPage extends StatelessWidget {\n  \n  @override\n  Widget build(BuildContext context) {\n    return QuranLibraryScreen(\n      parentContext: context, // Required\n    );\n  }\n}",
+            "tr": "/// You can just add it to your code like this:\nclass MyQuranPage extends StatelessWidget {\n  \n  @override\n  Widget build(BuildContext context) {\n    return QuranLibraryScreen(\n      parentContext: context, // Required\n    );\n  }\n}",
+            "ku": "/// You can just add it to your code like this:\nclass MyQuranPage extends StatelessWidget {\n  \n  @override\n  Widget build(BuildContext context) {\n    return QuranLibraryScreen(\n      parentContext: context, // Required\n    );\n  }\n}",
+            "ms": "/// You can just add it to your code like this:\nclass MyQuranPage extends StatelessWidget {\n  \n  @override\n  Widget build(BuildContext context) {\n    return QuranLibraryScreen(\n      parentContext: context, // Required\n    );\n  }\n}",
+            "es": "/// You can just add it to your code like this:\nclass MyQuranPage extends StatelessWidget {\n  \n  @override\n  Widget build(BuildContext context) {\n    return QuranLibraryScreen(\n      parentContext: context, // Required\n    );\n  }\n}"
           },
           "props": {
             "language": "dart"
@@ -315,15 +283,15 @@
         {
           "type": "code",
           "content": {
-            "ar": "QuranLibraryScreen(\nparentContext: context,\nwithPageView: true,\nuseDefaultAppBar: true,\nisShowAudioSlider: true,\nshowAyahBookmarkedIcon: false,\nisDark: isDark,\nappLanguageCode: Get.locale!.languageCode,\nbackgroundColor: context.theme.colorScheme.surface,\ntextColor: context.textDarkColor,\nayahSelectedBackgroundColor:\ncontext.theme.colorScheme.primary.withValues(alpha: .2),\nayahIconColor: context.theme.colorScheme.primary,\nsurahInfoStyle:\nSurahInfoStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nayahCount: 'aya_count'.tr,\nfirstTabText: 'surahNames'.tr,\nsecondTabText: 'aboutSurah'.tr,\nbottomSheetWidth: 500,\n),\nbasmalaStyle: BasmalaStyle(\nverticalPadding: 0.0,\nbasmalaColor: context.textDarkColor.withValues(alpha: .8),\nbasmalaFontSize: isLoadedFont ? 120.0 : 25.0,\n),\nayahStyle: AyahAudioStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ndialogWidth: 300,\nreadersTabText: 'readers'.tr,\n),\ntopBarStyle:\nQuranTopBarStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nshowAudioButton: false,\nshowFontsButton: false,\ntabIndexLabel: 'index'.tr,\ntabBookmarksLabel: 'bookmarks'.tr,\ntabSearchLabel: 'search'.tr,\n),\nindexTabStyle:\nIndexTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ntabSurahsLabel: 'surahs'.tr,\ntabJozzLabel: 'juzz'.tr,\n),\nsearchTabStyle:\nSearchTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nsearchHintText: 'search'.tr,\n),\nbookmarksTabStyle:\nBookmarksTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nemptyStateText: 'no_bookmarks_yet'.tr,\ngreenGroupText: 'greenBookmarks'.tr,\nyellowGroupText: 'yellowBookmarks'.tr,\nredGroupText: 'redBookmarks'.tr,\n),\nayahMenuStyle:\nAyahMenuStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ncopySuccessMessage: 'ayah_copied'.tr,\nshowPlayAllButton: false,\n),\ntafsirStyle:\nTafsirStyle.defaults(isDark: isDark, context: context).copyWith(\nwidthOfBottomSheet: 500,\nheightOfBottomSheet: MediaQuery.sizeOf(context).height * 0.9,\nchangeTafsirDialogHeight: MediaQuery.sizeOf(context).height * 0.9,\nchangeTafsirDialogWidth: 400,\ntafsirNameWidget: customSvgWithCustomColor(\n'assets/svg/tafseer_white.svg',\ncolor: context.theme.colorScheme.primary,\nheight: 24,\n),\ntafsirName: 'tafsir'.tr,\ntranslateName: 'translate'.tr,\ntafsirIsEmptyNote: 'tafsirIsEmptyNote'.tr,\nfootnotesName: 'footnotes'.tr,\n),\ntopBottomQuranStyle: TopBottomQuranStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nhizbName: 'hizb'.tr,\njuzName: 'juz'.tr,\nsajdaName: 'sajda'.tr,\n),\n),",
-            "en": "QuranLibraryScreen(\nparentContext: context,\nwithPageView: true,\nuseDefaultAppBar: true,\nisShowAudioSlider: true,\nshowAyahBookmarkedIcon: false,\nisDark: isDark,\nappLanguageCode: Get.locale!.languageCode,\nbackgroundColor: context.theme.colorScheme.surface,\ntextColor: context.textDarkColor,\nayahSelectedBackgroundColor:\ncontext.theme.colorScheme.primary.withValues(alpha: .2),\nayahIconColor: context.theme.colorScheme.primary,\nsurahInfoStyle:\nSurahInfoStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nayahCount: 'aya_count'.tr,\nfirstTabText: 'surahNames'.tr,\nsecondTabText: 'aboutSurah'.tr,\nbottomSheetWidth: 500,\n),\nbasmalaStyle: BasmalaStyle(\nverticalPadding: 0.0,\nbasmalaColor: context.textDarkColor.withValues(alpha: .8),\nbasmalaFontSize: isLoadedFont ? 120.0 : 25.0,\n),\nayahStyle: AyahAudioStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ndialogWidth: 300,\nreadersTabText: 'readers'.tr,\n),\ntopBarStyle:\nQuranTopBarStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nshowAudioButton: false,\nshowFontsButton: false,\ntabIndexLabel: 'index'.tr,\ntabBookmarksLabel: 'bookmarks'.tr,\ntabSearchLabel: 'search'.tr,\n),\nindexTabStyle:\nIndexTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ntabSurahsLabel: 'surahs'.tr,\ntabJozzLabel: 'juzz'.tr,\n),\nsearchTabStyle:\nSearchTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nsearchHintText: 'search'.tr,\n),\nbookmarksTabStyle:\nBookmarksTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nemptyStateText: 'no_bookmarks_yet'.tr,\ngreenGroupText: 'greenBookmarks'.tr,\nyellowGroupText: 'yellowBookmarks'.tr,\nredGroupText: 'redBookmarks'.tr,\n),\nayahMenuStyle:\nAyahMenuStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ncopySuccessMessage: 'ayah_copied'.tr,\nshowPlayAllButton: false,\n),\ntafsirStyle:\nTafsirStyle.defaults(isDark: isDark, context: context).copyWith(\nwidthOfBottomSheet: 500,\nheightOfBottomSheet: MediaQuery.sizeOf(context).height * 0.9,\nchangeTafsirDialogHeight: MediaQuery.sizeOf(context).height * 0.9,\nchangeTafsirDialogWidth: 400,\ntafsirNameWidget: customSvgWithCustomColor(\n'assets/svg/tafseer_white.svg',\ncolor: context.theme.colorScheme.primary,\nheight: 24,\n),\ntafsirName: 'tafsir'.tr,\ntranslateName: 'translate'.tr,\ntafsirIsEmptyNote: 'tafsirIsEmptyNote'.tr,\nfootnotesName: 'footnotes'.tr,\n),\ntopBottomQuranStyle: TopBottomQuranStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nhizbName: 'hizb'.tr,\njuzName: 'juz'.tr,\nsajdaName: 'sajda'.tr,\n),\n),",
-            "bn": "QuranLibraryScreen(\nparentContext: context,\nwithPageView: true,\nuseDefaultAppBar: true,\nisShowAudioSlider: true,\nshowAyahBookmarkedIcon: false,\nisDark: isDark,\nappLanguageCode: Get.locale!.languageCode,\nbackgroundColor: context.theme.colorScheme.surface,\ntextColor: context.textDarkColor,\nayahSelectedBackgroundColor:\ncontext.theme.colorScheme.primary.withValues(alpha: .2),\nayahIconColor: context.theme.colorScheme.primary,\nsurahInfoStyle:\nSurahInfoStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nayahCount: 'aya_count'.tr,\nfirstTabText: 'surahNames'.tr,\nsecondTabText: 'aboutSurah'.tr,\nbottomSheetWidth: 500,\n),\nbasmalaStyle: BasmalaStyle(\nverticalPadding: 0.0,\nbasmalaColor: context.textDarkColor.withValues(alpha: .8),\nbasmalaFontSize: isLoadedFont ? 120.0 : 25.0,\n),\nayahStyle: AyahAudioStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ndialogWidth: 300,\nreadersTabText: 'readers'.tr,\n),\ntopBarStyle:\nQuranTopBarStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nshowAudioButton: false,\nshowFontsButton: false,\ntabIndexLabel: 'index'.tr,\ntabBookmarksLabel: 'bookmarks'.tr,\ntabSearchLabel: 'search'.tr,\n),\nindexTabStyle:\nIndexTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ntabSurahsLabel: 'surahs'.tr,\ntabJozzLabel: 'juzz'.tr,\n),\nsearchTabStyle:\nSearchTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nsearchHintText: 'search'.tr,\n),\nbookmarksTabStyle:\nBookmarksTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nemptyStateText: 'no_bookmarks_yet'.tr,\ngreenGroupText: 'greenBookmarks'.tr,\nyellowGroupText: 'yellowBookmarks'.tr,\nredGroupText: 'redBookmarks'.tr,\n),\nayahMenuStyle:\nAyahMenuStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ncopySuccessMessage: 'ayah_copied'.tr,\nshowPlayAllButton: false,\n),\ntafsirStyle:\nTafsirStyle.defaults(isDark: isDark, context: context).copyWith(\nwidthOfBottomSheet: 500,\nheightOfBottomSheet: MediaQuery.sizeOf(context).height * 0.9,\nchangeTafsirDialogHeight: MediaQuery.sizeOf(context).height * 0.9,\nchangeTafsirDialogWidth: 400,\ntafsirNameWidget: customSvgWithCustomColor(\n'assets/svg/tafseer_white.svg',\ncolor: context.theme.colorScheme.primary,\nheight: 24,\n),\ntafsirName: 'tafsir'.tr,\ntranslateName: 'translate'.tr,\ntafsirIsEmptyNote: 'tafsirIsEmptyNote'.tr,\nfootnotesName: 'footnotes'.tr,\n),\ntopBottomQuranStyle: TopBottomQuranStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nhizbName: 'hizb'.tr,\njuzName: 'juz'.tr,\nsajdaName: 'sajda'.tr,\n),\n),",
-            "id": "QuranLibraryScreen(\nparentContext: context,\nwithPageView: true,\nuseDefaultAppBar: true,\nisShowAudioSlider: true,\nshowAyahBookmarkedIcon: false,\nisDark: isDark,\nappLanguageCode: Get.locale!.languageCode,\nbackgroundColor: context.theme.colorScheme.surface,\ntextColor: context.textDarkColor,\nayahSelectedBackgroundColor:\ncontext.theme.colorScheme.primary.withValues(alpha: .2),\nayahIconColor: context.theme.colorScheme.primary,\nsurahInfoStyle:\nSurahInfoStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nayahCount: 'aya_count'.tr,\nfirstTabText: 'surahNames'.tr,\nsecondTabText: 'aboutSurah'.tr,\nbottomSheetWidth: 500,\n),\nbasmalaStyle: BasmalaStyle(\nverticalPadding: 0.0,\nbasmalaColor: context.textDarkColor.withValues(alpha: .8),\nbasmalaFontSize: isLoadedFont ? 120.0 : 25.0,\n),\nayahStyle: AyahAudioStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ndialogWidth: 300,\nreadersTabText: 'readers'.tr,\n),\ntopBarStyle:\nQuranTopBarStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nshowAudioButton: false,\nshowFontsButton: false,\ntabIndexLabel: 'index'.tr,\ntabBookmarksLabel: 'bookmarks'.tr,\ntabSearchLabel: 'search'.tr,\n),\nindexTabStyle:\nIndexTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ntabSurahsLabel: 'surahs'.tr,\ntabJozzLabel: 'juzz'.tr,\n),\nsearchTabStyle:\nSearchTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nsearchHintText: 'search'.tr,\n),\nbookmarksTabStyle:\nBookmarksTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nemptyStateText: 'no_bookmarks_yet'.tr,\ngreenGroupText: 'greenBookmarks'.tr,\nyellowGroupText: 'yellowBookmarks'.tr,\nredGroupText: 'redBookmarks'.tr,\n),\nayahMenuStyle:\nAyahMenuStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ncopySuccessMessage: 'ayah_copied'.tr,\nshowPlayAllButton: false,\n),\ntafsirStyle:\nTafsirStyle.defaults(isDark: isDark, context: context).copyWith(\nwidthOfBottomSheet: 500,\nheightOfBottomSheet: MediaQuery.sizeOf(context).height * 0.9,\nchangeTafsirDialogHeight: MediaQuery.sizeOf(context).height * 0.9,\nchangeTafsirDialogWidth: 400,\ntafsirNameWidget: customSvgWithCustomColor(\n'assets/svg/tafseer_white.svg',\ncolor: context.theme.colorScheme.primary,\nheight: 24,\n),\ntafsirName: 'tafsir'.tr,\ntranslateName: 'translate'.tr,\ntafsirIsEmptyNote: 'tafsirIsEmptyNote'.tr,\nfootnotesName: 'footnotes'.tr,\n),\ntopBottomQuranStyle: TopBottomQuranStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nhizbName: 'hizb'.tr,\njuzName: 'juz'.tr,\nsajdaName: 'sajda'.tr,\n),\n),",
-            "ur": "QuranLibraryScreen(\nparentContext: context,\nwithPageView: true,\nuseDefaultAppBar: true,\nisShowAudioSlider: true,\nshowAyahBookmarkedIcon: false,\nisDark: isDark,\nappLanguageCode: Get.locale!.languageCode,\nbackgroundColor: context.theme.colorScheme.surface,\ntextColor: context.textDarkColor,\nayahSelectedBackgroundColor:\ncontext.theme.colorScheme.primary.withValues(alpha: .2),\nayahIconColor: context.theme.colorScheme.primary,\nsurahInfoStyle:\nSurahInfoStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nayahCount: 'aya_count'.tr,\nfirstTabText: 'surahNames'.tr,\nsecondTabText: 'aboutSurah'.tr,\nbottomSheetWidth: 500,\n),\nbasmalaStyle: BasmalaStyle(\nverticalPadding: 0.0,\nbasmalaColor: context.textDarkColor.withValues(alpha: .8),\nbasmalaFontSize: isLoadedFont ? 120.0 : 25.0,\n),\nayahStyle: AyahAudioStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ndialogWidth: 300,\nreadersTabText: 'readers'.tr,\n),\ntopBarStyle:\nQuranTopBarStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nshowAudioButton: false,\nshowFontsButton: false,\ntabIndexLabel: 'index'.tr,\ntabBookmarksLabel: 'bookmarks'.tr,\ntabSearchLabel: 'search'.tr,\n),\nindexTabStyle:\nIndexTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ntabSurahsLabel: 'surahs'.tr,\ntabJozzLabel: 'juzz'.tr,\n),\nsearchTabStyle:\nSearchTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nsearchHintText: 'search'.tr,\n),\nbookmarksTabStyle:\nBookmarksTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nemptyStateText: 'no_bookmarks_yet'.tr,\ngreenGroupText: 'greenBookmarks'.tr,\nyellowGroupText: 'yellowBookmarks'.tr,\nredGroupText: 'redBookmarks'.tr,\n),\nayahMenuStyle:\nAyahMenuStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ncopySuccessMessage: 'ayah_copied'.tr,\nshowPlayAllButton: false,\n),\ntafsirStyle:\nTafsirStyle.defaults(isDark: isDark, context: context).copyWith(\nwidthOfBottomSheet: 500,\nheightOfBottomSheet: MediaQuery.sizeOf(context).height * 0.9,\nchangeTafsirDialogHeight: MediaQuery.sizeOf(context).height * 0.9,\nchangeTafsirDialogWidth: 400,\ntafsirNameWidget: customSvgWithCustomColor(\n'assets/svg/tafseer_white.svg',\ncolor: context.theme.colorScheme.primary,\nheight: 24,\n),\ntafsirName: 'tafsir'.tr,\ntranslateName: 'translate'.tr,\ntafsirIsEmptyNote: 'tafsirIsEmptyNote'.tr,\nfootnotesName: 'footnotes'.tr,\n),\ntopBottomQuranStyle: TopBottomQuranStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nhizbName: 'hizb'.tr,\njuzName: 'juz'.tr,\nsajdaName: 'sajda'.tr,\n),\n),",
-            "tr": "QuranLibraryScreen(\nparentContext: context,\nwithPageView: true,\nuseDefaultAppBar: true,\nisShowAudioSlider: true,\nshowAyahBookmarkedIcon: false,\nisDark: isDark,\nappLanguageCode: Get.locale!.languageCode,\nbackgroundColor: context.theme.colorScheme.surface,\ntextColor: context.textDarkColor,\nayahSelectedBackgroundColor:\ncontext.theme.colorScheme.primary.withValues(alpha: .2),\nayahIconColor: context.theme.colorScheme.primary,\nsurahInfoStyle:\nSurahInfoStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nayahCount: 'aya_count'.tr,\nfirstTabText: 'surahNames'.tr,\nsecondTabText: 'aboutSurah'.tr,\nbottomSheetWidth: 500,\n),\nbasmalaStyle: BasmalaStyle(\nverticalPadding: 0.0,\nbasmalaColor: context.textDarkColor.withValues(alpha: .8),\nbasmalaFontSize: isLoadedFont ? 120.0 : 25.0,\n),\nayahStyle: AyahAudioStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ndialogWidth: 300,\nreadersTabText: 'readers'.tr,\n),\ntopBarStyle:\nQuranTopBarStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nshowAudioButton: false,\nshowFontsButton: false,\ntabIndexLabel: 'index'.tr,\ntabBookmarksLabel: 'bookmarks'.tr,\ntabSearchLabel: 'search'.tr,\n),\nindexTabStyle:\nIndexTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ntabSurahsLabel: 'surahs'.tr,\ntabJozzLabel: 'juzz'.tr,\n),\nsearchTabStyle:\nSearchTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nsearchHintText: 'search'.tr,\n),\nbookmarksTabStyle:\nBookmarksTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nemptyStateText: 'no_bookmarks_yet'.tr,\ngreenGroupText: 'greenBookmarks'.tr,\nyellowGroupText: 'yellowBookmarks'.tr,\nredGroupText: 'redBookmarks'.tr,\n),\nayahMenuStyle:\nAyahMenuStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ncopySuccessMessage: 'ayah_copied'.tr,\nshowPlayAllButton: false,\n),\ntafsirStyle:\nTafsirStyle.defaults(isDark: isDark, context: context).copyWith(\nwidthOfBottomSheet: 500,\nheightOfBottomSheet: MediaQuery.sizeOf(context).height * 0.9,\nchangeTafsirDialogHeight: MediaQuery.sizeOf(context).height * 0.9,\nchangeTafsirDialogWidth: 400,\ntafsirNameWidget: customSvgWithCustomColor(\n'assets/svg/tafseer_white.svg',\ncolor: context.theme.colorScheme.primary,\nheight: 24,\n),\ntafsirName: 'tafsir'.tr,\ntranslateName: 'translate'.tr,\ntafsirIsEmptyNote: 'tafsirIsEmptyNote'.tr,\nfootnotesName: 'footnotes'.tr,\n),\ntopBottomQuranStyle: TopBottomQuranStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nhizbName: 'hizb'.tr,\njuzName: 'juz'.tr,\nsajdaName: 'sajda'.tr,\n),\n),",
-            "ku": "QuranLibraryScreen(\nparentContext: context,\nwithPageView: true,\nuseDefaultAppBar: true,\nisShowAudioSlider: true,\nshowAyahBookmarkedIcon: false,\nisDark: isDark,\nappLanguageCode: Get.locale!.languageCode,\nbackgroundColor: context.theme.colorScheme.surface,\ntextColor: context.textDarkColor,\nayahSelectedBackgroundColor:\ncontext.theme.colorScheme.primary.withValues(alpha: .2),\nayahIconColor: context.theme.colorScheme.primary,\nsurahInfoStyle:\nSurahInfoStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nayahCount: 'aya_count'.tr,\nfirstTabText: 'surahNames'.tr,\nsecondTabText: 'aboutSurah'.tr,\nbottomSheetWidth: 500,\n),\nbasmalaStyle: BasmalaStyle(\nverticalPadding: 0.0,\nbasmalaColor: context.textDarkColor.withValues(alpha: .8),\nbasmalaFontSize: isLoadedFont ? 120.0 : 25.0,\n),\nayahStyle: AyahAudioStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ndialogWidth: 300,\nreadersTabText: 'readers'.tr,\n),\ntopBarStyle:\nQuranTopBarStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nshowAudioButton: false,\nshowFontsButton: false,\ntabIndexLabel: 'index'.tr,\ntabBookmarksLabel: 'bookmarks'.tr,\ntabSearchLabel: 'search'.tr,\n),\nindexTabStyle:\nIndexTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ntabSurahsLabel: 'surahs'.tr,\ntabJozzLabel: 'juzz'.tr,\n),\nsearchTabStyle:\nSearchTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nsearchHintText: 'search'.tr,\n),\nbookmarksTabStyle:\nBookmarksTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nemptyStateText: 'no_bookmarks_yet'.tr,\ngreenGroupText: 'greenBookmarks'.tr,\nyellowGroupText: 'yellowBookmarks'.tr,\nredGroupText: 'redBookmarks'.tr,\n),\nayahMenuStyle:\nAyahMenuStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ncopySuccessMessage: 'ayah_copied'.tr,\nshowPlayAllButton: false,\n),\ntafsirStyle:\nTafsirStyle.defaults(isDark: isDark, context: context).copyWith(\nwidthOfBottomSheet: 500,\nheightOfBottomSheet: MediaQuery.sizeOf(context).height * 0.9,\nchangeTafsirDialogHeight: MediaQuery.sizeOf(context).height * 0.9,\nchangeTafsirDialogWidth: 400,\ntafsirNameWidget: customSvgWithCustomColor(\n'assets/svg/tafseer_white.svg',\ncolor: context.theme.colorScheme.primary,\nheight: 24,\n),\ntafsirName: 'tafsir'.tr,\ntranslateName: 'translate'.tr,\ntafsirIsEmptyNote: 'tafsirIsEmptyNote'.tr,\nfootnotesName: 'footnotes'.tr,\n),\ntopBottomQuranStyle: TopBottomQuranStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nhizbName: 'hizb'.tr,\njuzName: 'juz'.tr,\nsajdaName: 'sajda'.tr,\n),\n),",
-            "ms": "QuranLibraryScreen(\nparentContext: context,\nwithPageView: true,\nuseDefaultAppBar: true,\nisShowAudioSlider: true,\nshowAyahBookmarkedIcon: false,\nisDark: isDark,\nappLanguageCode: Get.locale!.languageCode,\nbackgroundColor: context.theme.colorScheme.surface,\ntextColor: context.textDarkColor,\nayahSelectedBackgroundColor:\ncontext.theme.colorScheme.primary.withValues(alpha: .2),\nayahIconColor: context.theme.colorScheme.primary,\nsurahInfoStyle:\nSurahInfoStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nayahCount: 'aya_count'.tr,\nfirstTabText: 'surahNames'.tr,\nsecondTabText: 'aboutSurah'.tr,\nbottomSheetWidth: 500,\n),\nbasmalaStyle: BasmalaStyle(\nverticalPadding: 0.0,\nbasmalaColor: context.textDarkColor.withValues(alpha: .8),\nbasmalaFontSize: isLoadedFont ? 120.0 : 25.0,\n),\nayahStyle: AyahAudioStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ndialogWidth: 300,\nreadersTabText: 'readers'.tr,\n),\ntopBarStyle:\nQuranTopBarStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nshowAudioButton: false,\nshowFontsButton: false,\ntabIndexLabel: 'index'.tr,\ntabBookmarksLabel: 'bookmarks'.tr,\ntabSearchLabel: 'search'.tr,\n),\nindexTabStyle:\nIndexTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ntabSurahsLabel: 'surahs'.tr,\ntabJozzLabel: 'juzz'.tr,\n),\nsearchTabStyle:\nSearchTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nsearchHintText: 'search'.tr,\n),\nbookmarksTabStyle:\nBookmarksTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nemptyStateText: 'no_bookmarks_yet'.tr,\ngreenGroupText: 'greenBookmarks'.tr,\nyellowGroupText: 'yellowBookmarks'.tr,\nredGroupText: 'redBookmarks'.tr,\n),\nayahMenuStyle:\nAyahMenuStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ncopySuccessMessage: 'ayah_copied'.tr,\nshowPlayAllButton: false,\n),\ntafsirStyle:\nTafsirStyle.defaults(isDark: isDark, context: context).copyWith(\nwidthOfBottomSheet: 500,\nheightOfBottomSheet: MediaQuery.sizeOf(context).height * 0.9,\nchangeTafsirDialogHeight: MediaQuery.sizeOf(context).height * 0.9,\nchangeTafsirDialogWidth: 400,\ntafsirNameWidget: customSvgWithCustomColor(\n'assets/svg/tafseer_white.svg',\ncolor: context.theme.colorScheme.primary,\nheight: 24,\n),\ntafsirName: 'tafsir'.tr,\ntranslateName: 'translate'.tr,\ntafsirIsEmptyNote: 'tafsirIsEmptyNote'.tr,\nfootnotesName: 'footnotes'.tr,\n),\ntopBottomQuranStyle: TopBottomQuranStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nhizbName: 'hizb'.tr,\njuzName: 'juz'.tr,\nsajdaName: 'sajda'.tr,\n),\n),",
-            "es": "QuranLibraryScreen(\nparentContext: context,\nwithPageView: true,\nuseDefaultAppBar: true,\nisShowAudioSlider: true,\nshowAyahBookmarkedIcon: false,\nisDark: isDark,\nappLanguageCode: Get.locale!.languageCode,\nbackgroundColor: context.theme.colorScheme.surface,\ntextColor: context.textDarkColor,\nayahSelectedBackgroundColor:\ncontext.theme.colorScheme.primary.withValues(alpha: .2),\nayahIconColor: context.theme.colorScheme.primary,\nsurahInfoStyle:\nSurahInfoStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nayahCount: 'aya_count'.tr,\nfirstTabText: 'surahNames'.tr,\nsecondTabText: 'aboutSurah'.tr,\nbottomSheetWidth: 500,\n),\nbasmalaStyle: BasmalaStyle(\nverticalPadding: 0.0,\nbasmalaColor: context.textDarkColor.withValues(alpha: .8),\nbasmalaFontSize: isLoadedFont ? 120.0 : 25.0,\n),\nayahStyle: AyahAudioStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ndialogWidth: 300,\nreadersTabText: 'readers'.tr,\n),\ntopBarStyle:\nQuranTopBarStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nshowAudioButton: false,\nshowFontsButton: false,\ntabIndexLabel: 'index'.tr,\ntabBookmarksLabel: 'bookmarks'.tr,\ntabSearchLabel: 'search'.tr,\n),\nindexTabStyle:\nIndexTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ntabSurahsLabel: 'surahs'.tr,\ntabJozzLabel: 'juzz'.tr,\n),\nsearchTabStyle:\nSearchTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nsearchHintText: 'search'.tr,\n),\nbookmarksTabStyle:\nBookmarksTabStyle.defaults(isDark: isDark, context: context)\n.copyWith(\nemptyStateText: 'no_bookmarks_yet'.tr,\ngreenGroupText: 'greenBookmarks'.tr,\nyellowGroupText: 'yellowBookmarks'.tr,\nredGroupText: 'redBookmarks'.tr,\n),\nayahMenuStyle:\nAyahMenuStyle.defaults(isDark: isDark, context: context)\n.copyWith(\ncopySuccessMessage: 'ayah_copied'.tr,\nshowPlayAllButton: false,\n),\ntafsirStyle:\nTafsirStyle.defaults(isDark: isDark, context: context).copyWith(\nwidthOfBottomSheet: 500,\nheightOfBottomSheet: MediaQuery.sizeOf(context).height * 0.9,\nchangeTafsirDialogHeight: MediaQuery.sizeOf(context).height * 0.9,\nchangeTafsirDialogWidth: 400,\ntafsirNameWidget: customSvgWithCustomColor(\n'assets/svg/tafseer_white.svg',\ncolor: context.theme.colorScheme.primary,\nheight: 24,\n),\ntafsirName: 'tafsir'.tr,\ntranslateName: 'translate'.tr,\ntafsirIsEmptyNote: 'tafsirIsEmptyNote'.tr,\nfootnotesName: 'footnotes'.tr,\n),\ntopBottomQuranStyle: TopBottomQuranStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nhizbName: 'hizb'.tr,\njuzName: 'juz'.tr,\nsajdaName: 'sajda'.tr,\n),\n),"
+            "ar": "class QuranScreen extends StatelessWidget {\n  const QuranScreen({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return Center(\n      child: Padding(\n        padding: const EdgeInsets.only(bottom: 48.0),\n        child: GetBuilder<QuranCtrl>(\n          id: 'clearSelection',\n          builder: (quranCtrl) => QuranLibraryScreen(\n            parentContext: context,\n            withPageView: true,\n            useDefaultAppBar: true,\n            isShowAudioSlider: true,\n            showAyahBookmarkedIcon: false,\n            isDark: isDark,\n            appLanguageCode: Get.locale!.languageCode,\n            backgroundColor: context.theme.colorScheme.surface,\n            textColor: context.textDarkColor,\n            ayahSelectedBackgroundColor:\n                context.theme.colorScheme.primary.withValues(alpha: .2),\n            ayahIconColor: context.theme.colorScheme.primary,\n            surahInfoStyle:\n                SurahInfoStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              ayahCount: 'aya_count'.tr,\n              firstTabText: 'surahNames'.tr,\n              secondTabText: 'aboutSurah'.tr,\n              bottomSheetWidth: 500,\n            ),\n            basmalaStyle: BasmalaStyle(\n              verticalPadding: 0.0,\n              basmalaColor: context.textDarkColor.withValues(alpha: .8),\n              basmalaFontSize: isLoadedFont ? 120.0 : 25.0,\n            ),\n            ayahStyle: AyahAudioStyle.defaults(isDark: isDark, context: context)\n                .copyWith(\n              dialogWidth: 300,\n              readersTabText: 'readers'.tr,\n            ),\n            topBarStyle:\n                QuranTopBarStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              showAudioButton: false,\n              showFontsButton: false,\n              tabIndexLabel: 'index'.tr,\n              tabBookmarksLabel: 'bookmarks'.tr,\n              tabSearchLabel: 'search'.tr,\n            ),\n            indexTabStyle:\n                IndexTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              tabSurahsLabel: 'surahs'.tr,\n              tabJozzLabel: 'juzz'.tr,\n            ),\n            searchTabStyle:\n                SearchTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              searchHintText: 'search'.tr,\n            ),\n            bookmarksTabStyle:\n                BookmarksTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              emptyStateText: 'no_bookmarks_yet'.tr,\n              greenGroupText: 'greenBookmarks'.tr,\n              yellowGroupText: 'yellowBookmarks'.tr,\n              redGroupText: 'redBookmarks'.tr,\n            ),\n            ayahMenuStyle:\n                AyahMenuStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              copySuccessMessage: 'ayah_copied'.tr,\n              showPlayAllButton: false,\n            ),\n            tafsirStyle:\n                TafsirStyle.defaults(isDark: isDark, context: context).copyWith(\n              widthOfBottomSheet: 500,\n              heightOfBottomSheet: MediaQuery.sizeOf(context).height * 0.9,\n              changeTafsirDialogHeight: MediaQuery.sizeOf(context).height * 0.9,\n              changeTafsirDialogWidth: 400,\n              tafsirNameWidget: customSvgWithCustomColor(\n                'assets/svg/tafseer_white.svg',\n                color: context.theme.colorScheme.primary,\n                height: 24,\n              ),\n              tafsirName: 'tafsir'.tr,\n              translateName: 'translate'.tr,\n              tafsirIsEmptyNote: 'tafsirIsEmptyNote'.tr,\n              footnotesName: 'footnotes'.tr,\n            ),\n            topBottomQuranStyle: TopBottomQuranStyle.defaults(\n              isDark: isDark,\n              context: context,\n            ).copyWith(\n              hizbName: 'hizb'.tr,\n              juzName: 'juz'.tr,\n              sajdaName: 'sajda'.tr,\n            ),\n          ),\n        ),\n      ),\n    );\n  }\n}",
+            "en": "class QuranScreen extends StatelessWidget {\n  const QuranScreen({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return Center(\n      child: Padding(\n        padding: const EdgeInsets.only(bottom: 48.0),\n        child: GetBuilder<QuranCtrl>(\n          id: 'clearSelection',\n          builder: (quranCtrl) => QuranLibraryScreen(\n            parentContext: context,\n            withPageView: true,\n            useDefaultAppBar: true,\n            isShowAudioSlider: true,\n            showAyahBookmarkedIcon: false,\n            isDark: isDark,\n            appLanguageCode: Get.locale!.languageCode,\n            backgroundColor: context.theme.colorScheme.surface,\n            textColor: context.textDarkColor,\n            ayahSelectedBackgroundColor:\n                context.theme.colorScheme.primary.withValues(alpha: .2),\n            ayahIconColor: context.theme.colorScheme.primary,\n            surahInfoStyle:\n                SurahInfoStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              ayahCount: 'aya_count'.tr,\n              firstTabText: 'surahNames'.tr,\n              secondTabText: 'aboutSurah'.tr,\n              bottomSheetWidth: 500,\n            ),\n            basmalaStyle: BasmalaStyle(\n              verticalPadding: 0.0,\n              basmalaColor: context.textDarkColor.withValues(alpha: .8),\n              basmalaFontSize: isLoadedFont ? 120.0 : 25.0,\n            ),\n            ayahStyle: AyahAudioStyle.defaults(isDark: isDark, context: context)\n                .copyWith(\n              dialogWidth: 300,\n              readersTabText: 'readers'.tr,\n            ),\n            topBarStyle:\n                QuranTopBarStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              showAudioButton: false,\n              showFontsButton: false,\n              tabIndexLabel: 'index'.tr,\n              tabBookmarksLabel: 'bookmarks'.tr,\n              tabSearchLabel: 'search'.tr,\n            ),\n            indexTabStyle:\n                IndexTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              tabSurahsLabel: 'surahs'.tr,\n              tabJozzLabel: 'juzz'.tr,\n            ),\n            searchTabStyle:\n                SearchTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              searchHintText: 'search'.tr,\n            ),\n            bookmarksTabStyle:\n                BookmarksTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              emptyStateText: 'no_bookmarks_yet'.tr,\n              greenGroupText: 'greenBookmarks'.tr,\n              yellowGroupText: 'yellowBookmarks'.tr,\n              redGroupText: 'redBookmarks'.tr,\n            ),\n            ayahMenuStyle:\n                AyahMenuStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              copySuccessMessage: 'ayah_copied'.tr,\n              showPlayAllButton: false,\n            ),\n            tafsirStyle:\n                TafsirStyle.defaults(isDark: isDark, context: context).copyWith(\n              widthOfBottomSheet: 500,\n              heightOfBottomSheet: MediaQuery.sizeOf(context).height * 0.9,\n              changeTafsirDialogHeight: MediaQuery.sizeOf(context).height * 0.9,\n              changeTafsirDialogWidth: 400,\n              tafsirNameWidget: customSvgWithCustomColor(\n                'assets/svg/tafseer_white.svg',\n                color: context.theme.colorScheme.primary,\n                height: 24,\n              ),\n              tafsirName: 'tafsir'.tr,\n              translateName: 'translate'.tr,\n              tafsirIsEmptyNote: 'tafsirIsEmptyNote'.tr,\n              footnotesName: 'footnotes'.tr,\n            ),\n            topBottomQuranStyle: TopBottomQuranStyle.defaults(\n              isDark: isDark,\n              context: context,\n            ).copyWith(\n              hizbName: 'hizb'.tr,\n              juzName: 'juz'.tr,\n              sajdaName: 'sajda'.tr,\n            ),\n          ),\n        ),\n      ),\n    );\n  }\n}",
+            "bn": "class QuranScreen extends StatelessWidget {\n  const QuranScreen({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return Center(\n      child: Padding(\n        padding: const EdgeInsets.only(bottom: 48.0),\n        child: GetBuilder<QuranCtrl>(\n          id: 'clearSelection',\n          builder: (quranCtrl) => QuranLibraryScreen(\n            parentContext: context,\n            withPageView: true,\n            useDefaultAppBar: true,\n            isShowAudioSlider: true,\n            showAyahBookmarkedIcon: false,\n            isDark: isDark,\n            appLanguageCode: Get.locale!.languageCode,\n            backgroundColor: context.theme.colorScheme.surface,\n            textColor: context.textDarkColor,\n            ayahSelectedBackgroundColor:\n                context.theme.colorScheme.primary.withValues(alpha: .2),\n            ayahIconColor: context.theme.colorScheme.primary,\n            surahInfoStyle:\n                SurahInfoStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              ayahCount: 'aya_count'.tr,\n              firstTabText: 'surahNames'.tr,\n              secondTabText: 'aboutSurah'.tr,\n              bottomSheetWidth: 500,\n            ),\n            basmalaStyle: BasmalaStyle(\n              verticalPadding: 0.0,\n              basmalaColor: context.textDarkColor.withValues(alpha: .8),\n              basmalaFontSize: isLoadedFont ? 120.0 : 25.0,\n            ),\n            ayahStyle: AyahAudioStyle.defaults(isDark: isDark, context: context)\n                .copyWith(\n              dialogWidth: 300,\n              readersTabText: 'readers'.tr,\n            ),\n            topBarStyle:\n                QuranTopBarStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              showAudioButton: false,\n              showFontsButton: false,\n              tabIndexLabel: 'index'.tr,\n              tabBookmarksLabel: 'bookmarks'.tr,\n              tabSearchLabel: 'search'.tr,\n            ),\n            indexTabStyle:\n                IndexTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              tabSurahsLabel: 'surahs'.tr,\n              tabJozzLabel: 'juzz'.tr,\n            ),\n            searchTabStyle:\n                SearchTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              searchHintText: 'search'.tr,\n            ),\n            bookmarksTabStyle:\n                BookmarksTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              emptyStateText: 'no_bookmarks_yet'.tr,\n              greenGroupText: 'greenBookmarks'.tr,\n              yellowGroupText: 'yellowBookmarks'.tr,\n              redGroupText: 'redBookmarks'.tr,\n            ),\n            ayahMenuStyle:\n                AyahMenuStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              copySuccessMessage: 'ayah_copied'.tr,\n              showPlayAllButton: false,\n            ),\n            tafsirStyle:\n                TafsirStyle.defaults(isDark: isDark, context: context).copyWith(\n              widthOfBottomSheet: 500,\n              heightOfBottomSheet: MediaQuery.sizeOf(context).height * 0.9,\n              changeTafsirDialogHeight: MediaQuery.sizeOf(context).height * 0.9,\n              changeTafsirDialogWidth: 400,\n              tafsirNameWidget: customSvgWithCustomColor(\n                'assets/svg/tafseer_white.svg',\n                color: context.theme.colorScheme.primary,\n                height: 24,\n              ),\n              tafsirName: 'tafsir'.tr,\n              translateName: 'translate'.tr,\n              tafsirIsEmptyNote: 'tafsirIsEmptyNote'.tr,\n              footnotesName: 'footnotes'.tr,\n            ),\n            topBottomQuranStyle: TopBottomQuranStyle.defaults(\n              isDark: isDark,\n              context: context,\n            ).copyWith(\n              hizbName: 'hizb'.tr,\n              juzName: 'juz'.tr,\n              sajdaName: 'sajda'.tr,\n            ),\n          ),\n        ),\n      ),\n    );\n  }\n}",
+            "id": "class QuranScreen extends StatelessWidget {\n  const QuranScreen({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return Center(\n      child: Padding(\n        padding: const EdgeInsets.only(bottom: 48.0),\n        child: GetBuilder<QuranCtrl>(\n          id: 'clearSelection',\n          builder: (quranCtrl) => QuranLibraryScreen(\n            parentContext: context,\n            withPageView: true,\n            useDefaultAppBar: true,\n            isShowAudioSlider: true,\n            showAyahBookmarkedIcon: false,\n            isDark: isDark,\n            appLanguageCode: Get.locale!.languageCode,\n            backgroundColor: context.theme.colorScheme.surface,\n            textColor: context.textDarkColor,\n            ayahSelectedBackgroundColor:\n                context.theme.colorScheme.primary.withValues(alpha: .2),\n            ayahIconColor: context.theme.colorScheme.primary,\n            surahInfoStyle:\n                SurahInfoStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              ayahCount: 'aya_count'.tr,\n              firstTabText: 'surahNames'.tr,\n              secondTabText: 'aboutSurah'.tr,\n              bottomSheetWidth: 500,\n            ),\n            basmalaStyle: BasmalaStyle(\n              verticalPadding: 0.0,\n              basmalaColor: context.textDarkColor.withValues(alpha: .8),\n              basmalaFontSize: isLoadedFont ? 120.0 : 25.0,\n            ),\n            ayahStyle: AyahAudioStyle.defaults(isDark: isDark, context: context)\n                .copyWith(\n              dialogWidth: 300,\n              readersTabText: 'readers'.tr,\n            ),\n            topBarStyle:\n                QuranTopBarStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              showAudioButton: false,\n              showFontsButton: false,\n              tabIndexLabel: 'index'.tr,\n              tabBookmarksLabel: 'bookmarks'.tr,\n              tabSearchLabel: 'search'.tr,\n            ),\n            indexTabStyle:\n                IndexTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              tabSurahsLabel: 'surahs'.tr,\n              tabJozzLabel: 'juzz'.tr,\n            ),\n            searchTabStyle:\n                SearchTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              searchHintText: 'search'.tr,\n            ),\n            bookmarksTabStyle:\n                BookmarksTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              emptyStateText: 'no_bookmarks_yet'.tr,\n              greenGroupText: 'greenBookmarks'.tr,\n              yellowGroupText: 'yellowBookmarks'.tr,\n              redGroupText: 'redBookmarks'.tr,\n            ),\n            ayahMenuStyle:\n                AyahMenuStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              copySuccessMessage: 'ayah_copied'.tr,\n              showPlayAllButton: false,\n            ),\n            tafsirStyle:\n                TafsirStyle.defaults(isDark: isDark, context: context).copyWith(\n              widthOfBottomSheet: 500,\n              heightOfBottomSheet: MediaQuery.sizeOf(context).height * 0.9,\n              changeTafsirDialogHeight: MediaQuery.sizeOf(context).height * 0.9,\n              changeTafsirDialogWidth: 400,\n              tafsirNameWidget: customSvgWithCustomColor(\n                'assets/svg/tafseer_white.svg',\n                color: context.theme.colorScheme.primary,\n                height: 24,\n              ),\n              tafsirName: 'tafsir'.tr,\n              translateName: 'translate'.tr,\n              tafsirIsEmptyNote: 'tafsirIsEmptyNote'.tr,\n              footnotesName: 'footnotes'.tr,\n            ),\n            topBottomQuranStyle: TopBottomQuranStyle.defaults(\n              isDark: isDark,\n              context: context,\n            ).copyWith(\n              hizbName: 'hizb'.tr,\n              juzName: 'juz'.tr,\n              sajdaName: 'sajda'.tr,\n            ),\n          ),\n        ),\n      ),\n    );\n  }\n}",
+            "ur": "class QuranScreen extends StatelessWidget {\n  const QuranScreen({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return Center(\n      child: Padding(\n        padding: const EdgeInsets.only(bottom: 48.0),\n        child: GetBuilder<QuranCtrl>(\n          id: 'clearSelection',\n          builder: (quranCtrl) => QuranLibraryScreen(\n            parentContext: context,\n            withPageView: true,\n            useDefaultAppBar: true,\n            isShowAudioSlider: true,\n            showAyahBookmarkedIcon: false,\n            isDark: isDark,\n            appLanguageCode: Get.locale!.languageCode,\n            backgroundColor: context.theme.colorScheme.surface,\n            textColor: context.textDarkColor,\n            ayahSelectedBackgroundColor:\n                context.theme.colorScheme.primary.withValues(alpha: .2),\n            ayahIconColor: context.theme.colorScheme.primary,\n            surahInfoStyle:\n                SurahInfoStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              ayahCount: 'aya_count'.tr,\n              firstTabText: 'surahNames'.tr,\n              secondTabText: 'aboutSurah'.tr,\n              bottomSheetWidth: 500,\n            ),\n            basmalaStyle: BasmalaStyle(\n              verticalPadding: 0.0,\n              basmalaColor: context.textDarkColor.withValues(alpha: .8),\n              basmalaFontSize: isLoadedFont ? 120.0 : 25.0,\n            ),\n            ayahStyle: AyahAudioStyle.defaults(isDark: isDark, context: context)\n                .copyWith(\n              dialogWidth: 300,\n              readersTabText: 'readers'.tr,\n            ),\n            topBarStyle:\n                QuranTopBarStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              showAudioButton: false,\n              showFontsButton: false,\n              tabIndexLabel: 'index'.tr,\n              tabBookmarksLabel: 'bookmarks'.tr,\n              tabSearchLabel: 'search'.tr,\n            ),\n            indexTabStyle:\n                IndexTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              tabSurahsLabel: 'surahs'.tr,\n              tabJozzLabel: 'juzz'.tr,\n            ),\n            searchTabStyle:\n                SearchTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              searchHintText: 'search'.tr,\n            ),\n            bookmarksTabStyle:\n                BookmarksTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              emptyStateText: 'no_bookmarks_yet'.tr,\n              greenGroupText: 'greenBookmarks'.tr,\n              yellowGroupText: 'yellowBookmarks'.tr,\n              redGroupText: 'redBookmarks'.tr,\n            ),\n            ayahMenuStyle:\n                AyahMenuStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              copySuccessMessage: 'ayah_copied'.tr,\n              showPlayAllButton: false,\n            ),\n            tafsirStyle:\n                TafsirStyle.defaults(isDark: isDark, context: context).copyWith(\n              widthOfBottomSheet: 500,\n              heightOfBottomSheet: MediaQuery.sizeOf(context).height * 0.9,\n              changeTafsirDialogHeight: MediaQuery.sizeOf(context).height * 0.9,\n              changeTafsirDialogWidth: 400,\n              tafsirNameWidget: customSvgWithCustomColor(\n                'assets/svg/tafseer_white.svg',\n                color: context.theme.colorScheme.primary,\n                height: 24,\n              ),\n              tafsirName: 'tafsir'.tr,\n              translateName: 'translate'.tr,\n              tafsirIsEmptyNote: 'tafsirIsEmptyNote'.tr,\n              footnotesName: 'footnotes'.tr,\n            ),\n            topBottomQuranStyle: TopBottomQuranStyle.defaults(\n              isDark: isDark,\n              context: context,\n            ).copyWith(\n              hizbName: 'hizb'.tr,\n              juzName: 'juz'.tr,\n              sajdaName: 'sajda'.tr,\n            ),\n          ),\n        ),\n      ),\n    );\n  }\n}",
+            "tr": "class QuranScreen extends StatelessWidget {\n  const QuranScreen({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return Center(\n      child: Padding(\n        padding: const EdgeInsets.only(bottom: 48.0),\n        child: GetBuilder<QuranCtrl>(\n          id: 'clearSelection',\n          builder: (quranCtrl) => QuranLibraryScreen(\n            parentContext: context,\n            withPageView: true,\n            useDefaultAppBar: true,\n            isShowAudioSlider: true,\n            showAyahBookmarkedIcon: false,\n            isDark: isDark,\n            appLanguageCode: Get.locale!.languageCode,\n            backgroundColor: context.theme.colorScheme.surface,\n            textColor: context.textDarkColor,\n            ayahSelectedBackgroundColor:\n                context.theme.colorScheme.primary.withValues(alpha: .2),\n            ayahIconColor: context.theme.colorScheme.primary,\n            surahInfoStyle:\n                SurahInfoStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              ayahCount: 'aya_count'.tr,\n              firstTabText: 'surahNames'.tr,\n              secondTabText: 'aboutSurah'.tr,\n              bottomSheetWidth: 500,\n            ),\n            basmalaStyle: BasmalaStyle(\n              verticalPadding: 0.0,\n              basmalaColor: context.textDarkColor.withValues(alpha: .8),\n              basmalaFontSize: isLoadedFont ? 120.0 : 25.0,\n            ),\n            ayahStyle: AyahAudioStyle.defaults(isDark: isDark, context: context)\n                .copyWith(\n              dialogWidth: 300,\n              readersTabText: 'readers'.tr,\n            ),\n            topBarStyle:\n                QuranTopBarStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              showAudioButton: false,\n              showFontsButton: false,\n              tabIndexLabel: 'index'.tr,\n              tabBookmarksLabel: 'bookmarks'.tr,\n              tabSearchLabel: 'search'.tr,\n            ),\n            indexTabStyle:\n                IndexTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              tabSurahsLabel: 'surahs'.tr,\n              tabJozzLabel: 'juzz'.tr,\n            ),\n            searchTabStyle:\n                SearchTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              searchHintText: 'search'.tr,\n            ),\n            bookmarksTabStyle:\n                BookmarksTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              emptyStateText: 'no_bookmarks_yet'.tr,\n              greenGroupText: 'greenBookmarks'.tr,\n              yellowGroupText: 'yellowBookmarks'.tr,\n              redGroupText: 'redBookmarks'.tr,\n            ),\n            ayahMenuStyle:\n                AyahMenuStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              copySuccessMessage: 'ayah_copied'.tr,\n              showPlayAllButton: false,\n            ),\n            tafsirStyle:\n                TafsirStyle.defaults(isDark: isDark, context: context).copyWith(\n              widthOfBottomSheet: 500,\n              heightOfBottomSheet: MediaQuery.sizeOf(context).height * 0.9,\n              changeTafsirDialogHeight: MediaQuery.sizeOf(context).height * 0.9,\n              changeTafsirDialogWidth: 400,\n              tafsirNameWidget: customSvgWithCustomColor(\n                'assets/svg/tafseer_white.svg',\n                color: context.theme.colorScheme.primary,\n                height: 24,\n              ),\n              tafsirName: 'tafsir'.tr,\n              translateName: 'translate'.tr,\n              tafsirIsEmptyNote: 'tafsirIsEmptyNote'.tr,\n              footnotesName: 'footnotes'.tr,\n            ),\n            topBottomQuranStyle: TopBottomQuranStyle.defaults(\n              isDark: isDark,\n              context: context,\n            ).copyWith(\n              hizbName: 'hizb'.tr,\n              juzName: 'juz'.tr,\n              sajdaName: 'sajda'.tr,\n            ),\n          ),\n        ),\n      ),\n    );\n  }\n}",
+            "ku": "class QuranScreen extends StatelessWidget {\n  const QuranScreen({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return Center(\n      child: Padding(\n        padding: const EdgeInsets.only(bottom: 48.0),\n        child: GetBuilder<QuranCtrl>(\n          id: 'clearSelection',\n          builder: (quranCtrl) => QuranLibraryScreen(\n            parentContext: context,\n            withPageView: true,\n            useDefaultAppBar: true,\n            isShowAudioSlider: true,\n            showAyahBookmarkedIcon: false,\n            isDark: isDark,\n            appLanguageCode: Get.locale!.languageCode,\n            backgroundColor: context.theme.colorScheme.surface,\n            textColor: context.textDarkColor,\n            ayahSelectedBackgroundColor:\n                context.theme.colorScheme.primary.withValues(alpha: .2),\n            ayahIconColor: context.theme.colorScheme.primary,\n            surahInfoStyle:\n                SurahInfoStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              ayahCount: 'aya_count'.tr,\n              firstTabText: 'surahNames'.tr,\n              secondTabText: 'aboutSurah'.tr,\n              bottomSheetWidth: 500,\n            ),\n            basmalaStyle: BasmalaStyle(\n              verticalPadding: 0.0,\n              basmalaColor: context.textDarkColor.withValues(alpha: .8),\n              basmalaFontSize: isLoadedFont ? 120.0 : 25.0,\n            ),\n            ayahStyle: AyahAudioStyle.defaults(isDark: isDark, context: context)\n                .copyWith(\n              dialogWidth: 300,\n              readersTabText: 'readers'.tr,\n            ),\n            topBarStyle:\n                QuranTopBarStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              showAudioButton: false,\n              showFontsButton: false,\n              tabIndexLabel: 'index'.tr,\n              tabBookmarksLabel: 'bookmarks'.tr,\n              tabSearchLabel: 'search'.tr,\n            ),\n            indexTabStyle:\n                IndexTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              tabSurahsLabel: 'surahs'.tr,\n              tabJozzLabel: 'juzz'.tr,\n            ),\n            searchTabStyle:\n                SearchTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              searchHintText: 'search'.tr,\n            ),\n            bookmarksTabStyle:\n                BookmarksTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              emptyStateText: 'no_bookmarks_yet'.tr,\n              greenGroupText: 'greenBookmarks'.tr,\n              yellowGroupText: 'yellowBookmarks'.tr,\n              redGroupText: 'redBookmarks'.tr,\n            ),\n            ayahMenuStyle:\n                AyahMenuStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              copySuccessMessage: 'ayah_copied'.tr,\n              showPlayAllButton: false,\n            ),\n            tafsirStyle:\n                TafsirStyle.defaults(isDark: isDark, context: context).copyWith(\n              widthOfBottomSheet: 500,\n              heightOfBottomSheet: MediaQuery.sizeOf(context).height * 0.9,\n              changeTafsirDialogHeight: MediaQuery.sizeOf(context).height * 0.9,\n              changeTafsirDialogWidth: 400,\n              tafsirNameWidget: customSvgWithCustomColor(\n                'assets/svg/tafseer_white.svg',\n                color: context.theme.colorScheme.primary,\n                height: 24,\n              ),\n              tafsirName: 'tafsir'.tr,\n              translateName: 'translate'.tr,\n              tafsirIsEmptyNote: 'tafsirIsEmptyNote'.tr,\n              footnotesName: 'footnotes'.tr,\n            ),\n            topBottomQuranStyle: TopBottomQuranStyle.defaults(\n              isDark: isDark,\n              context: context,\n            ).copyWith(\n              hizbName: 'hizb'.tr,\n              juzName: 'juz'.tr,\n              sajdaName: 'sajda'.tr,\n            ),\n          ),\n        ),\n      ),\n    );\n  }\n}",
+            "ms": "class QuranScreen extends StatelessWidget {\n  const QuranScreen({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return Center(\n      child: Padding(\n        padding: const EdgeInsets.only(bottom: 48.0),\n        child: GetBuilder<QuranCtrl>(\n          id: 'clearSelection',\n          builder: (quranCtrl) => QuranLibraryScreen(\n            parentContext: context,\n            withPageView: true,\n            useDefaultAppBar: true,\n            isShowAudioSlider: true,\n            showAyahBookmarkedIcon: false,\n            isDark: isDark,\n            appLanguageCode: Get.locale!.languageCode,\n            backgroundColor: context.theme.colorScheme.surface,\n            textColor: context.textDarkColor,\n            ayahSelectedBackgroundColor:\n                context.theme.colorScheme.primary.withValues(alpha: .2),\n            ayahIconColor: context.theme.colorScheme.primary,\n            surahInfoStyle:\n                SurahInfoStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              ayahCount: 'aya_count'.tr,\n              firstTabText: 'surahNames'.tr,\n              secondTabText: 'aboutSurah'.tr,\n              bottomSheetWidth: 500,\n            ),\n            basmalaStyle: BasmalaStyle(\n              verticalPadding: 0.0,\n              basmalaColor: context.textDarkColor.withValues(alpha: .8),\n              basmalaFontSize: isLoadedFont ? 120.0 : 25.0,\n            ),\n            ayahStyle: AyahAudioStyle.defaults(isDark: isDark, context: context)\n                .copyWith(\n              dialogWidth: 300,\n              readersTabText: 'readers'.tr,\n            ),\n            topBarStyle:\n                QuranTopBarStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              showAudioButton: false,\n              showFontsButton: false,\n              tabIndexLabel: 'index'.tr,\n              tabBookmarksLabel: 'bookmarks'.tr,\n              tabSearchLabel: 'search'.tr,\n            ),\n            indexTabStyle:\n                IndexTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              tabSurahsLabel: 'surahs'.tr,\n              tabJozzLabel: 'juzz'.tr,\n            ),\n            searchTabStyle:\n                SearchTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              searchHintText: 'search'.tr,\n            ),\n            bookmarksTabStyle:\n                BookmarksTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              emptyStateText: 'no_bookmarks_yet'.tr,\n              greenGroupText: 'greenBookmarks'.tr,\n              yellowGroupText: 'yellowBookmarks'.tr,\n              redGroupText: 'redBookmarks'.tr,\n            ),\n            ayahMenuStyle:\n                AyahMenuStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              copySuccessMessage: 'ayah_copied'.tr,\n              showPlayAllButton: false,\n            ),\n            tafsirStyle:\n                TafsirStyle.defaults(isDark: isDark, context: context).copyWith(\n              widthOfBottomSheet: 500,\n              heightOfBottomSheet: MediaQuery.sizeOf(context).height * 0.9,\n              changeTafsirDialogHeight: MediaQuery.sizeOf(context).height * 0.9,\n              changeTafsirDialogWidth: 400,\n              tafsirNameWidget: customSvgWithCustomColor(\n                'assets/svg/tafseer_white.svg',\n                color: context.theme.colorScheme.primary,\n                height: 24,\n              ),\n              tafsirName: 'tafsir'.tr,\n              translateName: 'translate'.tr,\n              tafsirIsEmptyNote: 'tafsirIsEmptyNote'.tr,\n              footnotesName: 'footnotes'.tr,\n            ),\n            topBottomQuranStyle: TopBottomQuranStyle.defaults(\n              isDark: isDark,\n              context: context,\n            ).copyWith(\n              hizbName: 'hizb'.tr,\n              juzName: 'juz'.tr,\n              sajdaName: 'sajda'.tr,\n            ),\n          ),\n        ),\n      ),\n    );\n  }\n}",
+            "es": "class QuranScreen extends StatelessWidget {\n  const QuranScreen({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return Center(\n      child: Padding(\n        padding: const EdgeInsets.only(bottom: 48.0),\n        child: GetBuilder<QuranCtrl>(\n          id: 'clearSelection',\n          builder: (quranCtrl) => QuranLibraryScreen(\n            parentContext: context,\n            withPageView: true,\n            useDefaultAppBar: true,\n            isShowAudioSlider: true,\n            showAyahBookmarkedIcon: false,\n            isDark: isDark,\n            appLanguageCode: Get.locale!.languageCode,\n            backgroundColor: context.theme.colorScheme.surface,\n            textColor: context.textDarkColor,\n            ayahSelectedBackgroundColor:\n                context.theme.colorScheme.primary.withValues(alpha: .2),\n            ayahIconColor: context.theme.colorScheme.primary,\n            surahInfoStyle:\n                SurahInfoStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              ayahCount: 'aya_count'.tr,\n              firstTabText: 'surahNames'.tr,\n              secondTabText: 'aboutSurah'.tr,\n              bottomSheetWidth: 500,\n            ),\n            basmalaStyle: BasmalaStyle(\n              verticalPadding: 0.0,\n              basmalaColor: context.textDarkColor.withValues(alpha: .8),\n              basmalaFontSize: isLoadedFont ? 120.0 : 25.0,\n            ),\n            ayahStyle: AyahAudioStyle.defaults(isDark: isDark, context: context)\n                .copyWith(\n              dialogWidth: 300,\n              readersTabText: 'readers'.tr,\n            ),\n            topBarStyle:\n                QuranTopBarStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              showAudioButton: false,\n              showFontsButton: false,\n              tabIndexLabel: 'index'.tr,\n              tabBookmarksLabel: 'bookmarks'.tr,\n              tabSearchLabel: 'search'.tr,\n            ),\n            indexTabStyle:\n                IndexTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              tabSurahsLabel: 'surahs'.tr,\n              tabJozzLabel: 'juzz'.tr,\n            ),\n            searchTabStyle:\n                SearchTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              searchHintText: 'search'.tr,\n            ),\n            bookmarksTabStyle:\n                BookmarksTabStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              emptyStateText: 'no_bookmarks_yet'.tr,\n              greenGroupText: 'greenBookmarks'.tr,\n              yellowGroupText: 'yellowBookmarks'.tr,\n              redGroupText: 'redBookmarks'.tr,\n            ),\n            ayahMenuStyle:\n                AyahMenuStyle.defaults(isDark: isDark, context: context)\n                    .copyWith(\n              copySuccessMessage: 'ayah_copied'.tr,\n              showPlayAllButton: false,\n            ),\n            tafsirStyle:\n                TafsirStyle.defaults(isDark: isDark, context: context).copyWith(\n              widthOfBottomSheet: 500,\n              heightOfBottomSheet: MediaQuery.sizeOf(context).height * 0.9,\n              changeTafsirDialogHeight: MediaQuery.sizeOf(context).height * 0.9,\n              changeTafsirDialogWidth: 400,\n              tafsirNameWidget: customSvgWithCustomColor(\n                'assets/svg/tafseer_white.svg',\n                color: context.theme.colorScheme.primary,\n                height: 24,\n              ),\n              tafsirName: 'tafsir'.tr,\n              translateName: 'translate'.tr,\n              tafsirIsEmptyNote: 'tafsirIsEmptyNote'.tr,\n              footnotesName: 'footnotes'.tr,\n            ),\n            topBottomQuranStyle: TopBottomQuranStyle.defaults(\n              isDark: isDark,\n              context: context,\n            ).copyWith(\n              hizbName: 'hizb'.tr,\n              juzName: 'juz'.tr,\n              sajdaName: 'sajda'.tr,\n            ),\n          ),\n        ),\n      ),\n    );\n  }\n}"
           },
           "props": {
             "language": "dart"
@@ -351,59 +319,90 @@
       ],
       "blocks": [
         {
-          "type": "title",
+          "type": "gap",
           "content": {
-            "ar": "تحميل الخطوط",
-            "en": "Fonts Download",
-            "bn": "ফন্টস ডাউনলোড",
-            "id": "Pengunduhan Font",
-            "ur": "فونٹس ڈاؤن لوڈ",
-            "tr": "Yazı Tipleri İndirme",
-            "ku": "فۆنتەکان داگرتن",
-            "ms": "Muat Turun Fon",
-            "es": "Descarga de Fuentes"
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          },
+          "props": {
+            "height": "32"
           }
         },
         {
           "type": "paragraph",
           "content": {
-            "ar": "## لتحميل خطوط القرآن، أمامك خياران:",
-            "en": "## To download Quran fonts, you have two options:",
-            "bn": "## কুরআন ফন্ট ডাউনলোড করার জন্য, আপনার কাছে দুটি বিকল্প রয়েছে:",
-            "id": "## Untuk mengunduh font Quran, Anda memiliki dua pilihan:",
-            "ur": "## قرآن فونٹس ڈاؤن لوڈ کرنے کے لیے، آپ کے پاس دو اختیارات ہیں:",
-            "tr": "## Kuran yazı tiplerini indirmek için iki seçeneğiniz vardır:",
-            "ku": "## بۆ داگرتنی فۆنتەکانی قورئان، دوو بژاردەت هەیە:",
-            "ms": "## Untuk memuat turun fon Quran, anda mempunyai dua pilihan:",
-            "es": "## Para descargar fuentes del Corán, tienes dos opciones:"
+            "ar": "لتحميل خطوط القرآن، أمامك خياران:",
+            "en": "To download Quran fonts, you have two options:",
+            "bn": "কুরআন ফন্ট ডাউনলোড করার জন্য, আপনার কাছে দুটি বিকল্প রয়েছে:",
+            "id": "Untuk mengunduh font Quran, Anda memiliki dua pilihan:",
+            "ur": "قرآن فونٹس ڈاؤن لوڈ کرنے کے لیے، آپ کے پاس دو اختیارات ہیں:",
+            "tr": "Kuran yazı tiplerini indirmek için iki seçeneğiniz vardır:",
+            "ku": "بۆ داگرتنی فۆنتەکانی قورئان، دوو بژاردەت هەیە:",
+            "ms": "Untuk memuat turun fon Quran, anda mempunyai dua pilihan:",
+            "es": "Para descargar fuentes del Corán, tienes dos opciones:"
           }
         },
         {
           "type": "paragraph",
           "content": {
-            "ar": "### أما بالنسبة لاستخدام الحوار الافتراضي، فيمكنك تعديل النمط الخاص به.",
-            "en": "### As for using the default dialog, you can modify the style in it.",
-            "bn": "### ডিফল্ট ডায়ালগ ব্যবহার করার ক্ষেত্রে, আপনি এর মধ্যে স্টাইল পরিবর্তন করতে পারেন।",
-            "id": "### Mengenai penggunaan dialog default, Anda dapat memodifikasi style di dalamnya.",
-            "ur": "### جہاں تک ڈیفالٹ ڈائیلاگ کے استعمال کا تعلق ہے، آپ اس میں اسٹائل میں ترمیم کر سکتے ہیں۔",
-            "tr": "### Varsayılan iletişim kutusunu kullanmaya gelince, içindeki stili değiştirebilirsiniz.",
-            "ku": "### سەبارەت بە بەکارهێنانی دایەلۆگی بنەڕەتی، دەتوانیت ستایلەکەی تێیدا بگۆڕیت.",
-            "ms": "### Bagi penggunaan dialog lalai, anda boleh mengubah suai gaya di dalamnya.",
-            "es": "### En cuanto a usar el diálogo predeterminado, puedes modificar el estilo en él."
+            "ar": "أما بالنسبة لاستخدام الطريقة الافتراضي، فيمكنك تعديل النمط الخاص به.",
+            "en": "As for using the default dialog, you can modify the style in it.",
+            "bn": "ডিফল্ট ডায়ালগ ব্যবহার করার ক্ষেত্রে, আপনি এর মধ্যে স্টাইল পরিবর্তন করতে পারেন।",
+            "id": "Mengenai penggunaan dialog default, Anda dapat memodifikasi style di dalamnya.",
+            "ur": "جہاں تک ڈیفالٹ ڈائیلاگ کے استعمال کا تعلق ہے، آپ اس میں اسٹائل میں ترمیم کر سکتے ہیں۔",
+            "tr": "Varsayılan iletişim kutusunu kullanmaya gelince, içindeki stili değiştirebilirsiniz.",
+            "ku": "سەبارەت بە بەکارهێنانی دایەلۆگی بنەڕەتی، دەتوانیت ستایلەکەی تێیدا بگۆڕیت.",
+            "ms": "Bagi penggunaan dialog lalai, anda boleh mengubah suai gaya di dalamnya.",
+            "es": "En cuanto a usar el diálogo predeterminado, puedes modificar el estilo en él."
           }
         },
         {
           "type": "paragraph",
           "content": {
-            "ar": "### أو يمكنك إنشاء تصميمك الخاص باستخدام جميع دوال تحميل الخطوط.\n## يتطلب نظام macOS منك طلب استحقاق (entitlement) محدد للوصول إلى الشبكة.",
-            "en": "### Or you can create your own design using all the functions for downloading fonts. ## macOS needs you to request a specific entitlement in order to access the network.",
-            "bn": "### অথবা আপনি ফন্ট ডাউনলোডের জন্য সমস্ত ফাংশন ব্যবহার করে আপনার নিজস্ব ডিজাইন তৈরি করতে পারেন। ## macOS-এর নেটওয়ার্ক অ্যাক্সেস করার জন্য একটি নির্দিষ্ট এনটাইটেলমেন্ট অনুরোধ করার প্রয়োজন।",
-            "id": "### Atau Anda dapat membuat desain Anda sendiri menggunakan semua fungsi untuk mengunduh font. ## macOS mengharuskan Anda meminta hak khusus (entitlement) untuk mengakses jaringan.",
-            "ur": "### یا آپ فونٹس ڈاؤن لوڈ کرنے کے تمام فنکشنز کا استعمال کرتے ہوئے اپنا ڈیزائن بنا سکتے ہیں۔ ## نیٹ ورک تک رسائی حاصل کرنے کے لیے macOS کو آپ سے ایک مخصوص اینٹائٹلمنٹ کی درخواست کرنے کی ضرورت ہے۔",
-            "tr": "### Veya font indirme için tüm fonksiyonları kullanarak kendi tasarımınızı oluşturabilirsiniz. ## macOS, ağa erişmek için belirli bir yetkilendirme (entitlement) talep etmenizi gerektirir.",
-            "ku": "### یان دەتوانیت دیزاینی تایبەت بە خۆت دروست بکەیت بە بەکارهێنانی هەموو فەنکشنەکانی داگرتنی فۆنتەکان. ## macOS پێویستی بەوەیە کە داوای ئیختیاراتێکی تایبەت بکەیت بۆ ئەوەی دەستت بە تۆڕەکە بگات.",
-            "ms": "### Atau anda boleh mencipta reka bentuk anda sendiri menggunakan semua fungsi untuk memuat turun fon.\n## macOS memerlukan anda untuk meminta entitlement tertentu bagi mengakses rangkaian.",
-            "es": "### O puedes crear tu propio diseño utilizando todas las funciones para descargar fuentes. ## macOS requiere que solicites un derecho específico para acceder a la red."
+            "ar": "أو يمكنك إنشاء تصميمك الخاص باستخدام جميع دوال تحميل الخطوط.",
+            "en": "Or you can create your own design using all the functions for downloading fonts.",
+            "bn": "অথবা আপনি ফন্ট ডাউনলোডের জন্য সমস্ত ফাংশন ব্যবহার করে আপনার নিজস্ব ডিজাইন তৈরি করতে পারেন।",
+            "id": "Atau Anda dapat membuat desain Anda sendiri menggunakan semua fungsi untuk mengunduh font.",
+            "ur": "یا آپ فونٹس ڈاؤن لوڈ کرنے کے تمام فنکشنز کا استعمال کرتے ہوئے اپنا ڈیزائن بنا سکتے ہیں۔",
+            "tr": "Veya font indirme için tüm fonksiyonları kullanarak kendi tasarımınızı oluşturabilirsiniz.",
+            "ku": "یان دەتوانیت دیزاینی تایبەت بە خۆت دروست بکەیت بە بەکارهێنانی هەموو فەنکشنەکانی داگرتنی فۆنتەکان.",
+            "ms": "Atau anda boleh mencipta reka bentuk anda sendiri menggunakan semua fungsi untuk memuat turun fon.",
+            "es": "O puedes crear tu propio diseño utilizando todas las funciones para descargar fuentes."
+          }
+        },
+        {
+          "type": "gap",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          }
+        },
+        {
+          "type": "note",
+          "content": {
+            "ar": "يتطلب نظام macOS منك طلب استحقاق (entitlement) محدد للوصول إلى الشبكة.",
+            "en": "macOS needs you to request a specific entitlement in order to access the network.",
+            "bn": "macOS-এর নেটওয়ার্ক অ্যাক্সেস করার জন্য একটি নির্দিষ্ট এনটাইটেলমেন্ট অনুরোধ করার প্রয়োজন।",
+            "id": "macOS mengharuskan Anda meminta hak khusus (entitlement) untuk mengakses jaringan.",
+            "ur": "نیٹ ورک تک رسائی حاصل کرنے کے لیے macOS کو آپ سے ایک مخصوص اینٹائٹلمنٹ کی درخواست کرنے کی ضرورت ہے۔",
+            "tr": "macOS, ağa erişmek için belirli bir yetkilendirme (entitlement) talep etmenizi gerektirir.",
+            "ku": "macOS پێویستی بەوەیە کە داوای ئیختیاراتێکی تایبەت بکەیت بۆ ئەوەی دەستت بە تۆڕەکە بگات.",
+            "ms": "macOS memerlukan anda untuk meminta entitlement tertentu bagi mengakses rangkaian.",
+            "es": "macOS requiere que solicites un derecho específico para acceder a la red."
           }
         },
         {
@@ -686,9 +685,166 @@
       ]
     },
     {
-      "id": "getting_started_content",
+      "id": "individual_surah_display",
       "title": {
-        "ar": "البدء",
+        "ar": "العرض الفردي للسور",
+        "en": "Individual Surah Display",
+        "bn": "স্বতন্ত্র সূরা প্রদর্শন",
+        "id": "Tampilan Surah Individu",
+        "ur": "انفرادی سورۃ کا ڈسپلے",
+        "tr": "Tekil Sure Görüntüleme",
+        "ku": "نمایشی سوورەتی تاکەکەسی",
+        "ms": "Paparan Surah Individu",
+        "es": "Visualización Individual de Surah"
+      },
+      "order": 2,
+      "keywords": [
+        "individual",
+        "surah",
+        "display"
+      ],
+      "blocks": [
+        {
+          "type": "code",
+          "content": {
+            "ar": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),",
+            "en": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),",
+            "bn": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),",
+            "id": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),",
+            "ur": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),",
+            "tr": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),",
+            "ku": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),",
+            "ms": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),",
+            "es": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),"
+          },
+          "props": {
+            "language": "dart"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tafsir_feature",
+      "title": {
+        "ar": "التفسير",
+        "en": "Tafsir",
+        "bn": "তাফসীর",
+        "id": "Tafsir",
+        "ur": "تفسیر",
+        "tr": "Tefsir",
+        "ku": "تەفسیر",
+        "ms": "Tafsir",
+        "es": "Tafsir"
+      },
+      "order": 2,
+      "keywords": [
+        "tafsir"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "مثال للاستخدام",
+            "en": "Usage Example",
+            "bn": "ব্যবহারের উদাহরণ",
+            "id": "Contoh Penggunaan",
+            "ur": "استعمال کی مثال",
+            "tr": "Kullanım Örneği",
+            "ku": "نموونەی بەکارھێنان",
+            "ms": "Contoh Penggunaan",
+            "es": "Ejemplo de Uso"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\n  sourceFile: pickedFile,\n\n  displayName: 'My Custom Tafsir',\n\n  bookName: 'My Book',\n\n  type: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
+            "en": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\n  sourceFile: pickedFile,\n\n  displayName: 'My Custom Tafsir',\n\n  bookName: 'My Book',\n\n  type: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
+            "bn": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\n  sourceFile: pickedFile,\n\n  displayName: 'My Custom Tafsir',\n\n  bookName: 'My Book',\n\n  type: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
+            "id": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\n  sourceFile: pickedFile,\n\n  displayName: 'My Custom Tafsir',\n\n  bookName: 'My Book',\n\n  type: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
+            "ur": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\n  sourceFile: pickedFile,\n\n  displayName: 'My Custom Tafsir',\n\n  bookName: 'My Book',\n\n  type: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
+            "tr": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\n  sourceFile: pickedFile,\n\n  displayName: 'My Custom Tafsir',\n\n  bookName: 'My Book',\n\n  type: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
+            "ku": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\n  sourceFile: pickedFile,\n\n  displayName: 'My Custom Tafsir',\n\n  bookName: 'My Book',\n\n  type: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
+            "ms": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\n  sourceFile: pickedFile,\n\n  displayName: 'My Custom Tafsir',\n\n  bookName: 'My Book',\n\n  type: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
+            "es": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\n  sourceFile: pickedFile,\n\n  displayName: 'My Custom Tafsir',\n\n  bookName: 'My Book',\n\n  type: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);"
+          },
+          "props": {
+            "language": "dart"
+          }
+        }
+      ]
+    },
+    {
+      "id": "play_surah_audio",
+      "title": {
+        "ar": "تشغيل صوت السورة",
+        "en": "Play Surah Audio",
+        "bn": "সূরা অডিও চালান",
+        "id": "Putar Audio Surah",
+        "ur": "سورۃ آڈیو چلائیں",
+        "tr": "Surah Sesini Çal",
+        "ku": "ژەنینى دەنگى سوورەت",
+        "ms": "Dengar Audio Surah",
+        "es": "Reproducir Audio de Sura"
+      },
+      "order": 2,
+      "keywords": [
+        "play",
+        "surah",
+        "audio"
+      ],
+      "blocks": [
+        {
+          "type": "title",
+          "content": {
+            "ar": "تشغيل صوت السورة",
+            "en": "Play Surah Audio",
+            "bn": "সূরা অডিও চালান",
+            "id": "Putar Audio Surah",
+            "ur": "سورۃ آڈیو چلائیں",
+            "tr": "Surah Sesini Çal",
+            "ku": "ژەنینى دەنگى سوورەت",
+            "ms": "Dengar Audio Surah",
+            "es": "Reproducir Audio de Sura"
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "لتشغيل سورة كاملة:",
+            "en": "To play a whole Surah:",
+            "bn": "সম্পূর্ণ সূরা চালানোর জন্য:",
+            "id": "Untuk memainkan seluruh Surah:",
+            "ur": "پوری سورت چلانے کے لیے:",
+            "tr": "Tüm bir Sureyi oynatmak için:",
+            "ku": "بۆ لێدانی تەواوی سوورەتێک:",
+            "ms": "Untuk memainkan seluruh Surah:",
+            "es": "Para reproducir una Surah completa:"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "en": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "bn": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "id": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "ur": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "tr": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "ku": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "ms": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "es": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);"
+          },
+          "props": {
+            "language": "dart"
+          }
+        }
+      ]
+    },
+    {
+      "id": "permissions",
+      "title": {
+        "ar": "الأذونات والتهيئة",
         "en": "Getting started",
         "bn": "শুরু করা",
         "id": "Memulai",
@@ -700,22 +856,21 @@
       },
       "order": 2,
       "keywords": [
-        "getting",
-        "started"
+        "permissions"
       ],
       "blocks": [
         {
-          "type": "title",
+          "type": "subtitle",
           "content": {
-            "ar": "البدء",
-            "en": "Getting started",
-            "bn": "শুরু করা",
-            "id": "Memulai",
-            "ur": "شروع کرنا",
-            "tr": "Başlarken",
-            "ku": "دەستپێکردن",
-            "ms": "Bermula",
-            "es": "Empezando"
+            "ar": "Android",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
           }
         },
         {
@@ -795,6 +950,34 @@
           }
         },
         {
+          "type": "divider",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "IOS",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          }
+        },
+        {
           "type": "paragraph",
           "content": {
             "ar": "**iOS** لتشغيل الصوت في الخلفية، يجب عليك إضافة ما يلي إلى ملف `Info.plist` الخاص بتطبيقك:",
@@ -828,7 +1011,7 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "هذا يسمح باستمرار تشغيل الصوت عندما يكون التطبيق في الخلفية. في ملف `pubspec.yaml` لمشروع فلاتر الخاص بك، أضف التبعية التالية:",
+            "ar": "هذا يسمح باستمرار تشغيل الصوت عندما يكون التطبيق في الخلفية.",
             "en": "This allows audio playback to continue when the app is in the background. In the `pubspec.yaml` of your flutter project, add the following dependency:",
             "bn": "এটি অ্যাপটি ব্যাকগ্রাউন্ডে থাকা সত্ত্বেও অডিও প্লেব্যাক চালিয়ে যাওয়ার অনুমতি দেয়। আপনার ফ্লাটার প্রকল্পের `pubspec.yaml`-এ নিম্নলিখিত নির্ভরতা (dependency) যোগ করুন:",
             "id": "Ini memungkinkan pemutaran audio untuk terus berjalan ketika aplikasi berada di latar belakang. Di dalam `pubspec.yaml` proyek Flutter Anda, tambahkan dependensi berikut:",
@@ -837,318 +1020,6 @@
             "ku": "ئەمە ڕێگە دەدات کە لێدانی دەنگ بەردەوام بێت کاتێک ئەپەکە لە پاشبنەمادایە. لە `pubspec.yaml`ی پڕۆژەی فلتەرەکەتدا، ئەم پشتبەستنەی خوارەوە زیاد بکە:",
             "ms": "Ini membolehkan main balik audio berterusan apabila aplikasi berada di latar belakang. Dalam `pubspec.yaml` projek flutter anda, tambah kebergantungan berikut:",
             "es": "Esto permite que la reproducción de audio continúe cuando la aplicación está en segundo plano. En el `pubspec.yaml` de tu proyecto Flutter, añade la siguiente dependencia:"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "dependencies:\n...\nquran_library: ^2.2.4+1",
-            "en": "dependencies:\n...\nquran_library: ^2.2.4+1",
-            "bn": "dependencies:\n...\nquran_library: ^2.2.4+1",
-            "id": "dependencies:\n...\nquran_library: ^2.2.4+1",
-            "ur": "dependencies:\n...\nquran_library: ^2.2.4+1",
-            "tr": "dependencies:\n...\nquran_library: ^2.2.4+1",
-            "ku": "dependencies:\n...\nquran_library: ^2.2.4+1",
-            "ms": "dependencies:\n...\nquran_library: ^2.2.4+1",
-            "es": "dependencies:\n...\nquran_library: ^2.2.4+1"
-          },
-          "props": {
-            "language": "yaml"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "قم باستيراده:",
-            "en": "Import it:",
-            "bn": "আমদানি করুন:",
-            "id": "Impor itu:",
-            "ur": "اسے درآمد کریں:",
-            "tr": "İçe aktarın:",
-            "ku": "ئیمپۆرتی بکە:",
-            "ms": "Import it:",
-            "es": "Import it:"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "import 'package:quran_library/quran_library.dart';",
-            "en": "import 'package:quran_library/quran_library.dart';",
-            "bn": "import 'package:quran_library/quran_library.dart';",
-            "id": "import 'package:quran_library/quran_library.dart';",
-            "ur": "import 'package:quran_library/quran_library.dart';",
-            "tr": "import 'package:quran_library/quran_library.dart';",
-            "ku": "import 'package:quran_library/quran_library.dart';",
-            "ms": "import 'package:quran_library/quran_library.dart';",
-            "es": "import 'package:quran_library/quran_library.dart';"
-          },
-          "props": {
-            "language": "dart"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "قم بتهيئته:",
-            "en": "Initialize it:",
-            "bn": "এটি প্রাথমিকীকরণ করুন:",
-            "id": "Inisialisasikannya:",
-            "ur": "اسے شروع کریں:",
-            "tr": "Başlatın:",
-            "ku": "دەستپێکی بکە:",
-            "ms": "Mulakannya:",
-            "es": "Inicialízalo:"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "en": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "bn": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "id": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "ur": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "tr": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "ku": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "ms": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "es": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}"
-          },
-          "props": {
-            "language": "dart"
-          }
-        }
-      ]
-    },
-    {
-      "id": "individual_surah_display",
-      "title": {
-        "ar": "العرض الفردي للسور",
-        "en": "Individual Surah Display",
-        "bn": "স্বতন্ত্র সূরা প্রদর্শন",
-        "id": "Tampilan Surah Individu",
-        "ur": "انفرادی سورۃ کا ڈسپلے",
-        "tr": "Tekil Sure Görüntüleme",
-        "ku": "نمایشی سوورەتی تاکەکەسی",
-        "ms": "Paparan Surah Individu",
-        "es": "Visualización Individual de Surah"
-      },
-      "order": 2,
-      "keywords": [
-        "individual",
-        "surah",
-        "display"
-      ],
-      "blocks": [
-        {
-          "type": "title",
-          "content": {
-            "ar": "العرض الفردي للسور",
-            "en": "Individual Surah Display",
-            "bn": "স্বতন্ত্র সূরা প্রদর্শন",
-            "id": "Tampilan Surah Individu",
-            "ur": "انفرادی سورت کا ڈسپلے",
-            "tr": "Tekil Sure Görüntüleme",
-            "ku": "نمایشی سوورەت بە تەنیا",
-            "ms": "Paparan Surah Individu",
-            "es": "Visualización Individual de Surah"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),",
-            "en": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),",
-            "bn": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),",
-            "id": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),",
-            "ur": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),",
-            "tr": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),",
-            "ku": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),",
-            "ms": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),",
-            "es": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),"
-          },
-          "props": {
-            "language": "dart"
-          }
-        }
-      ]
-    },
-    {
-      "id": "tafsir_feature",
-      "title": {
-        "ar": "تفسير",
-        "en": "Tafsir",
-        "bn": "তাফসীর",
-        "id": "Tafsir",
-        "ur": "تفسیر",
-        "tr": "Tefsir",
-        "ku": "تەفسیر",
-        "ms": "Tafsir",
-        "es": "Tafsir"
-      },
-      "order": 2,
-      "keywords": [
-        "tafsir"
-      ],
-      "blocks": [
-        {
-          "type": "title",
-          "content": {
-            "ar": "تفسير",
-            "en": "Tafsir",
-            "bn": "তাফসীর",
-            "id": "Tafsir",
-            "ur": "تفسیر",
-            "tr": "Tefsir",
-            "ku": "تەفسیر",
-            "ms": "Tafsir",
-            "es": "Tafsir"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "* ### مثال للاستخدام",
-            "en": "* ### Usage Example",
-            "bn": "* ### ব্যবহারের উদাহরণ",
-            "id": "* ### Contoh Penggunaan",
-            "ur": "* ### استعمال کی مثال",
-            "tr": "* ### Kullanım Örneği",
-            "ku": "* ### نموونەی بەکارھێنان",
-            "ms": "* ### Contoh Penggunaan",
-            "es": "* ### Ejemplo de Uso"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
-            "en": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
-            "bn": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
-            "id": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
-            "ur": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
-            "tr": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
-            "ku": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
-            "ms": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
-            "es": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);"
-          },
-          "props": {
-            "language": "dart"
-          }
-        }
-      ]
-    },
-    {
-      "id": "license",
-      "title": {
-        "ar": "ترخيص",
-        "en": "License",
-        "bn": "লাইসেন্স",
-        "id": "Lisensi",
-        "ur": "لائسنس",
-        "tr": "Lisans",
-        "ku": "مۆڵەتنامە",
-        "ms": "Lesen",
-        "es": "Licencia"
-      },
-      "order": 2,
-      "keywords": [
-        "license"
-      ],
-      "blocks": [
-        {
-          "type": "title",
-          "content": {
-            "ar": "ترخيص",
-            "en": "License",
-            "bn": "লাইসেন্স",
-            "id": "Lisensi",
-            "ur": "لائسنس",
-            "tr": "Lisans",
-            "ku": "مۆڵەتنامە",
-            "ms": "Lesen",
-            "es": "Licencia"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "ترخيص MIT للشيفرة. يتم توفير خطوط QCF عبر المكتبة القرآنية العالمية (QUL). تأكد من التزامك بشروط QUL (وأي شروط سابقة لـ KFGQPC) عند توزيع التطبيقات التي تتضمن أو تدمج هذه الأصول. اقرأ المزيد عن الترخيص [هنا](LICENSE).",
-            "en": "MIT for code. QCF fonts are provided via Quranic Universal Library (QUL). Ensure you comply with QUL terms (and any upstream KFGQPC terms) when distributing applications that include or bundle these assets. Read more about the license [here](LICENSE).",
-            "bn": "কোডের জন্য MIT। QCF ফন্টগুলি কুরআনীয় ইউনিভার্সাল লাইব্রেরি (QUL)-এর মাধ্যমে সরবরাহ করা হয়। এই সম্পদগুলি অন্তর্ভুক্ত বা বান্ডিল করে এমন অ্যাপ্লিকেশন বিতরণ করার সময় আপনি QUL শর্তাবলী (এবং যেকোনো আপস্ট্রিম KFGQPC শর্তাবলী) মেনে চলছেন তা নিশ্চিত করুন। লাইসেন্স সম্পর্কে আরও পড়ুন [এখানে](LICENSE)।",
-            "id": "MIT untuk kode. Font QCF disediakan melalui Pustaka Universal Quran (QUL). Pastikan Anda mematuhi persyaratan QUL (dan persyaratan KFGQPC hulu mana pun) saat mendistribusikan aplikasi yang menyertakan atau menggabungkan aset-aset ini. Baca lebih lanjut tentang lisensi [di sini](LICENSE).",
-            "ur": "کوڈ کے لیے MIT۔ QCF فونٹس قرآنی یونیورسل لائبریری (QUL) کے ذریعے فراہم کیے جاتے ہیں۔ یقینی بنائیں کہ ان اثاثوں کو شامل کرنے یا بنڈل کرنے والی ایپلیکیشنز کو تقسیم کرتے وقت آپ QUL کی شرائط (اور کسی بھی بالائی KFGQPC کی شرائط) کی تعمیل کرتے ہیں۔ لائسنس کے بارے میں مزید [یہاں](LICENSE) پڑھیں۔",
-            "tr": "Kod için MIT. QCF yazı tipleri, Quranic Universal Library (Kuran Evrensel Kütüphanesi - QUL) aracılığıyla sağlanır. Bu varlıkları içeren veya bunlarla birlikte gelen uygulamaları dağıtırken QUL şartlarına (ve herhangi bir üst akım KFGQPC şartlarına) uyduğunuzdan emin olun. Lisans hakkında daha fazla bilgiyi [burada](LICENSE) okuyun.",
-            "ku": "MIT بۆ کۆد. فۆنتەکانی QCF لە ڕێگەی کتێبخانەی گشتگیری قورئانی (QUL) دابین دەکرێن. دڵنیابە لە پابەندبوون بە مەرجەکانی QUL (و هەر مەرجێکی سەرچاوەی KFGQPC) کاتێک ئەپڵیکەیشنەکان دابەش دەکەیت کە ئەم سەروەتانە لەخۆدەگرن یان کۆیان دەکەنەوە. زیاتر لەسەر مۆڵەتەکە [لێرە](LICENSE) بخوێنەوە.",
-            "ms": "MIT untuk kod. Fon QCF disediakan melalui Perpustakaan Universal Quranik (QUL). Pastikan anda mematuhi terma QUL (dan sebarang terma KFGQPC huluan) apabila mengedarkan aplikasi yang menyertakan atau menggabungkan aset-aset ini. Baca lebih lanjut mengenai lesen [di sini](LICENSE).",
-            "es": "MIT para el código. Las fuentes QCF se proporcionan a través de la Biblioteca Universal Coránica (QUL). Asegúrese de cumplir con los términos de QUL (y cualquier término ascendente de KFGQPC) al distribuir aplicaciones que incluyan o agrupen estos activos. Lea más sobre la licencia [aquí](LICENSE)."
-          }
-        }
-      ]
-    },
-    {
-      "id": "play_surah_audio",
-      "title": {
-        "ar": "تشغيل صوت السورة",
-        "en": "Play Surah Audio",
-        "bn": "সূরা অডিও চালান",
-        "id": "Putar Audio Surah",
-        "ur": "سورۃ آڈیو چلائیں",
-        "tr": "Surah Sesini Çal",
-        "ku": "ژەنینى دەنگى سوورەت",
-        "ms": "Dengar Audio Surah",
-        "es": "Reproducir Audio de Sura"
-      },
-      "order": 2,
-      "keywords": [
-        "play",
-        "surah",
-        "audio"
-      ],
-      "blocks": [
-        {
-          "type": "title",
-          "content": {
-            "ar": "تشغيل صوت السورة",
-            "en": "Play Surah Audio",
-            "bn": "সূরা অডিও চালান",
-            "id": "Putar Audio Surah",
-            "ur": "سورۃ آڈیو چلائیں",
-            "tr": "Surah Sesini Çal",
-            "ku": "ژەنینى دەنگى سوورەت",
-            "ms": "Dengar Audio Surah",
-            "es": "Reproducir Audio de Sura"
-          }
-        },
-        {
-          "type": "subtitle",
-          "content": {
-            "ar": "لتشغيل سورة كاملة:",
-            "en": "To play a whole Surah:",
-            "bn": "সম্পূর্ণ সূরা চালানোর জন্য:",
-            "id": "Untuk memainkan seluruh Surah:",
-            "ur": "پوری سورت چلانے کے لیے:",
-            "tr": "Tüm bir Sureyi oynatmak için:",
-            "ku": "بۆ لێدانی تەواوی سوورەتێک:",
-            "ms": "Untuk memainkan seluruh Surah:",
-            "es": "Para reproducir una Surah completa:"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "en": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "bn": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "id": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "ur": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "tr": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "ku": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "ms": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "es": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);"
-          },
-          "props": {
-            "language": "dart"
           }
         }
       ]
@@ -1173,20 +1044,6 @@
         "display"
       ],
       "blocks": [
-        {
-          "type": "title",
-          "content": {
-            "ar": "عرض آية واحدة",
-            "en": "Single Ayah Display",
-            "bn": "একক আয়াত প্রদর্শন",
-            "id": "Tampilan Ayah Tunggal",
-            "ur": "ایک آیت ڈسپلے",
-            "tr": "Tek Ayet Görüntüleme",
-            "ku": "نمایشی تەنیا یەک ئایەت",
-            "ms": "Paparan Ayah Tunggal",
-            "es": "Visualización de Ayah Individual"
-          }
-        },
         {
           "type": "code",
           "content": {
@@ -1230,20 +1087,6 @@
         "highlighting"
       ],
       "blocks": [
-        {
-          "type": "title",
-          "content": {
-            "ar": "الصفحات الجزئية (مفردة أو نطاق) + التظليل",
-            "en": "Partial Pages (single or range) + Highlighting",
-            "bn": "আংশিক পৃষ্ঠা (একক বা পরিসর) + হাইলাইটিং",
-            "id": "Halaman Parsial (tunggal atau rentang) + Penyorotan",
-            "ur": "جزوی صفحات (واحد یا حد) + نمایاں کرنا",
-            "tr": "Kısmi Sayfalar (tekli veya aralık) + Vurgulama",
-            "ku": "پەڕاوگەلی بەشەکی (تاک یان مەودا) + دیاریکردن",
-            "ms": "Halaman Separa (tunggal atau julat) + Penyerlahan",
-            "es": "Páginas Parciales (única o rango) + Resaltado"
-          }
-        },
         {
           "type": "paragraph",
           "content": {
@@ -1289,15 +1132,15 @@
         {
           "type": "code",
           "content": {
-            "ar": "// Single page\nQuranPagesScreen(\nparentContext: context,\npage: 6,\n)\n\n// Range of pages (inclusive)\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 11,\n)\n\n// Optional: disable page view if you want a static view\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 7,\nwithPageView: false,\n)",
-            "en": "// Single page\nQuranPagesScreen(\nparentContext: context,\npage: 6,\n)\n\n// Range of pages (inclusive)\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 11,\n)\n\n// Optional: disable page view if you want a static view\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 7,\nwithPageView: false,\n)",
-            "bn": "// Single page\nQuranPagesScreen(\nparentContext: context,\npage: 6,\n)\n\n// Range of pages (inclusive)\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 11,\n)\n\n// Optional: disable page view if you want a static view\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 7,\nwithPageView: false,\n)",
-            "id": "// Single page\nQuranPagesScreen(\nparentContext: context,\npage: 6,\n)\n\n// Range of pages (inclusive)\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 11,\n)\n\n// Optional: disable page view if you want a static view\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 7,\nwithPageView: false,\n)",
-            "ur": "// Single page\nQuranPagesScreen(\nparentContext: context,\npage: 6,\n)\n\n// Range of pages (inclusive)\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 11,\n)\n\n// Optional: disable page view if you want a static view\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 7,\nwithPageView: false,\n)",
-            "tr": "// Single page\nQuranPagesScreen(\nparentContext: context,\npage: 6,\n)\n\n// Range of pages (inclusive)\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 11,\n)\n\n// Optional: disable page view if you want a static view\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 7,\nwithPageView: false,\n)",
-            "ku": "// Single page\nQuranPagesScreen(\nparentContext: context,\npage: 6,\n)\n\n// Range of pages (inclusive)\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 11,\n)\n\n// Optional: disable page view if you want a static view\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 7,\nwithPageView: false,\n)",
-            "ms": "// Single page\nQuranPagesScreen(\nparentContext: context,\npage: 6,\n)\n\n// Range of pages (inclusive)\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 11,\n)\n\n// Optional: disable page view if you want a static view\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 7,\nwithPageView: false,\n)",
-            "es": "// Single page\nQuranPagesScreen(\nparentContext: context,\npage: 6,\n)\n\n// Range of pages (inclusive)\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 11,\n)\n\n// Optional: disable page view if you want a static view\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 7,\nwithPageView: false,\n)"
+            "ar": "// Single page\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n)\n\n// Range of pages (inclusive)\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 11,\n)\n\n// Optional: disable page view if you want a static view\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 7,\n  withPageView: false,\n)",
+            "en": "// Single page\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n)\n\n// Range of pages (inclusive)\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 11,\n)\n\n// Optional: disable page view if you want a static view\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 7,\n  withPageView: false,\n)",
+            "bn": "// Single page\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n)\n\n// Range of pages (inclusive)\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 11,\n)\n\n// Optional: disable page view if you want a static view\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 7,\n  withPageView: false,\n)",
+            "id": "// Single page\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n)\n\n// Range of pages (inclusive)\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 11,\n)\n\n// Optional: disable page view if you want a static view\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 7,\n  withPageView: false,\n)",
+            "ur": "// Single page\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n)\n\n// Range of pages (inclusive)\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 11,\n)\n\n// Optional: disable page view if you want a static view\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 7,\n  withPageView: false,\n)",
+            "tr": "// Single page\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n)\n\n// Range of pages (inclusive)\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 11,\n)\n\n// Optional: disable page view if you want a static view\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 7,\n  withPageView: false,\n)",
+            "ku": "// Single page\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n)\n\n// Range of pages (inclusive)\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 11,\n)\n\n// Optional: disable page view if you want a static view\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 7,\n  withPageView: false,\n)",
+            "ms": "// Single page\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n)\n\n// Range of pages (inclusive)\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 11,\n)\n\n// Optional: disable page view if you want a static view\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 7,\n  withPageView: false,\n)",
+            "es": "// Single page\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n)\n\n// Range of pages (inclusive)\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 11,\n)\n\n// Optional: disable page view if you want a static view\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 7,\n  withPageView: false,\n)"
           },
           "props": {
             "language": "dart"
@@ -1320,15 +1163,15 @@
         {
           "type": "code",
           "content": {
-            "ar": "// Highlight by Surah and Ayah numbers\nQuranPagesScreen(\nparentContext: context,\npage: 6,\nhighlightedAyahNumbersBySurah: {\n18: [1, 5, 10], // Surah Al-Kahf: ayahs 1,5,10\n36: [3],        // Surah Ya-Sin: ayah 3\n},\n)\n\n// Highlight by page range + ayah numbers (within those pages)\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 11,\nhighlightedAyahNumbersInPages: [\n(start: 6, end: 11, ayahs: [1, 3, 5]),\n],\n)\n\n// If you already have unique ayah numbers (UQ), you can still pass them directly\nQuranPagesScreen(\nparentContext: context,\npage: 6,\nhighlightedAyahs: [1023, 1024, 1025],\n)",
-            "en": "// Highlight by Surah and Ayah numbers\nQuranPagesScreen(\nparentContext: context,\npage: 6,\nhighlightedAyahNumbersBySurah: {\n18: [1, 5, 10], // Surah Al-Kahf: ayahs 1,5,10\n36: [3],        // Surah Ya-Sin: ayah 3\n},\n)\n\n// Highlight by page range + ayah numbers (within those pages)\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 11,\nhighlightedAyahNumbersInPages: [\n(start: 6, end: 11, ayahs: [1, 3, 5]),\n],\n)\n\n// If you already have unique ayah numbers (UQ), you can still pass them directly\nQuranPagesScreen(\nparentContext: context,\npage: 6,\nhighlightedAyahs: [1023, 1024, 1025],\n)",
-            "bn": "// Highlight by Surah and Ayah numbers\nQuranPagesScreen(\nparentContext: context,\npage: 6,\nhighlightedAyahNumbersBySurah: {\n18: [1, 5, 10], // Surah Al-Kahf: ayahs 1,5,10\n36: [3],        // Surah Ya-Sin: ayah 3\n},\n)\n\n// Highlight by page range + ayah numbers (within those pages)\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 11,\nhighlightedAyahNumbersInPages: [\n(start: 6, end: 11, ayahs: [1, 3, 5]),\n],\n)\n\n// If you already have unique ayah numbers (UQ), you can still pass them directly\nQuranPagesScreen(\nparentContext: context,\npage: 6,\nhighlightedAyahs: [1023, 1024, 1025],\n)",
-            "id": "// Highlight by Surah and Ayah numbers\nQuranPagesScreen(\nparentContext: context,\npage: 6,\nhighlightedAyahNumbersBySurah: {\n18: [1, 5, 10], // Surah Al-Kahf: ayahs 1,5,10\n36: [3],        // Surah Ya-Sin: ayah 3\n},\n)\n\n// Highlight by page range + ayah numbers (within those pages)\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 11,\nhighlightedAyahNumbersInPages: [\n(start: 6, end: 11, ayahs: [1, 3, 5]),\n],\n)\n\n// If you already have unique ayah numbers (UQ), you can still pass them directly\nQuranPagesScreen(\nparentContext: context,\npage: 6,\nhighlightedAyahs: [1023, 1024, 1025],\n)",
-            "ur": "// Highlight by Surah and Ayah numbers\nQuranPagesScreen(\nparentContext: context,\npage: 6,\nhighlightedAyahNumbersBySurah: {\n18: [1, 5, 10], // Surah Al-Kahf: ayahs 1,5,10\n36: [3],        // Surah Ya-Sin: ayah 3\n},\n)\n\n// Highlight by page range + ayah numbers (within those pages)\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 11,\nhighlightedAyahNumbersInPages: [\n(start: 6, end: 11, ayahs: [1, 3, 5]),\n],\n)\n\n// If you already have unique ayah numbers (UQ), you can still pass them directly\nQuranPagesScreen(\nparentContext: context,\npage: 6,\nhighlightedAyahs: [1023, 1024, 1025],\n)",
-            "tr": "// Highlight by Surah and Ayah numbers\nQuranPagesScreen(\nparentContext: context,\npage: 6,\nhighlightedAyahNumbersBySurah: {\n18: [1, 5, 10], // Surah Al-Kahf: ayahs 1,5,10\n36: [3],        // Surah Ya-Sin: ayah 3\n},\n)\n\n// Highlight by page range + ayah numbers (within those pages)\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 11,\nhighlightedAyahNumbersInPages: [\n(start: 6, end: 11, ayahs: [1, 3, 5]),\n],\n)\n\n// If you already have unique ayah numbers (UQ), you can still pass them directly\nQuranPagesScreen(\nparentContext: context,\npage: 6,\nhighlightedAyahs: [1023, 1024, 1025],\n)",
-            "ku": "// Highlight by Surah and Ayah numbers\nQuranPagesScreen(\nparentContext: context,\npage: 6,\nhighlightedAyahNumbersBySurah: {\n18: [1, 5, 10], // Surah Al-Kahf: ayahs 1,5,10\n36: [3],        // Surah Ya-Sin: ayah 3\n},\n)\n\n// Highlight by page range + ayah numbers (within those pages)\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 11,\nhighlightedAyahNumbersInPages: [\n(start: 6, end: 11, ayahs: [1, 3, 5]),\n],\n)\n\n// If you already have unique ayah numbers (UQ), you can still pass them directly\nQuranPagesScreen(\nparentContext: context,\npage: 6,\nhighlightedAyahs: [1023, 1024, 1025],\n)",
-            "ms": "// Highlight by Surah and Ayah numbers\nQuranPagesScreen(\nparentContext: context,\npage: 6,\nhighlightedAyahNumbersBySurah: {\n18: [1, 5, 10], // Surah Al-Kahf: ayahs 1,5,10\n36: [3],        // Surah Ya-Sin: ayah 3\n},\n)\n\n// Highlight by page range + ayah numbers (within those pages)\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 11,\nhighlightedAyahNumbersInPages: [\n(start: 6, end: 11, ayahs: [1, 3, 5]),\n],\n)\n\n// If you already have unique ayah numbers (UQ), you can still pass them directly\nQuranPagesScreen(\nparentContext: context,\npage: 6,\nhighlightedAyahs: [1023, 1024, 1025],\n)",
-            "es": "// Highlight by Surah and Ayah numbers\nQuranPagesScreen(\nparentContext: context,\npage: 6,\nhighlightedAyahNumbersBySurah: {\n18: [1, 5, 10], // Surah Al-Kahf: ayahs 1,5,10\n36: [3],        // Surah Ya-Sin: ayah 3\n},\n)\n\n// Highlight by page range + ayah numbers (within those pages)\nQuranPagesScreen(\nparentContext: context,\nstartPage: 6,\nendPage: 11,\nhighlightedAyahNumbersInPages: [\n(start: 6, end: 11, ayahs: [1, 3, 5]),\n],\n)\n\n// If you already have unique ayah numbers (UQ), you can still pass them directly\nQuranPagesScreen(\nparentContext: context,\npage: 6,\nhighlightedAyahs: [1023, 1024, 1025],\n)"
+            "ar": "// Highlight by Surah and Ayah numbers\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  highlightedAyahNumbersBySurah: {\n    18: [1, 5, 10], // Surah Al-Kahf: ayahs 1,5,10\n    36: [3],        // Surah Ya-Sin: ayah 3\n  },\n)\n\n// Highlight by page range + ayah numbers (within those pages)\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 11,\n  highlightedAyahNumbersInPages: [\n    (start: 6, end: 11, ayahs: [1, 3, 5]),\n  ],\n)\n\n// If you already have unique ayah numbers (UQ), you can still pass them directly\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  highlightedAyahs: [1023, 1024, 1025],\n)",
+            "en": "// Highlight by Surah and Ayah numbers\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  highlightedAyahNumbersBySurah: {\n    18: [1, 5, 10], // Surah Al-Kahf: ayahs 1,5,10\n    36: [3],        // Surah Ya-Sin: ayah 3\n  },\n)\n\n// Highlight by page range + ayah numbers (within those pages)\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 11,\n  highlightedAyahNumbersInPages: [\n    (start: 6, end: 11, ayahs: [1, 3, 5]),\n  ],\n)\n\n// If you already have unique ayah numbers (UQ), you can still pass them directly\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  highlightedAyahs: [1023, 1024, 1025],\n)",
+            "bn": "// Highlight by Surah and Ayah numbers\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  highlightedAyahNumbersBySurah: {\n    18: [1, 5, 10], // Surah Al-Kahf: ayahs 1,5,10\n    36: [3],        // Surah Ya-Sin: ayah 3\n  },\n)\n\n// Highlight by page range + ayah numbers (within those pages)\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 11,\n  highlightedAyahNumbersInPages: [\n    (start: 6, end: 11, ayahs: [1, 3, 5]),\n  ],\n)\n\n// If you already have unique ayah numbers (UQ), you can still pass them directly\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  highlightedAyahs: [1023, 1024, 1025],\n)",
+            "id": "// Highlight by Surah and Ayah numbers\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  highlightedAyahNumbersBySurah: {\n    18: [1, 5, 10], // Surah Al-Kahf: ayahs 1,5,10\n    36: [3],        // Surah Ya-Sin: ayah 3\n  },\n)\n\n// Highlight by page range + ayah numbers (within those pages)\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 11,\n  highlightedAyahNumbersInPages: [\n    (start: 6, end: 11, ayahs: [1, 3, 5]),\n  ],\n)\n\n// If you already have unique ayah numbers (UQ), you can still pass them directly\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  highlightedAyahs: [1023, 1024, 1025],\n)",
+            "ur": "// Highlight by Surah and Ayah numbers\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  highlightedAyahNumbersBySurah: {\n    18: [1, 5, 10], // Surah Al-Kahf: ayahs 1,5,10\n    36: [3],        // Surah Ya-Sin: ayah 3\n  },\n)\n\n// Highlight by page range + ayah numbers (within those pages)\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 11,\n  highlightedAyahNumbersInPages: [\n    (start: 6, end: 11, ayahs: [1, 3, 5]),\n  ],\n)\n\n// If you already have unique ayah numbers (UQ), you can still pass them directly\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  highlightedAyahs: [1023, 1024, 1025],\n)",
+            "tr": "// Highlight by Surah and Ayah numbers\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  highlightedAyahNumbersBySurah: {\n    18: [1, 5, 10], // Surah Al-Kahf: ayahs 1,5,10\n    36: [3],        // Surah Ya-Sin: ayah 3\n  },\n)\n\n// Highlight by page range + ayah numbers (within those pages)\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 11,\n  highlightedAyahNumbersInPages: [\n    (start: 6, end: 11, ayahs: [1, 3, 5]),\n  ],\n)\n\n// If you already have unique ayah numbers (UQ), you can still pass them directly\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  highlightedAyahs: [1023, 1024, 1025],\n)",
+            "ku": "// Highlight by Surah and Ayah numbers\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  highlightedAyahNumbersBySurah: {\n    18: [1, 5, 10], // Surah Al-Kahf: ayahs 1,5,10\n    36: [3],        // Surah Ya-Sin: ayah 3\n  },\n)\n\n// Highlight by page range + ayah numbers (within those pages)\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 11,\n  highlightedAyahNumbersInPages: [\n    (start: 6, end: 11, ayahs: [1, 3, 5]),\n  ],\n)\n\n// If you already have unique ayah numbers (UQ), you can still pass them directly\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  highlightedAyahs: [1023, 1024, 1025],\n)",
+            "ms": "// Highlight by Surah and Ayah numbers\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  highlightedAyahNumbersBySurah: {\n    18: [1, 5, 10], // Surah Al-Kahf: ayahs 1,5,10\n    36: [3],        // Surah Ya-Sin: ayah 3\n  },\n)\n\n// Highlight by page range + ayah numbers (within those pages)\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 11,\n  highlightedAyahNumbersInPages: [\n    (start: 6, end: 11, ayahs: [1, 3, 5]),\n  ],\n)\n\n// If you already have unique ayah numbers (UQ), you can still pass them directly\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  highlightedAyahs: [1023, 1024, 1025],\n)",
+            "es": "// Highlight by Surah and Ayah numbers\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  highlightedAyahNumbersBySurah: {\n    18: [1, 5, 10], // Surah Al-Kahf: ayahs 1,5,10\n    36: [3],        // Surah Ya-Sin: ayah 3\n  },\n)\n\n// Highlight by page range + ayah numbers (within those pages)\nQuranPagesScreen(\n  parentContext: context,\n  startPage: 6,\n  endPage: 11,\n  highlightedAyahNumbersInPages: [\n    (start: 6, end: 11, ayahs: [1, 3, 5]),\n  ],\n)\n\n// If you already have unique ayah numbers (UQ), you can still pass them directly\nQuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  highlightedAyahs: [1023, 1024, 1025],\n)"
           },
           "props": {
             "language": "dart"
@@ -1351,15 +1194,15 @@
         {
           "type": "code",
           "content": {
-            "ar": "QuranPagesScreen(\nparentContext: context,\npage: 6,\nenableMultiSelect: true,\n)",
-            "en": "QuranPagesScreen(\nparentContext: context,\npage: 6,\nenableMultiSelect: true,\n)",
-            "bn": "QuranPagesScreen(\nparentContext: context,\npage: 6,\nenableMultiSelect: true,\n)",
-            "id": "QuranPagesScreen(\nparentContext: context,\npage: 6,\nenableMultiSelect: true,\n)",
-            "ur": "QuranPagesScreen(\nparentContext: context,\npage: 6,\nenableMultiSelect: true,\n)",
-            "tr": "QuranPagesScreen(\nparentContext: context,\npage: 6,\nenableMultiSelect: true,\n)",
-            "ku": "QuranPagesScreen(\nparentContext: context,\npage: 6,\nenableMultiSelect: true,\n)",
-            "ms": "QuranPagesScreen(\nparentContext: context,\npage: 6,\nenableMultiSelect: true,\n)",
-            "es": "QuranPagesScreen(\nparentContext: context,\npage: 6,\nenableMultiSelect: true,\n)"
+            "ar": "QuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  enableMultiSelect: true,\n)",
+            "en": "QuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  enableMultiSelect: true,\n)",
+            "bn": "QuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  enableMultiSelect: true,\n)",
+            "id": "QuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  enableMultiSelect: true,\n)",
+            "ur": "QuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  enableMultiSelect: true,\n)",
+            "tr": "QuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  enableMultiSelect: true,\n)",
+            "ku": "QuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  enableMultiSelect: true,\n)",
+            "ms": "QuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  enableMultiSelect: true,\n)",
+            "es": "QuranPagesScreen(\n  parentContext: context,\n  page: 6,\n  enableMultiSelect: true,\n)"
           },
           "props": {
             "language": "dart"
@@ -1382,34 +1225,6 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "`QuranPagesScreen` هو StatelessWidget.",
-            "en": "`QuranPagesScreen` is a StatelessWidget.",
-            "bn": "`QuranPagesScreen` একটি `StatelessWidget` হয়।",
-            "id": "`QuranPagesScreen` adalah sebuah StatelessWidget.",
-            "ur": "`QuranPagesScreen` ایک StatelessWidget ہے۔",
-            "tr": "`QuranPagesScreen` bir StatelessWidget'tır.",
-            "ku": "`QuranPagesScreen` بریتییە لە StatelessWidget.",
-            "ms": "`QuranPagesScreen` ialah StatelessWidget.",
-            "es": "`QuranPagesScreen` es un StatelessWidget."
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "يُطبَّق الإبراز برمجيًا ولا يحل محل التحديد اليدوي.",
-            "en": "Highlighting is applied programmatically and does not replace manual selection.",
-            "bn": "হাইলাইটিং প্রোগ্রাম্যাটিকভাবে প্রয়োগ করা হয় এবং ম্যানুয়াল নির্বাচনকে প্রতিস্থাপন করে না।",
-            "id": "Penyorotan diterapkan secara terprogram dan tidak menggantikan pemilihan manual.",
-            "ur": "ہائی لائٹنگ کا اطلاق پروگرام کے ذریعے کیا جاتا ہے اور یہ دستی انتخاب کی جگہ نہیں لیتا ہے۔",
-            "tr": "Vurgulama programlı olarak uygulanır ve manuel seçimin yerini almaz.",
-            "ku": "خستنەڕووی بەرنامەیی جێبەجێ دەکرێت و جێگەی هەڵبژاردنی دەستی ناگرێتەوە.",
-            "ms": "Penyerlahan diterapkan secara programatik dan tidak menggantikan pemilihan manual.",
-            "es": "El resaltado se aplica programáticamente y no reemplaza la selección manual."
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
             "ar": "يمكنك دمج مدخلات تمييز متعددة؛ سيتم دمجها داخليًا.",
             "en": "You can combine multiple highlighting inputs; they’ll be merged internally.",
             "bn": "আপনি একাধিক হাইলাইটিং ইনপুটস একত্রিত করতে পারেন; সেগুলিকে অভ্যন্তরীণভাবে মার্জ করা হবে।",
@@ -1419,37 +1234,6 @@
             "ku": "تێکەڵکردنی چەندین داتای ڕووناککردنەوە دەکرێت؛ ئەوان لە ناوخۆدا یەکدەگرن.",
             "ms": "Anda boleh menggabungkan berbilang input penyerlahan; ia akan digabungkan secara dalaman.",
             "es": "Puedes combinar múltiples entradas de resaltado; se fusionarán internamente."
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "**استخدام GetSingleAyah في قائمة:**",
-            "en": "**Using GetSingleAyah in a list:**",
-            "bn": "**একটি তালিকায় GetSingleAyah ব্যবহার:**",
-            "id": "**Menggunakan GetSingleAyah dalam sebuah daftar:**",
-            "ur": "**GetSingleAyah کو ایک فہرست میں استعمال کرنا:**",
-            "tr": "**GetSingleAyah'ı bir listede kullanma:**",
-            "ku": "**بەکارهێنانی GetSingleAyah لەناو لیستێکدا:**",
-            "ms": "**Menggunakan GetSingleAyah dalam senarai:**",
-            "es": "**Uso de GetSingleAyah en una lista:**"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "class SingleAyahExample extends StatelessWidget {\n@override\nWidget build(BuildContext context) {\nreturn Scaffold(\nappBar: AppBar(title: Text('Display Single Ayahs')),\nbody: ListView(\npadding: EdgeInsets.all(16),\nchildren: [\n// Ayat al-Kursi\nCard(\nchild: Padding(\npadding: EdgeInsets.all(16),\nchild: Column(\nchildren: [\nText('Ayat al-Kursi', style: TextStyle(fontWeight: FontWeight.bold)),\nSizedBox(height: 10),\nGetSingleAyah(\nsurahNumber: 2, // Al-Baqarah\nayahNumber: 255, // Ayat al-Kursi\nfontSize: 20,\ntextColor: Colors.brown,\n),\n],\n),\n),\n),\n\nSizedBox(height: 16),\n\n// Complete Al-Fatihah\nCard(\nchild: Padding(\npadding: EdgeInsets.all(16),\nchild: Column(\ncrossAxisAlignment: CrossAxisAlignment.stretch,\nchildren: [\nText('Surah Al-Fatihah', style: TextStyle(fontWeight: FontWeight.bold)),\nSizedBox(height: 10),\n// Display all ayahs of Al-Fatihah\n...List.generate(7, (index) => Padding(\npadding: EdgeInsets.symmetric(vertical: 4),\nchild: GetSingleAyah(\nsurahNumber: 1,\nayahNumber: index + 1,\nfontSize: 18,\nisDark: false,\n),\n)),\n],\n),\n),\n),\n],\n),\n);\n}\n}",
-            "en": "class SingleAyahExample extends StatelessWidget {\n@override\nWidget build(BuildContext context) {\nreturn Scaffold(\nappBar: AppBar(title: Text('Display Single Ayahs')),\nbody: ListView(\npadding: EdgeInsets.all(16),\nchildren: [\n// Ayat al-Kursi\nCard(\nchild: Padding(\npadding: EdgeInsets.all(16),\nchild: Column(\nchildren: [\nText('Ayat al-Kursi', style: TextStyle(fontWeight: FontWeight.bold)),\nSizedBox(height: 10),\nGetSingleAyah(\nsurahNumber: 2, // Al-Baqarah\nayahNumber: 255, // Ayat al-Kursi\nfontSize: 20,\ntextColor: Colors.brown,\n),\n],\n),\n),\n),\n\nSizedBox(height: 16),\n\n// Complete Al-Fatihah\nCard(\nchild: Padding(\npadding: EdgeInsets.all(16),\nchild: Column(\ncrossAxisAlignment: CrossAxisAlignment.stretch,\nchildren: [\nText('Surah Al-Fatihah', style: TextStyle(fontWeight: FontWeight.bold)),\nSizedBox(height: 10),\n// Display all ayahs of Al-Fatihah\n...List.generate(7, (index) => Padding(\npadding: EdgeInsets.symmetric(vertical: 4),\nchild: GetSingleAyah(\nsurahNumber: 1,\nayahNumber: index + 1,\nfontSize: 18,\nisDark: false,\n),\n)),\n],\n),\n),\n),\n],\n),\n);\n}\n}",
-            "bn": "class SingleAyahExample extends StatelessWidget {\n@override\nWidget build(BuildContext context) {\nreturn Scaffold(\nappBar: AppBar(title: Text('Display Single Ayahs')),\nbody: ListView(\npadding: EdgeInsets.all(16),\nchildren: [\n// Ayat al-Kursi\nCard(\nchild: Padding(\npadding: EdgeInsets.all(16),\nchild: Column(\nchildren: [\nText('Ayat al-Kursi', style: TextStyle(fontWeight: FontWeight.bold)),\nSizedBox(height: 10),\nGetSingleAyah(\nsurahNumber: 2, // Al-Baqarah\nayahNumber: 255, // Ayat al-Kursi\nfontSize: 20,\ntextColor: Colors.brown,\n),\n],\n),\n),\n),\n\nSizedBox(height: 16),\n\n// Complete Al-Fatihah\nCard(\nchild: Padding(\npadding: EdgeInsets.all(16),\nchild: Column(\ncrossAxisAlignment: CrossAxisAlignment.stretch,\nchildren: [\nText('Surah Al-Fatihah', style: TextStyle(fontWeight: FontWeight.bold)),\nSizedBox(height: 10),\n// Display all ayahs of Al-Fatihah\n...List.generate(7, (index) => Padding(\npadding: EdgeInsets.symmetric(vertical: 4),\nchild: GetSingleAyah(\nsurahNumber: 1,\nayahNumber: index + 1,\nfontSize: 18,\nisDark: false,\n),\n)),\n],\n),\n),\n),\n],\n),\n);\n}\n}",
-            "id": "class SingleAyahExample extends StatelessWidget {\n@override\nWidget build(BuildContext context) {\nreturn Scaffold(\nappBar: AppBar(title: Text('Display Single Ayahs')),\nbody: ListView(\npadding: EdgeInsets.all(16),\nchildren: [\n// Ayat al-Kursi\nCard(\nchild: Padding(\npadding: EdgeInsets.all(16),\nchild: Column(\nchildren: [\nText('Ayat al-Kursi', style: TextStyle(fontWeight: FontWeight.bold)),\nSizedBox(height: 10),\nGetSingleAyah(\nsurahNumber: 2, // Al-Baqarah\nayahNumber: 255, // Ayat al-Kursi\nfontSize: 20,\ntextColor: Colors.brown,\n),\n],\n),\n),\n),\n\nSizedBox(height: 16),\n\n// Complete Al-Fatihah\nCard(\nchild: Padding(\npadding: EdgeInsets.all(16),\nchild: Column(\ncrossAxisAlignment: CrossAxisAlignment.stretch,\nchildren: [\nText('Surah Al-Fatihah', style: TextStyle(fontWeight: FontWeight.bold)),\nSizedBox(height: 10),\n// Display all ayahs of Al-Fatihah\n...List.generate(7, (index) => Padding(\npadding: EdgeInsets.symmetric(vertical: 4),\nchild: GetSingleAyah(\nsurahNumber: 1,\nayahNumber: index + 1,\nfontSize: 18,\nisDark: false,\n),\n)),\n],\n),\n),\n),\n],\n),\n);\n}\n}",
-            "ur": "class SingleAyahExample extends StatelessWidget {\n@override\nWidget build(BuildContext context) {\nreturn Scaffold(\nappBar: AppBar(title: Text('Display Single Ayahs')),\nbody: ListView(\npadding: EdgeInsets.all(16),\nchildren: [\n// Ayat al-Kursi\nCard(\nchild: Padding(\npadding: EdgeInsets.all(16),\nchild: Column(\nchildren: [\nText('Ayat al-Kursi', style: TextStyle(fontWeight: FontWeight.bold)),\nSizedBox(height: 10),\nGetSingleAyah(\nsurahNumber: 2, // Al-Baqarah\nayahNumber: 255, // Ayat al-Kursi\nfontSize: 20,\ntextColor: Colors.brown,\n),\n],\n),\n),\n),\n\nSizedBox(height: 16),\n\n// Complete Al-Fatihah\nCard(\nchild: Padding(\npadding: EdgeInsets.all(16),\nchild: Column(\ncrossAxisAlignment: CrossAxisAlignment.stretch,\nchildren: [\nText('Surah Al-Fatihah', style: TextStyle(fontWeight: FontWeight.bold)),\nSizedBox(height: 10),\n// Display all ayahs of Al-Fatihah\n...List.generate(7, (index) => Padding(\npadding: EdgeInsets.symmetric(vertical: 4),\nchild: GetSingleAyah(\nsurahNumber: 1,\nayahNumber: index + 1,\nfontSize: 18,\nisDark: false,\n),\n)),\n],\n),\n),\n),\n],\n),\n);\n}\n}",
-            "tr": "class SingleAyahExample extends StatelessWidget {\n@override\nWidget build(BuildContext context) {\nreturn Scaffold(\nappBar: AppBar(title: Text('Display Single Ayahs')),\nbody: ListView(\npadding: EdgeInsets.all(16),\nchildren: [\n// Ayat al-Kursi\nCard(\nchild: Padding(\npadding: EdgeInsets.all(16),\nchild: Column(\nchildren: [\nText('Ayat al-Kursi', style: TextStyle(fontWeight: FontWeight.bold)),\nSizedBox(height: 10),\nGetSingleAyah(\nsurahNumber: 2, // Al-Baqarah\nayahNumber: 255, // Ayat al-Kursi\nfontSize: 20,\ntextColor: Colors.brown,\n),\n],\n),\n),\n),\n\nSizedBox(height: 16),\n\n// Complete Al-Fatihah\nCard(\nchild: Padding(\npadding: EdgeInsets.all(16),\nchild: Column(\ncrossAxisAlignment: CrossAxisAlignment.stretch,\nchildren: [\nText('Surah Al-Fatihah', style: TextStyle(fontWeight: FontWeight.bold)),\nSizedBox(height: 10),\n// Display all ayahs of Al-Fatihah\n...List.generate(7, (index) => Padding(\npadding: EdgeInsets.symmetric(vertical: 4),\nchild: GetSingleAyah(\nsurahNumber: 1,\nayahNumber: index + 1,\nfontSize: 18,\nisDark: false,\n),\n)),\n],\n),\n),\n),\n],\n),\n);\n}\n}",
-            "ku": "class SingleAyahExample extends StatelessWidget {\n@override\nWidget build(BuildContext context) {\nreturn Scaffold(\nappBar: AppBar(title: Text('Display Single Ayahs')),\nbody: ListView(\npadding: EdgeInsets.all(16),\nchildren: [\n// Ayat al-Kursi\nCard(\nchild: Padding(\npadding: EdgeInsets.all(16),\nchild: Column(\nchildren: [\nText('Ayat al-Kursi', style: TextStyle(fontWeight: FontWeight.bold)),\nSizedBox(height: 10),\nGetSingleAyah(\nsurahNumber: 2, // Al-Baqarah\nayahNumber: 255, // Ayat al-Kursi\nfontSize: 20,\ntextColor: Colors.brown,\n),\n],\n),\n),\n),\n\nSizedBox(height: 16),\n\n// Complete Al-Fatihah\nCard(\nchild: Padding(\npadding: EdgeInsets.all(16),\nchild: Column(\ncrossAxisAlignment: CrossAxisAlignment.stretch,\nchildren: [\nText('Surah Al-Fatihah', style: TextStyle(fontWeight: FontWeight.bold)),\nSizedBox(height: 10),\n// Display all ayahs of Al-Fatihah\n...List.generate(7, (index) => Padding(\npadding: EdgeInsets.symmetric(vertical: 4),\nchild: GetSingleAyah(\nsurahNumber: 1,\nayahNumber: index + 1,\nfontSize: 18,\nisDark: false,\n),\n)),\n],\n),\n),\n),\n],\n),\n);\n}\n}",
-            "ms": "class SingleAyahExample extends StatelessWidget {\n@override\nWidget build(BuildContext context) {\nreturn Scaffold(\nappBar: AppBar(title: Text('Display Single Ayahs')),\nbody: ListView(\npadding: EdgeInsets.all(16),\nchildren: [\n// Ayat al-Kursi\nCard(\nchild: Padding(\npadding: EdgeInsets.all(16),\nchild: Column(\nchildren: [\nText('Ayat al-Kursi', style: TextStyle(fontWeight: FontWeight.bold)),\nSizedBox(height: 10),\nGetSingleAyah(\nsurahNumber: 2, // Al-Baqarah\nayahNumber: 255, // Ayat al-Kursi\nfontSize: 20,\ntextColor: Colors.brown,\n),\n],\n),\n),\n),\n\nSizedBox(height: 16),\n\n// Complete Al-Fatihah\nCard(\nchild: Padding(\npadding: EdgeInsets.all(16),\nchild: Column(\ncrossAxisAlignment: CrossAxisAlignment.stretch,\nchildren: [\nText('Surah Al-Fatihah', style: TextStyle(fontWeight: FontWeight.bold)),\nSizedBox(height: 10),\n// Display all ayahs of Al-Fatihah\n...List.generate(7, (index) => Padding(\npadding: EdgeInsets.symmetric(vertical: 4),\nchild: GetSingleAyah(\nsurahNumber: 1,\nayahNumber: index + 1,\nfontSize: 18,\nisDark: false,\n),\n)),\n],\n),\n),\n),\n],\n),\n);\n}\n}",
-            "es": "class SingleAyahExample extends StatelessWidget {\n@override\nWidget build(BuildContext context) {\nreturn Scaffold(\nappBar: AppBar(title: Text('Display Single Ayahs')),\nbody: ListView(\npadding: EdgeInsets.all(16),\nchildren: [\n// Ayat al-Kursi\nCard(\nchild: Padding(\npadding: EdgeInsets.all(16),\nchild: Column(\nchildren: [\nText('Ayat al-Kursi', style: TextStyle(fontWeight: FontWeight.bold)),\nSizedBox(height: 10),\nGetSingleAyah(\nsurahNumber: 2, // Al-Baqarah\nayahNumber: 255, // Ayat al-Kursi\nfontSize: 20,\ntextColor: Colors.brown,\n),\n],\n),\n),\n),\n\nSizedBox(height: 16),\n\n// Complete Al-Fatihah\nCard(\nchild: Padding(\npadding: EdgeInsets.all(16),\nchild: Column(\ncrossAxisAlignment: CrossAxisAlignment.stretch,\nchildren: [\nText('Surah Al-Fatihah', style: TextStyle(fontWeight: FontWeight.bold)),\nSizedBox(height: 10),\n// Display all ayahs of Al-Fatihah\n...List.generate(7, (index) => Padding(\npadding: EdgeInsets.symmetric(vertical: 4),\nchild: GetSingleAyah(\nsurahNumber: 1,\nayahNumber: index + 1,\nfontSize: 18,\nisDark: false,\n),\n)),\n],\n),\n),\n),\n],\n),\n);\n}\n}"
-          },
-          "props": {
-            "language": "dart"
           }
         }
       ]
