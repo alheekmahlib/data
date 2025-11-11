@@ -30,7 +30,7 @@
       "order": 1,
       "sections": [
         "about_library",
-        "sources"
+        "motivation_sources"
       ]
     },
     {
@@ -125,7 +125,6 @@
       },
       "order": 6,
       "sections": [
-        "sources",
         "license"
       ]
     }
@@ -576,96 +575,6 @@
       ]
     },
     {
-      "id": "sources",
-      "title": {
-        "ar": "المصادر",
-        "en": "Sources",
-        "bn": "উৎসসমূহ",
-        "id": "Sumber",
-        "ur": "ذرائع",
-        "tr": "Kaynaklar",
-        "ku": "سەرچاوەکان",
-        "ms": "Sumber",
-        "es": "Fuentes"
-      },
-      "order": 1,
-      "keywords": [
-        "sources"
-      ],
-      "blocks": [
-        {
-          "type": "title",
-          "content": {
-            "ar": "المصادر",
-            "en": "Sources",
-            "bn": "উৎসসমূহ",
-            "id": "Sumber",
-            "ur": "ذرائع",
-            "tr": "Kaynaklar",
-            "ku": "سەرچاوەکان",
-            "ms": "Sumber",
-            "es": "Fuentes"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "نص القرآن والبيانات الوصفية: مجمع الملك فهد لطباعة المصحف الشريف — بوابة مطوري القرآن",
-            "en": "Quran text and metadata: King Fahd Glorious Quran Printing Complex — Quran Developer Portal",
-            "bn": "কুরআন পাঠ্য এবং মেটাডেটা: কিং ফাহদ গ্লোরিয়াস কুরআন প্রিন্টিং কমপ্লেক্স — কুরআন ডেভেলপার পোর্টাল",
-            "id": "Teks dan metadata Quran: Kompleks Percetakan Al-Quran Raja Fahd — Portal Pengembang Quran",
-            "ur": "قرآن متن اور میٹا ڈیٹا: شاہ فہد شاندار قرآن پرنٹنگ کمپلیکس — قرآن ڈویلپر پورٹل",
-            "tr": "Kuran metni ve meta verileri: Kral Fahd Kur'an-ı Kerim Basım Kompleksi — Kuran Geliştirici Portalı",
-            "ku": "دەقی قورئان و مێتاداتا: کۆمەڵگەی چاپی قورئانی پیرۆزی شا فەهد — پۆرتاڵی گەشەپێدەری قورئان",
-            "ms": "Teks dan metadata Al-Quran: Kompleks Percetakan Al-Quran Raja Fahd — Portal Pembangun Al-Quran",
-            "es": "Texto del Corán y metadatos: Complejo de Impresión Rey Fahd para el Sagrado Corán — Portal para Desarrolladores del Corán"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "https://qurancomplex.gov.sa/quran-dev/",
-            "en": "https://qurancomplex.gov.sa/quran-dev/",
-            "bn": "https://qurancomplex.gov.sa/quran-dev/",
-            "id": "https://qurancomplex.gov.sa/quran-dev/",
-            "ur": "https://qurancomplex.gov.sa/quran-dev/",
-            "tr": "https://qurancomplex.gov.sa/quran-dev/",
-            "ku": "https://qurancomplex.gov.sa/quran-dev/",
-            "ms": "https://qurancomplex.gov.sa/quran-dev/",
-            "es": "https://qurancomplex.gov.sa/quran-dev/"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "الخطوط، والتفسير، والترجمات: المكتبة العالمية القرآنية (QUL) من ترتيل",
-            "en": "Fonts, Tafsir, and Translations: Quranic Universal Library (QUL) by Tarteel",
-            "bn": "ফন্ট, তাফসীর, এবং অনুবাদ: তারতীল কর্তৃক কুরআনিক ইউনিভার্সাল লাইব্রেরি (QUL)",
-            "id": "Font, Tafsir, dan Terjemahan: Perpustakaan Universal Qur'an (QUL) oleh Tarteel",
-            "ur": "فونٹس، تفسیر، اور تراجم: قرآنی یونیورسل لائبریری (Qےو-ایل) از ترتیل",
-            "tr": "Yazı Tipleri, Tefsir ve Çeviriler: Tarteel'den Kuran Evrensel Kütüphanesi (QUL)",
-            "ku": "فۆنتەکان، تەفسیر، و وەرگێڕانەکان: کتێبخانەی گشتگیری قورئانی (QUL) لەلایەن تەرتل",
-            "ms": "Fon, Tafsir, dan Terjemahan: Perpustakaan Universal Al-Quran (QUL) oleh Tarteel",
-            "es": "Fuentes, Tafsir y Traducciones: Biblioteca Universal Coránica (QUL) por Tarteel"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "https://qul.tarteel.ai/",
-            "en": "https://qul.tarteel.ai/",
-            "bn": "https://qul.tarteel.ai/",
-            "id": "https://qul.tarteel.ai/",
-            "ur": "https://qul.tarteel.ai/",
-            "tr": "https://qul.tarteel.ai/",
-            "ku": "https://qul.tarteel.ai/",
-            "ms": "https://qul.tarteel.ai/",
-            "es": "https://qul.tarteel.ai/"
-          }
-        }
-      ]
-    },
-    {
       "id": "play_ayah_audio",
       "title": {
         "ar": "تشغيل صوت الآية",
@@ -728,6 +637,168 @@
           },
           "props": {
             "language": "dart"
+          }
+        }
+      ]
+    },
+    {
+      "id": "motivation_sources",
+      "title": {
+        "ar": "الدافع وراء المكتبة",
+        "en": "The Motivation Behind the Library",
+        "bn": "লাইব্রেরির পেছনের উদ্দেশ্য﻿",
+        "id": "Motivasi di Balik Pustaka﻿",
+        "ur": "لائبریری بنانے کا مقصد﻿",
+        "tr": "Kütüphanenin Arkasındaki Motivasyon﻿",
+        "ku": "هۆکاری دروستکردنی پەرتووکخانەکە﻿",
+        "ms": "Motivasi di Sebalik Pustaka﻿",
+        "es": "La motivación detrás de la biblioteca﻿"
+      },
+      "order": 1,
+      "keywords": [
+        "sources",
+        "motivation",
+        "privacy",
+        "policy",
+        "license",
+        "usage",
+        "terms",
+        "conditions",
+        "library",
+        "quran",
+        "flutter"
+      ],
+      "blocks": [
+        {
+          "type": "gap",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          },
+          "props": {
+            "height": "32"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "تم تطوير مكتبة القرآن لتوفير حل شامل ومتكامل لعرض القرآن الكريم في تطبيقات Flutter. هذه المكتبة تلبي احتياجات المطورين الذين يسعون لإنشاء تطبيقات إسلامية عالية الجودة.",
+            "en": "The Quran Library was developed to provide a comprehensive and integrated solution for displaying the Holy Quran in Flutter applications. This library addresses the needs of developers seeking to build high-quality Islamic apps.",
+            "bn": "Flutter অ্যাপ্লিকেশনে পবিত্র কুরআন প্রদর্শনের জন্য পূর্ণাঙ্গ ও সমন্বিত সমাধান প্রদান করতে কুরআন লাইব্রেরি তৈরি করা হয়েছে। এই লাইব্রেরি সেই সমস্ত ডেভেলপারদের জন্য তৈরি যারা মানসম্পন্ন ইসলামিক অ্যাপ তৈরি করতে চান।﻿",
+            "id": "Pustaka Al-Quran dikembangkan untuk menyediakan solusi yang komprehensif dan terpadu dalam menampilkan Al-Quran di aplikasi Flutter. Pustaka ini ditujukan bagi pengembang yang ingin membuat aplikasi Islam berkualitas tinggi.﻿",
+            "ur": "قرآن لائبریری اس لیے تیار کی گئی تاکہ Flutter ایپلی کیشنز میں قرآن کریم کی نمائش کے لیے ایک جامع اور مربوط حل فراہم کیا جا سکے۔ یہ لائبریری اُن ڈویلپرز کی ضروریات پوری کرتی ہے جو اعلیٰ معیار کی اسلامی ایپس بنانا چاہتے ہیں۔﻿",
+            "tr": "Kuran Kütüphanesi, Flutter uygulamalarında Kuran-ı Kerim’in gösterimi için kapsamlı ve entegre bir çözüm sunmak amacıyla geliştirildi. Bu kütüphane, yüksek kaliteli İslami uygulamalar geliştirmek isteyen geliştiricilerin ihtiyaçlarını karşılar",
+            "ku": "پەرتووکخانەی قورئان پێشکەوتووە بۆ ئەوەی چوارچێوەیەکی تەواو و یەکگرتووی پێشکەش بکات بۆ پیشاندانی قورئانی پیرۆز لە نەرماڵەی Flutter. ئەمە پێویستی ئەو گەشەپێدەرەیان دەپۆشێت کە دەنێرێن بەرنامەی ئیسلامییەکی بەرزپایە دروست بکەن.﻿",
+            "ms": "Pustaka Al-Quran dibangunkan untuk menyediakan penyelesaian menyeluruh dan bersepadu bagi memaparkan Al-Quran dalam aplikasi Flutter. Pustaka ini memenuhi keperluan pembangun yang ingin membina aplikasi Islam berkualiti tinggi",
+            "es": "La Biblioteca del Corán fue desarrollada para proporcionar una solución integral e integrada para mostrar el Sagrado Corán en las aplicaciones Flutter. Esta biblioteca satisface las necesidades de los desarrolladores que buscan crear aplicaciones islámicas de alta calidad"
+          },
+          "props": {
+            "type_change": true
+          }
+        },
+        {
+          "type": "divider",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "المصادر وسياسة الاستخدام",
+            "en": "Sources and Privacy Policy",
+            "bn": "উৎস এবং গোপনীয়তা নীতি﻿",
+            "id": "Sumber dan Kebijakan Privasi﻿",
+            "ur": "ذرائع اور رازداری کی پالیسی﻿",
+            "tr": "Kaynaklar ve Gizlilik Politikası﻿",
+            "ku": "سەرچاوە و سیاسەتی تایبەتی﻿",
+            "ms": "Sumber dan Dasar Privasi﻿",
+            "es": "Fuentes y política de privacidad﻿"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "المكتبة هذه مُرخَّصة بموجب رخصة MIT أعلاه. ولا ينطبق هذا المنح على خطوط المصحف (QCF) وأي ملفات تفسير/ترجمة أو موارد أخرى تم الحصول عليها من مكتبة القرآن العالمية (QUL). تحكم هذه الأصول شروطها الخاصة. إذا قمت بضمّ هذه الأصول أو توزيعها مع تطبيقك، فيجب عليك الالتزام بالشروط التالية (مُلخَّصة من إرشادات QUL):\nعدم وضع الإعلانات المُشتِّتة: يجب أن لا تتضمّن التطبيقات أو المشاريع إعلانات (حتى الإعلانات الحلال/الإسلامية) التي قد تُلهي المستخدم أثناء قراءة القرآن.\nالالتزام بشروط المصدر الأصلي: يجب دائمًا الامتثال لشروط KFGQPC و QUL عند توزيع التطبيقات التي تتضمّن أو تُرفق هذه الأصول.",
+            "en": "This library is licensed under the MIT License above. This license does not apply to the Quran font files (QCF) and any tafsir/translation files or other resources obtained from the Quranic Universal Library (QUL). These assets are governed by their own terms. If you include or distribute these assets with your app, you must comply with the following conditions (summarized from QUL guidelines):\n\n    No distracting advertisements: Applications or projects must not contain ads (even halal/Islamic ones) that may distract users while reading the Quran.\n\n    Comply with the original source’s conditions: Always adhere to the terms of KFGQPC and QUL when distributing applications that include or bundle these assets.\"\n",
+            "bn": "[লাইব্রেরিটি উপরের MIT লাইসেন্সের অধীনে লাইসেন্সকৃত। এই লাইসেন্স কুরআনের ফন্ট (QCF) এবং কুরআনিক ইউনিভার্সাল লাইব্রেরি (QUL) থেকে সংগৃহীত তাফসীর/অনুবাদ ফাইল বা অন্যান্য সম্পদে প্রযোজ্য নয়। এই সম্পদগুলির নিজস্ব নীতি রয়েছে। আপনি যদি এই সম্পদগুলি আপনার অ্যাপে অন্তর্ভুক্ত বা বিতরণ করেন, তবে আপনাকে নিম্নলিখিত শর্তাবলী মেনে চলতে হবে (QUL নির্দেশিকা থেকে সংক্ষিপ্ত):\n\n    বিভ্রান্তিকর বিজ্ঞাপন নয়: অ্যাপ্লিকেশন বা প্রকল্পে কোনো ধরনের বিজ্ঞাপন (হালাল/ইসলামিক সহ) থাকা উচিত নয় যা ব্যবহারকারীদের কুরআন পাঠের সময় বিভ্রান্ত করতে পারে।\n\n    আসল উৎসের শর্তাবলী অনুসরণ করুন: যেসব অ্যাপে এই সম্পদগুলির অন্তর্ভুক্তি আছে, সেগুলি বিতরণের সময় সর্বদা KFGQPC এবং QUL এর শর্তাবলী মেনে চলতে হবে।](pplx://action/translate)\n",
+            "id": "[Pustaka ini dilisensikan di bawah Lisensi MIT di atas. Lisensi ini tidak berlaku untuk file font Al-Quran (QCF) serta file tafsir/terjemahan atau sumber lain yang diperoleh dari Quranic Universal Library (QUL). Aset-aset tersebut diatur oleh ketentuan masing-masing. Jika Anda menyertakan atau mendistribusikan aset ini bersama aplikasi Anda, Anda harus mematuhi ketentuan berikut (diringkas dari pedoman QUL):\n\n    Tidak ada iklan yang mengganggu: Aplikasi atau proyek tidak boleh mengandung iklan (termasuk iklan halal/Islam) yang dapat mengalihkan perhatian pengguna saat membaca Al-Quran.\n\n    Patuhi ketentuan sumber asli: Selalu ikuti ketentuan KFGQPC dan QUL saat mendistribusikan aplikasi yang mencakup aset ini.](pplx://action/translate)\n",
+            "ur": "[یہ لائبریری MIT لائسنس کے تحت لائسنس شدہ ہے۔ یہ لائسنس قرآن فонт (QCF) اور قرآنک یونیورسل لائبریری (QUL) سے حاصل کردہ تفسیر/ترجمہ کی فائلوں یا دیگر وسائل پر لاگو نہیں ہوتا۔ یہ وسائل اپنی شرائط و ضوابط کے تابع ہیں۔ اگر آپ اپنی ایپ کے ساتھ ان وسائل کو شامل یا تقسیم کرتے ہیں تو آپ کو درج ذیل شرائط پر عمل کرنا ہوگا (QUL کی ہدایات سے خلاصہ):\n\n    توجہ بھٹکانے والے اشتہارات نہ لگائیں: ایپلیکیشنز یا پروجیکٹس میں ایسے اشتہارات (حتیٰ کہ حلال/اسلامی) نہیں ہونے چاہئیں جو قرآن پڑھتے وقت صارف کی توجہ بٹائیں۔\n\n    اصل ماخذ کے قواعد کی پابندی: ان وسائل پر مشتمل ایپلیکیشنز تقسیم کرتے وقت ہمیشہ KFGQPC اور QUL کی شرائط کی پابندی کریں۔](pplx://action/translate)\n",
+            "tr": "[Bu kütüphane yukarıdaki MIT lisansı kapsamında lisanslanmıştır. Bu lisans, Kuran yazı tipleri (QCF) ve Kuranic Universal Library (QUL) tarafından sağlanan tefsir/çeviri dosyaları veya diğer kaynaklar için geçerli değildir. Bu varlıklar kendi koşullarına tabidir. Uygulamanızla birlikte bu varlıkları ekler veya dağıtırsanız, aşağıdaki koşullara uymalısınız (QUL yönergelerinden özetlenmiştir):\n\n    Dikkat dağıtıcı reklam yok: Uygulamalar veya projeler, kullanıcıyı Kuran okurken dikkatini dağıtabilecek reklamlar (helal/İslami bile olsa) içermemelidir.\n\n    Orijinal kaynağın koşullarına uyun: Bu varlıkları içeren uygulamaları dağıtırken her zaman KFGQPC ve QUL koşullarına uymalısınız.](pplx://action/translate)\n",
+            "ku": "[ئەم پەرتووکخانەیە لە ژێر مۆڵەتی MIT ـە. ئەم مۆڵەتە ناگیردرێت بەسەر فۆنتەکانی قورئان (QCF) یان پەڕگەکان و سەرچاوەکانی تەفسیر/وەرگێڕان کە لە QUL ـەوە ئەورادکراون. ئەم سەرچاوەیانە خۆیان مەرجە تایبەتییان هەیە. ئەگەر ئەم سەرچاوەیانە تێکەڵ یان دابەش دەکەیت لەگەڵ بەرنامەکەت، دەبێت ئامۆژگارییەکانەکەی ئەم وانە پەیڕەو بکەیت (کورتکراوە لە رێنمایییەکانی QUL):\n\n    ئەنەربە ناچالاکە نیشانەیەکان: بەرنامەکان یان پڕۆژەکان نابێت بانگەوازییەکی ئاڵۆز شت بینی لەخۆبگرن (ئەوەی ئیسلامییش بێت) کە دەتوانێت خوێنەری قورئان بپەیوێنێت.\n\n    پەیڕەوی مەرجە سەرچاوەی سەرەکی بکە: هەروەھا پێویستە لە کاتی دابەشکردنی ئەو بەرنامانەی کە ئەم سەرچاوەیان تێدایە، مەرجەکانی KFGQPC و QUL پەیڕەو بکەیت.](pplx://action/translate)\n",
+            "ms": "[Pustaka ini dilesenkan di bawah Lesen MIT di atas. Lesen ini tidak terpakai kepada fon Al-Quran (QCF) dan mana-mana fail tafsir/terjemahan atau sumber lain yang diperoleh daripada Quranic Universal Library (QUL). Aset ini tertakluk kepada syaratnya sendiri. Jika anda menyertakan atau mengedarkan aset ini bersama aplikasi anda, anda mesti mematuhi syarat berikut (diringkaskan daripada garis panduan QUL):\n\n    Tiada iklan yang mengganggu: Aplikasi atau projek tidak boleh mengandungi iklan (walaupun halal/Islam) yang boleh mengganggu pengguna semasa membaca Al-Quran.\n\n    Patuhi syarat sumber asal: Sentiasa patuhi syarat KFGQPC dan QUL apabila mengedarkan aplikasi yang mengandungi aset ini.](pplx://action/translate)\n",
+            "es": "[Esta biblioteca está bajo la licencia MIT anterior. Esta licencia no se aplica a las fuentes del Corán (QCF) ni a los archivos de tafsir/traducción u otros recursos obtenidos de la Biblioteca Coránica Universal (QUL). Estos recursos están sujetos a sus propios términos. Si los incluyes o distribuyes con tu aplicación, debes cumplir las siguientes condiciones (resumidas de las directrices de QUL):\n\n    No incluir anuncios que distraigan: Las aplicaciones o proyectos no deben contener anuncios (ni siquiera islámicos o halal) que puedan distraer al usuario mientras lee el Corán.\n\n    Cumplir con las condiciones de la fuente original: Siempre debes respetar los términos de KFGQPC y QUL al distribuir aplicaciones que incluyan estos recursos.](pplx://action/translate)\n"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "نص القرآن والبيانات الوصفية: مجمع الملك فهد لطباعة المصحف الشريف — بوابة مطوري القرآن",
+            "en": "Quran text and metadata: King Fahd Glorious Quran Printing Complex — Quran Developer Portal",
+            "bn": "কুরআন পাঠ্য এবং মেটাডেটা: কিং ফাহদ গ্লোরিয়াস কুরআন প্রিন্টিং কমপ্লেক্স — কুরআন ডেভেলপার পোর্টাল",
+            "id": "Teks dan metadata Quran: Kompleks Percetakan Al-Quran Raja Fahd — Portal Pengembang Quran",
+            "ur": "قرآن متن اور میٹا ڈیٹا: شاہ فہد شاندار قرآن پرنٹنگ کمپلیکس — قرآن ڈویلپر پورٹل",
+            "tr": "Kuran metni ve meta verileri: Kral Fahd Kur'an-ı Kerim Basım Kompleksi — Kuran Geliştirici Portalı",
+            "ku": "دەقی قورئان و مێتاداتا: کۆمەڵگەی چاپی قورئانی پیرۆزی شا فەهد — پۆرتاڵی گەشەپێدەری قورئان",
+            "ms": "Teks dan metadata Al-Quran: Kompleks Percetakan Al-Quran Raja Fahd — Portal Pembangun Al-Quran",
+            "es": "Texto del Corán y metadatos: Complejo de Impresión Rey Fahd para el Sagrado Corán — Portal para Desarrolladores del Corán"
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "https://qurancomplex.gov.sa/quran-dev/",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "الخطوط، التفسير، والترجمات: مكتبة القرآن العالمية (QUL) من تطوير منصة ترتيل",
+            "en": "Fonts, Tafsir, and Translations: Quranic Universal Library (QUL) by Tarteel",
+            "bn": "ফন্ট, তাফসীর, এবং অনুবাদ: তারতীল কর্তৃক কুরআনিক ইউনিভার্সাল লাইব্রেরি (QUL)",
+            "id": "Font, Tafsir, dan Terjemahan: Perpustakaan Universal Qur'an (QUL) oleh Tarteel",
+            "ur": "فونٹس، تفسیر، اور تراجم: قرآنی یونیورسل لائبریری (Qےو-ایل) از ترتیل",
+            "tr": "Yazı Tipleri, Tefsir ve Çeviriler: Tarteel'den Kuran Evrensel Kütüphanesi (QUL)",
+            "ku": "فۆنتەکان، تەفسیر، و وەرگێڕانەکان: کتێبخانەی گشتگیری قورئانی (QUL) لەلایەن تەرتل",
+            "ms": "Fon, Tafsir, dan Terjemahan: Perpustakaan Universal Al-Quran (QUL) oleh Tarteel",
+            "es": "Fuentes, Tafsir y Traducciones: Biblioteca Universal Coránica (QUL) por Tarteel"
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "https://qul.tarteel.ai/",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
           }
         }
       ]
@@ -1509,96 +1580,6 @@
                 "es": "Alto rendimiento y navegación rápida."
               }
             ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "sources",
-      "title": {
-        "ar": "المصادر",
-        "en": "Sources",
-        "bn": "উৎসসমূহ",
-        "id": "Sumber",
-        "ur": "ذرائع",
-        "tr": "Kaynaklar",
-        "ku": "سەرچاوەکان",
-        "ms": "Sumber",
-        "es": "Fuentes"
-      },
-      "order": 1,
-      "keywords": [
-        "sources"
-      ],
-      "blocks": [
-        {
-          "type": "title",
-          "content": {
-            "ar": "المصادر",
-            "en": "Sources",
-            "bn": "উৎসসমূহ",
-            "id": "Sumber",
-            "ur": "ذرائع",
-            "tr": "Kaynaklar",
-            "ku": "سەرچاوەکان",
-            "ms": "Sumber",
-            "es": "Fuentes"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "نص القرآن والبيانات الوصفية: مجمع الملك فهد لطباعة المصحف الشريف — بوابة مطوري القرآن",
-            "en": "Quran text and metadata: King Fahd Glorious Quran Printing Complex — Quran Developer Portal",
-            "bn": "কুরআন পাঠ্য এবং মেটাডেটা: কিং ফাহদ গ্লোরিয়াস কুরআন প্রিন্টিং কমপ্লেক্স — কুরআন ডেভেলপার পোর্টাল",
-            "id": "Teks dan metadata Quran: Kompleks Percetakan Al-Quran Raja Fahd — Portal Pengembang Quran",
-            "ur": "قرآن متن اور میٹا ڈیٹا: شاہ فہد شاندار قرآن پرنٹنگ کمپلیکس — قرآن ڈویلپر پورٹل",
-            "tr": "Kuran metni ve meta verileri: Kral Fahd Kur'an-ı Kerim Basım Kompleksi — Kuran Geliştirici Portalı",
-            "ku": "دەقی قورئان و مێتاداتا: کۆمەڵگەی چاپی قورئانی پیرۆزی شا فەهد — پۆرتاڵی گەشەپێدەری قورئان",
-            "ms": "Teks dan metadata Al-Quran: Kompleks Percetakan Al-Quran Raja Fahd — Portal Pembangun Al-Quran",
-            "es": "Texto del Corán y metadatos: Complejo de Impresión Rey Fahd para el Sagrado Corán — Portal para Desarrolladores del Corán"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "https://qurancomplex.gov.sa/quran-dev/",
-            "en": "https://qurancomplex.gov.sa/quran-dev/",
-            "bn": "https://qurancomplex.gov.sa/quran-dev/",
-            "id": "https://qurancomplex.gov.sa/quran-dev/",
-            "ur": "https://qurancomplex.gov.sa/quran-dev/",
-            "tr": "https://qurancomplex.gov.sa/quran-dev/",
-            "ku": "https://qurancomplex.gov.sa/quran-dev/",
-            "ms": "https://qurancomplex.gov.sa/quran-dev/",
-            "es": "https://qurancomplex.gov.sa/quran-dev/"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "الخطوط، والتفسير، والترجمات: المكتبة العالمية القرآنية (QUL) من ترتيل",
-            "en": "Fonts, Tafsir, and Translations: Quranic Universal Library (QUL) by Tarteel",
-            "bn": "ফন্ট, তাফসীর, এবং অনুবাদ: তারতীল কর্তৃক কুরআনিক ইউনিভার্সাল লাইব্রেরি (QUL)",
-            "id": "Font, Tafsir, dan Terjemahan: Perpustakaan Universal Qur'an (QUL) oleh Tarteel",
-            "ur": "فونٹس، تفسیر، اور تراجم: قرآنی یونیورسل لائبریری (Qےو-ایل) از ترتیل",
-            "tr": "Yazı Tipleri, Tefsir ve Çeviriler: Tarteel'den Kuran Evrensel Kütüphanesi (QUL)",
-            "ku": "فۆنتەکان، تەفسیر، و وەرگێڕانەکان: کتێبخانەی گشتگیری قورئانی (QUL) لەلایەن تەرتل",
-            "ms": "Fon, Tafsir, dan Terjemahan: Perpustakaan Universal Al-Quran (QUL) oleh Tarteel",
-            "es": "Fuentes, Tafsir y Traducciones: Biblioteca Universal Coránica (QUL) por Tarteel"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "https://qul.tarteel.ai/",
-            "en": "https://qul.tarteel.ai/",
-            "bn": "https://qul.tarteel.ai/",
-            "id": "https://qul.tarteel.ai/",
-            "ur": "https://qul.tarteel.ai/",
-            "tr": "https://qul.tarteel.ai/",
-            "ku": "https://qul.tarteel.ai/",
-            "ms": "https://qul.tarteel.ai/",
-            "es": "https://qul.tarteel.ai/"
           }
         }
       ]
