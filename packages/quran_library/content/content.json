@@ -253,6 +253,37 @@
       ],
       "blocks": [
         {
+          "type": "gap",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          },
+          "props": {
+            "height": "32"
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "يمكن اسخدامها بشكل مبسط هكذا:",
+            "en": " It can be used simply like this:",
+            "bn": " এটি সহজভাবে এরকম ব্যবহার করা যেতে পারে:",
+            "id": " Dapat digunakan dengan cara sederhana seperti ini:",
+            "ur": " اسے آسانی سے یوں استعمال کیا جا سکتا ہے:",
+            "tr": " Böyle basitçe kullanılabilir:",
+            "ku": " دەتوانرێت بەشێوەیەکی سادە وەکو ئەمە بەکاربێت:",
+            "ms": " Ia boleh digunakan dengan mudah seperti ini:",
+            "es": " Se puede usar de manera sencilla así:"
+          }
+        },
+        {
           "type": "code",
           "content": {
             "ar": "/// You can just add it to your code like this:\nclass MyQuranPage extends StatelessWidget {\n  \n  @override\n  Widget build(BuildContext context) {\n    return QuranLibraryScreen(\n      parentContext: context, // Required\n    );\n  }\n}",
@@ -270,17 +301,31 @@
           }
         },
         {
-          "type": "paragraph",
+          "type": "divider",
           "content": {
-            "ar": "**أو إعطاؤه بعض الخيارات:**",
-            "en": "**or give it some options:**",
-            "bn": "**অথবা এটিকে কিছু বিকল্প দিন:**",
-            "id": "**atau berikan beberapa opsi:**",
-            "ur": "**یا اسے کچھ اختیارات دیں:**",
-            "tr": "**veya ona bazı seçenekler sunun:**",
-            "ku": "**یان چەند بژاردەیەکی پێ بدە:**",
-            "ms": "**atau berikan beberapa pilihan:**",
-            "es": "**o darle algunas opciones:**"
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "أو تمرير بعض الخيارات لتغيير الستايل والكلام:",
+            "en": " Or by passing some options to change the style and text:",
+            "bn": " অথবা স্টাইল এবং টেক্সট পরিবর্তন করার জন্য কিছু বিকল্প পাস করে:",
+            "id": " Atau dengan mengoper beberapa opsi untuk mengubah gaya dan teks:",
+            "ur": " یا اسٹائل اور متن کو تبدیل کرنے کے لیے کچھ اختیارات کے ساتھ:",
+            "tr": " Veya stil ve metni değiştirmek için bazı seçenekler geçerek:",
+            "ku": " یان هەلبژاردنەکانی دەستکاری ڕووکەش و وتار بەکاربڕێنیت:",
+            "ms": " Atau dengan mempassing beberapa pilihan untuk menukar gaya dan teks:",
+            "es": " O pasando algunas opciones para cambiar el estilo y el texto:"
           }
         },
         {
@@ -828,6 +873,37 @@
         "display"
       ],
       "blocks": [
+        {
+          "type": "gap",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          },
+          "props": {
+            "height": "32"
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "يمكن عرض سورة واحدة فقط بهذه الطريقة:",
+            "en": " A single Surah can be displayed this way:",
+            "bn": " একটি সূরা এইভাবে প্রদর্শিত হতে পারে:",
+            "id": " Satu Surah dapat ditampilkan seperti ini:",
+            "ur": " ایک سورۃ اس طرح دکھائی جا سکتی ہے:",
+            "tr": " Tek bir Sure bu şekilde görüntülenebilir:",
+            "ku": " تەنها یەک سوورە بە شێوەی ئەمە نیشان دەدرێت:",
+            "ms": " Satu Surah sahaja boleh dipaparkan dengan cara ini:",
+            "es": " Se puede mostrar una sola Sura de esta manera:"
+          }
+        },
         {
           "type": "code",
           "content": {
@@ -1394,6 +1470,37 @@
       ],
       "blocks": [
         {
+          "type": "gap",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          },
+          "props": {
+            "height": "32"
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "يمكن عرض آية واحدة بهذه الطريقة:",
+            "en": " A single Ayah can be displayed this way:",
+            "bn": " একটি আয়াত এইভাবে প্রদর্শিত হতে পারে:",
+            "id": " Satu Ayat dapat ditampilkan seperti ini:",
+            "ur": " ایک آیت اس طرح دکھائی جا سکتی ہے:",
+            "tr": " Tek bir Ayet bu şekilde görüntülenebilir:",
+            "ku": " تەنها یەک ئایەت بە شێوەی ئەمە نیشان دەدرێت:",
+            "ms": " Satu Ayat sahaja boleh dipaparkan dengan cara ini:",
+            "es": " Se puede mostrar un solo Ayah de esta manera:"
+          }
+        },
+        {
           "type": "code",
           "content": {
             "ar": "/// For displaying a single ayah from any surah\nGetSingleAyah(\n/// [surahNumber] - must be between 1 and 114\nsurahNumber: 1, // Surah number\n\n/// [ayahNumber] - ayah number within the surah\nayahNumber: 2, // Ayah number\n\n/// [textColor] - optional text color\ntextColor: Colors.black,\n\n/// [isDark] - optional, default is false\nisDark: false,\n\n/// [fontSize] - optional, default is 22\nfontSize: 24.0,\n\n/// [isBold] - optional, default is true\nisBold: true,\n),",
@@ -1886,14 +1993,14 @@
           "type": "code",
           "content": {
             "ar": "final jozzs = QuranLibrary.allJoz;\nfinal hizbs = QuranLibrary.allHizb;\nfinal surahs = QuranLibrary.getAllSurahs();\nfinal ayahsOnPage = QuranLibrary().getAyahsByPage();\n\n/// [getSurahInfo] let's you get a Surah with all its data when you pass Surah number\nfinal surah = QuranLibrary().getSurahInfo(1);",
-            "en": "",
-            "bn": "",
-            "id": "",
-            "ur": "",
-            "tr": "",
-            "ku": "",
-            "ms": "",
-            "es": ""
+            "en": "final jozzs = QuranLibrary.allJoz;\nfinal hizbs = QuranLibrary.allHizb;\nfinal surahs = QuranLibrary.getAllSurahs();\nfinal ayahsOnPage = QuranLibrary().getAyahsByPage();\n\n/// [getSurahInfo] let's you get a Surah with all its data when you pass Surah number\nfinal surah = QuranLibrary().getSurahInfo(1);",
+            "bn": "final jozzs = QuranLibrary.allJoz;\nfinal hizbs = QuranLibrary.allHizb;\nfinal surahs = QuranLibrary.getAllSurahs();\nfinal ayahsOnPage = QuranLibrary().getAyahsByPage();\n\n/// [getSurahInfo] let's you get a Surah with all its data when you pass Surah number\nfinal surah = QuranLibrary().getSurahInfo(1);",
+            "id": "final jozzs = QuranLibrary.allJoz;\nfinal hizbs = QuranLibrary.allHizb;\nfinal surahs = QuranLibrary.getAllSurahs();\nfinal ayahsOnPage = QuranLibrary().getAyahsByPage();\n\n/// [getSurahInfo] let's you get a Surah with all its data when you pass Surah number\nfinal surah = QuranLibrary().getSurahInfo(1);",
+            "ur": "final jozzs = QuranLibrary.allJoz;\nfinal hizbs = QuranLibrary.allHizb;\nfinal surahs = QuranLibrary.getAllSurahs();\nfinal ayahsOnPage = QuranLibrary().getAyahsByPage();\n\n/// [getSurahInfo] let's you get a Surah with all its data when you pass Surah number\nfinal surah = QuranLibrary().getSurahInfo(1);",
+            "tr": "final jozzs = QuranLibrary.allJoz;\nfinal hizbs = QuranLibrary.allHizb;\nfinal surahs = QuranLibrary.getAllSurahs();\nfinal ayahsOnPage = QuranLibrary().getAyahsByPage();\n\n/// [getSurahInfo] let's you get a Surah with all its data when you pass Surah number\nfinal surah = QuranLibrary().getSurahInfo(1);",
+            "ku": "final jozzs = QuranLibrary.allJoz;\nfinal hizbs = QuranLibrary.allHizb;\nfinal surahs = QuranLibrary.getAllSurahs();\nfinal ayahsOnPage = QuranLibrary().getAyahsByPage();\n\n/// [getSurahInfo] let's you get a Surah with all its data when you pass Surah number\nfinal surah = QuranLibrary().getSurahInfo(1);",
+            "ms": "final jozzs = QuranLibrary.allJoz;\nfinal hizbs = QuranLibrary.allHizb;\nfinal surahs = QuranLibrary.getAllSurahs();\nfinal ayahsOnPage = QuranLibrary().getAyahsByPage();\n\n/// [getSurahInfo] let's you get a Surah with all its data when you pass Surah number\nfinal surah = QuranLibrary().getSurahInfo(1);",
+            "es": "final jozzs = QuranLibrary.allJoz;\nfinal hizbs = QuranLibrary.allHizb;\nfinal surahs = QuranLibrary.getAllSurahs();\nfinal ayahsOnPage = QuranLibrary().getAyahsByPage();\n\n/// [getSurahInfo] let's you get a Surah with all its data when you pass Surah number\nfinal surah = QuranLibrary().getSurahInfo(1);"
           }
         },
         {
@@ -1928,14 +2035,14 @@
           "type": "code",
           "content": {
             "ar": "/// [jumpToAyah] let's you navigate to any ayah..\n/// It's better to call this method while Quran screen is displayed\n/// and if it's called and the Quran screen is not displayed, the next time you\n/// open quran screen it will start from this ayah's page\nQuranLibrary().jumpToAyah(AyahModel ayah);\n/// or you can use:\n/// jumpToPage, jumpToJoz, jumpToHizb, jumpToBookmark and jumpToSurah.",
-            "en": "",
-            "bn": "",
-            "id": "",
-            "ur": "",
-            "tr": "",
-            "ku": "",
-            "ms": "",
-            "es": ""
+            "en": "/// [jumpToAyah] let's you navigate to any ayah..\n/// It's better to call this method while Quran screen is displayed\n/// and if it's called and the Quran screen is not displayed, the next time you\n/// open quran screen it will start from this ayah's page\nQuranLibrary().jumpToAyah(AyahModel ayah);\n/// or you can use:\n/// jumpToPage, jumpToJoz, jumpToHizb, jumpToBookmark and jumpToSurah.",
+            "bn": "/// [jumpToAyah] let's you navigate to any ayah..\n/// It's better to call this method while Quran screen is displayed\n/// and if it's called and the Quran screen is not displayed, the next time you\n/// open quran screen it will start from this ayah's page\nQuranLibrary().jumpToAyah(AyahModel ayah);\n/// or you can use:\n/// jumpToPage, jumpToJoz, jumpToHizb, jumpToBookmark and jumpToSurah.",
+            "id": "/// [jumpToAyah] let's you navigate to any ayah..\n/// It's better to call this method while Quran screen is displayed\n/// and if it's called and the Quran screen is not displayed, the next time you\n/// open quran screen it will start from this ayah's page\nQuranLibrary().jumpToAyah(AyahModel ayah);\n/// or you can use:\n/// jumpToPage, jumpToJoz, jumpToHizb, jumpToBookmark and jumpToSurah.",
+            "ur": "/// [jumpToAyah] let's you navigate to any ayah..\n/// It's better to call this method while Quran screen is displayed\n/// and if it's called and the Quran screen is not displayed, the next time you\n/// open quran screen it will start from this ayah's page\nQuranLibrary().jumpToAyah(AyahModel ayah);\n/// or you can use:\n/// jumpToPage, jumpToJoz, jumpToHizb, jumpToBookmark and jumpToSurah.",
+            "tr": "/// [jumpToAyah] let's you navigate to any ayah..\n/// It's better to call this method while Quran screen is displayed\n/// and if it's called and the Quran screen is not displayed, the next time you\n/// open quran screen it will start from this ayah's page\nQuranLibrary().jumpToAyah(AyahModel ayah);\n/// or you can use:\n/// jumpToPage, jumpToJoz, jumpToHizb, jumpToBookmark and jumpToSurah.",
+            "ku": "/// [jumpToAyah] let's you navigate to any ayah..\n/// It's better to call this method while Quran screen is displayed\n/// and if it's called and the Quran screen is not displayed, the next time you\n/// open quran screen it will start from this ayah's page\nQuranLibrary().jumpToAyah(AyahModel ayah);\n/// or you can use:\n/// jumpToPage, jumpToJoz, jumpToHizb, jumpToBookmark and jumpToSurah.",
+            "ms": "/// [jumpToAyah] let's you navigate to any ayah..\n/// It's better to call this method while Quran screen is displayed\n/// and if it's called and the Quran screen is not displayed, the next time you\n/// open quran screen it will start from this ayah's page\nQuranLibrary().jumpToAyah(AyahModel ayah);\n/// or you can use:\n/// jumpToPage, jumpToJoz, jumpToHizb, jumpToBookmark and jumpToSurah.",
+            "es": "/// [jumpToAyah] let's you navigate to any ayah..\n/// It's better to call this method while Quran screen is displayed\n/// and if it's called and the Quran screen is not displayed, the next time you\n/// open quran screen it will start from this ayah's page\nQuranLibrary().jumpToAyah(AyahModel ayah);\n/// or you can use:\n/// jumpToPage, jumpToJoz, jumpToHizb, jumpToBookmark and jumpToSurah."
           }
         },
         {
