@@ -1511,6 +1511,96 @@
           }
         }
       ]
+    },
+    {
+      "id": "sources",
+      "title": {
+        "ar": "المصادر",
+        "en": "Sources",
+        "bn": "উৎসসমূহ",
+        "id": "Sumber",
+        "ur": "ذرائع",
+        "tr": "Kaynaklar",
+        "ku": "سەرچاوەکان",
+        "ms": "Sumber",
+        "es": "Fuentes"
+      },
+      "order": 1,
+      "keywords": [
+        "sources"
+      ],
+      "blocks": [
+        {
+          "type": "title",
+          "content": {
+            "ar": "المصادر",
+            "en": "Sources",
+            "bn": "উৎসসমূহ",
+            "id": "Sumber",
+            "ur": "ذرائع",
+            "tr": "Kaynaklar",
+            "ku": "سەرچاوەکان",
+            "ms": "Sumber",
+            "es": "Fuentes"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "نص القرآن والبيانات الوصفية: مجمع الملك فهد لطباعة المصحف الشريف — بوابة مطوري القرآن",
+            "en": "Quran text and metadata: King Fahd Glorious Quran Printing Complex — Quran Developer Portal",
+            "bn": "কুরআন পাঠ্য এবং মেটাডেটা: কিং ফাহদ গ্লোরিয়াস কুরআন প্রিন্টিং কমপ্লেক্স — কুরআন ডেভেলপার পোর্টাল",
+            "id": "Teks dan metadata Quran: Kompleks Percetakan Al-Quran Raja Fahd — Portal Pengembang Quran",
+            "ur": "قرآن متن اور میٹا ڈیٹا: شاہ فہد شاندار قرآن پرنٹنگ کمپلیکس — قرآن ڈویلپر پورٹل",
+            "tr": "Kuran metni ve meta verileri: Kral Fahd Kur'an-ı Kerim Basım Kompleksi — Kuran Geliştirici Portalı",
+            "ku": "دەقی قورئان و مێتاداتا: کۆمەڵگەی چاپی قورئانی پیرۆزی شا فەهد — پۆرتاڵی گەشەپێدەری قورئان",
+            "ms": "Teks dan metadata Al-Quran: Kompleks Percetakan Al-Quran Raja Fahd — Portal Pembangun Al-Quran",
+            "es": "Texto del Corán y metadatos: Complejo de Impresión Rey Fahd para el Sagrado Corán — Portal para Desarrolladores del Corán"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "https://qurancomplex.gov.sa/quran-dev/",
+            "en": "https://qurancomplex.gov.sa/quran-dev/",
+            "bn": "https://qurancomplex.gov.sa/quran-dev/",
+            "id": "https://qurancomplex.gov.sa/quran-dev/",
+            "ur": "https://qurancomplex.gov.sa/quran-dev/",
+            "tr": "https://qurancomplex.gov.sa/quran-dev/",
+            "ku": "https://qurancomplex.gov.sa/quran-dev/",
+            "ms": "https://qurancomplex.gov.sa/quran-dev/",
+            "es": "https://qurancomplex.gov.sa/quran-dev/"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "الخطوط، والتفسير، والترجمات: المكتبة العالمية القرآنية (QUL) من ترتيل",
+            "en": "Fonts, Tafsir, and Translations: Quranic Universal Library (QUL) by Tarteel",
+            "bn": "ফন্ট, তাফসীর, এবং অনুবাদ: তারতীল কর্তৃক কুরআনিক ইউনিভার্সাল লাইব্রেরি (QUL)",
+            "id": "Font, Tafsir, dan Terjemahan: Perpustakaan Universal Qur'an (QUL) oleh Tarteel",
+            "ur": "فونٹس، تفسیر، اور تراجم: قرآنی یونیورسل لائبریری (Qےو-ایل) از ترتیل",
+            "tr": "Yazı Tipleri, Tefsir ve Çeviriler: Tarteel'den Kuran Evrensel Kütüphanesi (QUL)",
+            "ku": "فۆنتەکان، تەفسیر، و وەرگێڕانەکان: کتێبخانەی گشتگیری قورئانی (QUL) لەلایەن تەرتل",
+            "ms": "Fon, Tafsir, dan Terjemahan: Perpustakaan Universal Al-Quran (QUL) oleh Tarteel",
+            "es": "Fuentes, Tafsir y Traducciones: Biblioteca Universal Coránica (QUL) por Tarteel"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "https://qul.tarteel.ai/",
+            "en": "https://qul.tarteel.ai/",
+            "bn": "https://qul.tarteel.ai/",
+            "id": "https://qul.tarteel.ai/",
+            "ur": "https://qul.tarteel.ai/",
+            "tr": "https://qul.tarteel.ai/",
+            "ku": "https://qul.tarteel.ai/",
+            "ms": "https://qul.tarteel.ai/",
+            "es": "https://qul.tarteel.ai/"
+          }
+        }
+      ]
     }
   ]
 }
