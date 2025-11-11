@@ -48,6 +48,7 @@
       },
       "order": 2,
       "sections": [
+        "getting_started",
         "getting_started_content"
       ]
     },
@@ -130,6 +131,122 @@
     }
   ],
   "sections": [
+    {
+      "id": "installation",
+      "title": {
+        "ar": "التثبيت والتهيئة",
+        "en": "Installation and Configuration",
+        "bn": "ইনস্টলেশন এবং কনফিগারেশন",
+        "id": "Instalasi dan Konfigurasi",
+        "ur": "تنصیب اور ترتیب",
+        "tr": "Kurulum ve Yapılandırma",
+        "ku": "دامەزراندن و ڕێکخستن",
+        "ms": "Pemasangan dan Konfigurasi",
+        "es": "Instalación y Configuración"
+      },
+      "order": 1,
+      "keywords": [
+        "installation",
+        "configuration",
+        "setup",
+        "getting started"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "هذا يسمح باستمرار تشغيل الصوت عندما يكون التطبيق في الخلفية. في ملف `pubspec.yaml` لمشروع فلاتر الخاص بك، أضف التبعية التالية:",
+            "en": "This allows audio playback to continue when the app is in the background. In the `pubspec.yaml` of your flutter project, add the following dependency:",
+            "bn": "এটি অ্যাপটি ব্যাকগ্রাউন্ডে থাকা সত্ত্বেও অডিও প্লেব্যাক চালিয়ে যাওয়ার অনুমতি দেয়। আপনার ফ্লাটার প্রকল্পের `pubspec.yaml`-এ নিম্নলিখিত নির্ভরতা (dependency) যোগ করুন:",
+            "id": "Ini memungkinkan pemutaran audio untuk terus berjalan ketika aplikasi berada di latar belakang. Di dalam `pubspec.yaml` proyek Flutter Anda, tambahkan dependensi berikut:",
+            "ur": "یہ اجازت دیتا ہے کہ جب ایپ پس منظر میں ہو تو آڈیو پلے بیک جاری رہے۔ اپنے فلٹر پروجیکٹ کے `pubspec.yaml` میں، درج ذیل انحصار (dependency) شامل کریں:",
+            "tr": "Bu, uygulama arka plandayken ses çalmanın devam etmesini sağlar. Flutter projenizin `pubspec.yaml` dosyasına aşağıdaki bağımlılığı ekleyin:",
+            "ku": "ئەمە ڕێگە دەدات کە لێدانی دەنگ بەردەوام بێت کاتێک ئەپەکە لە پاشبنەمادایە. لە `pubspec.yaml`ی پڕۆژەی فلتەرەکەتدا، ئەم پشتبەستنەی خوارەوە زیاد بکە:",
+            "ms": "Ini membolehkan main balik audio berterusan apabila aplikasi berada di latar belakang. Dalam `pubspec.yaml` projek flutter anda, tambah kebergantungan berikut:",
+            "es": "Esto permite que la reproducción de audio continúe cuando la aplicación está en segundo plano. En el `pubspec.yaml` de tu proyecto Flutter, añade la siguiente dependencia:"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "dependencies:\n...\nquran_library: ^2.2.4+1",
+            "en": "dependencies:\n...\nquran_library: ^2.2.4+1",
+            "bn": "dependencies:\n...\nquran_library: ^2.2.4+1",
+            "id": "dependencies:\n...\nquran_library: ^2.2.4+1",
+            "ur": "dependencies:\n...\nquran_library: ^2.2.4+1",
+            "tr": "dependencies:\n...\nquran_library: ^2.2.4+1",
+            "ku": "dependencies:\n...\nquran_library: ^2.2.4+1",
+            "ms": "dependencies:\n...\nquran_library: ^2.2.4+1",
+            "es": "dependencies:\n...\nquran_library: ^2.2.4+1"
+          },
+          "props": {
+            "language": "yaml"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "قم باستيراده:",
+            "en": "Import it:",
+            "bn": "আমদানি করুন:",
+            "id": "Impor itu:",
+            "ur": "اسے درآمد کریں:",
+            "tr": "İçe aktarın:",
+            "ku": "ئیمپۆرتی بکە:",
+            "ms": "Import it:",
+            "es": "Import it:"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "import 'package:quran_library/quran_library.dart';",
+            "en": "import 'package:quran_library/quran_library.dart';",
+            "bn": "import 'package:quran_library/quran_library.dart';",
+            "id": "import 'package:quran_library/quran_library.dart';",
+            "ur": "import 'package:quran_library/quran_library.dart';",
+            "tr": "import 'package:quran_library/quran_library.dart';",
+            "ku": "import 'package:quran_library/quran_library.dart';",
+            "ms": "import 'package:quran_library/quran_library.dart';",
+            "es": "import 'package:quran_library/quran_library.dart';"
+          },
+          "props": {
+            "language": "dart"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "قم بتهيئته:",
+            "en": "Initialize it:",
+            "bn": "এটি প্রাথমিকীকরণ করুন:",
+            "id": "Inisialisasikannya:",
+            "ur": "اسے شروع کریں:",
+            "tr": "Başlatın:",
+            "ku": "دەستپێکی بکە:",
+            "ms": "Mulakannya:",
+            "es": "Inicialízalo:"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
+            "en": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
+            "bn": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
+            "id": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
+            "ur": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
+            "tr": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
+            "ku": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
+            "ms": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
+            "es": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}"
+          },
+          "props": {
+            "language": "dart"
+          }
+        }
+      ]
+    },
     {
       "id": "getting_started_content",
       "title": {
