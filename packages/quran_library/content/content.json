@@ -155,15 +155,15 @@
         {
           "type": "paragraph",
           "content": {
-            "ar": "هذا يسمح باستمرار تشغيل الصوت عندما يكون التطبيق في الخلفية. في ملف `pubspec.yaml` لمشروع فلاتر الخاص بك، أضف التبعية التالية:",
-            "en": "This allows audio playback to continue when the app is in the background. In the `pubspec.yaml` of your flutter project, add the following dependency:",
-            "bn": "এটি অ্যাপটি ব্যাকগ্রাউন্ডে থাকা সত্ত্বেও অডিও প্লেব্যাক চালিয়ে যাওয়ার অনুমতি দেয়। আপনার ফ্লাটার প্রকল্পের `pubspec.yaml`-এ নিম্নলিখিত নির্ভরতা (dependency) যোগ করুন:",
-            "id": "Ini memungkinkan pemutaran audio untuk terus berjalan ketika aplikasi berada di latar belakang. Di dalam `pubspec.yaml` proyek Flutter Anda, tambahkan dependensi berikut:",
-            "ur": "یہ اجازت دیتا ہے کہ جب ایپ پس منظر میں ہو تو آڈیو پلے بیک جاری رہے۔ اپنے فلٹر پروجیکٹ کے `pubspec.yaml` میں، درج ذیل انحصار (dependency) شامل کریں:",
-            "tr": "Bu, uygulama arka plandayken ses çalmanın devam etmesini sağlar. Flutter projenizin `pubspec.yaml` dosyasına aşağıdaki bağımlılığı ekleyin:",
-            "ku": "ئەمە ڕێگە دەدات کە لێدانی دەنگ بەردەوام بێت کاتێک ئەپەکە لە پاشبنەمادایە. لە `pubspec.yaml`ی پڕۆژەی فلتەرەکەتدا، ئەم پشتبەستنەی خوارەوە زیاد بکە:",
-            "ms": "Ini membolehkan main balik audio berterusan apabila aplikasi berada di latar belakang. Dalam `pubspec.yaml` projek flutter anda, tambah kebergantungan berikut:",
-            "es": "Esto permite que la reproducción de audio continúe cuando la aplicación está en segundo plano. En el `pubspec.yaml` de tu proyecto Flutter, añade la siguiente dependencia:"
+            "ar": "في ملف `pubspec.yaml` لمشروع فلاتر الخاص بك، أضف التبعية التالية:",
+            "en": "In the `pubspec.yaml` of your flutter project, add the following dependency:",
+            "bn": "আপনার ফ্লাটার প্রকল্পের `pubspec.yaml`-এ নিম্নলিখিত নির্ভরতা (dependency) যোগ করুন:",
+            "id": "Di dalam `pubspec.yaml` proyek Flutter Anda, tambahkan dependensi berikut:",
+            "ur": "اپنے فلٹر پروجیکٹ کے `pubspec.yaml` میں، درج ذیل انحصار (dependency) شامل کریں:",
+            "tr": "Flutter projenizin `pubspec.yaml` dosyasına aşağıdaki bağımlılığı ekleyin:",
+            "ku": "لە `pubspec.yaml`ی پڕۆژەی فلتەرەکەتدا، ئەم پشتبەستنەی خوارەوە زیاد بکە:",
+            "ms": "Dalam `pubspec.yaml` projek flutter anda, tambah kebergantungan berikut:",
+            "es": "En el `pubspec.yaml` de tu proyecto Flutter, añade la siguiente dependencia:"
           }
         },
         {
@@ -231,250 +231,15 @@
         {
           "type": "code",
           "content": {
-            "ar": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "en": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "bn": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "id": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "ur": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "tr": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "ku": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "ms": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "es": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}"
-          },
-          "props": {
-            "language": "dart"
-          }
-        }
-      ]
-    },
-    {
-      "id": "getting_started_content",
-      "title": {
-        "ar": "البدء",
-        "en": "Getting started",
-        "bn": "শুরু করা",
-        "id": "Memulai",
-        "ur": "شروع ہو رہا ہے",
-        "tr": "Başlarken",
-        "ku": "دەستپێکردن",
-        "ms": "Bermula",
-        "es": "Empezando"
-      },
-      "order": 2,
-      "keywords": [
-        "getting",
-        "started"
-      ],
-      "blocks": [
-        {
-          "type": "title",
-          "content": {
-            "ar": "البدء",
-            "en": "Getting started",
-            "bn": "শুরু করা",
-            "id": "Memulai",
-            "ur": "شروع کرنا",
-            "tr": "Başlarken",
-            "ku": "دەستپێکردن",
-            "ms": "Bermula",
-            "es": "Empezando"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "**Android** يتم تلقائيًا إضافة الأذونات المطلوبة لتشغيل الصوت (`WAKE_LOCK`، و `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) بواسطة الحزمة. لست بحاجة إلى تعديل ملف AndroidManifest.xml يدويًا. بالإضافة إلى ذلك، لتمكين عناصر التحكم في الصوت المدمجة في النظام (الإشعارات/شاشة القفل) باستخدام `audio_service`، يجب أن يمتد `MainActivity` الخاص بتطبيقك من `AudioServiceActivity`: Kotlin:",
-            "en": "**Android** The required permissions for audio playback (`WAKE_LOCK`, and `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) are automatically added by the package. You don't need to manually edit your AndroidManifest.xml. Additionally, to enable system-integrated audio controls (notification/lockscreen) using `audio_service`, your app's MainActivity must extend `AudioServiceActivity`: Kotlin:",
-            "bn": "**অ্যান্ড্রয়েড** অডিও প্লেব্যাকের জন্য প্রয়োজনীয় অনুমতিগুলি (`WAKE_LOCK`, এবং `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) প্যাকেজ দ্বারা স্বয়ংক্রিয়ভাবে যুক্ত করা হয়। আপনার AndroidManifest.xml ম্যানুয়ালি সম্পাদনা করার প্রয়োজন নেই। উপরন্তু, `audio_service` ব্যবহার করে সিস্টেম-ইন্টিগ্রেটেড অডিও নিয়ন্ত্রণগুলি (নোটিফিকেশন/লকস্ক্রিন) সক্ষম করতে, আপনার অ্যাপের MainActivity অবশ্যই `AudioServiceActivity` প্রসারিত করবে: কটলিন:",
-            "id": "**Android** Izin yang diperlukan untuk pemutaran audio (`WAKE_LOCK`, dan `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) secara otomatis ditambahkan oleh paket. Anda tidak perlu mengedit AndroidManifest.xml Anda secara manual. Selain itu, untuk mengaktifkan kontrol audio terintegrasi sistem (notifikasi/layar kunci) menggunakan `audio_service`, MainActivity aplikasi Anda harus memperluas `AudioServiceActivity`: Kotlin:",
-            "ur": "**اینڈرائیڈ** آڈیو پلے بیک کے لیے درکار اجازتیں (`WAKE_LOCK` اور `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) پیکیج کے ذریعے خود بخود شامل ہو جاتی ہیں۔ آپ کو اپنی `AndroidManifest.xml` میں دستی طور پر ترمیم کرنے کی ضرورت نہیں ہے۔ مزید برآں، `audio_service` کا استعمال کرتے ہوئے سسٹم سے مربوط آڈیو کنٹرولز (نوٹیفکیشن/لاک اسکرین) کو فعال کرنے کے لیے، آپ کی ایپ کی `MainActivity` کو `AudioServiceActivity` کو ایکسٹینڈ کرنا ضروری ہے: کوٹلن:",
-            "tr": "**Android** Ses çalma için gerekli izinler (`WAKE_LOCK` ve `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) paket tarafından otomatik olarak eklenir. AndroidManifest.xml dosyanızı manuel olarak düzenlemeniz gerekmez. Ek olarak, `audio_service` kullanarak sistemle entegre ses kontrollerini (bildirim/kilit ekranı) etkinleştirmek için uygulamanızın MainActivity'si `AudioServiceActivity`'den türemelidir: Kotlin:",
-            "ku": "**ئەندڕۆید** مۆڵەتە پێویستەکان بۆ لێدانی دەنگ (`WAKE_LOCK`، و `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) بە شێوەیەکی خۆکارانە لەلایەن پاکێجەکەوە زیاد دەکرێن. پێویست ناکات بە دەستکاری فایلەکەی `AndroidManifest.xml`ـت دەستکاری بکەیت. سەرەڕای ئەوەش، بۆ چالاککردنی کۆنتڕۆڵەکانی دەنگیی یەکخراو لەگەڵ سیستەم (ئاگادارکەرەوە/شاشەی قفڵ) بە بەکارهێنانی `audio_service`، دەبێت `MainActivity`ـی ئەپڵیکەیشنەکەت درێژبێتەوە لە `AudioServiceActivity`: کۆتلین:",
-            "ms": "**Android** Kebenaran yang diperlukan untuk main balik audio (`WAKE_LOCK`, dan `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) ditambah secara automatik oleh pakej. Anda tidak perlu menyunting AndroidManifest.xml anda secara manual. Selain itu, untuk mendayakan kawalan audio bersepadu sistem (pemberitahuan/skrin kunci) menggunakan `audio_service`, MainActivity aplikasi anda mesti melanjutkan `AudioServiceActivity`: Kotlin:",
-            "es": "**Android** Los permisos requeridos para la reproducción de audio (`WAKE_LOCK` y `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) son añadidos automáticamente por el paquete. No necesita editar manualmente su AndroidManifest.xml. Además, para habilitar los controles de audio integrados en el sistema (notificación/pantalla de bloqueo) usando `audio_service`, la MainActivity de su aplicación debe extender `AudioServiceActivity`: Kotlin:"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "import com.ryanheise.audioservice.AudioServiceActivity\n\nclass MainActivity: AudioServiceActivity()",
-            "en": "import com.ryanheise.audioservice.AudioServiceActivity\n\nclass MainActivity: AudioServiceActivity()",
-            "bn": "import com.ryanheise.audioservice.AudioServiceActivity\n\nclass MainActivity: AudioServiceActivity()",
-            "id": "import com.ryanheise.audioservice.AudioServiceActivity\n\nclass MainActivity: AudioServiceActivity()",
-            "ur": "import com.ryanheise.audioservice.AudioServiceActivity\n\nclass MainActivity: AudioServiceActivity()",
-            "tr": "import com.ryanheise.audioservice.AudioServiceActivity\n\nclass MainActivity: AudioServiceActivity()",
-            "ku": "import com.ryanheise.audioservice.AudioServiceActivity\n\nclass MainActivity: AudioServiceActivity()",
-            "ms": "import com.ryanheise.audioservice.AudioServiceActivity\n\nclass MainActivity: AudioServiceActivity()",
-            "es": "import com.ryanheise.audioservice.AudioServiceActivity\n\nclass MainActivity: AudioServiceActivity()"
-          },
-          "props": {
-            "language": "kotlin"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "جافا:",
-            "en": "Java:",
-            "bn": "জাভা:",
-            "id": "Jawa:",
-            "ur": "جاوا:",
-            "tr": "Java:",
-            "ku": "جاڤا:",
-            "ms": "Java:",
-            "es": "Java:"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "import com.ryanheise.audioservice.AudioServiceActivity;\n\npublic class MainActivity extends AudioServiceActivity {}",
-            "en": "import com.ryanheise.audioservice.AudioServiceActivity;\n\npublic class MainActivity extends AudioServiceActivity {}",
-            "bn": "import com.ryanheise.audioservice.AudioServiceActivity;\n\npublic class MainActivity extends AudioServiceActivity {}",
-            "id": "import com.ryanheise.audioservice.AudioServiceActivity;\n\npublic class MainActivity extends AudioServiceActivity {}",
-            "ur": "import com.ryanheise.audioservice.AudioServiceActivity;\n\npublic class MainActivity extends AudioServiceActivity {}",
-            "tr": "import com.ryanheise.audioservice.AudioServiceActivity;\n\npublic class MainActivity extends AudioServiceActivity {}",
-            "ku": "import com.ryanheise.audioservice.AudioServiceActivity;\n\npublic class MainActivity extends AudioServiceActivity {}",
-            "ms": "import com.ryanheise.audioservice.AudioServiceActivity;\n\npublic class MainActivity extends AudioServiceActivity {}",
-            "es": "import com.ryanheise.audioservice.AudioServiceActivity;\n\npublic class MainActivity extends AudioServiceActivity {}"
-          },
-          "props": {
-            "language": "java"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "إذا لم تقم بتطبيق هذا التغيير، فسيظل الصوت يعمل محليًا، ولكن قد يفشل `AudioService.init()` ولن تكون عناصر التحكم في النظام متاحة.",
-            "en": "If you don't apply this change, the audio will still work locally, but `AudioService.init()` may fail and system controls won't be available.",
-            "bn": "যদি আপনি এই পরিবর্তনটি প্রয়োগ না করেন, তাহলে অডিও এখনও স্থানীয়ভাবে কাজ করবে, কিন্তু `AudioService.init()` ব্যর্থ হতে পারে এবং সিস্টেম নিয়ন্ত্রণগুলি উপলব্ধ হবে না।",
-            "id": "Jika Anda tidak menerapkan perubahan ini, audio akan tetap berfungsi secara lokal, tetapi `AudioService.init()` dapat gagal dan kontrol sistem tidak akan tersedia.",
-            "ur": "اگر آپ یہ تبدیلی لاگو نہیں کرتے ہیں، تو آڈیو اب بھی مقامی طور پر کام کرے گا، لیکن `AudioService.init()` ناکام ہو سکتا ہے اور سسٹم کنٹرولز دستیاب نہیں ہوں گے۔",
-            "tr": "Bu değişikliği uygulamazsanız, ses yerel olarak çalışmaya devam eder, ancak `AudioService.init()` başarısız olabilir ve sistem kontrolleri kullanılamaz hale gelir.",
-            "ku": "ئەگەر ئەم گۆڕانکارییە جێبەجێ نەکەیت، دەنگەکە هێشتا بە شێوەیەکی خۆجێی کار دەکات، بەڵام ڕەنگە `AudioService.init()` شکەست بهێنێت و کۆنتڕۆڵەکانی سیستەم بەردەست نەبن.",
-            "ms": "Jika anda tidak menggunakan perubahan ini, audio masih akan berfungsi secara setempat, tetapi `AudioService.init()` mungkin gagal dan kawalan sistem tidak akan tersedia.",
-            "es": "Si no aplica este cambio, el audio seguirá funcionando localmente, pero `AudioService.init()` podría fallar y los controles del sistema no estarán disponibles."
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "**iOS** لتشغيل الصوت في الخلفية، يجب عليك إضافة ما يلي إلى ملف `Info.plist` الخاص بتطبيقك:",
-            "en": "**iOS** For background audio playback, you must add the following to your app's `Info.plist`:",
-            "bn": "**iOS** প্রেক্ষাপট অডিও প্লেব্যাকের জন্য, আপনাকে আপনার অ্যাপের `Info.plist`-এ নিম্নলিখিতটি যোগ করতে হবে:",
-            "id": "**iOS** Untuk pemutaran audio latar belakang, Anda harus menambahkan yang berikut ke `Info.plist` aplikasi Anda:",
-            "ur": "**iOS** پس منظر میں آڈیو چلانے کے لیے، آپ کو اپنی ایپ کے `Info.plist` میں درج ذیل شامل کرنا ہوگا:",
-            "tr": "**iOS** Arka planda ses çalma için, uygulamanızın `Info.plist` dosyasına aşağıdakileri eklemelisiniz:",
-            "ku": "**iOS** بۆ لێدانی دەنگی پاشبنەما، دەبێت ئەمانەی خوارەوە زیاد بکەیت بۆ `Info.plist`ی ئەپەکەت:",
-            "ms": "**iOS** Untuk main balik audio latar belakang, anda mesti menambah yang berikut pada `Info.plist` aplikasi anda:",
-            "es": "**iOS** Para la reproducción de audio en segundo plano, debe agregar lo siguiente al `Info.plist` de su aplicación:\n\n```xml\n<key>UIBackgroundModes</key>\n<array>\n    <string>audio</string>\n</array>\n```"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "<key>UIBackgroundModes</key>\n<array>\n<string>audio</string>\n</array>",
-            "en": "<key>UIBackgroundModes</key>\n<array>\n<string>audio</string>\n</array>",
-            "bn": "<key>UIBackgroundModes</key>\n<array>\n<string>audio</string>\n</array>",
-            "id": "<key>UIBackgroundModes</key>\n<array>\n<string>audio</string>\n</array>",
-            "ur": "<key>UIBackgroundModes</key>\n<array>\n<string>audio</string>\n</array>",
-            "tr": "<key>UIBackgroundModes</key>\n<array>\n<string>audio</string>\n</array>",
-            "ku": "<key>UIBackgroundModes</key>\n<array>\n<string>audio</string>\n</array>",
-            "ms": "<key>UIBackgroundModes</key>\n<array>\n<string>audio</string>\n</array>",
-            "es": "<key>UIBackgroundModes</key>\n<array>\n<string>audio</string>\n</array>"
-          },
-          "props": {
-            "language": "xml"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "هذا يسمح باستمرار تشغيل الصوت عندما يكون التطبيق في الخلفية. في ملف `pubspec.yaml` لمشروع فلاتر الخاص بك، أضف التبعية التالية:",
-            "en": "This allows audio playback to continue when the app is in the background. In the `pubspec.yaml` of your flutter project, add the following dependency:",
-            "bn": "এটি অ্যাপটি ব্যাকগ্রাউন্ডে থাকা সত্ত্বেও অডিও প্লেব্যাক চালিয়ে যাওয়ার অনুমতি দেয়। আপনার ফ্লাটার প্রকল্পের `pubspec.yaml`-এ নিম্নলিখিত নির্ভরতা (dependency) যোগ করুন:",
-            "id": "Ini memungkinkan pemutaran audio untuk terus berjalan ketika aplikasi berada di latar belakang. Di dalam `pubspec.yaml` proyek Flutter Anda, tambahkan dependensi berikut:",
-            "ur": "یہ اجازت دیتا ہے کہ جب ایپ پس منظر میں ہو تو آڈیو پلے بیک جاری رہے۔ اپنے فلٹر پروجیکٹ کے `pubspec.yaml` میں، درج ذیل انحصار (dependency) شامل کریں:",
-            "tr": "Bu, uygulama arka plandayken ses çalmanın devam etmesini sağlar. Flutter projenizin `pubspec.yaml` dosyasına aşağıdaki bağımlılığı ekleyin:",
-            "ku": "ئەمە ڕێگە دەدات کە لێدانی دەنگ بەردەوام بێت کاتێک ئەپەکە لە پاشبنەمادایە. لە `pubspec.yaml`ی پڕۆژەی فلتەرەکەتدا، ئەم پشتبەستنەی خوارەوە زیاد بکە:",
-            "ms": "Ini membolehkan main balik audio berterusan apabila aplikasi berada di latar belakang. Dalam `pubspec.yaml` projek flutter anda, tambah kebergantungan berikut:",
-            "es": "Esto permite que la reproducción de audio continúe cuando la aplicación está en segundo plano. En el `pubspec.yaml` de tu proyecto Flutter, añade la siguiente dependencia:"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "dependencies:\n...\nquran_library: ^2.2.4+1",
-            "en": "dependencies:\n...\nquran_library: ^2.2.4+1",
-            "bn": "dependencies:\n...\nquran_library: ^2.2.4+1",
-            "id": "dependencies:\n...\nquran_library: ^2.2.4+1",
-            "ur": "dependencies:\n...\nquran_library: ^2.2.4+1",
-            "tr": "dependencies:\n...\nquran_library: ^2.2.4+1",
-            "ku": "dependencies:\n...\nquran_library: ^2.2.4+1",
-            "ms": "dependencies:\n...\nquran_library: ^2.2.4+1",
-            "es": "dependencies:\n...\nquran_library: ^2.2.4+1"
-          },
-          "props": {
-            "language": "yaml"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "قم باستيراده:",
-            "en": "Import it:",
-            "bn": "আমদানি করুন:",
-            "id": "Impor itu:",
-            "ur": "اسے درآمد کریں:",
-            "tr": "İçe aktarın:",
-            "ku": "ئیمپۆرتی بکە:",
-            "ms": "Import it:",
-            "es": "Import it:"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "import 'package:quran_library/quran_library.dart';",
-            "en": "import 'package:quran_library/quran_library.dart';",
-            "bn": "import 'package:quran_library/quran_library.dart';",
-            "id": "import 'package:quran_library/quran_library.dart';",
-            "ur": "import 'package:quran_library/quran_library.dart';",
-            "tr": "import 'package:quran_library/quran_library.dart';",
-            "ku": "import 'package:quran_library/quran_library.dart';",
-            "ms": "import 'package:quran_library/quran_library.dart';",
-            "es": "import 'package:quran_library/quran_library.dart';"
-          },
-          "props": {
-            "language": "dart"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "قم بتهيئته:",
-            "en": "Initialize it:",
-            "bn": "এটি প্রাথমিকীকরণ করুন:",
-            "id": "Inisialisasikannya:",
-            "ur": "اسے شروع کریں:",
-            "tr": "Başlatın:",
-            "ku": "دەستپێکی بکە:",
-            "ms": "Mulakannya:",
-            "es": "Inicialízalo:"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "en": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "bn": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "id": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "ur": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "tr": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "ku": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "ms": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
-            "es": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}"
+            "ar": "Future<void> main() async {\n  await WidgetsFlutterBinding.ensureInitialized();\n  await QuranLibrary.init();\n  runApp(\n    const MyApp(),\n  );\n}",
+            "en": "Future<void> main() async {\n  await WidgetsFlutterBinding.ensureInitialized();\n  await QuranLibrary.init();\n  runApp(\n    const MyApp(),\n  );\n}",
+            "bn": "Future<void> main() async {\n  await WidgetsFlutterBinding.ensureInitialized();\n  await QuranLibrary.init();\n  runApp(\n    const MyApp(),\n  );\n}",
+            "id": "Future<void> main() async {\n  await WidgetsFlutterBinding.ensureInitialized();\n  await QuranLibrary.init();\n  runApp(\n    const MyApp(),\n  );\n}",
+            "ur": "Future<void> main() async {\n  await WidgetsFlutterBinding.ensureInitialized();\n  await QuranLibrary.init();\n  runApp(\n    const MyApp(),\n  );\n}",
+            "tr": "Future<void> main() async {\n  await WidgetsFlutterBinding.ensureInitialized();\n  await QuranLibrary.init();\n  runApp(\n    const MyApp(),\n  );\n}",
+            "ku": "Future<void> main() async {\n  await WidgetsFlutterBinding.ensureInitialized();\n  await QuranLibrary.init();\n  runApp(\n    const MyApp(),\n  );\n}",
+            "ms": "Future<void> main() async {\n  await WidgetsFlutterBinding.ensureInitialized();\n  await QuranLibrary.init();\n  runApp(\n    const MyApp(),\n  );\n}",
+            "es": "Future<void> main() async {\n  await WidgetsFlutterBinding.ensureInitialized();\n  await QuranLibrary.init();\n  runApp(\n    const MyApp(),\n  );\n}"
           },
           "props": {
             "language": "dart"
@@ -880,14 +645,14 @@
           "type": "subtitle",
           "content": {
             "ar": "https://qurancomplex.gov.sa/quran-dev/",
-            "en": "",
-            "bn": "",
-            "id": "",
-            "ur": "",
-            "tr": "",
-            "ku": "",
-            "ms": "",
-            "es": ""
+            "en": "https://qurancomplex.gov.sa/quran-dev/",
+            "bn": "https://qurancomplex.gov.sa/quran-dev/",
+            "id": "https://qurancomplex.gov.sa/quran-dev/",
+            "ur": "https://qurancomplex.gov.sa/quran-dev/",
+            "tr": "https://qurancomplex.gov.sa/quran-dev/",
+            "ku": "https://qurancomplex.gov.sa/quran-dev/",
+            "ms": "https://qurancomplex.gov.sa/quran-dev/",
+            "es": "https://qurancomplex.gov.sa/quran-dev/"
           }
         },
         {
@@ -908,14 +673,249 @@
           "type": "subtitle",
           "content": {
             "ar": "https://qul.tarteel.ai/",
-            "en": "",
-            "bn": "",
-            "id": "",
-            "ur": "",
-            "tr": "",
-            "ku": "",
-            "ms": "",
-            "es": ""
+            "en": "https://qul.tarteel.ai/",
+            "bn": "https://qul.tarteel.ai/",
+            "id": "https://qul.tarteel.ai/",
+            "ur": "https://qul.tarteel.ai/",
+            "tr": "https://qul.tarteel.ai/",
+            "ku": "https://qul.tarteel.ai/",
+            "ms": "https://qul.tarteel.ai/",
+            "es": "https://qul.tarteel.ai/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "getting_started_content",
+      "title": {
+        "ar": "البدء",
+        "en": "Getting started",
+        "bn": "শুরু করা",
+        "id": "Memulai",
+        "ur": "شروع ہو رہا ہے",
+        "tr": "Başlarken",
+        "ku": "دەستپێکردن",
+        "ms": "Bermula",
+        "es": "Empezando"
+      },
+      "order": 2,
+      "keywords": [
+        "getting",
+        "started"
+      ],
+      "blocks": [
+        {
+          "type": "title",
+          "content": {
+            "ar": "البدء",
+            "en": "Getting started",
+            "bn": "শুরু করা",
+            "id": "Memulai",
+            "ur": "شروع کرنا",
+            "tr": "Başlarken",
+            "ku": "دەستپێکردن",
+            "ms": "Bermula",
+            "es": "Empezando"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "**Android** يتم تلقائيًا إضافة الأذونات المطلوبة لتشغيل الصوت (`WAKE_LOCK`، و `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) بواسطة الحزمة. لست بحاجة إلى تعديل ملف AndroidManifest.xml يدويًا. بالإضافة إلى ذلك، لتمكين عناصر التحكم في الصوت المدمجة في النظام (الإشعارات/شاشة القفل) باستخدام `audio_service`، يجب أن يمتد `MainActivity` الخاص بتطبيقك من `AudioServiceActivity`: Kotlin:",
+            "en": "**Android** The required permissions for audio playback (`WAKE_LOCK`, and `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) are automatically added by the package. You don't need to manually edit your AndroidManifest.xml. Additionally, to enable system-integrated audio controls (notification/lockscreen) using `audio_service`, your app's MainActivity must extend `AudioServiceActivity`: Kotlin:",
+            "bn": "**অ্যান্ড্রয়েড** অডিও প্লেব্যাকের জন্য প্রয়োজনীয় অনুমতিগুলি (`WAKE_LOCK`, এবং `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) প্যাকেজ দ্বারা স্বয়ংক্রিয়ভাবে যুক্ত করা হয়। আপনার AndroidManifest.xml ম্যানুয়ালি সম্পাদনা করার প্রয়োজন নেই। উপরন্তু, `audio_service` ব্যবহার করে সিস্টেম-ইন্টিগ্রেটেড অডিও নিয়ন্ত্রণগুলি (নোটিফিকেশন/লকস্ক্রিন) সক্ষম করতে, আপনার অ্যাপের MainActivity অবশ্যই `AudioServiceActivity` প্রসারিত করবে: কটলিন:",
+            "id": "**Android** Izin yang diperlukan untuk pemutaran audio (`WAKE_LOCK`, dan `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) secara otomatis ditambahkan oleh paket. Anda tidak perlu mengedit AndroidManifest.xml Anda secara manual. Selain itu, untuk mengaktifkan kontrol audio terintegrasi sistem (notifikasi/layar kunci) menggunakan `audio_service`, MainActivity aplikasi Anda harus memperluas `AudioServiceActivity`: Kotlin:",
+            "ur": "**اینڈرائیڈ** آڈیو پلے بیک کے لیے درکار اجازتیں (`WAKE_LOCK` اور `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) پیکیج کے ذریعے خود بخود شامل ہو جاتی ہیں۔ آپ کو اپنی `AndroidManifest.xml` میں دستی طور پر ترمیم کرنے کی ضرورت نہیں ہے۔ مزید برآں، `audio_service` کا استعمال کرتے ہوئے سسٹم سے مربوط آڈیو کنٹرولز (نوٹیفکیشن/لاک اسکرین) کو فعال کرنے کے لیے، آپ کی ایپ کی `MainActivity` کو `AudioServiceActivity` کو ایکسٹینڈ کرنا ضروری ہے: کوٹلن:",
+            "tr": "**Android** Ses çalma için gerekli izinler (`WAKE_LOCK` ve `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) paket tarafından otomatik olarak eklenir. AndroidManifest.xml dosyanızı manuel olarak düzenlemeniz gerekmez. Ek olarak, `audio_service` kullanarak sistemle entegre ses kontrollerini (bildirim/kilit ekranı) etkinleştirmek için uygulamanızın MainActivity'si `AudioServiceActivity`'den türemelidir: Kotlin:",
+            "ku": "**ئەندڕۆید** مۆڵەتە پێویستەکان بۆ لێدانی دەنگ (`WAKE_LOCK`، و `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) بە شێوەیەکی خۆکارانە لەلایەن پاکێجەکەوە زیاد دەکرێن. پێویست ناکات بە دەستکاری فایلەکەی `AndroidManifest.xml`ـت دەستکاری بکەیت. سەرەڕای ئەوەش، بۆ چالاککردنی کۆنتڕۆڵەکانی دەنگیی یەکخراو لەگەڵ سیستەم (ئاگادارکەرەوە/شاشەی قفڵ) بە بەکارهێنانی `audio_service`، دەبێت `MainActivity`ـی ئەپڵیکەیشنەکەت درێژبێتەوە لە `AudioServiceActivity`: کۆتلین:",
+            "ms": "**Android** Kebenaran yang diperlukan untuk main balik audio (`WAKE_LOCK`, dan `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) ditambah secara automatik oleh pakej. Anda tidak perlu menyunting AndroidManifest.xml anda secara manual. Selain itu, untuk mendayakan kawalan audio bersepadu sistem (pemberitahuan/skrin kunci) menggunakan `audio_service`, MainActivity aplikasi anda mesti melanjutkan `AudioServiceActivity`: Kotlin:",
+            "es": "**Android** Los permisos requeridos para la reproducción de audio (`WAKE_LOCK` y `FOREGROUND_SERVICE_MEDIA_PLAYBACK`) son añadidos automáticamente por el paquete. No necesita editar manualmente su AndroidManifest.xml. Además, para habilitar los controles de audio integrados en el sistema (notificación/pantalla de bloqueo) usando `audio_service`, la MainActivity de su aplicación debe extender `AudioServiceActivity`: Kotlin:"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "import com.ryanheise.audioservice.AudioServiceActivity\n\nclass MainActivity: AudioServiceActivity()",
+            "en": "import com.ryanheise.audioservice.AudioServiceActivity\n\nclass MainActivity: AudioServiceActivity()",
+            "bn": "import com.ryanheise.audioservice.AudioServiceActivity\n\nclass MainActivity: AudioServiceActivity()",
+            "id": "import com.ryanheise.audioservice.AudioServiceActivity\n\nclass MainActivity: AudioServiceActivity()",
+            "ur": "import com.ryanheise.audioservice.AudioServiceActivity\n\nclass MainActivity: AudioServiceActivity()",
+            "tr": "import com.ryanheise.audioservice.AudioServiceActivity\n\nclass MainActivity: AudioServiceActivity()",
+            "ku": "import com.ryanheise.audioservice.AudioServiceActivity\n\nclass MainActivity: AudioServiceActivity()",
+            "ms": "import com.ryanheise.audioservice.AudioServiceActivity\n\nclass MainActivity: AudioServiceActivity()",
+            "es": "import com.ryanheise.audioservice.AudioServiceActivity\n\nclass MainActivity: AudioServiceActivity()"
+          },
+          "props": {
+            "language": "kotlin"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "جافا:",
+            "en": "Java:",
+            "bn": "জাভা:",
+            "id": "Jawa:",
+            "ur": "جاوا:",
+            "tr": "Java:",
+            "ku": "جاڤا:",
+            "ms": "Java:",
+            "es": "Java:"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "import com.ryanheise.audioservice.AudioServiceActivity;\n\npublic class MainActivity extends AudioServiceActivity {}",
+            "en": "import com.ryanheise.audioservice.AudioServiceActivity;\n\npublic class MainActivity extends AudioServiceActivity {}",
+            "bn": "import com.ryanheise.audioservice.AudioServiceActivity;\n\npublic class MainActivity extends AudioServiceActivity {}",
+            "id": "import com.ryanheise.audioservice.AudioServiceActivity;\n\npublic class MainActivity extends AudioServiceActivity {}",
+            "ur": "import com.ryanheise.audioservice.AudioServiceActivity;\n\npublic class MainActivity extends AudioServiceActivity {}",
+            "tr": "import com.ryanheise.audioservice.AudioServiceActivity;\n\npublic class MainActivity extends AudioServiceActivity {}",
+            "ku": "import com.ryanheise.audioservice.AudioServiceActivity;\n\npublic class MainActivity extends AudioServiceActivity {}",
+            "ms": "import com.ryanheise.audioservice.AudioServiceActivity;\n\npublic class MainActivity extends AudioServiceActivity {}",
+            "es": "import com.ryanheise.audioservice.AudioServiceActivity;\n\npublic class MainActivity extends AudioServiceActivity {}"
+          },
+          "props": {
+            "language": "java"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "إذا لم تقم بتطبيق هذا التغيير، فسيظل الصوت يعمل محليًا، ولكن قد يفشل `AudioService.init()` ولن تكون عناصر التحكم في النظام متاحة.",
+            "en": "If you don't apply this change, the audio will still work locally, but `AudioService.init()` may fail and system controls won't be available.",
+            "bn": "যদি আপনি এই পরিবর্তনটি প্রয়োগ না করেন, তাহলে অডিও এখনও স্থানীয়ভাবে কাজ করবে, কিন্তু `AudioService.init()` ব্যর্থ হতে পারে এবং সিস্টেম নিয়ন্ত্রণগুলি উপলব্ধ হবে না।",
+            "id": "Jika Anda tidak menerapkan perubahan ini, audio akan tetap berfungsi secara lokal, tetapi `AudioService.init()` dapat gagal dan kontrol sistem tidak akan tersedia.",
+            "ur": "اگر آپ یہ تبدیلی لاگو نہیں کرتے ہیں، تو آڈیو اب بھی مقامی طور پر کام کرے گا، لیکن `AudioService.init()` ناکام ہو سکتا ہے اور سسٹم کنٹرولز دستیاب نہیں ہوں گے۔",
+            "tr": "Bu değişikliği uygulamazsanız, ses yerel olarak çalışmaya devam eder, ancak `AudioService.init()` başarısız olabilir ve sistem kontrolleri kullanılamaz hale gelir.",
+            "ku": "ئەگەر ئەم گۆڕانکارییە جێبەجێ نەکەیت، دەنگەکە هێشتا بە شێوەیەکی خۆجێی کار دەکات، بەڵام ڕەنگە `AudioService.init()` شکەست بهێنێت و کۆنتڕۆڵەکانی سیستەم بەردەست نەبن.",
+            "ms": "Jika anda tidak menggunakan perubahan ini, audio masih akan berfungsi secara setempat, tetapi `AudioService.init()` mungkin gagal dan kawalan sistem tidak akan tersedia.",
+            "es": "Si no aplica este cambio, el audio seguirá funcionando localmente, pero `AudioService.init()` podría fallar y los controles del sistema no estarán disponibles."
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "**iOS** لتشغيل الصوت في الخلفية، يجب عليك إضافة ما يلي إلى ملف `Info.plist` الخاص بتطبيقك:",
+            "en": "**iOS** For background audio playback, you must add the following to your app's `Info.plist`:",
+            "bn": "**iOS** প্রেক্ষাপট অডিও প্লেব্যাকের জন্য, আপনাকে আপনার অ্যাপের `Info.plist`-এ নিম্নলিখিতটি যোগ করতে হবে:",
+            "id": "**iOS** Untuk pemutaran audio latar belakang, Anda harus menambahkan yang berikut ke `Info.plist` aplikasi Anda:",
+            "ur": "**iOS** پس منظر میں آڈیو چلانے کے لیے، آپ کو اپنی ایپ کے `Info.plist` میں درج ذیل شامل کرنا ہوگا:",
+            "tr": "**iOS** Arka planda ses çalma için, uygulamanızın `Info.plist` dosyasına aşağıdakileri eklemelisiniz:",
+            "ku": "**iOS** بۆ لێدانی دەنگی پاشبنەما، دەبێت ئەمانەی خوارەوە زیاد بکەیت بۆ `Info.plist`ی ئەپەکەت:",
+            "ms": "**iOS** Untuk main balik audio latar belakang, anda mesti menambah yang berikut pada `Info.plist` aplikasi anda:",
+            "es": "**iOS** Para la reproducción de audio en segundo plano, debe agregar lo siguiente al `Info.plist` de su aplicación:\n\n```xml\n<key>UIBackgroundModes</key>\n<array>\n    <string>audio</string>\n</array>\n```"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "<key>UIBackgroundModes</key>\n<array>\n<string>audio</string>\n</array>",
+            "en": "<key>UIBackgroundModes</key>\n<array>\n<string>audio</string>\n</array>",
+            "bn": "<key>UIBackgroundModes</key>\n<array>\n<string>audio</string>\n</array>",
+            "id": "<key>UIBackgroundModes</key>\n<array>\n<string>audio</string>\n</array>",
+            "ur": "<key>UIBackgroundModes</key>\n<array>\n<string>audio</string>\n</array>",
+            "tr": "<key>UIBackgroundModes</key>\n<array>\n<string>audio</string>\n</array>",
+            "ku": "<key>UIBackgroundModes</key>\n<array>\n<string>audio</string>\n</array>",
+            "ms": "<key>UIBackgroundModes</key>\n<array>\n<string>audio</string>\n</array>",
+            "es": "<key>UIBackgroundModes</key>\n<array>\n<string>audio</string>\n</array>"
+          },
+          "props": {
+            "language": "xml"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "هذا يسمح باستمرار تشغيل الصوت عندما يكون التطبيق في الخلفية. في ملف `pubspec.yaml` لمشروع فلاتر الخاص بك، أضف التبعية التالية:",
+            "en": "This allows audio playback to continue when the app is in the background. In the `pubspec.yaml` of your flutter project, add the following dependency:",
+            "bn": "এটি অ্যাপটি ব্যাকগ্রাউন্ডে থাকা সত্ত্বেও অডিও প্লেব্যাক চালিয়ে যাওয়ার অনুমতি দেয়। আপনার ফ্লাটার প্রকল্পের `pubspec.yaml`-এ নিম্নলিখিত নির্ভরতা (dependency) যোগ করুন:",
+            "id": "Ini memungkinkan pemutaran audio untuk terus berjalan ketika aplikasi berada di latar belakang. Di dalam `pubspec.yaml` proyek Flutter Anda, tambahkan dependensi berikut:",
+            "ur": "یہ اجازت دیتا ہے کہ جب ایپ پس منظر میں ہو تو آڈیو پلے بیک جاری رہے۔ اپنے فلٹر پروجیکٹ کے `pubspec.yaml` میں، درج ذیل انحصار (dependency) شامل کریں:",
+            "tr": "Bu, uygulama arka plandayken ses çalmanın devam etmesini sağlar. Flutter projenizin `pubspec.yaml` dosyasına aşağıdaki bağımlılığı ekleyin:",
+            "ku": "ئەمە ڕێگە دەدات کە لێدانی دەنگ بەردەوام بێت کاتێک ئەپەکە لە پاشبنەمادایە. لە `pubspec.yaml`ی پڕۆژەی فلتەرەکەتدا، ئەم پشتبەستنەی خوارەوە زیاد بکە:",
+            "ms": "Ini membolehkan main balik audio berterusan apabila aplikasi berada di latar belakang. Dalam `pubspec.yaml` projek flutter anda, tambah kebergantungan berikut:",
+            "es": "Esto permite que la reproducción de audio continúe cuando la aplicación está en segundo plano. En el `pubspec.yaml` de tu proyecto Flutter, añade la siguiente dependencia:"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "dependencies:\n...\nquran_library: ^2.2.4+1",
+            "en": "dependencies:\n...\nquran_library: ^2.2.4+1",
+            "bn": "dependencies:\n...\nquran_library: ^2.2.4+1",
+            "id": "dependencies:\n...\nquran_library: ^2.2.4+1",
+            "ur": "dependencies:\n...\nquran_library: ^2.2.4+1",
+            "tr": "dependencies:\n...\nquran_library: ^2.2.4+1",
+            "ku": "dependencies:\n...\nquran_library: ^2.2.4+1",
+            "ms": "dependencies:\n...\nquran_library: ^2.2.4+1",
+            "es": "dependencies:\n...\nquran_library: ^2.2.4+1"
+          },
+          "props": {
+            "language": "yaml"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "قم باستيراده:",
+            "en": "Import it:",
+            "bn": "আমদানি করুন:",
+            "id": "Impor itu:",
+            "ur": "اسے درآمد کریں:",
+            "tr": "İçe aktarın:",
+            "ku": "ئیمپۆرتی بکە:",
+            "ms": "Import it:",
+            "es": "Import it:"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "import 'package:quran_library/quran_library.dart';",
+            "en": "import 'package:quran_library/quran_library.dart';",
+            "bn": "import 'package:quran_library/quran_library.dart';",
+            "id": "import 'package:quran_library/quran_library.dart';",
+            "ur": "import 'package:quran_library/quran_library.dart';",
+            "tr": "import 'package:quran_library/quran_library.dart';",
+            "ku": "import 'package:quran_library/quran_library.dart';",
+            "ms": "import 'package:quran_library/quran_library.dart';",
+            "es": "import 'package:quran_library/quran_library.dart';"
+          },
+          "props": {
+            "language": "dart"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "قم بتهيئته:",
+            "en": "Initialize it:",
+            "bn": "এটি প্রাথমিকীকরণ করুন:",
+            "id": "Inisialisasikannya:",
+            "ur": "اسے شروع کریں:",
+            "tr": "Başlatın:",
+            "ku": "دەستپێکی بکە:",
+            "ms": "Mulakannya:",
+            "es": "Inicialízalo:"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
+            "en": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
+            "bn": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
+            "id": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
+            "ur": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
+            "tr": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
+            "ku": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
+            "ms": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}",
+            "es": "Future<void> main() async {\nawait WidgetsFlutterBinding.ensureInitialized();\nawait QuranLibrary.init();\nrunApp(\nconst MyApp(),\n);\n}"
+          },
+          "props": {
+            "language": "dart"
           }
         }
       ]
