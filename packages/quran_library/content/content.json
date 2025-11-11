@@ -27,7 +27,7 @@
         "ms": "Apakah Perpustakaan Al-Quran",
         "es": "Qué es la Biblioteca del Corán"
       },
-      "order": 5,
+      "order": 1,
       "sections": [
         "about_library",
         "sources"
@@ -46,7 +46,7 @@
         "ms": "Permulaan",
         "es": "Comenzar"
       },
-      "order": 1,
+      "order": 2,
       "sections": [
         "getting_started_content"
       ]
@@ -64,7 +64,7 @@
         "ms": "Contoh Penggunaan",
         "es": "Ejemplos de uso"
       },
-      "order": 2,
+      "order": 3,
       "sections": [
         "basic_quran_screen",
         "individual_surah_display",
@@ -85,7 +85,7 @@
         "ms": "Ciri-ciri Lain",
         "es": "Otras características"
       },
-      "order": 3,
+      "order": 4,
       "sections": [
         "fonts_download",
         "tafsir_feature"
@@ -104,7 +104,7 @@
         "ms": "Mainkan Audio",
         "es": "Reproducir sonido"
       },
-      "order": 4,
+      "order": 5,
       "sections": [
         "play_ayah_audio",
         "play_surah_audio"
@@ -123,7 +123,7 @@
         "ms": "pelbagai",
         "es": "Miscelánea"
       },
-      "order": 5,
+      "order": 6,
       "sections": [
         "sources",
         "license"
