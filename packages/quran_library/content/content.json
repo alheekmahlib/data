@@ -88,8 +88,11 @@
       },
       "order": 4,
       "sections": [
+        "data_and_navigation",
+        "bookmarks",
         "fonts_download",
-        "tafsir_feature"
+        "tafsir_feature",
+        "search"
       ]
     },
     {
@@ -151,7 +154,7 @@
         {
           "type": "code",
           "content": {
-            "ar": "dependencies:\n...\nquran_library: ^2.2.4+1",
+            "ar": "dependencies:\n...\nquran_library: ^LATEST_VERSION",
             "en": "dependencies:\n...\nquran_library: ^2.2.4+1",
             "bn": "dependencies:\n...\nquran_library: ^2.2.4+1",
             "id": "dependencies:\n...\nquran_library: ^2.2.4+1",
@@ -452,6 +455,26 @@
           "props": {
             "language": "dart"
           }
+        },
+        {
+          "type": "image",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          },
+          "props": {
+            "urls": [
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Packages/quran_library/font_download_screen.png"
+            ],
+            "width": "320"
+          }
         }
       ]
     },
@@ -476,48 +499,149 @@
       ],
       "blocks": [
         {
-          "type": "title",
+          "type": "gap",
           "content": {
-            "ar": "تشغيل صوت الآية",
-            "en": "Play Ayah Audio",
-            "bn": "আয়াত অডিও চালান",
-            "id": "Putar Audio Ayah",
-            "ur": "آیت آڈیو چلائیں",
-            "tr": "Ayah Sesini Çal",
-            "ku": "Play Ayah Audio",
-            "ms": "Mainkan Audio Ayah",
-            "es": "Reproducir Audio del Ayah"
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          },
+          "props": {
+            "height": "32"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "يوفّر هذا القسم الإمكانية الشاملة لتشغيل تلاوة القرآن الكريم صوتيًا مع دعم التشغيل في الخلفية وإدارة متقدمة لملفات الصوت.",
+            "en": "This section provides comprehensive capability to play Quranic recitation audio with background play support and advanced audio file management.",
+            "bn": " এই বিভাগটি সম্পূর্ণ সক্ষমতা প্রদান করে কোরআনের তেলাওয়াতের অডিও প্লে করার জন্য, ব্যাকগ্রাউন্ড প্লে সাপোর্ট এবং উন্নত অডিও ফাইল ব্যবস্থাপনা সহ।",
+            "id": " Bagian ini menyediakan kemampuan lengkap untuk memutar bacaan Al-Quran secara audio dengan dukungan pemutaran latar belakang dan manajemen file audio canggih.",
+            "ur": " یہ سیکشن قرآن کی تلاوت کے آڈیو پلے کرنے کی مکمل سہولت فراہم کرتا ہے، پس منظر میں چلانے کی حمایت کے ساتھ اور آڈیو فائلز کی جدید انتظام کاری۔",
+            "tr": " Bu bölüm, arka planda oynatma desteği ve gelişmiş ses dosyası yönetimi ile Kuran tilavetinin sesli oynatılmasına kapsamlı imkan sağlar.",
+            "ku": " ئه‌م بەشە توانای گشتی دەدات بۆ لێدانی دەنگی خوێندنی قورئان بە پشتگیری لێدانی لە دەرەوە و بەڕێوەبردنی پیشکەوتووی فایلە دەنگیەکان.",
+            "ms": " Bahagian ini menyediakan keupayaan menyeluruh untuk memainkan bacaan audio Al-Quran dengan sokongan main latar belakang dan pengurusan fail audio yang maju.",
+            "es": " Esta sección ofrece la capacidad completa para reproducir la recitación del Corán en audio con soporte para reproducción en segundo plano y gestión avanzada de archivos de audio."
           }
         },
         {
           "type": "subtitle",
           "content": {
-            "ar": "لتشغيل آية واحدة:",
-            "en": "To play a single Ayah:",
-            "bn": "একটি একক আয়াত চালানোর জন্য:",
-            "id": "Untuk memainkan satu Ayah:",
-            "ur": "کسی ایک آیت کو چلانے کے لیے:",
-            "tr": "Tek bir Ayet çalmak için:",
-            "ku": "بۆ لێدانی یەک ئایەت:",
-            "ms": "Untuk memainkan satu Ayah:",
-            "es": "Para reproducir una sola Ayah:"
+            "ar": "لتشغيل آية واحدة يمكنك استخدام هذه الدالة:",
+            "en": "To play a single verse, you can use this function:",
+            "bn": " একটি আয়াত প্লে করতে আপনি এই ফাংশন ব্যবহার করতে পারেন:",
+            "id": " Untuk memutar satu ayat, Anda dapat menggunakan fungsi ini:",
+            "ur": " کسی ایک آیت کو چلانے کے لیے آپ اس فنکشن کو استعمال کر سکتے ہیں:",
+            "tr": " Tek bir ayeti çalmak için bu fonksiyonu kullanabilirsiniz:",
+            "ku": " بۆ لێدانەوەی هەر ئایەتێک دەتوانیت ئەم فانکشنی بەکاربهێنیت:",
+            "ms": " Untuk memainkan satu ayat, anda boleh menggunakan fungsi ini:",
+            "es": " Para reproducir un solo verso, puedes usar esta función:"
           }
         },
         {
           "type": "code",
           "content": {
-            "ar": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "en": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "bn": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "id": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "ur": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "tr": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "ku": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "ms": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "es": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);"
+            "ar": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\n  context: context,\n  currentAyahUniqueNumber: 1, // Unique ayah number\n  playSingleAyah: true, // true for single ayah, false to continue\n);",
+            "en": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\n  context: context,\n  currentAyahUniqueNumber: 1, // Unique ayah number\n  playSingleAyah: true, // true for single ayah, false to continue\n);",
+            "bn": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\n  context: context,\n  currentAyahUniqueNumber: 1, // Unique ayah number\n  playSingleAyah: true, // true for single ayah, false to continue\n);",
+            "id": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\n  context: context,\n  currentAyahUniqueNumber: 1, // Unique ayah number\n  playSingleAyah: true, // true for single ayah, false to continue\n);",
+            "ur": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\n  context: context,\n  currentAyahUniqueNumber: 1, // Unique ayah number\n  playSingleAyah: true, // true for single ayah, false to continue\n);",
+            "tr": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\n  context: context,\n  currentAyahUniqueNumber: 1, // Unique ayah number\n  playSingleAyah: true, // true for single ayah, false to continue\n);",
+            "ku": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\n  context: context,\n  currentAyahUniqueNumber: 1, // Unique ayah number\n  playSingleAyah: true, // true for single ayah, false to continue\n);",
+            "ms": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\n  context: context,\n  currentAyahUniqueNumber: 1, // Unique ayah number\n  playSingleAyah: true, // true for single ayah, false to continue\n);",
+            "es": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\n  context: context,\n  currentAyahUniqueNumber: 1, // Unique ayah number\n  playSingleAyah: true, // true for single ayah, false to continue\n);"
           },
           "props": {
             "language": "dart"
+          }
+        },
+        {
+          "type": "divider",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "أو لتشغيل أيات السورة بالكامل والبدأ من الآية المحددة استخدم نفس الدالة مع جعل \" playSingleAyah: false\" :",
+            "en": "Or to play the entire Surah starting from a specified verse, use the same function with \"playSingleAyah: false\":",
+            "bn": " অথবা সম্পূর্ণ সূরা শুরু করতে নির্দিষ্ট আয়াত থেকে, একই ফাংশন ব্যবহার করুন \"playSingleAyah: false\" দিয়ে:",
+            "id": " Atau untuk memutar seluruh Surah mulai dari ayat tertentu, gunakan fungsi yang sama dengan \"playSingleAyah: false\":",
+            "ur": " یا پوری سورۃ کو مخصوص آیت سے شروع کرنے کے لیے، اسی فنکشن کو \"playSingleAyah: false\" کے ساتھ استعمال کریں:",
+            "tr": " Veya belirli bir ayetten başlayarak tüm sureyi çalmak için aynı fonksiyonu \"playSingleAyah: false\" olarak kullanın:",
+            "ku": " یان بۆ لێدانی تەواوی سوورەکە و دەستپێکردن لە ئایەتی دیاریکراو هەمان فانکشنی بەکاربهێنە بە \"playSingleAyah: false\":",
+            "ms": " Atau untuk memainkan keseluruhan Surah bermula dari ayat tertentu, gunakan fungsi yang sama dengan \"playSingleAyah: false\":",
+            "es": " O para reproducir toda la Surah comenzando desde el verso especificado, usa la misma función con \"playSingleAyah: false\":"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\n  context: context,\n  currentAyahUniqueNumber: 1, // Unique ayah number\n  playSingleAyah: false, // true for single ayah, false to continue\n);",
+            "en": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\n  context: context,\n  currentAyahUniqueNumber: 1, // Unique ayah number\n  playSingleAyah: false, // true for single ayah, false to continue\n);",
+            "bn": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\n  context: context,\n  currentAyahUniqueNumber: 1, // Unique ayah number\n  playSingleAyah: false, // true for single ayah, false to continue\n);",
+            "id": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\n  context: context,\n  currentAyahUniqueNumber: 1, // Unique ayah number\n  playSingleAyah: false, // true for single ayah, false to continue\n);",
+            "ur": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\n  context: context,\n  currentAyahUniqueNumber: 1, // Unique ayah number\n  playSingleAyah: false, // true for single ayah, false to continue\n);",
+            "tr": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\n  context: context,\n  currentAyahUniqueNumber: 1, // Unique ayah number\n  playSingleAyah: false, // true for single ayah, false to continue\n);",
+            "ku": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\n  context: context,\n  currentAyahUniqueNumber: 1, // Unique ayah number\n  playSingleAyah: false, // true for single ayah, false to continue\n);",
+            "ms": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\n  context: context,\n  currentAyahUniqueNumber: 1, // Unique ayah number\n  playSingleAyah: false, // true for single ayah, false to continue\n);",
+            "es": "/// Play a verse or group of verses starting from a specific verse\nawait QuranLibrary().playAyah(\n  context: context,\n  currentAyahUniqueNumber: 1, // Unique ayah number\n  playSingleAyah: false, // true for single ayah, false to continue\n);"
+          }
+        },
+        {
+          "type": "divider",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "وللتنقل بين الأيات يمكنك استخدام هذه الدوال:",
+            "en": " To navigate between verses, you can use these functions:",
+            "bn": " আয়াতগুলির মধ্যে নেভিগেশনের জন্য এই ফাংশনগুলি ব্যবহার করতে পারেন:",
+            "id": " Untuk menavigasi antar ayat, Anda dapat menggunakan fungsi-fungsi ini:",
+            "ur": " آیات کے درمیان نیویگیشن کے لیے آپ یہ فنکشنز استعمال کر سکتے ہیں:",
+            "tr": " Ayetler arasında gezinmek için bu fonksiyonları kullanabilirsiniz:",
+            "ku": " بۆ گەڕان لە نێوان ئایەتەکان دەتوانیت ئەم فانکشنانە بەکاربهێنیت:",
+            "ms": " Untuk navigasi antara ayat, anda boleh menggunakan fungsi-fungsi ini:",
+            "es": " Para navegar entre los versos, puedes usar estas funciones:"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "/// Move to next verse and play it\nawait QuranLibrary().seekNextAyah(\n  context: context,\n  currentAyahUniqueNumber: 5,\n);\n\n/// Move to previous verse and play it\nawait QuranLibrary().seekPreviousAyah(\n  context: context,\n  currentAyahUniqueNumber: 10,\n);\n",
+            "en": "/// Move to next verse and play it\nawait QuranLibrary().seekNextAyah(\n  context: context,\n  currentAyahUniqueNumber: 5,\n);\n\n/// Move to previous verse and play it\nawait QuranLibrary().seekPreviousAyah(\n  context: context,\n  currentAyahUniqueNumber: 10,\n);\n",
+            "bn": "/// Move to next verse and play it\nawait QuranLibrary().seekNextAyah(\n  context: context,\n  currentAyahUniqueNumber: 5,\n);\n\n/// Move to previous verse and play it\nawait QuranLibrary().seekPreviousAyah(\n  context: context,\n  currentAyahUniqueNumber: 10,\n);\n",
+            "id": "/// Move to next verse and play it\nawait QuranLibrary().seekNextAyah(\n  context: context,\n  currentAyahUniqueNumber: 5,\n);\n\n/// Move to previous verse and play it\nawait QuranLibrary().seekPreviousAyah(\n  context: context,\n  currentAyahUniqueNumber: 10,\n);\n",
+            "ur": "/// Move to next verse and play it\nawait QuranLibrary().seekNextAyah(\n  context: context,\n  currentAyahUniqueNumber: 5,\n);\n\n/// Move to previous verse and play it\nawait QuranLibrary().seekPreviousAyah(\n  context: context,\n  currentAyahUniqueNumber: 10,\n);\n",
+            "tr": "/// Move to next verse and play it\nawait QuranLibrary().seekNextAyah(\n  context: context,\n  currentAyahUniqueNumber: 5,\n);\n\n/// Move to previous verse and play it\nawait QuranLibrary().seekPreviousAyah(\n  context: context,\n  currentAyahUniqueNumber: 10,\n);\n",
+            "ku": "/// Move to next verse and play it\nawait QuranLibrary().seekNextAyah(\n  context: context,\n  currentAyahUniqueNumber: 5,\n);\n\n/// Move to previous verse and play it\nawait QuranLibrary().seekPreviousAyah(\n  context: context,\n  currentAyahUniqueNumber: 10,\n);\n",
+            "ms": "/// Move to next verse and play it\nawait QuranLibrary().seekNextAyah(\n  context: context,\n  currentAyahUniqueNumber: 5,\n);\n\n/// Move to previous verse and play it\nawait QuranLibrary().seekPreviousAyah(\n  context: context,\n  currentAyahUniqueNumber: 10,\n);\n",
+            "es": "/// Move to next verse and play it\nawait QuranLibrary().seekNextAyah(\n  context: context,\n  currentAyahUniqueNumber: 5,\n);\n\n/// Move to previous verse and play it\nawait QuranLibrary().seekPreviousAyah(\n  context: context,\n  currentAyahUniqueNumber: 10,\n);\n"
           }
         }
       ]
@@ -742,7 +866,7 @@
       ],
       "blocks": [
         {
-          "type": "paragraph",
+          "type": "subtitle",
           "content": {
             "ar": "مثال للاستخدام",
             "en": "Usage Example",
@@ -771,6 +895,26 @@
           "props": {
             "language": "dart"
           }
+        },
+        {
+          "type": "image",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          },
+          "props": {
+            "urls": [
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Packages/quran_library/tafsir_screen.png"
+            ],
+            "width": "320"
+          }
         }
       ]
     },
@@ -795,48 +939,253 @@
       ],
       "blocks": [
         {
-          "type": "title",
+          "type": "gap",
           "content": {
-            "ar": "تشغيل صوت السورة",
-            "en": "Play Surah Audio",
-            "bn": "সূরা অডিও চালান",
-            "id": "Putar Audio Surah",
-            "ur": "سورۃ آڈیو چلائیں",
-            "tr": "Surah Sesini Çal",
-            "ku": "ژەنینى دەنگى سوورەت",
-            "ms": "Dengar Audio Surah",
-            "es": "Reproducir Audio de Sura"
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          },
+          "props": {
+            "height": "32"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "يوفّر هذا القسم إمكانية تشغيل تلاوة سور القرآن الكريم صوتيًا مع دعم التشغيل في الخلفية وإدارة متقدمة لملفات الصوت.",
+            "en": " This section provides the ability to play audio recitations of Quranic Surahs with background playback support and advanced audio file management.",
+            "bn": " এই বিভাগটি কোরআনের সূরাগুলির অডিও তেলাওয়াত প্লে করার ক্ষমতা দেয়, ব্যাকগ্রাউন্ড প্লে সাপোর্ট এবং উন্নত অডিও ফাইল ব্যবস্থাপনা সহ।",
+            "id": " Bagian ini menyediakan kemampuan untuk memutar audio bacaan Surah Al-Quran dengan dukungan pemutaran latar belakang dan manajemen file audio canggih.",
+            "ur": " یہ سیکشن قرآن کی سورتوں کی تلاوت کی آڈیو چلانے کی سہولت فراہم کرتا ہے، پس منظر میں پلی بیک سپورٹ اور جدید آڈیو فائل مینجمنٹ کے ساتھ۔",
+            "tr": " Bu bölüm, Kuran surelerinin sesli tilavetini arka planda oynatma desteği ve gelişmiş ses dosyası yönetimi ile oynatma olanağı sağlar.",
+            "ku": " ئه‌م بەشە ده‌توانێت خوێندنی ده‌نگی سووره‌کانی قورئانه‌وه‌ به‌ پشتگیری لێدانی له‌ دامه‌وه‌ و به‌ڕێوه‌بردنی پیشکەوتۆوی فایلە ده‌نگیەکان جێبەجێ بکات.",
+            "ms": " Bahagian ini menyediakan kemampuan untuk memainkan bacaan audio Surah Al-Quran dengan sokongan main latar belakang dan pengurusan fail audio yang canggih.",
+            "es": " Esta sección ofrece la capacidad de reproducir la recitación en audio de las Suras del Corán con soporte para reproducción en segundo plano y gestión avanzada de archivos de audio."
           }
         },
         {
           "type": "subtitle",
           "content": {
-            "ar": "لتشغيل سورة كاملة:",
-            "en": "To play a whole Surah:",
-            "bn": "সম্পূর্ণ সূরা চালানোর জন্য:",
-            "id": "Untuk memainkan seluruh Surah:",
-            "ur": "پوری سورت چلانے کے لیے:",
-            "tr": "Tüm bir Sureyi oynatmak için:",
-            "ku": "بۆ لێدانی تەواوی سوورەتێک:",
-            "ms": "Untuk memainkan seluruh Surah:",
-            "es": "Para reproducir una Surah completa:"
+            "ar": "لتشغيل أي سورة يمكنك استخدام هذه الدالة:",
+            "en": " To play any Surah, you can use this function:",
+            "bn": " যেকোনো সূরা প্লে করতে আপনি এই ফাংশন ব্যবহার করতে পারেন:",
+            "id": " Untuk memutar Surah mana pun, Anda dapat menggunakan fungsi ini:",
+            "ur": " کسی بھی سورۃ کو چلانے کے لیے آپ اس فنکشن کا استعمال کر سکتے ہیں:",
+            "tr": " Herhangi bir sureyi çalmak için bu fonksiyonu kullanabilirsiniz:",
+            "ku": " بۆ لێدانی هەر سوورەیەک دەتوانیت ئەم فانکشنی بەکاربهێنیت:",
+            "ms": " Untuk memainkan mana-mana Surah, anda boleh menggunakan fungsi ini:",
+            "es": " Para reproducir cualquier Sura, puedes usar esta función:"
           }
         },
         {
           "type": "code",
           "content": {
-            "ar": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "en": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "bn": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "id": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "ur": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "tr": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "ku": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "ms": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "es": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);"
+            "ar": "/// Play a complete surah from beginning to end\nawait QuranLibrary().playSurah(surahNumber: 1); // Al-Fatihah",
+            "en": "/// Play a complete surah from beginning to end\nawait QuranLibrary().playSurah(surahNumber: 1); // Al-Fatihah",
+            "bn": "/// Play a complete surah from beginning to end\nawait QuranLibrary().playSurah(surahNumber: 1); // Al-Fatihah",
+            "id": "/// Play a complete surah from beginning to end\nawait QuranLibrary().playSurah(surahNumber: 1); // Al-Fatihah",
+            "ur": "/// Play a complete surah from beginning to end\nawait QuranLibrary().playSurah(surahNumber: 1); // Al-Fatihah",
+            "tr": "/// Play a complete surah from beginning to end\nawait QuranLibrary().playSurah(surahNumber: 1); // Al-Fatihah",
+            "ku": "/// Play a complete surah from beginning to end\nawait QuranLibrary().playSurah(surahNumber: 1); // Al-Fatihah",
+            "ms": "/// Play a complete surah from beginning to end\nawait QuranLibrary().playSurah(surahNumber: 1); // Al-Fatihah",
+            "es": "/// Play a complete surah from beginning to end\nawait QuranLibrary().playSurah(surahNumber: 1); // Al-Fatihah"
           },
           "props": {
             "language": "dart"
+          }
+        },
+        {
+          "type": "divider",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "وللتنقل بين السور يمكنك استخدام هذه الدوال:﻿",
+            "en": " To navigate between Surahs, you can use these functions:",
+            "bn": " সূরার মধ্যে নেভিগেশন করতে এই ফাংশনগুলো ব্যবহার করুন:",
+            "id": " Untuk menavigasi antar Surah, gunakan fungsi-fungsi ini:",
+            "ur": " سورۃ کے درمیان نیویگیٹ کرنے کے لیے یہ فنکشنز استعمال کریں:",
+            "tr": " Sureler arasında gezinmek için bu fonksiyonları kullanabilirsiniz:",
+            "ku": " بۆ گەڕان لە نێوان سوورەکان دەتوانیت ئەم فانکشنانە بەکاربهێنیت:",
+            "ms": " Untuk navigasi antara Surah, anda boleh menggunakan fungsi-fungsi ini:",
+            "es": " Para navegar entre Suras, puedes usar estas funciones:"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "/// Move to next surah and play it\nawait QuranLibrary().seekToNextSurah();\n\n/// Move to previous surah and play it\nawait QuranLibrary().seekToPreviousSurah();",
+            "en": "/// Move to next surah and play it\nawait QuranLibrary().seekToNextSurah();\n\n/// Move to previous surah and play it\nawait QuranLibrary().seekToPreviousSurah();",
+            "bn": "/// Move to next surah and play it\nawait QuranLibrary().seekToNextSurah();\n\n/// Move to previous surah and play it\nawait QuranLibrary().seekToPreviousSurah();",
+            "id": "/// Move to next surah and play it\nawait QuranLibrary().seekToNextSurah();\n\n/// Move to previous surah and play it\nawait QuranLibrary().seekToPreviousSurah();",
+            "ur": "/// Move to next surah and play it\nawait QuranLibrary().seekToNextSurah();\n\n/// Move to previous surah and play it\nawait QuranLibrary().seekToPreviousSurah();",
+            "tr": "/// Move to next surah and play it\nawait QuranLibrary().seekToNextSurah();\n\n/// Move to previous surah and play it\nawait QuranLibrary().seekToPreviousSurah();",
+            "ku": "/// Move to next surah and play it\nawait QuranLibrary().seekToNextSurah();\n\n/// Move to previous surah and play it\nawait QuranLibrary().seekToPreviousSurah();",
+            "ms": "/// Move to next surah and play it\nawait QuranLibrary().seekToNextSurah();\n\n/// Move to previous surah and play it\nawait QuranLibrary().seekToPreviousSurah();",
+            "es": "/// Move to next surah and play it\nawait QuranLibrary().seekToNextSurah();\n\n/// Move to previous surah and play it\nawait QuranLibrary().seekToPreviousSurah();"
+          }
+        },
+        {
+          "type": "divider",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "ولتحميل أي سورة:",
+            "en": " To download any Surah:",
+            "bn": " কোনো সূরা ডাউনলোড করার জন্য:",
+            "id": " Untuk mengunduh Surah:",
+            "ur": " کسی سورۃ کو ڈاؤن لوڈ کرنے کے لیے:",
+            "tr": " Herhangi bir sureyi indirmek için:",
+            "ku": " بۆ دابەزاندنی هەر سوورەیەک:",
+            "ms": " Untuk memuat turun mana-mana Surah:",
+            "es": " Para descargar cualquier Sura:"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "/// Start downloading a surah for offline playback\nawait QuranLibrary().startDownloadSurah(surahNumber: 1);\n\n/// Cancel ongoing download\nQuranLibrary().cancelDownloadSurah();",
+            "en": "/// Start downloading a surah for offline playback\nawait QuranLibrary().startDownloadSurah(surahNumber: 1);\n\n/// Cancel ongoing download\nQuranLibrary().cancelDownloadSurah();",
+            "bn": "/// Start downloading a surah for offline playback\nawait QuranLibrary().startDownloadSurah(surahNumber: 1);\n\n/// Cancel ongoing download\nQuranLibrary().cancelDownloadSurah();",
+            "id": "/// Start downloading a surah for offline playback\nawait QuranLibrary().startDownloadSurah(surahNumber: 1);\n\n/// Cancel ongoing download\nQuranLibrary().cancelDownloadSurah();",
+            "ur": "/// Start downloading a surah for offline playback\nawait QuranLibrary().startDownloadSurah(surahNumber: 1);\n\n/// Cancel ongoing download\nQuranLibrary().cancelDownloadSurah();",
+            "tr": "/// Start downloading a surah for offline playback\nawait QuranLibrary().startDownloadSurah(surahNumber: 1);\n\n/// Cancel ongoing download\nQuranLibrary().cancelDownloadSurah();",
+            "ku": "/// Start downloading a surah for offline playback\nawait QuranLibrary().startDownloadSurah(surahNumber: 1);\n\n/// Cancel ongoing download\nQuranLibrary().cancelDownloadSurah();",
+            "ms": "/// Start downloading a surah for offline playback\nawait QuranLibrary().startDownloadSurah(surahNumber: 1);\n\n/// Cancel ongoing download\nQuranLibrary().cancelDownloadSurah();",
+            "es": "/// Start downloading a surah for offline playback\nawait QuranLibrary().startDownloadSurah(surahNumber: 1);\n\n/// Cancel ongoing download\nQuranLibrary().cancelDownloadSurah();"
+          }
+        },
+        {
+          "type": "divider",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "وللحصول على معلومات آخر سورة تم الاستماع إليها والمدة يمكنك استخدام هذه الدوال:﻿",
+            "en": " To get information about the last listened Surah and its duration, you can use these functions:",
+            "bn": " শেষে শোনা সূরা এবং তার সময়কাল জানতে এই ফাংশন গুলো ব্যবহার করুন:",
+            "id": " Untuk mendapatkan info Surah terakhir yang didengarkan dan durasinya, gunakan fungsi-fungsi ini:",
+            "ur": " آخری سنی گئی سورۃ اور اس کے دورانیے کی معلومات حاصل کرنے کے لیے آپ یہ فنکشنز استعمال کر سکتے ہیں:",
+            "tr": " En son dinlenen surenin bilgisi ve süresi için bu fonksiyonları kullanabilirsiniz:",
+            "ku": " بۆ وەرگرتنی زانیاری سۆرەی دوا ساوەندراو و ماوەیەک دەتوانیت ئەم فانکشنانە بەکاربەیت:",
+            "ms": " Untuk mendapatkan maklumat Surah terakhir yang didengar dan tempohnya, anda boleh menggunakan fungsi-fungsi ini:",
+            "es": " Para obtener información sobre la última Sura escuchada y su duración, puedes usar estas funciones:"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "/// Get current/last surah number\nint currentSurah = QuranLibrary().currentAndLastSurahNumber;\n\n/// Get last position as formatted text (like \"05:23\")\nString lastTimeText = QuranLibrary().formatLastPositionToTime;\n\n/// Get last position as Duration object for programming operations\nDuration lastDuration = QuranLibrary().formatLastPositionToDuration;\n\n/// Play from the last position where user stopped\nawait QuranLibrary().playLastPosition();",
+            "en": "/// Get current/last surah number\nint currentSurah = QuranLibrary().currentAndLastSurahNumber;\n\n/// Get last position as formatted text (like \"05:23\")\nString lastTimeText = QuranLibrary().formatLastPositionToTime;\n\n/// Get last position as Duration object for programming operations\nDuration lastDuration = QuranLibrary().formatLastPositionToDuration;\n\n/// Play from the last position where user stopped\nawait QuranLibrary().playLastPosition();",
+            "bn": "/// Get current/last surah number\nint currentSurah = QuranLibrary().currentAndLastSurahNumber;\n\n/// Get last position as formatted text (like \"05:23\")\nString lastTimeText = QuranLibrary().formatLastPositionToTime;\n\n/// Get last position as Duration object for programming operations\nDuration lastDuration = QuranLibrary().formatLastPositionToDuration;\n\n/// Play from the last position where user stopped\nawait QuranLibrary().playLastPosition();",
+            "id": "/// Get current/last surah number\nint currentSurah = QuranLibrary().currentAndLastSurahNumber;\n\n/// Get last position as formatted text (like \"05:23\")\nString lastTimeText = QuranLibrary().formatLastPositionToTime;\n\n/// Get last position as Duration object for programming operations\nDuration lastDuration = QuranLibrary().formatLastPositionToDuration;\n\n/// Play from the last position where user stopped\nawait QuranLibrary().playLastPosition();",
+            "ur": "/// Get current/last surah number\nint currentSurah = QuranLibrary().currentAndLastSurahNumber;\n\n/// Get last position as formatted text (like \"05:23\")\nString lastTimeText = QuranLibrary().formatLastPositionToTime;\n\n/// Get last position as Duration object for programming operations\nDuration lastDuration = QuranLibrary().formatLastPositionToDuration;\n\n/// Play from the last position where user stopped\nawait QuranLibrary().playLastPosition();",
+            "tr": "/// Get current/last surah number\nint currentSurah = QuranLibrary().currentAndLastSurahNumber;\n\n/// Get last position as formatted text (like \"05:23\")\nString lastTimeText = QuranLibrary().formatLastPositionToTime;\n\n/// Get last position as Duration object for programming operations\nDuration lastDuration = QuranLibrary().formatLastPositionToDuration;\n\n/// Play from the last position where user stopped\nawait QuranLibrary().playLastPosition();",
+            "ku": "/// Get current/last surah number\nint currentSurah = QuranLibrary().currentAndLastSurahNumber;\n\n/// Get last position as formatted text (like \"05:23\")\nString lastTimeText = QuranLibrary().formatLastPositionToTime;\n\n/// Get last position as Duration object for programming operations\nDuration lastDuration = QuranLibrary().formatLastPositionToDuration;\n\n/// Play from the last position where user stopped\nawait QuranLibrary().playLastPosition();",
+            "ms": "/// Get current/last surah number\nint currentSurah = QuranLibrary().currentAndLastSurahNumber;\n\n/// Get last position as formatted text (like \"05:23\")\nString lastTimeText = QuranLibrary().formatLastPositionToTime;\n\n/// Get last position as Duration object for programming operations\nDuration lastDuration = QuranLibrary().formatLastPositionToDuration;\n\n/// Play from the last position where user stopped\nawait QuranLibrary().playLastPosition();",
+            "es": "/// Get current/last surah number\nint currentSurah = QuranLibrary().currentAndLastSurahNumber;\n\n/// Get last position as formatted text (like \"05:23\")\nString lastTimeText = QuranLibrary().formatLastPositionToTime;\n\n/// Get last position as Duration object for programming operations\nDuration lastDuration = QuranLibrary().formatLastPositionToDuration;\n\n/// Play from the last position where user stopped\nawait QuranLibrary().playLastPosition();"
+          }
+        },
+        {
+          "type": "divider",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "ولاستخدام شاشة تشغيل السور:﻿",
+            "en": " To use the Surah playback screen:",
+            "bn": " সূরা প্লেব্যাক স্ক্রীন ব্যবহার করতে:",
+            "id": " Untuk menggunakan layar pemutaran Surah:",
+            "ur": " سورہ چلانے والی اسکرین استعمال کرنے کے لیے:",
+            "tr": " Sure oynatma ekranını kullanmak için:",
+            "ku": " بۆ بەکارهێنانی سکرینی لێدانی سوورەکان:",
+            "ms": " Untuk menggunakan skrin main Surah:",
+            "es": " Para usar la pantalla de reproducción de Suras:"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "class QuranSoundScreen extends StatelessWidget {\n  const QuranSoundScreen({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return Padding(\n      padding: const EdgeInsets.only(bottom: 48.0),\n      child: SurahAudioScreen(\n        style: SurahAudioStyle.defaults(\n          isDark: ThemeController.instance.isDarkMode,\n          context: context,\n        ).copyWith(\n          withAppBar: false,\n          ayahSingularText: 'ayah'.tr,\n          ayahPluralText: 'ayahs'.tr,\n          lastListenText: 'last_listen'.tr,\n        ),\n      ),\n    );\n  }\n}",
+            "en": "class QuranSoundScreen extends StatelessWidget {\n  const QuranSoundScreen({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return Padding(\n      padding: const EdgeInsets.only(bottom: 48.0),\n      child: SurahAudioScreen(\n        style: SurahAudioStyle.defaults(\n          isDark: ThemeController.instance.isDarkMode,\n          context: context,\n        ).copyWith(\n          withAppBar: false,\n          ayahSingularText: 'ayah'.tr,\n          ayahPluralText: 'ayahs'.tr,\n          lastListenText: 'last_listen'.tr,\n        ),\n      ),\n    );\n  }\n}",
+            "bn": "class QuranSoundScreen extends StatelessWidget {\n  const QuranSoundScreen({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return Padding(\n      padding: const EdgeInsets.only(bottom: 48.0),\n      child: SurahAudioScreen(\n        style: SurahAudioStyle.defaults(\n          isDark: ThemeController.instance.isDarkMode,\n          context: context,\n        ).copyWith(\n          withAppBar: false,\n          ayahSingularText: 'ayah'.tr,\n          ayahPluralText: 'ayahs'.tr,\n          lastListenText: 'last_listen'.tr,\n        ),\n      ),\n    );\n  }\n}",
+            "id": "class QuranSoundScreen extends StatelessWidget {\n  const QuranSoundScreen({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return Padding(\n      padding: const EdgeInsets.only(bottom: 48.0),\n      child: SurahAudioScreen(\n        style: SurahAudioStyle.defaults(\n          isDark: ThemeController.instance.isDarkMode,\n          context: context,\n        ).copyWith(\n          withAppBar: false,\n          ayahSingularText: 'ayah'.tr,\n          ayahPluralText: 'ayahs'.tr,\n          lastListenText: 'last_listen'.tr,\n        ),\n      ),\n    );\n  }\n}",
+            "ur": "class QuranSoundScreen extends StatelessWidget {\n  const QuranSoundScreen({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return Padding(\n      padding: const EdgeInsets.only(bottom: 48.0),\n      child: SurahAudioScreen(\n        style: SurahAudioStyle.defaults(\n          isDark: ThemeController.instance.isDarkMode,\n          context: context,\n        ).copyWith(\n          withAppBar: false,\n          ayahSingularText: 'ayah'.tr,\n          ayahPluralText: 'ayahs'.tr,\n          lastListenText: 'last_listen'.tr,\n        ),\n      ),\n    );\n  }\n}",
+            "tr": "class QuranSoundScreen extends StatelessWidget {\n  const QuranSoundScreen({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return Padding(\n      padding: const EdgeInsets.only(bottom: 48.0),\n      child: SurahAudioScreen(\n        style: SurahAudioStyle.defaults(\n          isDark: ThemeController.instance.isDarkMode,\n          context: context,\n        ).copyWith(\n          withAppBar: false,\n          ayahSingularText: 'ayah'.tr,\n          ayahPluralText: 'ayahs'.tr,\n          lastListenText: 'last_listen'.tr,\n        ),\n      ),\n    );\n  }\n}",
+            "ku": "class QuranSoundScreen extends StatelessWidget {\n  const QuranSoundScreen({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return Padding(\n      padding: const EdgeInsets.only(bottom: 48.0),\n      child: SurahAudioScreen(\n        style: SurahAudioStyle.defaults(\n          isDark: ThemeController.instance.isDarkMode,\n          context: context,\n        ).copyWith(\n          withAppBar: false,\n          ayahSingularText: 'ayah'.tr,\n          ayahPluralText: 'ayahs'.tr,\n          lastListenText: 'last_listen'.tr,\n        ),\n      ),\n    );\n  }\n}",
+            "ms": "class QuranSoundScreen extends StatelessWidget {\n  const QuranSoundScreen({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return Padding(\n      padding: const EdgeInsets.only(bottom: 48.0),\n      child: SurahAudioScreen(\n        style: SurahAudioStyle.defaults(\n          isDark: ThemeController.instance.isDarkMode,\n          context: context,\n        ).copyWith(\n          withAppBar: false,\n          ayahSingularText: 'ayah'.tr,\n          ayahPluralText: 'ayahs'.tr,\n          lastListenText: 'last_listen'.tr,\n        ),\n      ),\n    );\n  }\n}",
+            "es": "class QuranSoundScreen extends StatelessWidget {\n  const QuranSoundScreen({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return Padding(\n      padding: const EdgeInsets.only(bottom: 48.0),\n      child: SurahAudioScreen(\n        style: SurahAudioStyle.defaults(\n          isDark: ThemeController.instance.isDarkMode,\n          context: context,\n        ).copyWith(\n          withAppBar: false,\n          ayahSingularText: 'ayah'.tr,\n          ayahPluralText: 'ayahs'.tr,\n          lastListenText: 'last_listen'.tr,\n        ),\n      ),\n    );\n  }\n}"
+          }
+        },
+        {
+          "type": "image",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          },
+          "props": {
+            "urls": [
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Packages/quran_library/play_surahs_screen.png"
+            ],
+            "width": "320"
           }
         }
       ]
@@ -863,14 +1212,14 @@
           "type": "subtitle",
           "content": {
             "ar": "Android",
-            "en": "",
-            "bn": "",
-            "id": "",
-            "ur": "",
-            "tr": "",
-            "ku": "",
-            "ms": "",
-            "es": ""
+            "en": "Android",
+            "bn": "Android",
+            "id": "Android",
+            "ur": "Android",
+            "tr": "Android",
+            "ku": "Android",
+            "ms": "Android",
+            "es": "Android"
           }
         },
         {
@@ -967,14 +1316,14 @@
           "type": "subtitle",
           "content": {
             "ar": "IOS",
-            "en": "",
-            "bn": "",
-            "id": "",
-            "ur": "",
-            "tr": "",
-            "ku": "",
-            "ms": "",
-            "es": ""
+            "en": "IOS",
+            "bn": "IOS",
+            "id": "IOS",
+            "ur": "IOS",
+            "tr": "IOS",
+            "ku": "IOS",
+            "ms": "IOS",
+            "es": "IOS"
           }
         },
         {
@@ -1304,7 +1653,9 @@
             "es": ""
           },
           "props": {
-            "url": "https://raw.githubusercontent.com/alheekmahlib/data/main/packages/quran_library/quran_library_banner.png"
+            "urls": [
+              "https://raw.githubusercontent.com/alheekmahlib/data/main/packages/quran_library/quran_library_banner.png"
+            ]
           }
         },
         {
@@ -1481,6 +1832,301 @@
                 "es": "Alto rendimiento y navegación rápida."
               }
             ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "data_and_navigation",
+      "title": {
+        "ar": "البيانات والتنقل",
+        "en": "Data and navigation",
+        "bn": "তথ্য ও নেভিগেশন",
+        "id": "Data dan Navigasi",
+        "ur": "ڈیٹا اور نیویگیشن",
+        "tr": "Veri ve Gezinme",
+        "ku": "داتا و گه‌ڕان",
+        "ms": "Data dan Navigasi",
+        "es": "Datos y navegación"
+      },
+      "order": 9999,
+      "keywords": [
+        "data"
+      ],
+      "blocks": [
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "توفّر الحزمة الكثير من الأدوات المساعدة مثل:",
+            "en": " The package provides many helpful tools such as:",
+            "bn": " প্যাকেজটি অনেক সহায়ক টুল প্রদান করে যেমন:",
+            "id": " Paket ini menyediakan banyak alat bantu seperti:",
+            "ur": " پیکج کئی مددگار آلات فراہم کرتا ہے جیسے:",
+            "tr": " Paket, aşağıdaki gibi birçok yardımcı araç sunar:",
+            "ku": " ئەم پاکێجە ئامرازە یارمەتیدەرە زۆر دابین دەکات وەک:",
+            "ms": " Pakej ini menyediakan banyak alat bantu seperti:",
+            "es": " El paquete ofrece muchas herramientas útiles como:"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "الحصول على جميع أجزاء القرآن (الأجزاء)، والأحزاب، والسور.",
+            "en": " Accessing all parts of the Quran (Juz’), Ahzab (groups), and Surahs.",
+            "bn": " কোরআনের সব অংশ (জুজ), অংশ ও সূরা পাওয়া।",
+            "id": " Mengakses semua bagian Al-Quran (Juz), Ahzab, dan Surah.",
+            "ur": " قرآن کے تمام حصے (جزء)، احزاب، اور سورتیں حاصل کرنا۔",
+            "tr": " Kuran'ın tüm cüzlerini (ayrımlarını), Ahzab ve sureleri alma.",
+            "ku": " وەرگرتنی هەموو بەشەکانی قورئان (بەشەکان)، ئاحزاب، و سوورەکان.",
+            "ms": " Mengakses semua bahagian Al-Quran (Juz), Ahzab, dan Surah.",
+            "es": " Acceder a todas las partes del Corán (Juz), Ahzab y Suras."
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "final jozzs = QuranLibrary.allJoz;\nfinal hizbs = QuranLibrary.allHizb;\nfinal surahs = QuranLibrary.getAllSurahs();\nfinal ayahsOnPage = QuranLibrary().getAyahsByPage();\n\n/// [getSurahInfo] let's you get a Surah with all its data when you pass Surah number\nfinal surah = QuranLibrary().getSurahInfo(1);",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          }
+        },
+        {
+          "type": "gap",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "وللتنقّل بين الصفحات أو السور أو الأحزاب يمكنك استخدام:",
+            "en": " To navigate between pages, Surahs, or Ahzab you can use:",
+            "bn": " পৃষ্ঠাগুলি, সূরা বা অংশগুলির মধ্যে নেভিগেট করতে আপনি ব্যবহার করতে পারেন:",
+            "id": " Untuk menavigasi antar halaman, Surah, atau Ahzab Anda dapat menggunakan:",
+            "ur": " صفحات، سورتوں یا احزاب کے درمیان نیویگیشن کے لیے آپ استعمال کر سکتے ہیں:",
+            "tr": " Sayfalar, sureler veya Ahzab arasında gezinmek için kullanabilirsiniz:",
+            "ku": " بۆ گەڕان لە نێوان پەڕەکان یان سوورەکان یان ئاحزاب دەتوانیت بەکارهێنیت:",
+            "ms": " Untuk menavigasi antara halaman, Surah, atau Ahzab anda boleh menggunakan:",
+            "es": " Para navegar entre páginas, Suras o Ahzab puedes utilizar:"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "/// [jumpToAyah] let's you navigate to any ayah..\n/// It's better to call this method while Quran screen is displayed\n/// and if it's called and the Quran screen is not displayed, the next time you\n/// open quran screen it will start from this ayah's page\nQuranLibrary().jumpToAyah(AyahModel ayah);\n/// or you can use:\n/// jumpToPage, jumpToJoz, jumpToHizb, jumpToBookmark and jumpToSurah.",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          }
+        },
+        {
+          "type": "image",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          },
+          "props": {
+            "urls": [
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Packages/quran_library/archive_screen.png"
+            ],
+            "width": "320"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bookmarks",
+      "title": {
+        "ar": "العلامات المرجعية",
+        "en": "Bookmarks",
+        "bn": "বুকমার্ক",
+        "id": "Bookmark",
+        "ur": "بک مارکس",
+        "tr": "Yer imleri",
+        "ku": "نیشانەکان",
+        "ms": "Penanda Buku",
+        "es": "Marcadores"
+      },
+      "order": 9999,
+      "keywords": [
+        "bookmarks"
+      ],
+      "blocks": [
+        {
+          "type": "gap",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          },
+          "props": {
+            "height": "32"
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "إضافة، تعيين، إزالة، جلب، والتنقّل إلى العلامات المرجعية (Bookmarks):﻿",
+            "en": " Add, set, remove, fetch, and navigate to bookmarks.",
+            "bn": " বুকমার্ক যোগ করা, সেট করা, মুছে ফেলা, আনা এবং নেভিগেট করা।",
+            "id": " Menambahkan, menetapkan, menghapus, mengambil, dan menavigasi bookmark.",
+            "ur": " بک مارکس شامل کرنا، مقرر کرنا، ہٹانا، حاصل کرنا، اور ان پر نیویگیٹ کرنا۔",
+            "tr": " Yer imleri ekleme, ayarlama, kaldırma, getirme ve gezinme.",
+            "ku": " زێدەکردن، دیاریکردن، سڕینەوە، هێنان و گەڕان بە نیشانەکان.",
+            "ms": " Tambah, tetapkan, hapus, dapatkan, dan navigasi penanda buku.",
+            "es": " Agregar, establecer, eliminar, obtener y navegar a los marcadores."
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "// In init function\nQuranLibrary().init(userBookmarks: [Bookmark(id: 0, colorCode: Colors.red.value, name: \"Red Bookmark\")]);\nfinal usedBookmarks = QuranLibrary().getUsedBookmarks();\nQuranLibrary().setBookmark(surahName: 'Al-Fatihah', ayahNumber: 5, ayahId: 5, page: 1, bookmarkId: 0);\nQuranLibrary().removeBookmark(bookmarkId: 0);\nQuranLibrary().jumpToBookmark(BookmarkModel bookmark);",
+            "en": "// In init function\nQuranLibrary().init(userBookmarks: [Bookmark(id: 0, colorCode: Colors.red.value, name: \"Red Bookmark\")]);\nfinal usedBookmarks = QuranLibrary().getUsedBookmarks();\nQuranLibrary().setBookmark(surahName: 'Al-Fatihah', ayahNumber: 5, ayahId: 5, page: 1, bookmarkId: 0);\nQuranLibrary().removeBookmark(bookmarkId: 0);\nQuranLibrary().jumpToBookmark(BookmarkModel bookmark);",
+            "bn": "// In init function\nQuranLibrary().init(userBookmarks: [Bookmark(id: 0, colorCode: Colors.red.value, name: \"Red Bookmark\")]);\nfinal usedBookmarks = QuranLibrary().getUsedBookmarks();\nQuranLibrary().setBookmark(surahName: 'Al-Fatihah', ayahNumber: 5, ayahId: 5, page: 1, bookmarkId: 0);\nQuranLibrary().removeBookmark(bookmarkId: 0);\nQuranLibrary().jumpToBookmark(BookmarkModel bookmark);",
+            "id": "// In init function\nQuranLibrary().init(userBookmarks: [Bookmark(id: 0, colorCode: Colors.red.value, name: \"Red Bookmark\")]);\nfinal usedBookmarks = QuranLibrary().getUsedBookmarks();\nQuranLibrary().setBookmark(surahName: 'Al-Fatihah', ayahNumber: 5, ayahId: 5, page: 1, bookmarkId: 0);\nQuranLibrary().removeBookmark(bookmarkId: 0);\nQuranLibrary().jumpToBookmark(BookmarkModel bookmark);",
+            "ur": "// In init function\nQuranLibrary().init(userBookmarks: [Bookmark(id: 0, colorCode: Colors.red.value, name: \"Red Bookmark\")]);\nfinal usedBookmarks = QuranLibrary().getUsedBookmarks();\nQuranLibrary().setBookmark(surahName: 'Al-Fatihah', ayahNumber: 5, ayahId: 5, page: 1, bookmarkId: 0);\nQuranLibrary().removeBookmark(bookmarkId: 0);\nQuranLibrary().jumpToBookmark(BookmarkModel bookmark);",
+            "tr": "// In init function\nQuranLibrary().init(userBookmarks: [Bookmark(id: 0, colorCode: Colors.red.value, name: \"Red Bookmark\")]);\nfinal usedBookmarks = QuranLibrary().getUsedBookmarks();\nQuranLibrary().setBookmark(surahName: 'Al-Fatihah', ayahNumber: 5, ayahId: 5, page: 1, bookmarkId: 0);\nQuranLibrary().removeBookmark(bookmarkId: 0);\nQuranLibrary().jumpToBookmark(BookmarkModel bookmark);",
+            "ku": "// In init function\nQuranLibrary().init(userBookmarks: [Bookmark(id: 0, colorCode: Colors.red.value, name: \"Red Bookmark\")]);\nfinal usedBookmarks = QuranLibrary().getUsedBookmarks();\nQuranLibrary().setBookmark(surahName: 'Al-Fatihah', ayahNumber: 5, ayahId: 5, page: 1, bookmarkId: 0);\nQuranLibrary().removeBookmark(bookmarkId: 0);\nQuranLibrary().jumpToBookmark(BookmarkModel bookmark);",
+            "ms": "// In init function\nQuranLibrary().init(userBookmarks: [Bookmark(id: 0, colorCode: Colors.red.value, name: \"Red Bookmark\")]);\nfinal usedBookmarks = QuranLibrary().getUsedBookmarks();\nQuranLibrary().setBookmark(surahName: 'Al-Fatihah', ayahNumber: 5, ayahId: 5, page: 1, bookmarkId: 0);\nQuranLibrary().removeBookmark(bookmarkId: 0);\nQuranLibrary().jumpToBookmark(BookmarkModel bookmark);",
+            "es": "// In init function\nQuranLibrary().init(userBookmarks: [Bookmark(id: 0, colorCode: Colors.red.value, name: \"Red Bookmark\")]);\nfinal usedBookmarks = QuranLibrary().getUsedBookmarks();\nQuranLibrary().setBookmark(surahName: 'Al-Fatihah', ayahNumber: 5, ayahId: 5, page: 1, bookmarkId: 0);\nQuranLibrary().removeBookmark(bookmarkId: 0);\nQuranLibrary().jumpToBookmark(BookmarkModel bookmark);"
+          }
+        },
+        {
+          "type": "image",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          },
+          "props": {
+            "urls": [
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Packages/quran_library/bookmark_screen2.png",
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Packages/quran_library/bookmark_screen.png"
+            ],
+            "width": "320"
+          }
+        }
+      ]
+    },
+    {
+      "id": "search",
+      "title": {
+        "ar": "البحث",
+        "en": "Search",
+        "bn": "অনুসন্ধান",
+        "id": "Pencarian",
+        "ur": "تلاش",
+        "tr": "Arama",
+        "ku": "گەڕان",
+        "ms": "Carian",
+        "es": "Búsqueda"
+      },
+      "order": 9999,
+      "keywords": [
+        "search"
+      ],
+      "blocks": [
+        {
+          "type": "gap",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          },
+          "props": {
+            "height": "32"
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "البحث عن أي آية أو سورة﻿",
+            "en": " Search for any verse or surah.",
+            "bn": " যেকোনো আয়াত বা সুরা অনুসন্ধান করুন।",
+            "id": " Cari ayat atau surah apa pun.",
+            "ur": " کسی بھی آیت یا سورہ کی تلاش کریں۔",
+            "tr": " Herhangi bir ayet veya sureyi arayın.",
+            "ku": " گەڕان بۆ هەر ئایەت یان سوورەیەک.",
+            "ms": " Cari mana-mana ayat atau surah.",
+            "es": " Buscar cualquier verso o sura."
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "TextField(\n  onChanged: (txt) {\n    final _ayahs = QuranLibrary().search(txt);\n      setState(() {\n        ayahs = [..._ayahs];\n      });\n  },\n  decoration: InputDecoration(\n    border:  OutlineInputBorder(borderSide: BorderSide(color: Colors.black),),\n    hintText: 'Search',\n  ),\n),",
+            "en": "TextField(\n  onChanged: (txt) {\n    final _ayahs = QuranLibrary().search(txt);\n      setState(() {\n        ayahs = [..._ayahs];\n      });\n  },\n  decoration: InputDecoration(\n    border:  OutlineInputBorder(borderSide: BorderSide(color: Colors.black),),\n    hintText: 'Search',\n  ),\n),",
+            "bn": "TextField(\n  onChanged: (txt) {\n    final _ayahs = QuranLibrary().search(txt);\n      setState(() {\n        ayahs = [..._ayahs];\n      });\n  },\n  decoration: InputDecoration(\n    border:  OutlineInputBorder(borderSide: BorderSide(color: Colors.black),),\n    hintText: 'Search',\n  ),\n),",
+            "id": "TextField(\n  onChanged: (txt) {\n    final _ayahs = QuranLibrary().search(txt);\n      setState(() {\n        ayahs = [..._ayahs];\n      });\n  },\n  decoration: InputDecoration(\n    border:  OutlineInputBorder(borderSide: BorderSide(color: Colors.black),),\n    hintText: 'Search',\n  ),\n),",
+            "ur": "TextField(\n  onChanged: (txt) {\n    final _ayahs = QuranLibrary().search(txt);\n      setState(() {\n        ayahs = [..._ayahs];\n      });\n  },\n  decoration: InputDecoration(\n    border:  OutlineInputBorder(borderSide: BorderSide(color: Colors.black),),\n    hintText: 'Search',\n  ),\n),",
+            "tr": "TextField(\n  onChanged: (txt) {\n    final _ayahs = QuranLibrary().search(txt);\n      setState(() {\n        ayahs = [..._ayahs];\n      });\n  },\n  decoration: InputDecoration(\n    border:  OutlineInputBorder(borderSide: BorderSide(color: Colors.black),),\n    hintText: 'Search',\n  ),\n),",
+            "ku": "TextField(\n  onChanged: (txt) {\n    final _ayahs = QuranLibrary().search(txt);\n      setState(() {\n        ayahs = [..._ayahs];\n      });\n  },\n  decoration: InputDecoration(\n    border:  OutlineInputBorder(borderSide: BorderSide(color: Colors.black),),\n    hintText: 'Search',\n  ),\n),",
+            "ms": "TextField(\n  onChanged: (txt) {\n    final _ayahs = QuranLibrary().search(txt);\n      setState(() {\n        ayahs = [..._ayahs];\n      });\n  },\n  decoration: InputDecoration(\n    border:  OutlineInputBorder(borderSide: BorderSide(color: Colors.black),),\n    hintText: 'Search',\n  ),\n),",
+            "es": "TextField(\n  onChanged: (txt) {\n    final _ayahs = QuranLibrary().search(txt);\n      setState(() {\n        ayahs = [..._ayahs];\n      });\n  },\n  decoration: InputDecoration(\n    border:  OutlineInputBorder(borderSide: BorderSide(color: Colors.black),),\n    hintText: 'Search',\n  ),\n),"
+          }
+        },
+        {
+          "type": "image",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          },
+          "props": {
+            "urls": [
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Packages/quran_library/search_screen.png"
+            ],
+            "width": "320"
           }
         }
       ]
