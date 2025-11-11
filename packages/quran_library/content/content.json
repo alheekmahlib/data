@@ -15,6 +15,24 @@
   ],
   "groups": [
     {
+      "id": "about_library_group",
+      "title": {
+        "ar": "ما هي مكتبة القرآن",
+        "en": "What is Quran Library",
+        "bn": "কুরআন লাইব্রেরি কী",
+        "id": "Apa itu Perpustakaan Al-Quran",
+        "ur": "قرآن لائبریری کیا ہے",
+        "tr": "Kuran Kütüphanesi Nedir",
+        "ku": "پەرتووکخانەی قورئان چییە",
+        "ms": "Apakah Perpustakaan Al-Quran",
+        "es": "Qué es la Biblioteca del Corán"
+      },
+      "order": 5,
+      "sections": [
+        "about_library"
+      ]
+    },
+    {
       "id": "getting_started",
       "title": {
         "ar": "البدء",
@@ -432,6 +450,288 @@
       ]
     },
     {
+      "id": "fonts_download",
+      "title": {
+        "ar": "تحميل الخطوط",
+        "en": "Fonts Download",
+        "bn": "ফন্টস ডাউনলোড",
+        "id": "Pengunduhan Font",
+        "ur": "فونٹس ڈاؤن لوڈ",
+        "tr": "Yazı Tipleri İndirme",
+        "ku": "فۆنتەکان داگرتن",
+        "ms": "Muat Turun Fon",
+        "es": "Descarga de Fuentes"
+      },
+      "order": 1,
+      "keywords": [
+        "fonts",
+        "download"
+      ],
+      "blocks": [
+        {
+          "type": "title",
+          "content": {
+            "ar": "تحميل الخطوط",
+            "en": "Fonts Download",
+            "bn": "ফন্টস ডাউনলোড",
+            "id": "Pengunduhan Font",
+            "ur": "فونٹس ڈاؤن لوڈ",
+            "tr": "Yazı Tipleri İndirme",
+            "ku": "فۆنتەکان داگرتن",
+            "ms": "Muat Turun Fon",
+            "es": "Descarga de Fuentes"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "## لتحميل خطوط القرآن، أمامك خياران:",
+            "en": "## To download Quran fonts, you have two options:",
+            "bn": "## কুরআন ফন্ট ডাউনলোড করার জন্য, আপনার কাছে দুটি বিকল্প রয়েছে:",
+            "id": "## Untuk mengunduh font Quran, Anda memiliki dua pilihan:",
+            "ur": "## قرآن فونٹس ڈاؤن لوڈ کرنے کے لیے، آپ کے پاس دو اختیارات ہیں:",
+            "tr": "## Kuran yazı tiplerini indirmek için iki seçeneğiniz vardır:",
+            "ku": "## بۆ داگرتنی فۆنتەکانی قورئان، دوو بژاردەت هەیە:",
+            "ms": "## Untuk memuat turun fon Quran, anda mempunyai dua pilihan:",
+            "es": "## Para descargar fuentes del Corán, tienes dos opciones:"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "### أما بالنسبة لاستخدام الحوار الافتراضي، فيمكنك تعديل النمط الخاص به.",
+            "en": "### As for using the default dialog, you can modify the style in it.",
+            "bn": "### ডিফল্ট ডায়ালগ ব্যবহার করার ক্ষেত্রে, আপনি এর মধ্যে স্টাইল পরিবর্তন করতে পারেন।",
+            "id": "### Mengenai penggunaan dialog default, Anda dapat memodifikasi style di dalamnya.",
+            "ur": "### جہاں تک ڈیفالٹ ڈائیلاگ کے استعمال کا تعلق ہے، آپ اس میں اسٹائل میں ترمیم کر سکتے ہیں۔",
+            "tr": "### Varsayılan iletişim kutusunu kullanmaya gelince, içindeki stili değiştirebilirsiniz.",
+            "ku": "### سەبارەت بە بەکارهێنانی دایەلۆگی بنەڕەتی، دەتوانیت ستایلەکەی تێیدا بگۆڕیت.",
+            "ms": "### Bagi penggunaan dialog lalai, anda boleh mengubah suai gaya di dalamnya.",
+            "es": "### En cuanto a usar el diálogo predeterminado, puedes modificar el estilo en él."
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "### أو يمكنك إنشاء تصميمك الخاص باستخدام جميع دوال تحميل الخطوط.\n## يتطلب نظام macOS منك طلب استحقاق (entitlement) محدد للوصول إلى الشبكة.",
+            "en": "### Or you can create your own design using all the functions for downloading fonts. ## macOS needs you to request a specific entitlement in order to access the network.",
+            "bn": "### অথবা আপনি ফন্ট ডাউনলোডের জন্য সমস্ত ফাংশন ব্যবহার করে আপনার নিজস্ব ডিজাইন তৈরি করতে পারেন। ## macOS-এর নেটওয়ার্ক অ্যাক্সেস করার জন্য একটি নির্দিষ্ট এনটাইটেলমেন্ট অনুরোধ করার প্রয়োজন।",
+            "id": "### Atau Anda dapat membuat desain Anda sendiri menggunakan semua fungsi untuk mengunduh font. ## macOS mengharuskan Anda meminta hak khusus (entitlement) untuk mengakses jaringan.",
+            "ur": "### یا آپ فونٹس ڈاؤن لوڈ کرنے کے تمام فنکشنز کا استعمال کرتے ہوئے اپنا ڈیزائن بنا سکتے ہیں۔ ## نیٹ ورک تک رسائی حاصل کرنے کے لیے macOS کو آپ سے ایک مخصوص اینٹائٹلمنٹ کی درخواست کرنے کی ضرورت ہے۔",
+            "tr": "### Veya font indirme için tüm fonksiyonları kullanarak kendi tasarımınızı oluşturabilirsiniz. ## macOS, ağa erişmek için belirli bir yetkilendirme (entitlement) talep etmenizi gerektirir.",
+            "ku": "### یان دەتوانیت دیزاینی تایبەت بە خۆت دروست بکەیت بە بەکارهێنانی هەموو فەنکشنەکانی داگرتنی فۆنتەکان. ## macOS پێویستی بەوەیە کە داوای ئیختیاراتێکی تایبەت بکەیت بۆ ئەوەی دەستت بە تۆڕەکە بگات.",
+            "ms": "### Atau anda boleh mencipta reka bentuk anda sendiri menggunakan semua fungsi untuk memuat turun fon.\n## macOS memerlukan anda untuk meminta entitlement tertentu bagi mengakses rangkaian.",
+            "es": "### O puedes crear tu propio diseño utilizando todas las funciones para descargar fuentes. ## macOS requiere que solicites un derecho específico para acceder a la red."
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "للقيام بذلك: افتح macos/Runner/DebugProfile.entitlements وأضف زوج المفتاح والقيمة التالي.",
+            "en": "To do that: open macos/Runner/DebugProfile.entitlements and add the following key-value pair.",
+            "bn": "এটি করার জন্য: `macos/Runner/DebugProfile.entitlements` খুলুন এবং নিম্নলিখিত কী-ভ্যালু পেয়ার যোগ করুন।",
+            "id": "Untuk melakukan itu: buka `macos/Runner/DebugProfile.entitlements` dan tambahkan pasangan kunci-nilai berikut.",
+            "ur": "اس کے لیے: macos/Runner/DebugProfile.entitlements کھولیں اور درج ذیل کلیدی-قدر جوڑا شامل کریں۔",
+            "tr": "Bunu yapmak için: macos/Runner/DebugProfile.entitlements dosyasını açın ve aşağıdaki anahtar-değer çiftini ekleyin.",
+            "ku": "بۆ ئەنجامدانی ئەوە: macos/Runner/DebugProfile.entitlements بکەوە و جووتە-بەهای کلیل-بەهای خوارەوە زیاد بکە.",
+            "ms": "Untuk melakukan itu: buka macos/Runner/DebugProfile.entitlements dan tambah pasangan kunci-nilai berikut.",
+            "es": "Para hacer eso: abre macos/Runner/DebugProfile.entitlements y añade el siguiente par clave-valor."
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "<key>com.apple.security.network.client</key>\n<true/>",
+            "en": "<key>com.apple.security.network.client</key>\n<true/>",
+            "bn": "<key>com.apple.security.network.client</key>\n<true/>",
+            "id": "<key>com.apple.security.network.client</key>\n<true/>",
+            "ur": "<key>com.apple.security.network.client</key>\n<true/>",
+            "tr": "<key>com.apple.security.network.client</key>\n<true/>",
+            "ku": "<key>com.apple.security.network.client</key>\n<true/>",
+            "ms": "<key>com.apple.security.network.client</key>\n<true/>",
+            "es": "<key>com.apple.security.network.client</key>\n<true/>"
+          },
+          "props": {
+            "language": "xml"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
+            "en": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
+            "bn": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
+            "id": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
+            "ur": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
+            "tr": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
+            "ku": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
+            "ms": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
+            "es": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;"
+          },
+          "props": {
+            "language": "dart"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "title": {
+        "ar": "المصادر",
+        "en": "Sources",
+        "bn": "উৎসসমূহ",
+        "id": "Sumber",
+        "ur": "ذرائع",
+        "tr": "Kaynaklar",
+        "ku": "سەرچاوەکان",
+        "ms": "Sumber",
+        "es": "Fuentes"
+      },
+      "order": 1,
+      "keywords": [
+        "sources"
+      ],
+      "blocks": [
+        {
+          "type": "title",
+          "content": {
+            "ar": "المصادر",
+            "en": "Sources",
+            "bn": "উৎসসমূহ",
+            "id": "Sumber",
+            "ur": "ذرائع",
+            "tr": "Kaynaklar",
+            "ku": "سەرچاوەکان",
+            "ms": "Sumber",
+            "es": "Fuentes"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "نص القرآن والبيانات الوصفية: مجمع الملك فهد لطباعة المصحف الشريف — بوابة مطوري القرآن",
+            "en": "Quran text and metadata: King Fahd Glorious Quran Printing Complex — Quran Developer Portal",
+            "bn": "কুরআন পাঠ্য এবং মেটাডেটা: কিং ফাহদ গ্লোরিয়াস কুরআন প্রিন্টিং কমপ্লেক্স — কুরআন ডেভেলপার পোর্টাল",
+            "id": "Teks dan metadata Quran: Kompleks Percetakan Al-Quran Raja Fahd — Portal Pengembang Quran",
+            "ur": "قرآن متن اور میٹا ڈیٹا: شاہ فہد شاندار قرآن پرنٹنگ کمپلیکس — قرآن ڈویلپر پورٹل",
+            "tr": "Kuran metni ve meta verileri: Kral Fahd Kur'an-ı Kerim Basım Kompleksi — Kuran Geliştirici Portalı",
+            "ku": "دەقی قورئان و مێتاداتا: کۆمەڵگەی چاپی قورئانی پیرۆزی شا فەهد — پۆرتاڵی گەشەپێدەری قورئان",
+            "ms": "Teks dan metadata Al-Quran: Kompleks Percetakan Al-Quran Raja Fahd — Portal Pembangun Al-Quran",
+            "es": "Texto del Corán y metadatos: Complejo de Impresión Rey Fahd para el Sagrado Corán — Portal para Desarrolladores del Corán"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "https://qurancomplex.gov.sa/quran-dev/",
+            "en": "https://qurancomplex.gov.sa/quran-dev/",
+            "bn": "https://qurancomplex.gov.sa/quran-dev/",
+            "id": "https://qurancomplex.gov.sa/quran-dev/",
+            "ur": "https://qurancomplex.gov.sa/quran-dev/",
+            "tr": "https://qurancomplex.gov.sa/quran-dev/",
+            "ku": "https://qurancomplex.gov.sa/quran-dev/",
+            "ms": "https://qurancomplex.gov.sa/quran-dev/",
+            "es": "https://qurancomplex.gov.sa/quran-dev/"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "الخطوط، والتفسير، والترجمات: المكتبة العالمية القرآنية (QUL) من ترتيل",
+            "en": "Fonts, Tafsir, and Translations: Quranic Universal Library (QUL) by Tarteel",
+            "bn": "ফন্ট, তাফসীর, এবং অনুবাদ: তারতীল কর্তৃক কুরআনিক ইউনিভার্সাল লাইব্রেরি (QUL)",
+            "id": "Font, Tafsir, dan Terjemahan: Perpustakaan Universal Qur'an (QUL) oleh Tarteel",
+            "ur": "فونٹس، تفسیر، اور تراجم: قرآنی یونیورسل لائبریری (Qےو-ایل) از ترتیل",
+            "tr": "Yazı Tipleri, Tefsir ve Çeviriler: Tarteel'den Kuran Evrensel Kütüphanesi (QUL)",
+            "ku": "فۆنتەکان، تەفسیر، و وەرگێڕانەکان: کتێبخانەی گشتگیری قورئانی (QUL) لەلایەن تەرتل",
+            "ms": "Fon, Tafsir, dan Terjemahan: Perpustakaan Universal Al-Quran (QUL) oleh Tarteel",
+            "es": "Fuentes, Tafsir y Traducciones: Biblioteca Universal Coránica (QUL) por Tarteel"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "https://qul.tarteel.ai/",
+            "en": "https://qul.tarteel.ai/",
+            "bn": "https://qul.tarteel.ai/",
+            "id": "https://qul.tarteel.ai/",
+            "ur": "https://qul.tarteel.ai/",
+            "tr": "https://qul.tarteel.ai/",
+            "ku": "https://qul.tarteel.ai/",
+            "ms": "https://qul.tarteel.ai/",
+            "es": "https://qul.tarteel.ai/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "play_ayah_audio",
+      "title": {
+        "ar": "تشغيل صوت الآية",
+        "en": "Play Ayah Audio",
+        "bn": "আয়াত অডিও বাজান",
+        "id": "Putar Audio Ayah",
+        "ur": "آیت آڈیو چلائیں",
+        "tr": "Ayah Sesini Çal",
+        "ku": "Play Ayah Audio",
+        "ms": "Mainkan Audio Ayah",
+        "es": "Reproducir Audio del Ayah"
+      },
+      "order": 1,
+      "keywords": [
+        "play",
+        "ayah",
+        "audio"
+      ],
+      "blocks": [
+        {
+          "type": "title",
+          "content": {
+            "ar": "تشغيل صوت الآية",
+            "en": "Play Ayah Audio",
+            "bn": "আয়াত অডিও চালান",
+            "id": "Putar Audio Ayah",
+            "ur": "آیت آڈیو چلائیں",
+            "tr": "Ayah Sesini Çal",
+            "ku": "Play Ayah Audio",
+            "ms": "Mainkan Audio Ayah",
+            "es": "Reproducir Audio del Ayah"
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "لتشغيل آية واحدة:",
+            "en": "To play a single Ayah:",
+            "bn": "একটি একক আয়াত চালানোর জন্য:",
+            "id": "Untuk memainkan satu Ayah:",
+            "ur": "کسی ایک آیت کو چلانے کے لیے:",
+            "tr": "Tek bir Ayet çalmak için:",
+            "ku": "بۆ لێدانی یەک ئایەت:",
+            "ms": "Untuk memainkan satu Ayah:",
+            "es": "Para reproducir una sola Ayah:"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "en": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "bn": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "id": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "ur": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "tr": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "ku": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "ms": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "es": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);"
+          },
+          "props": {
+            "language": "dart"
+          }
+        }
+      ]
+    },
+    {
       "id": "individual_surah_display",
       "title": {
         "ar": "العرض الفردي للسور",
@@ -477,6 +777,186 @@
             "ku": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),",
             "ms": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),",
             "es": "/// For displaying a single surah with custom pagination\nSurahDisplayScreen(\n/// [surahNumber] The surah number to display\nsurahNumber: 1, // For Al-Fatihah\n/// [onPageChanged] if provided it will be called when a surah page changed\nonPageChanged: (int pageIndex) => print(\"Surah page changed: $pageIndex\"),\n/// [isDark] enable or disable dark mode\nisDark: false,\n/// [basmalaStyle] Change the style of Basmala\nbasmalaStyle: BasmalaStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nbasmalaColor: Colors.black,\nbasmalaWidth: 160.0,\nbasmalaHeight: 30.0,\n),\n/// [bannerStyle] Change the style of banner\nbannerStyle: BannerStyle.defaults(\nisDark: isDark,\ncontext: context,\n).copyWith(\nisImage: false,\nbannerSvgHeight: 40.0,\nbannerSvgWidth: 150.0,\n),\n/// and more options...\n),"
+          },
+          "props": {
+            "language": "dart"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tafsir_feature",
+      "title": {
+        "ar": "تفسير",
+        "en": "Tafsir",
+        "bn": "তাফসীর",
+        "id": "Tafsir",
+        "ur": "تفسیر",
+        "tr": "Tefsir",
+        "ku": "تەفسیر",
+        "ms": "Tafsir",
+        "es": "Tafsir"
+      },
+      "order": 2,
+      "keywords": [
+        "tafsir"
+      ],
+      "blocks": [
+        {
+          "type": "title",
+          "content": {
+            "ar": "تفسير",
+            "en": "Tafsir",
+            "bn": "তাফসীর",
+            "id": "Tafsir",
+            "ur": "تفسیر",
+            "tr": "Tefsir",
+            "ku": "تەفسیر",
+            "ms": "Tafsir",
+            "es": "Tafsir"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "* ### مثال للاستخدام",
+            "en": "* ### Usage Example",
+            "bn": "* ### ব্যবহারের উদাহরণ",
+            "id": "* ### Contoh Penggunaan",
+            "ur": "* ### استعمال کی مثال",
+            "tr": "* ### Kullanım Örneği",
+            "ku": "* ### نموونەی بەکارھێنان",
+            "ms": "* ### Contoh Penggunaan",
+            "es": "* ### Ejemplo de Uso"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
+            "en": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
+            "bn": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
+            "id": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
+            "ur": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
+            "tr": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
+            "ku": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
+            "ms": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
+            "es": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);"
+          },
+          "props": {
+            "language": "dart"
+          }
+        }
+      ]
+    },
+    {
+      "id": "license",
+      "title": {
+        "ar": "ترخيص",
+        "en": "License",
+        "bn": "লাইসেন্স",
+        "id": "Lisensi",
+        "ur": "لائسنس",
+        "tr": "Lisans",
+        "ku": "مۆڵەتنامە",
+        "ms": "Lesen",
+        "es": "Licencia"
+      },
+      "order": 2,
+      "keywords": [
+        "license"
+      ],
+      "blocks": [
+        {
+          "type": "title",
+          "content": {
+            "ar": "ترخيص",
+            "en": "License",
+            "bn": "লাইসেন্স",
+            "id": "Lisensi",
+            "ur": "لائسنس",
+            "tr": "Lisans",
+            "ku": "مۆڵەتنامە",
+            "ms": "Lesen",
+            "es": "Licencia"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "ترخيص MIT للشيفرة. يتم توفير خطوط QCF عبر المكتبة القرآنية العالمية (QUL). تأكد من التزامك بشروط QUL (وأي شروط سابقة لـ KFGQPC) عند توزيع التطبيقات التي تتضمن أو تدمج هذه الأصول. اقرأ المزيد عن الترخيص [هنا](LICENSE).",
+            "en": "MIT for code. QCF fonts are provided via Quranic Universal Library (QUL). Ensure you comply with QUL terms (and any upstream KFGQPC terms) when distributing applications that include or bundle these assets. Read more about the license [here](LICENSE).",
+            "bn": "কোডের জন্য MIT। QCF ফন্টগুলি কুরআনীয় ইউনিভার্সাল লাইব্রেরি (QUL)-এর মাধ্যমে সরবরাহ করা হয়। এই সম্পদগুলি অন্তর্ভুক্ত বা বান্ডিল করে এমন অ্যাপ্লিকেশন বিতরণ করার সময় আপনি QUL শর্তাবলী (এবং যেকোনো আপস্ট্রিম KFGQPC শর্তাবলী) মেনে চলছেন তা নিশ্চিত করুন। লাইসেন্স সম্পর্কে আরও পড়ুন [এখানে](LICENSE)।",
+            "id": "MIT untuk kode. Font QCF disediakan melalui Pustaka Universal Quran (QUL). Pastikan Anda mematuhi persyaratan QUL (dan persyaratan KFGQPC hulu mana pun) saat mendistribusikan aplikasi yang menyertakan atau menggabungkan aset-aset ini. Baca lebih lanjut tentang lisensi [di sini](LICENSE).",
+            "ur": "کوڈ کے لیے MIT۔ QCF فونٹس قرآنی یونیورسل لائبریری (QUL) کے ذریعے فراہم کیے جاتے ہیں۔ یقینی بنائیں کہ ان اثاثوں کو شامل کرنے یا بنڈل کرنے والی ایپلیکیشنز کو تقسیم کرتے وقت آپ QUL کی شرائط (اور کسی بھی بالائی KFGQPC کی شرائط) کی تعمیل کرتے ہیں۔ لائسنس کے بارے میں مزید [یہاں](LICENSE) پڑھیں۔",
+            "tr": "Kod için MIT. QCF yazı tipleri, Quranic Universal Library (Kuran Evrensel Kütüphanesi - QUL) aracılığıyla sağlanır. Bu varlıkları içeren veya bunlarla birlikte gelen uygulamaları dağıtırken QUL şartlarına (ve herhangi bir üst akım KFGQPC şartlarına) uyduğunuzdan emin olun. Lisans hakkında daha fazla bilgiyi [burada](LICENSE) okuyun.",
+            "ku": "MIT بۆ کۆد. فۆنتەکانی QCF لە ڕێگەی کتێبخانەی گشتگیری قورئانی (QUL) دابین دەکرێن. دڵنیابە لە پابەندبوون بە مەرجەکانی QUL (و هەر مەرجێکی سەرچاوەی KFGQPC) کاتێک ئەپڵیکەیشنەکان دابەش دەکەیت کە ئەم سەروەتانە لەخۆدەگرن یان کۆیان دەکەنەوە. زیاتر لەسەر مۆڵەتەکە [لێرە](LICENSE) بخوێنەوە.",
+            "ms": "MIT untuk kod. Fon QCF disediakan melalui Perpustakaan Universal Quranik (QUL). Pastikan anda mematuhi terma QUL (dan sebarang terma KFGQPC huluan) apabila mengedarkan aplikasi yang menyertakan atau menggabungkan aset-aset ini. Baca lebih lanjut mengenai lesen [di sini](LICENSE).",
+            "es": "MIT para el código. Las fuentes QCF se proporcionan a través de la Biblioteca Universal Coránica (QUL). Asegúrese de cumplir con los términos de QUL (y cualquier término ascendente de KFGQPC) al distribuir aplicaciones que incluyan o agrupen estos activos. Lea más sobre la licencia [aquí](LICENSE)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "play_surah_audio",
+      "title": {
+        "ar": "تشغيل صوت السورة",
+        "en": "Play Surah Audio",
+        "bn": "সূরা অডিও চালান",
+        "id": "Putar Audio Surah",
+        "ur": "سورۃ آڈیو چلائیں",
+        "tr": "Surah Sesini Çal",
+        "ku": "ژەنینى دەنگى سوورەت",
+        "ms": "Dengar Audio Surah",
+        "es": "Reproducir Audio de Sura"
+      },
+      "order": 2,
+      "keywords": [
+        "play",
+        "surah",
+        "audio"
+      ],
+      "blocks": [
+        {
+          "type": "title",
+          "content": {
+            "ar": "تشغيل صوت السورة",
+            "en": "Play Surah Audio",
+            "bn": "সূরা অডিও চালান",
+            "id": "Putar Audio Surah",
+            "ur": "سورۃ آڈیو چلائیں",
+            "tr": "Surah Sesini Çal",
+            "ku": "ژەنینى دەنگى سوورەت",
+            "ms": "Dengar Audio Surah",
+            "es": "Reproducir Audio de Sura"
+          }
+        },
+        {
+          "type": "subtitle",
+          "content": {
+            "ar": "لتشغيل سورة كاملة:",
+            "en": "To play a whole Surah:",
+            "bn": "সম্পূর্ণ সূরা চালানোর জন্য:",
+            "id": "Untuk memainkan seluruh Surah:",
+            "ur": "پوری سورت چلانے کے لیے:",
+            "tr": "Tüm bir Sureyi oynatmak için:",
+            "ku": "بۆ لێدانی تەواوی سوورەتێک:",
+            "ms": "Untuk memainkan seluruh Surah:",
+            "es": "Para reproducir una Surah completa:"
+          }
+        },
+        {
+          "type": "code",
+          "content": {
+            "ar": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "en": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "bn": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "id": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "ur": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "tr": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "ku": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "ms": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
+            "es": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);"
           },
           "props": {
             "language": "dart"
@@ -786,463 +1266,248 @@
       ]
     },
     {
-      "id": "fonts_download",
+      "id": "about_library",
       "title": {
-        "ar": "تحميل الخطوط",
-        "en": "Fonts Download",
-        "bn": "ফন্টস ডাউনলোড",
-        "id": "Pengunduhan Font",
-        "ur": "فونٹس ڈاؤن لوڈ",
-        "tr": "Yazı Tipleri İndirme",
-        "ku": "فۆنتەکان داگرتن",
-        "ms": "Muat Turun Fon",
-        "es": "Descarga de Fuentes"
+        "ar": "ما هي مكتبة القرآن",
+        "en": "What is Quran Library",
+        "bn": "কুরআন লাইব্রেরি কী",
+        "id": "Apa itu Perpustakaan Al-Quran",
+        "ur": "قرآن لائبریری کیا ہے",
+        "tr": "Kuran Kütüphanesi Nedir",
+        "ku": "پەرتووکخانەی قورئان چییە",
+        "ms": "Apakah Perpustakaan Al-Quran",
+        "es": "Qué es la Biblioteca del Corán"
       },
-      "order": 1,
+      "order": 9999,
       "keywords": [
-        "fonts",
-        "download"
+        "about",
+        "quran",
+        "library",
+        "package"
       ],
       "blocks": [
         {
-          "type": "title",
+          "type": "gap",
           "content": {
-            "ar": "تحميل الخطوط",
-            "en": "Fonts Download",
-            "bn": "ফন্টস ডাউনলোড",
-            "id": "Pengunduhan Font",
-            "ur": "فونٹس ڈاؤن لوڈ",
-            "tr": "Yazı Tipleri İndirme",
-            "ku": "فۆنتەکان داگرتن",
-            "ms": "Muat Turun Fon",
-            "es": "Descarga de Fuentes"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "## لتحميل خطوط القرآن، أمامك خياران:",
-            "en": "## To download Quran fonts, you have two options:",
-            "bn": "## কুরআন ফন্ট ডাউনলোড করার জন্য, আপনার কাছে দুটি বিকল্প রয়েছে:",
-            "id": "## Untuk mengunduh font Quran, Anda memiliki dua pilihan:",
-            "ur": "## قرآن فونٹس ڈاؤن لوڈ کرنے کے لیے، آپ کے پاس دو اختیارات ہیں:",
-            "tr": "## Kuran yazı tiplerini indirmek için iki seçeneğiniz vardır:",
-            "ku": "## بۆ داگرتنی فۆنتەکانی قورئان، دوو بژاردەت هەیە:",
-            "ms": "## Untuk memuat turun fon Quran, anda mempunyai dua pilihan:",
-            "es": "## Para descargar fuentes del Corán, tienes dos opciones:"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "### أما بالنسبة لاستخدام الحوار الافتراضي، فيمكنك تعديل النمط الخاص به.",
-            "en": "### As for using the default dialog, you can modify the style in it.",
-            "bn": "### ডিফল্ট ডায়ালগ ব্যবহার করার ক্ষেত্রে, আপনি এর মধ্যে স্টাইল পরিবর্তন করতে পারেন।",
-            "id": "### Mengenai penggunaan dialog default, Anda dapat memodifikasi style di dalamnya.",
-            "ur": "### جہاں تک ڈیفالٹ ڈائیلاگ کے استعمال کا تعلق ہے، آپ اس میں اسٹائل میں ترمیم کر سکتے ہیں۔",
-            "tr": "### Varsayılan iletişim kutusunu kullanmaya gelince, içindeki stili değiştirebilirsiniz.",
-            "ku": "### سەبارەت بە بەکارهێنانی دایەلۆگی بنەڕەتی، دەتوانیت ستایلەکەی تێیدا بگۆڕیت.",
-            "ms": "### Bagi penggunaan dialog lalai, anda boleh mengubah suai gaya di dalamnya.",
-            "es": "### En cuanto a usar el diálogo predeterminado, puedes modificar el estilo en él."
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "### أو يمكنك إنشاء تصميمك الخاص باستخدام جميع دوال تحميل الخطوط.\n## يتطلب نظام macOS منك طلب استحقاق (entitlement) محدد للوصول إلى الشبكة.",
-            "en": "### Or you can create your own design using all the functions for downloading fonts. ## macOS needs you to request a specific entitlement in order to access the network.",
-            "bn": "### অথবা আপনি ফন্ট ডাউনলোডের জন্য সমস্ত ফাংশন ব্যবহার করে আপনার নিজস্ব ডিজাইন তৈরি করতে পারেন। ## macOS-এর নেটওয়ার্ক অ্যাক্সেস করার জন্য একটি নির্দিষ্ট এনটাইটেলমেন্ট অনুরোধ করার প্রয়োজন।",
-            "id": "### Atau Anda dapat membuat desain Anda sendiri menggunakan semua fungsi untuk mengunduh font. ## macOS mengharuskan Anda meminta hak khusus (entitlement) untuk mengakses jaringan.",
-            "ur": "### یا آپ فونٹس ڈاؤن لوڈ کرنے کے تمام فنکشنز کا استعمال کرتے ہوئے اپنا ڈیزائن بنا سکتے ہیں۔ ## نیٹ ورک تک رسائی حاصل کرنے کے لیے macOS کو آپ سے ایک مخصوص اینٹائٹلمنٹ کی درخواست کرنے کی ضرورت ہے۔",
-            "tr": "### Veya font indirme için tüm fonksiyonları kullanarak kendi tasarımınızı oluşturabilirsiniz. ## macOS, ağa erişmek için belirli bir yetkilendirme (entitlement) talep etmenizi gerektirir.",
-            "ku": "### یان دەتوانیت دیزاینی تایبەت بە خۆت دروست بکەیت بە بەکارهێنانی هەموو فەنکشنەکانی داگرتنی فۆنتەکان. ## macOS پێویستی بەوەیە کە داوای ئیختیاراتێکی تایبەت بکەیت بۆ ئەوەی دەستت بە تۆڕەکە بگات.",
-            "ms": "### Atau anda boleh mencipta reka bentuk anda sendiri menggunakan semua fungsi untuk memuat turun fon.\n## macOS memerlukan anda untuk meminta entitlement tertentu bagi mengakses rangkaian.",
-            "es": "### O puedes crear tu propio diseño utilizando todas las funciones para descargar fuentes. ## macOS requiere que solicites un derecho específico para acceder a la red."
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          },
+          "props": {
+            "height": "32"
           }
         },
         {
           "type": "subtitle",
           "content": {
-            "ar": "للقيام بذلك: افتح macos/Runner/DebugProfile.entitlements وأضف زوج المفتاح والقيمة التالي.",
-            "en": "To do that: open macos/Runner/DebugProfile.entitlements and add the following key-value pair.",
-            "bn": "এটি করার জন্য: `macos/Runner/DebugProfile.entitlements` খুলুন এবং নিম্নলিখিত কী-ভ্যালু পেয়ার যোগ করুন।",
-            "id": "Untuk melakukan itu: buka `macos/Runner/DebugProfile.entitlements` dan tambahkan pasangan kunci-nilai berikut.",
-            "ur": "اس کے لیے: macos/Runner/DebugProfile.entitlements کھولیں اور درج ذیل کلیدی-قدر جوڑا شامل کریں۔",
-            "tr": "Bunu yapmak için: macos/Runner/DebugProfile.entitlements dosyasını açın ve aşağıdaki anahtar-değer çiftini ekleyin.",
-            "ku": "بۆ ئەنجامدانی ئەوە: macos/Runner/DebugProfile.entitlements بکەوە و جووتە-بەهای کلیل-بەهای خوارەوە زیاد بکە.",
-            "ms": "Untuk melakukan itu: buka macos/Runner/DebugProfile.entitlements dan tambah pasangan kunci-nilai berikut.",
-            "es": "Para hacer eso: abre macos/Runner/DebugProfile.entitlements y añade el siguiente par clave-valor."
+            "ar": "مكتبة قرآن شاملة لـ Flutter",
+            "en": "Comprehensive Quran Library for Flutter",
+            "bn": "Flutter এর জন্য ব্যাপক কুরআন লাইব্রেরি",
+            "id": "Perpustakaan Al-Quran Komprehensif untuk Flutter",
+            "ur": "Flutter کے لیے جامع قرآن لائبریری",
+            "tr": "Flutter için Kapsamlı Kuran Kütüphanesi",
+            "ku": "پەرتووکخانەی قورئانی فراوان بۆ Flutter",
+            "ms": "Perpustakaan Al-Quran Komprehensif untuk Flutter",
+            "es": "Biblioteca Completa del Corán para Flutter"
           }
         },
         {
-          "type": "code",
+          "type": "image",
           "content": {
-            "ar": "<key>com.apple.security.network.client</key>\n<true/>",
-            "en": "<key>com.apple.security.network.client</key>\n<true/>",
-            "bn": "<key>com.apple.security.network.client</key>\n<true/>",
-            "id": "<key>com.apple.security.network.client</key>\n<true/>",
-            "ur": "<key>com.apple.security.network.client</key>\n<true/>",
-            "tr": "<key>com.apple.security.network.client</key>\n<true/>",
-            "ku": "<key>com.apple.security.network.client</key>\n<true/>",
-            "ms": "<key>com.apple.security.network.client</key>\n<true/>",
-            "es": "<key>com.apple.security.network.client</key>\n<true/>"
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
           },
           "props": {
-            "language": "xml"
+            "url": "https://raw.githubusercontent.com/alheekmahlib/data/main/packages/quran_library/quran_library_banner.png"
           }
         },
         {
-          "type": "code",
+          "type": "divider",
           "content": {
-            "ar": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
-            "en": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
-            "bn": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
-            "id": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
-            "ur": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
-            "tr": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
-            "ku": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
-            "ms": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;",
-            "es": "///\n/// to get the fonts download dialog just call [getFontsDownloadDialog]\n///\n/// and pass the language code to translate the number if you want,\n/// the default language code is 'ar' [languageCode]\n/// and style [DownloadFontsDialogStyle] is optional.\nQuranLibrary().getFontsDownloadDialog(downloadFontsDialogStyle, languageCode);\n\n/// to get the fonts download widget just call [getFontsDownloadWidget]\nWidget getFontsDownloadWidget(context, {downloadFontsDialogStyle, languageCode});\n\n/// to get the fonts download method just call [fontsDownloadMethod]\nQuranLibrary().fontsDownloadMethod;\n\n/// to prepare the fonts was downloaded before just call [getFontsPrepareMethod]\n/// required to pass [pageIndex]\nQuranLibrary().getFontsPrepareMethod(pageIndex);\n\n/// to delete the fonts just call [deleteFontsMethod]\nQuranLibrary().deleteFontsMethod;\n\n/// to get fonts download progress just call [fontsDownloadProgress]\nQuranLibrary().fontsDownloadProgress;\n\n/// To find out whether fonts are downloaded or not, just call [isFontsDownloaded]\nQuranLibrary().isFontsDownloaded;"
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "ar": "مكتبة القرآن هي مكتبة Flutter شاملة ومتطورة لعرض القرآن الكريم.\nتتميز المكتبة بواجهة سهلة الاستخدام وميزات متقدمة مثل عرض القرآن بخطوط مخصصة، والبحث في الآيات، والعلامات المرجعية، والتفسير، والترجمات، وتشغيل الآيات والسور.",
+            "en": "Quran Library is a comprehensive and advanced Flutter library for displaying the Holy Quran. The library features an easy-to-use interface and advanced features such as displaying the Quran with custom fonts, searching verses, bookmarks, tafsir, translations, and playing verses and surahs.",
+            "bn": "কুরআন লাইব্রেরি হল পবিত্র কুরআন প্রদর্শনের জন্য একটি ব্যাপক এবং উন্নত Flutter লাইব্রেরি। এই লাইব্রেরিতে সহজ ব্যবহারযোগ্য ইন্টারফেস এবং উন্নত বৈশিষ্ট্য রয়েছে যেমন কাস্টম ফন্টে কুরআন প্রদর্শন, আয়াত অনুসন্ধান, বুকমার্ক, তাফসীর, অনুবাদ এবং আয়াত ও সূরা বাজানো।",
+            "id": "Perpustakaan Al-Quran adalah pustaka Flutter yang komprehensif dan canggih untuk menampilkan Al-Quran Al-Karim. Perpustakaan ini memiliki antarmuka yang mudah digunakan dan fitur-fitur canggih seperti menampilkan Al-Quran dengan font khusus, pencarian ayat, bookmark, tafsir, terjemahan, dan pemutaran ayat dan surah.",
+            "ur": "قرآن لائبریری قرآن کریم کو ڈسپلے کرنے کے لیے ایک جامع اور جدید Flutter لائبریری ہے۔ یہ لائبریری استعمال میں آسان انٹرفیس اور جدید خصوصیات جیسے کسٹم فونٹس میں قرآن کی نمائش، آیات میں تلاش، بک مارکس، تفسیر، ترجمے، اور آیات و سورتوں کی آڈیو چلانے کی خصوصیت رکھتی ہے۔",
+            "tr": "Kuran Kütüphanesi, Kur'an-ı Kerim'i görüntülemek için kapsamlı ve gelişmiş bir Flutter kütüphanesidir. Kütüphane, özel fontlarla Kuran görüntüleme, ayetlerde arama, yer imleri, tefsir, çeviriler ve ayet ve sure dinletme gibi gelişmiş özelliklere ve kullanımı kolay bir arayüze sahiptir.",
+            "ku": "پەرتووکخانەی قورئان پەرتووکخانەیەکی فراوان و پێشکەوتووی Flutter ـە بۆ پیشاندانی قورئانی پیرۆز. پەرتووکخانەکە تایبەتمەندی ڕووکاری ئاسان بۆ بەکارهێنان و تایبەتمەندییە پێشکەوتووەکان وەک پیشاندانی قورئان بە فۆنتی تایبەت، گەڕان لە ئایەتەکان، نیشانەکردنەکان، تەفسیر، وەرگێڕانەکان و لێدانی ئایەت و سوورەتەکان.",
+            "ms": "Perpustakaan Al-Quran ialah perpustakaan Flutter yang komprehensif dan maju untuk memaparkan Al-Quran. Perpustakaan ini mempunyai antara muka yang mudah digunakan dan ciri-ciri canggih seperti paparan Al-Quran dengan fon tersuai, carian ayat, penanda buku, tafsir, terjemahan, dan main ayat dan surah.",
+            "es": "La Biblioteca del Corán es una biblioteca Flutter completa y avanzada para mostrar el Sagrado Corán. La biblioteca cuenta con una interfaz fácil de usar y características avanzadas como mostrar el Corán con fuentes personalizadas, búsqueda de versículos, marcadores, tafsir, traducciones y reproducción de versículos y suras."
+          }
+        },
+        {
+          "type": "gap",
+          "content": {
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
           },
           "props": {
-            "language": "dart"
-          }
-        }
-      ]
-    },
-    {
-      "id": "tafsir_feature",
-      "title": {
-        "ar": "تفسير",
-        "en": "Tafsir",
-        "bn": "তাফসীর",
-        "id": "Tafsir",
-        "ur": "تفسیر",
-        "tr": "Tefsir",
-        "ku": "تەفسیر",
-        "ms": "Tafsir",
-        "es": "Tafsir"
-      },
-      "order": 2,
-      "keywords": [
-        "tafsir"
-      ],
-      "blocks": [
-        {
-          "type": "title",
-          "content": {
-            "ar": "تفسير",
-            "en": "Tafsir",
-            "bn": "তাফসীর",
-            "id": "Tafsir",
-            "ur": "تفسیر",
-            "tr": "Tefsir",
-            "ku": "تەفسیر",
-            "ms": "Tafsir",
-            "es": "Tafsir"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "* ### مثال للاستخدام",
-            "en": "* ### Usage Example",
-            "bn": "* ### ব্যবহারের উদাহরণ",
-            "id": "* ### Contoh Penggunaan",
-            "ur": "* ### استعمال کی مثال",
-            "tr": "* ### Kullanım Örneği",
-            "ku": "* ### نموونەی بەکارھێنان",
-            "ms": "* ### Contoh Penggunaan",
-            "es": "* ### Ejemplo de Uso"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
-            "en": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
-            "bn": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
-            "id": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
-            "ur": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
-            "tr": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
-            "ku": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
-            "ms": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);",
-            "es": "// get current list\n\n\nfinal all = TafsirController.instance.items; // includes defaults + customs\n\n// add a custom sql file (File is from file picker)\n\nfinal added = await TafsirController.instance.addCustomFromFile(\n\nsourceFile: pickedFile,\n\ndisplayName: 'My Custom Tafsir',\n\nbookName: 'My Book',\n\ntype: TafsirFileType.json,\n\n);\n/// Show a popup menu to change the tafsir style.\nQuranLibrary().changeTafsirPopupMenu(TafsirStyle tafsirStyle, {int? pageNumber});\n\n/// Fetch tafsir for a specific page by its page number.\nQuranLibrary().fetchTafsir({required int pageNumber});\n\n/// Check if the tafsir is already downloaded.\nQuranLibrary().getTafsirDownloaded(int index);\n\n/// Get the list of tafsir and translation names.\nQuranLibrary().tafsirAndTraslationCollection;\n\n/// Change the selected tafsir when the switch button is pressed.\nQuranLibrary().changeTafsirSwitch(int index, {int? pageNumber});\n\n/// Get the list of available tafsir data.\nQuranLibrary().tafsirList;\n\n/// Get the list of available translations.\nQuranLibrary().translationList;\n\n/// Fetch translations from the source.\nQuranLibrary().fetchTranslation();\n\n/// Download the tafsir by the given index.\nQuranLibrary().tafsirDownload(int i);"
-          },
-          "props": {
-            "language": "dart"
-          }
-        }
-      ]
-    },
-    {
-      "id": "sources",
-      "title": {
-        "ar": "المصادر",
-        "en": "Sources",
-        "bn": "উৎসসমূহ",
-        "id": "Sumber",
-        "ur": "ذرائع",
-        "tr": "Kaynaklar",
-        "ku": "سەرچاوەکان",
-        "ms": "Sumber",
-        "es": "Fuentes"
-      },
-      "order": 1,
-      "keywords": [
-        "sources"
-      ],
-      "blocks": [
-        {
-          "type": "title",
-          "content": {
-            "ar": "المصادر",
-            "en": "Sources",
-            "bn": "উৎসসমূহ",
-            "id": "Sumber",
-            "ur": "ذرائع",
-            "tr": "Kaynaklar",
-            "ku": "سەرچاوەکان",
-            "ms": "Sumber",
-            "es": "Fuentes"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "نص القرآن والبيانات الوصفية: مجمع الملك فهد لطباعة المصحف الشريف — بوابة مطوري القرآن",
-            "en": "Quran text and metadata: King Fahd Glorious Quran Printing Complex — Quran Developer Portal",
-            "bn": "কুরআন পাঠ্য এবং মেটাডেটা: কিং ফাহদ গ্লোরিয়াস কুরআন প্রিন্টিং কমপ্লেক্স — কুরআন ডেভেলপার পোর্টাল",
-            "id": "Teks dan metadata Quran: Kompleks Percetakan Al-Quran Raja Fahd — Portal Pengembang Quran",
-            "ur": "قرآن متن اور میٹا ڈیٹا: شاہ فہد شاندار قرآن پرنٹنگ کمپلیکس — قرآن ڈویلپر پورٹل",
-            "tr": "Kuran metni ve meta verileri: Kral Fahd Kur'an-ı Kerim Basım Kompleksi — Kuran Geliştirici Portalı",
-            "ku": "دەقی قورئان و مێتاداتا: کۆمەڵگەی چاپی قورئانی پیرۆزی شا فەهد — پۆرتاڵی گەشەپێدەری قورئان",
-            "ms": "Teks dan metadata Al-Quran: Kompleks Percetakan Al-Quran Raja Fahd — Portal Pembangun Al-Quran",
-            "es": "Texto del Corán y metadatos: Complejo de Impresión Rey Fahd para el Sagrado Corán — Portal para Desarrolladores del Corán"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "https://qurancomplex.gov.sa/quran-dev/",
-            "en": "https://qurancomplex.gov.sa/quran-dev/",
-            "bn": "https://qurancomplex.gov.sa/quran-dev/",
-            "id": "https://qurancomplex.gov.sa/quran-dev/",
-            "ur": "https://qurancomplex.gov.sa/quran-dev/",
-            "tr": "https://qurancomplex.gov.sa/quran-dev/",
-            "ku": "https://qurancomplex.gov.sa/quran-dev/",
-            "ms": "https://qurancomplex.gov.sa/quran-dev/",
-            "es": "https://qurancomplex.gov.sa/quran-dev/"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "الخطوط، والتفسير، والترجمات: المكتبة العالمية القرآنية (QUL) من ترتيل",
-            "en": "Fonts, Tafsir, and Translations: Quranic Universal Library (QUL) by Tarteel",
-            "bn": "ফন্ট, তাফসীর, এবং অনুবাদ: তারতীল কর্তৃক কুরআনিক ইউনিভার্সাল লাইব্রেরি (QUL)",
-            "id": "Font, Tafsir, dan Terjemahan: Perpustakaan Universal Qur'an (QUL) oleh Tarteel",
-            "ur": "فونٹس، تفسیر، اور تراجم: قرآنی یونیورسل لائبریری (Qےو-ایل) از ترتیل",
-            "tr": "Yazı Tipleri, Tefsir ve Çeviriler: Tarteel'den Kuran Evrensel Kütüphanesi (QUL)",
-            "ku": "فۆنتەکان، تەفسیر، و وەرگێڕانەکان: کتێبخانەی گشتگیری قورئانی (QUL) لەلایەن تەرتل",
-            "ms": "Fon, Tafsir, dan Terjemahan: Perpustakaan Universal Al-Quran (QUL) oleh Tarteel",
-            "es": "Fuentes, Tafsir y Traducciones: Biblioteca Universal Coránica (QUL) por Tarteel"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "https://qul.tarteel.ai/",
-            "en": "https://qul.tarteel.ai/",
-            "bn": "https://qul.tarteel.ai/",
-            "id": "https://qul.tarteel.ai/",
-            "ur": "https://qul.tarteel.ai/",
-            "tr": "https://qul.tarteel.ai/",
-            "ku": "https://qul.tarteel.ai/",
-            "ms": "https://qul.tarteel.ai/",
-            "es": "https://qul.tarteel.ai/"
-          }
-        }
-      ]
-    },
-    {
-      "id": "license",
-      "title": {
-        "ar": "ترخيص",
-        "en": "License",
-        "bn": "লাইসেন্স",
-        "id": "Lisensi",
-        "ur": "لائسنس",
-        "tr": "Lisans",
-        "ku": "مۆڵەتنامە",
-        "ms": "Lesen",
-        "es": "Licencia"
-      },
-      "order": 2,
-      "keywords": [
-        "license"
-      ],
-      "blocks": [
-        {
-          "type": "title",
-          "content": {
-            "ar": "ترخيص",
-            "en": "License",
-            "bn": "লাইসেন্স",
-            "id": "Lisensi",
-            "ur": "لائسنس",
-            "tr": "Lisans",
-            "ku": "مۆڵەتنامە",
-            "ms": "Lesen",
-            "es": "Licencia"
-          }
-        },
-        {
-          "type": "paragraph",
-          "content": {
-            "ar": "ترخيص MIT للشيفرة. يتم توفير خطوط QCF عبر المكتبة القرآنية العالمية (QUL). تأكد من التزامك بشروط QUL (وأي شروط سابقة لـ KFGQPC) عند توزيع التطبيقات التي تتضمن أو تدمج هذه الأصول. اقرأ المزيد عن الترخيص [هنا](LICENSE).",
-            "en": "MIT for code. QCF fonts are provided via Quranic Universal Library (QUL). Ensure you comply with QUL terms (and any upstream KFGQPC terms) when distributing applications that include or bundle these assets. Read more about the license [here](LICENSE).",
-            "bn": "কোডের জন্য MIT। QCF ফন্টগুলি কুরআনীয় ইউনিভার্সাল লাইব্রেরি (QUL)-এর মাধ্যমে সরবরাহ করা হয়। এই সম্পদগুলি অন্তর্ভুক্ত বা বান্ডিল করে এমন অ্যাপ্লিকেশন বিতরণ করার সময় আপনি QUL শর্তাবলী (এবং যেকোনো আপস্ট্রিম KFGQPC শর্তাবলী) মেনে চলছেন তা নিশ্চিত করুন। লাইসেন্স সম্পর্কে আরও পড়ুন [এখানে](LICENSE)।",
-            "id": "MIT untuk kode. Font QCF disediakan melalui Pustaka Universal Quran (QUL). Pastikan Anda mematuhi persyaratan QUL (dan persyaratan KFGQPC hulu mana pun) saat mendistribusikan aplikasi yang menyertakan atau menggabungkan aset-aset ini. Baca lebih lanjut tentang lisensi [di sini](LICENSE).",
-            "ur": "کوڈ کے لیے MIT۔ QCF فونٹس قرآنی یونیورسل لائبریری (QUL) کے ذریعے فراہم کیے جاتے ہیں۔ یقینی بنائیں کہ ان اثاثوں کو شامل کرنے یا بنڈل کرنے والی ایپلیکیشنز کو تقسیم کرتے وقت آپ QUL کی شرائط (اور کسی بھی بالائی KFGQPC کی شرائط) کی تعمیل کرتے ہیں۔ لائسنس کے بارے میں مزید [یہاں](LICENSE) پڑھیں۔",
-            "tr": "Kod için MIT. QCF yazı tipleri, Quranic Universal Library (Kuran Evrensel Kütüphanesi - QUL) aracılığıyla sağlanır. Bu varlıkları içeren veya bunlarla birlikte gelen uygulamaları dağıtırken QUL şartlarına (ve herhangi bir üst akım KFGQPC şartlarına) uyduğunuzdan emin olun. Lisans hakkında daha fazla bilgiyi [burada](LICENSE) okuyun.",
-            "ku": "MIT بۆ کۆد. فۆنتەکانی QCF لە ڕێگەی کتێبخانەی گشتگیری قورئانی (QUL) دابین دەکرێن. دڵنیابە لە پابەندبوون بە مەرجەکانی QUL (و هەر مەرجێکی سەرچاوەی KFGQPC) کاتێک ئەپڵیکەیشنەکان دابەش دەکەیت کە ئەم سەروەتانە لەخۆدەگرن یان کۆیان دەکەنەوە. زیاتر لەسەر مۆڵەتەکە [لێرە](LICENSE) بخوێنەوە.",
-            "ms": "MIT untuk kod. Fon QCF disediakan melalui Perpustakaan Universal Quranik (QUL). Pastikan anda mematuhi terma QUL (dan sebarang terma KFGQPC huluan) apabila mengedarkan aplikasi yang menyertakan atau menggabungkan aset-aset ini. Baca lebih lanjut mengenai lesen [di sini](LICENSE).",
-            "es": "MIT para el código. Las fuentes QCF se proporcionan a través de la Biblioteca Universal Coránica (QUL). Asegúrese de cumplir con los términos de QUL (y cualquier término ascendente de KFGQPC) al distribuir aplicaciones que incluyan o agrupen estos activos. Lea más sobre la licencia [aquí](LICENSE)."
-          }
-        }
-      ]
-    },
-    {
-      "id": "play_ayah_audio",
-      "title": {
-        "ar": "تشغيل صوت الآية",
-        "en": "Play Ayah Audio",
-        "bn": "আয়াত অডিও বাজান",
-        "id": "Putar Audio Ayah",
-        "ur": "آیت آڈیو چلائیں",
-        "tr": "Ayah Sesini Çal",
-        "ku": "Play Ayah Audio",
-        "ms": "Mainkan Audio Ayah",
-        "es": "Reproducir Audio del Ayah"
-      },
-      "order": 1,
-      "keywords": [
-        "play",
-        "ayah",
-        "audio"
-      ],
-      "blocks": [
-        {
-          "type": "title",
-          "content": {
-            "ar": "تشغيل صوت الآية",
-            "en": "Play Ayah Audio",
-            "bn": "আয়াত অডিও চালান",
-            "id": "Putar Audio Ayah",
-            "ur": "آیت آڈیو چلائیں",
-            "tr": "Ayah Sesini Çal",
-            "ku": "Play Ayah Audio",
-            "ms": "Mainkan Audio Ayah",
-            "es": "Reproducir Audio del Ayah"
+            "height": "8"
           }
         },
         {
           "type": "subtitle",
           "content": {
-            "ar": "لتشغيل آية واحدة:",
-            "en": "To play a single Ayah:",
-            "bn": "একটি একক আয়াত চালানোর জন্য:",
-            "id": "Untuk memainkan satu Ayah:",
-            "ur": "کسی ایک آیت کو چلانے کے لیے:",
-            "tr": "Tek bir Ayet çalmak için:",
-            "ku": "بۆ لێدانی یەک ئایەت:",
-            "ms": "Untuk memainkan satu Ayah:",
-            "es": "Para reproducir una sola Ayah:"
+            "ar": "الميزات الرئيسية",
+            "en": "Key Features",
+            "bn": "প্রধান বৈশিষ্ট্য",
+            "id": "Fitur Utama",
+            "ur": "اہم خصوصیات",
+            "tr": "Ana Özellikler",
+            "ku": "تایبەتمەندییە سەرەکییەکان",
+            "ms": "Ciri-ciri Utama",
+            "es": "Características Principales"
           }
         },
         {
-          "type": "code",
+          "type": "feature_list",
           "content": {
-            "ar": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "en": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "bn": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "id": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "ur": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "tr": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "ku": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "ms": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "es": "// To play a single ayah\nQuranLibrary().playAyah(\nsurahNumber: 1,\nayahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);"
+            "ar": "",
+            "en": "",
+            "bn": "",
+            "id": "",
+            "ur": "",
+            "tr": "",
+            "ku": "",
+            "ms": "",
+            "es": ""
           },
           "props": {
-            "language": "dart"
-          }
-        }
-      ]
-    },
-    {
-      "id": "play_surah_audio",
-      "title": {
-        "ar": "تشغيل صوت السورة",
-        "en": "Play Surah Audio",
-        "bn": "সূরা অডিও চালান",
-        "id": "Putar Audio Surah",
-        "ur": "سورۃ آڈیو چلائیں",
-        "tr": "Surah Sesini Çal",
-        "ku": "ژەنینى دەنگى سوورەت",
-        "ms": "Dengar Audio Surah",
-        "es": "Reproducir Audio de Sura"
-      },
-      "order": 2,
-      "keywords": [
-        "play",
-        "surah",
-        "audio"
-      ],
-      "blocks": [
-        {
-          "type": "title",
-          "content": {
-            "ar": "تشغيل صوت السورة",
-            "en": "Play Surah Audio",
-            "bn": "সূরা অডিও চালান",
-            "id": "Putar Audio Surah",
-            "ur": "سورۃ آڈیو چلائیں",
-            "tr": "Surah Sesini Çal",
-            "ku": "ژەنینى دەنگى سوورەت",
-            "ms": "Dengar Audio Surah",
-            "es": "Reproducir Audio de Sura"
-          }
-        },
-        {
-          "type": "subtitle",
-          "content": {
-            "ar": "لتشغيل سورة كاملة:",
-            "en": "To play a whole Surah:",
-            "bn": "সম্পূর্ণ সূরা চালানোর জন্য:",
-            "id": "Untuk memainkan seluruh Surah:",
-            "ur": "پوری سورت چلانے کے لیے:",
-            "tr": "Tüm bir Sureyi oynatmak için:",
-            "ku": "بۆ لێدانی تەواوی سوورەتێک:",
-            "ms": "Untuk memainkan seluruh Surah:",
-            "es": "Para reproducir una Surah completa:"
-          }
-        },
-        {
-          "type": "code",
-          "content": {
-            "ar": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "en": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "bn": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "id": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "ur": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "tr": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "ku": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "ms": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);",
-            "es": "// To play a whole surah\nQuranLibrary().playSurah(\nsurahNumber: 1,\nreaderId: 1, // Optional: The reader to use\n);"
-          },
-          "props": {
-            "language": "dart"
+            "items": [
+              {
+                "ar": "عرض كامل للقرآن الكريم بخط المصحف.",
+                "en": "Full display of the Holy Quran with Mushaf font.",
+                "bn": "মুসহাফ ফন্টে পবিত্র কুরআনের সম্পূর্ণ প্রদর্শন।\"",
+                "id": "Tampilan lengkap Al-Quran Al-Karim dengan font mushaf.",
+                "ur": "مصحف فونٹ کے ساتھ قرآن کریم کی مکمل نمائش۔",
+                "tr": "Mushaf fontu ile Kur'an-ı Kerim'in tam görünümü.",
+                "ku": "پیشاندانی تەواوی قورئانی پیرۆز بە فۆنتی مسحەف.",
+                "ms": "Paparan lengkap Al-Quran dengan fon mushaf.",
+                "es": "Visualización completa del Sagrado Corán con fuente Mushaf."
+              },
+              {
+                "ar": "البحث السريع في الآيات والسور.",
+                "en": "Quick search in verses and surahs.",
+                "bn": "আয়াত এবং সূরায় দ্রুত অনুসন্ধান।",
+                "id": "Pencarian cepat dalam ayat dan surah.",
+                "ur": "آیات اور سورتوں میں تیز تلاش۔",
+                "tr": "Ayetlerde ve surelerde hızlı arama.",
+                "ku": "گەڕانی خێرا لە ئایەت و سوورەتەکان.",
+                "ms": "Carian pantas dalam ayat dan surah.",
+                "es": "Búsqueda rápida en versículos y suras."
+              },
+              {
+                "ar": "نظام العلامات المرجعية المتقدم.",
+                "en": "Advanced bookmark system.",
+                "bn": "উন্নত বুকমার্ক সিস্টেম।",
+                "id": "Sistem bookmark canggih.",
+                "ur": "جدید بک مارک سسٹم۔",
+                "tr": "Gelişmiş yer imi sistemi.",
+                "ku": "سیستەمی نیشانەکردنی پێشکەوتوو.",
+                "ms": "Sistem penanda buku canggih.",
+                "es": "Sistema avanzado de marcadores."
+              },
+              {
+                "ar": "دعم التفسير والترجمات المختلفة.",
+                "en": "Support for tafsir and various translations.",
+                "bn": "তাফসীর এবং বিভিন্ন অনুবাদের সমর্থন।",
+                "id": "Dukungan tafsir dan berbagai terjemahan.",
+                "ur": "تفسیر اور مختلف ترجموں کی معاونت۔",
+                "tr": "Tefsir ve çeşitli çeviriler için destek.",
+                "ku": "پاڵپشتی تەفسیر و وەرگێڕانە جیاوازەکان.",
+                "ms": "Sokongan tafsir dan pelbagai terjemahan.",
+                "es": "Soporte para tafsir y varias traducciones."
+              },
+              {
+                "ar": "تشغيل الآيات والسور.",
+                "en": "Playing verses and surahs.",
+                "bn": "আয়াত এবং সূরা বাজানো।",
+                "id": "Pemutaran ayat dan surah.",
+                "ur": "آیات اور سورتوں کو چلانا۔",
+                "tr": "Ayet ve sure dinletme.",
+                "ku": "لێدانی ئایەت و سوورەتەکان.",
+                "ms": "Main ayat dan surah.",
+                "es": "Reproducción de versículos y suras."
+              },
+              {
+                "ar": "واجهة مستخدم قابلة للتخصيص.",
+                "en": "Customizable user interface.",
+                "bn": "কাস্টমাইজযোগ্য ইউজার ইন্টারফেস।",
+                "id": "Antarmuka pengguna yang dapat disesuaikan.",
+                "ur": "قابل تخصیص یوزر انٹرفیس۔",
+                "tr": "Özelleştirilebilir kullanıcı arayüzü.",
+                "ku": "ڕووکاری بەکارهێنەری گۆڕینی بۆ.",
+                "ms": "Antara muka pengguna yang boleh disesuaikan.",
+                "es": "Interfaz de usuario personalizable."
+              },
+              {
+                "ar": "تصميم متجاوب يعمل على جميع الأجهزة.",
+                "en": "Responsive design that works on all devices.",
+                "bn": "সমস্ত ডিভাইসে কাজ করে এমন রেসপন্সিভ ডিজাইন।",
+                "id": "Desain responsif yang berfungsi di semua perangkat.",
+                "ur": "تمام آلات پر کام کرنے والی ریسپانسیو ڈیزائن۔\"",
+                "tr": "Tüm cihazlarda çalışan duyarlı tasarım.",
+                "ku": "دیزاینی وەڵامدەرەوە کە لەسەر هەموو ئامێرەکان کاردەکات.",
+                "ms": "Reka bentuk responsif yang berfungsi pada semua peranti.",
+                "es": "Diseño adaptable que funciona en todos los dispositivos."
+              },
+              {
+                "ar": "دعم اللغات المتعددة.",
+                "en": "Multi-language support.",
+                "bn": "বহু-ভাষা সমর্থন।",
+                "id": "Dukungan multi-bahasa.",
+                "ur": "کثیر لسانی معاونت۔",
+                "tr": "Çok dilli destek.",
+                "ku": "پاڵپشتی فرە زمان.",
+                "ms": "Sokongan pelbagai bahasa.",
+                "es": "Soporte multiidioma."
+              },
+              {
+                "ar": "أداء عالي وسرعة في التنقل.",
+                "en": "High performance and fast navigation.",
+                "bn": "উচ্চ কর্মক্ষমতা এবং দ্রুত নেভিগেশন।",
+                "id": "Performa tinggi dan navigasi cepat.",
+                "ur": "اعلیٰ کارکردگی اور تیز نیویگیشن۔",
+                "tr": "Yüksek performans ve hızlı gezinme.",
+                "ku": "کارایی بەرز و خێرایی لە گەشتکردن.",
+                "ms": "Prestasi tinggi dan navigasi pantas.",
+                "es": "Alto rendimiento y navegación rápida."
+              }
+            ]
           }
         }
       ]
