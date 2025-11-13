@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-09-25T21:55:12.476",
+    "description": "B'9/) (J'F'* SolTeam DDEC*('* H'D*7(JB'* H'DE4'1J9"
+  },
+  "statistics": {
+    "totalLibraries": 1,
+    "totalApps": 0,
+    "totalProjects": 0,
+    "totalContributors": 1,
+    "lastUpdated": "2025-09-25T21:55:12.476"
+  },
+  "categories": {
+    "libraries": [
+      "%/'1) 'D-'D)",
+      "BH'9/ 'D(J'F'*",
+      "H',G) 'DE3*./E",
+      "'D4(C'*",
+      "'D#E'F",
+      "'D5H*J'* H'DE1&J'*",
+      "'D#D9'(",
+      "'D#/H'*",
+      "'D*7HJ1",
+      "#.1I"
+    ],
+    "apps": [
+      "*7(JB'* 'D#9E'D",
+      "'D*9DJE",
+      "'D*1AJG",
+      "'D5-) H'DDJ'B)",
+      "#/H'* 'D%F*',J)",
+      "'D*7(JB'* 'D%3D'EJ)",
+      "'D*7(JB'* 'D',*E'9J)",
+      "#.1I"
+    ]
+  },
+  "data": {
+    "libraries": [
+      {
+        "id": "1758862511973",
+        "name": "hijri_date",
+        "url": "https://pub.dev/packages/hijri_date",
+        "imageUrl": "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Packages/hijri_date/hijri_date_banner.png",
+        "content": [
+          {
+            "id": "1758862481802",
+            "type": "text",
+            "content": "hijri_date",
+            "order": 0
+          },
+          {
+            "id": "1758862502630",
+            "type": "image",
+            "content": "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Packages/hijri_date/hijri_date_banner.png",
+            "order": 1
+          }
+        ],
+        "stats": {
+          "likes": 1,
+          "downloads": 0,
+          "pubPoints": 150,
+          "popularity": 0.0029702970297029703,
+          "version": "1.0.0"
+        },
+        "createdAt": "2025-09-25T21:55:11.973",
+        "updatedAt": "2025-09-25T21:55:11.973"
+      }
+    ],
+    "apps": [],
+    "projects": [],
+    "contributors": []
+  }
+}
