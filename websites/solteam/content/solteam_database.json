@@ -1,15 +1,15 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "lastUpdated": "2025-09-25T21:55:12.476",
+    "lastUpdated": "2025-11-12T20:07:38.168",
     "description": "B'9/) (J'F'* SolTeam DDEC*('* H'D*7(JB'* H'DE4'1J9"
   },
   "statistics": {
-    "totalLibraries": 1,
+    "totalLibraries": 2,
     "totalApps": 0,
     "totalProjects": 0,
     "totalContributors": 1,
-    "lastUpdated": "2025-09-25T21:55:12.476"
+    "lastUpdated": "2025-11-12T20:07:38.168"
   },
   "categories": {
     "libraries": [
@@ -65,6 +65,29 @@
         },
         "createdAt": "2025-09-25T21:55:11.973",
         "updatedAt": "2025-09-25T21:55:11.973"
+      },
+      {
+        "id": "1763006857032",
+        "name": "quran_library",
+        "url": "https://pub.dev/packages/quran_library",
+        "imageUrl": "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Packages/quran_library/quran_library_banner.png",
+        "content": [
+          {
+            "id": "1763006767448",
+            "type": "text",
+            "content": "Quran Library",
+            "order": 0
+          }
+        ],
+        "stats": {
+          "likes": 54,
+          "downloads": 1155,
+          "pubPoints": 140,
+          "popularity": 0.1776735142938639,
+          "version": "2.2.5"
+        },
+        "createdAt": "2025-11-12T20:07:37.032",
+        "updatedAt": "2025-11-12T20:07:37.032"
       }
     ],
     "apps": [],
