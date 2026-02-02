@@ -11,8 +11,8 @@
       "ar": "هوازن محمود"
     },
     "role": {
-      "en": "Mobile App Developer (Flutter)",
-      "ar": "مطور تطبيقات (Flutter)"
+      "en": "Mobile App Developer with proficiencies in Flutter Cross-Platform software development.",
+      "ar": "مطوّر تطبيقات جوّال يتمتع بكفاءات في تطوير البرمجيات متعددة المنصات باستخدام Flutter."
     },
     "subtitle": {
       "en": "Graphic Designer",
@@ -25,17 +25,17 @@
     "social": [
       {
         "label": "GitHub",
-        "url": "https://github.com/"
+        "url": "https://github.com/alheekmahlib"
       },
       {
         "label": "LinkedIn",
-        "url": "https://linkedin.com/"
+        "url": "https://www.linkedin.com/in/hawazen-sameer-7300b3260/"
       }
     ],
     "contact": {
-      "email": "you@example.com",
-      "phone": "+000000000",
-      "whatsapp": "https://wa.me/000000000"
+      "email": "haozo89@gmail.com",
+      "phone": "+19712278630",
+      "whatsapp": "https://wa.me/19712278630"
     }
   },
   "sections": [
@@ -93,21 +93,10 @@
           "multiple": true
         },
         {
-          "key": "android",
+          "key": "downlwad",
           "label": {
             "en": "Google Play",
             "ar": "Google Play"
-          },
-          "type": "link",
-          "required": false,
-          "localized": false,
-          "multiple": false
-        },
-        {
-          "key": "ios",
-          "label": {
-            "en": "App Store",
-            "ar": "App Store"
           },
           "type": "link",
           "required": false,
@@ -130,7 +119,9 @@
         ],
         "actionFields": [
           "android",
-          "ios"
+          "ios",
+          "appgallery",
+          "macappstore"
         ]
       },
       "items": [
@@ -139,12 +130,12 @@
           "enabled": true,
           "fields": {
             "name": {
-              "en": "My App",
+              "en": "The Holy Qur’an – Al-Hikmah Library",
               "ar": "القرآن الكريم - مكتبة الحكمة"
             },
             "banner": "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/quran/quran_banner.png",
             "description": {
-              "en": "A sample app item. Edit this from /#/admin.",
+              "en": "The ideal application for reading the Holy Qur’an",
               "ar": "التطبيق الأمثل لقراءة القرآن الكريم"
             },
             "screens": [
@@ -154,7 +145,96 @@
               "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/quran/screen%204.png"
             ],
             "android": "https://play.google.com/store/apps/details?id=com.alheekmah.alquranalkareem.alquranalkareem",
-            "ios": "https://apps.apple.com/us/app/the-quran-alheekmah-library/id1500153222"
+            "ios": "https://apps.apple.com/us/app/the-quran-alheekmah-library/id1500153222",
+            "appgallery": "https://appgallery.cloud.huawei.com/marketshare/app/C102051725?locale=en_US&source=appshare&subsource=C102051725",
+            "downlwad": "https://alheekmahlib.github.io/alheekmahlib/#/download/quran"
+          }
+        },
+        {
+          "id": "item",
+          "enabled": true,
+          "fields": {
+            "name": {
+              "en": "Sunnati  – Al-Hikmah Library",
+              "ar": "سُنتي - مكتبة الحكمة"
+            },
+            "description": {
+              "en": "Sunnati is an application specialized in the field of Prophetic Hadith",
+              "ar": "تطبيق سُنتي هو تطبيق متخصص في مجال الحديث الشريف"
+            },
+            "banner": "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Sunti/sunnati_banner.png",
+            "screens": [
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Sunti/screen%201.png",
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Sunti/screen%202.png",
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Sunti/screen%203.png",
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Sunti/screen%204.png"
+            ],
+            "downlwad": "https://alheekmahlib.github.io/alheekmahlib/#/download/sunti"
+          }
+        },
+        {
+          "id": "item-2",
+          "enabled": true,
+          "fields": {
+            "name": {
+              "en": "Aqim – Al-Hikmah Library",
+              "ar": "أقم - مكتبة الحكمة"
+            },
+            "description": {
+              "en": "Your companion in maintaining your prayers: prayer times, adhan notifications, and Qibla direction",
+              "ar": "رفيقك للحفاظ على صلاتك: أوقات الصلاة، إشعارات الأذان، واتجاه القبلة"
+            },
+            "banner": "https://raw.githubusercontent.com/alheekmahlib/data/main/apps_photos/aqim_app/play_store/Feature%20graphic.png",
+            "screens": [
+              "https://raw.githubusercontent.com/alheekmahlib/data/main/apps_photos/aqim_app/play_store/p1.png",
+              "https://raw.githubusercontent.com/alheekmahlib/data/main/apps_photos/aqim_app/play_store/p2.png",
+              "https://raw.githubusercontent.com/alheekmahlib/data/main/apps_photos/aqim_app/play_store/p3.png"
+            ],
+            "downlwad": "https://alheekmahlib.github.io/alheekmahlib/#/download/aqim"
+          }
+        },
+        {
+          "id": "item-3",
+          "enabled": true,
+          "fields": {
+            "name": {
+              "en": "Nahwi: Arabic Grammar",
+              "ar": "نحويّ : النحو العربي"
+            },
+            "description": {
+              "en": "An application for Arabic grammar rules",
+              "ar": "تطبيق لقواعد اللغة العربية"
+            },
+            "banner": "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/nahawi/Nahawi%20playStore%20banner.jpg",
+            "screens": [
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/nahawi/screen%201.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/nahawi/screen%202.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/nahawi/screen%203.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/nahawi/screen%204.jpg"
+            ],
+            "downlwad": "https://alheekmahlib.github.io/alheekmahlib/#/download/nahawi"
+          }
+        },
+        {
+          "id": "item-4",
+          "enabled": true,
+          "fields": {
+            "name": {
+              "en": "Athkary from the Qur’an and Sunnah",
+              "ar": "أذكاري من الكتاب والسنة"
+            },
+            "description": {
+              "en": "The ideal application for reading daily supplications",
+              "ar": "التطبيق الأمثل لقراءة الأذكار"
+            },
+            "banner": "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/athkar/feature%20graphic.png",
+            "screens": [
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/athkar/screen%201.png",
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/athkar/screen%202.png",
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/athkar/screen%203.png",
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/athkar/screen%204.png"
+            ],
+            "downlwad": "https://alheekmahlib.github.io/alheekmahlib/#/download/azkary"
           }
         }
       ]
@@ -272,7 +352,51 @@
               "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Packages/quran_library/tafsir_screen.png"
             ],
             "download": "https://pub.dev/packages/quran_library",
-            "github": "https://github.com/alheekmahlib/quran_library"
+            "github": "https://github.com/alheekmahlib/quran_library",
+            "description": {
+              "en": "Comprehensive Quran Library for Flutter",
+              "ar": "مكتبة قرآن شاملة لـ Flutter"
+            }
+          }
+        },
+        {
+          "id": "item-2",
+          "enabled": true,
+          "fields": {
+            "name": {
+              "en": "Hijri Date",
+              "ar": "التاريخ الهجري"
+            },
+            "description": {
+              "en": "التاريخ الهجري — مكتبة التقويم الهجري ومراحل القمر",
+              "ar": "Hijri Date — Hijri Calendar & Moon Phases Library"
+            },
+            "banner": "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/packages/hijri_date/banner.png",
+            "screens": [],
+            "download": "https://pub.dev/packages/hijri_date",
+            "github": "https://github.com/alheekmahlib/hijri_date"
+          }
+        },
+        {
+          "id": "item-3",
+          "enabled": true,
+          "fields": {
+            "name": {
+              "en": "Floating Menu Expendable",
+              "ar": "قائمة عائمة قابلة للتمدد"
+            },
+            "banner": "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/packages/floating_menu_expendable/Screenshot.png",
+            "description": {
+              "en": "A draggable floating handle that opens a customizable panel (side or vertical).",
+              "ar": "قائمة عائمة قابلة للسحب يفتح لوحة قابلة للتخصيص (جانبية أو رأسية)."
+            },
+            "screens": [
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/packages/floating_menu_expendable/Screenshot.png",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/packages/floating_menu_expendable/Screenshot2.png",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/packages/floating_menu_expendable/Screenshot3.png"
+            ],
+            "download": "https://pub.dev/packages/floating_menu_expendable",
+            "github": "https://github.com/alheekmahlib/floating_menu_expendable"
           }
         }
       ]
@@ -340,11 +464,77 @@
           "fields": {
             "name": {
               "en": "Ayah & Tafsir",
-              "ar": ""
+              "ar": "آية وتفسير"
             },
-            "banner": "https://github.com/alheekmahlib/data/blob/main/assets/media/images/ayah_and_tafsir/425d4b5e-6c75-4963-a10b-2a0d766c2e62_rw_600.jpg?raw=true",
+            "banner": "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/ayah_and_tafsir/%D9%A1-%20%D9%87%D9%84%20%D8%AC%D8%B2%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A7%D8%AD%D8%B3%D8%A7%D9%86%20%D8%A7%D9%84%D8%A7%20%D8%A7%D9%84%D8%A7%D8%AD%D8%B3%D8%A7%D9%86%20p.jpg",
             "screens": [
-              "https://github.com/alheekmahlib/data/blob/main/assets/media/images/ayah_and_tafsir/6ce0df72-3b18-4296-8050-e64168ab58e3_rw_600.jpg?raw=true"
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/ayah_and_tafsir/%D9%A1-%20%D9%87%D9%84%20%D8%AC%D8%B2%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A7%D8%AD%D8%B3%D8%A7%D9%86.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/ayah_and_tafsir/%D9%A2-%20%D9%81%D9%84%D8%A7%20%D8%AA%D8%AD%D8%B3%D8%A8%D9%86%20%D8%A7%D9%84%D9%84%D9%87%20%D9%85%D8%AE%D9%84%D9%81%20%D9%88%D8%B9%D8%AF%D9%87%20s.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/ayah_and_tafsir/%D9%A3-%20%D9%88%D8%A7%D8%B6%D8%B1%D8%A8%20%D9%84%D9%87%D9%85%20%D9%85%D8%AB%D9%84%20s.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/ayah_and_tafsir/%D9%A4-%20%D8%A7%D9%84%D9%85%20%D9%8A%D8%A7%D9%94%D9%86%20%D9%84%D9%84%D8%B0%D9%8A%D9%86%20s.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/ayah_and_tafsir/%D9%A5-%20%D8%A8%D9%84%20%D9%8A%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%B3%D8%A7%D9%86%20s.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/ayah_and_tafsir/%D9%A1-%20%D9%87%D9%84%20%D8%AC%D8%B2%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A7%D8%AD%D8%B3%D8%A7%D9%86%20%D8%A7%D9%84%D8%A7%20%D8%A7%D9%84%D8%A7%D8%AD%D8%B3%D8%A7%D9%86%20p.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/ayah_and_tafsir/%D9%A2-%20%D9%81%D9%84%D8%A7%20%D8%AA%D8%AD%D8%B3%D8%A8%D9%86%20%D8%A7%D9%84%D9%84%D9%87%20%D9%85%D8%AE%D9%84%D9%81%20%D9%88%D8%B9%D8%AF%D9%87%20p.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/ayah_and_tafsir/%D9%A3-%20%D9%88%D8%A7%D8%B6%D8%B1%D8%A8%20%D9%84%D9%87%D9%85%20%D9%85%D8%AB%D9%84.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/ayah_and_tafsir/%D9%A4-%20%D8%A7%D9%84%D9%85%20%D9%8A%D8%A7%D9%94%D9%86%20%D9%84%D9%84%D8%B0%D9%8A%D9%86.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/ayah_and_tafsir/%D9%A5-%20%D8%A8%D9%84%20%D9%8A%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%B3%D8%A7%D9%86.jpg"
+            ]
+          }
+        },
+        {
+          "id": "item-2",
+          "enabled": true,
+          "fields": {
+            "name": {
+              "en": "Paradise from the Holy Quran",
+              "ar": "الجنة من القرآن الكريم"
+            },
+            "banner": "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Paradise_from_the_Holy_Quran/%D8%A7%D9%84%D8%A7%D9%8A%D8%A7%D8%AA%20p%201.jpg",
+            "screens": [
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Paradise_from_the_Holy_Quran/%D8%A7%D9%84%D8%A7%D9%8A%D8%A7%D8%AA%201%20s.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Paradise_from_the_Holy_Quran/%D8%A7%D9%84%D8%A7%D9%8A%D8%A7%D8%AA%201%20s.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Paradise_from_the_Holy_Quran/%D8%A7%D9%84%D8%A7%D9%93%D9%8A%D8%A7%D8%AA%203%20s.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Paradise_from_the_Holy_Quran/%D8%A7%D9%84%D8%A7%D9%93%D9%8A%D8%A7%D8%AA%204%20s.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Paradise_from_the_Holy_Quran/%D8%A7%D9%84%D8%A7%D9%93%D9%8A%D8%A7%D8%AA%205%20s.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Paradise_from_the_Holy_Quran/%D8%A7%D9%84%D8%A7%D9%8A%D8%A7%D8%AA%20p%201.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Paradise_from_the_Holy_Quran/%D8%A7%D9%84%D8%A7%D9%93%D9%8A%D8%A7%D8%AA%20%D9%A2%20p.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Paradise_from_the_Holy_Quran/%D8%A7%D9%84%D8%A7%D9%93%D9%8A%D8%A7%D8%AA%203%20p.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Paradise_from_the_Holy_Quran/%D8%A7%D9%84%D8%A7%D9%93%D9%8A%D8%A7%D8%AA%204%20p.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Paradise_from_the_Holy_Quran/%D8%A7%D9%84%D8%A7%D9%8A%D8%A7%D8%AA%205%20p.jpg"
+            ]
+          }
+        },
+        {
+          "id": "item-3",
+          "enabled": true,
+          "fields": {
+            "name": {
+              "en": "Ramadan quotes",
+              "ar": "مقتبسات رمضان"
+            },
+            "banner": "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Ramadan_quotes/%D9%85%D9%82%D8%AA%D8%A8%D8%B3%D8%A7%D8%AA%20%D8%B1%D9%85%D8%B6%D8%A7%D9%86.jpg",
+            "screens": [
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Ramadan_quotes/%D9%85%D9%82%D8%AA%D8%A8%D8%B3%D8%A7%D8%AA%20%D8%B1%D9%85%D8%B6%D8%A7%D9%86%20s.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Ramadan_quotes/%D9%85%D9%82%D8%AA%D8%A8%D8%B3%D8%A7%D8%AA%20%D8%B1%D9%85%D8%B6%D8%A7%D9%86%20s%202.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Ramadan_quotes/%D9%85%D9%82%D8%AA%D8%A8%D8%B3%D8%A7%D8%AA%20%D8%B1%D9%85%D8%B6%D8%A7%D9%86.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Ramadan_quotes/%D9%85%D9%82%D8%AA%D8%A8%D8%B3%D8%A7%D8%AA%20%D8%B1%D9%85%D8%B6%D8%A7%D9%86%202.jpg"
+            ]
+          }
+        },
+        {
+          "id": "item-4",
+          "enabled": true,
+          "fields": {
+            "name": {
+              "en": "Confession",
+              "ar": "بوح"
+            },
+            "banner": "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Confession/%D9%A1-%20%D9%88%D8%A7%D9%84%D9%84%D9%87%20%D9%85%D8%A7%20%D9%86%D9%87%D9%8A%D8%AF%20%D9%88%D8%AF%D8%A7.jpg",
+            "screens": [
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Confession/%D9%A1-%20%D9%88%D8%A7%D9%84%D9%84%D9%87%20%D9%85%D8%A7%20%D9%86%D9%87%D9%8A%D8%AF%20%D9%88%D8%AF%D8%A7.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Confession/%D9%85%D8%A7%20%D9%83%D8%A7%D9%86%20%D8%B5%D8%AF%D9%8A%D9%82%D9%8A%20%D9%88%D9%81%D9%82%D8%B7.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Confession/%D8%A7%D9%84%D9%83%D8%B0%D8%A8.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/assets/media/images/Confession/%D8%A7%D9%84%D8%A7%D9%95%D8%AD%D8%A8%D8%A7%D8%B7.jpg"
             ]
           }
         }
