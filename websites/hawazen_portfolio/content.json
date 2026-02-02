@@ -253,7 +253,18 @@
           "github"
         ]
       },
-      "items": []
+      "items": [
+        {
+          "id": "item",
+          "enabled": true,
+          "fields": {
+            "name": {
+              "en": "",
+              "ar": ""
+            }
+          }
+        }
+      ]
     },
     {
       "id": "sec_designs",
@@ -311,7 +322,18 @@
         "bodyFields": [],
         "actionFields": []
       },
-      "items": []
+      "items": [
+        {
+          "id": "item",
+          "enabled": true,
+          "fields": {
+            "name": {
+              "en": "",
+              "ar": ""
+            }
+          }
+        }
+      ]
     }
   ]
 }
