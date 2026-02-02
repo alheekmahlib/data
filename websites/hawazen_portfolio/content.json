@@ -259,9 +259,20 @@
           "enabled": true,
           "fields": {
             "name": {
-              "en": "",
-              "ar": ""
-            }
+              "en": "Quran Library",
+              "ar": "مكتبة القرآن"
+            },
+            "banner": "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Packages/quran_library/quran_library_banner.png",
+            "screens": [
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Packages/quran_library/archive_screen.png",
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Packages/quran_library/bookmark_screen2.png",
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Packages/quran_library/bookmark_screen.png",
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Packages/quran_library/search_screen.png",
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Packages/quran_library/font_download_screen.png",
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Packages/quran_library/tafsir_screen.png"
+            ],
+            "download": "https://pub.dev/packages/quran_library",
+            "github": "https://github.com/alheekmahlib/quran_library"
           }
         }
       ]
@@ -328,9 +339,13 @@
           "enabled": true,
           "fields": {
             "name": {
-              "en": "",
+              "en": "Ayah & Tafsir",
               "ar": ""
-            }
+            },
+            "banner": "https://github.com/alheekmahlib/data/blob/main/assets/media/images/ayah_and_tafsir/425d4b5e-6c75-4963-a10b-2a0d766c2e62_rw_600.jpg?raw=true",
+            "screens": [
+              "https://github.com/alheekmahlib/data/blob/main/assets/media/images/ayah_and_tafsir/6ce0df72-3b18-4296-8050-e64168ab58e3_rw_600.jpg?raw=true"
+            ]
           }
         }
       ]
