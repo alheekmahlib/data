@@ -1,0 +1,317 @@
+{
+  "schemaVersion": "1.0",
+  "defaultLocale": "en",
+  "locales": [
+    "en",
+    "ar"
+  ],
+  "site": {
+    "name": {
+      "en": "Hawazen Mahmood",
+      "ar": "هوازن محمود"
+    },
+    "role": {
+      "en": "Mobile App Developer (Flutter)",
+      "ar": "مطورة تطبيقات (Flutter)"
+    },
+    "subtitle": {
+      "en": "Graphic Designer",
+      "ar": "مصممة جرافيك"
+    },
+    "bio": {
+      "en": "I build clean, maintainable Flutter apps and design modern interfaces.",
+      "ar": "أبني تطبيقات Flutter نظيفة وقابلة للصيانة وأصمم واجهات حديثة."
+    },
+    "social": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/"
+      }
+    ],
+    "contact": {
+      "email": "you@example.com",
+      "phone": "+000000000",
+      "whatsapp": "https://wa.me/000000000"
+    }
+  },
+  "sections": [
+    {
+      "id": "sec_apps",
+      "slug": "apps",
+      "title": {
+        "en": "Apps",
+        "ar": "التطبيقات"
+      },
+      "enabled": true,
+      "fieldDefinitions": [
+        {
+          "key": "name",
+          "label": {
+            "en": "Name",
+            "ar": "الاسم"
+          },
+          "type": "string",
+          "required": true,
+          "localized": true,
+          "multiple": false
+        },
+        {
+          "key": "banner",
+          "label": {
+            "en": "Banner",
+            "ar": "بنر"
+          },
+          "type": "image",
+          "required": true,
+          "localized": false,
+          "multiple": false
+        },
+        {
+          "key": "description",
+          "label": {
+            "en": "Description",
+            "ar": "الوصف"
+          },
+          "type": "markdown",
+          "required": false,
+          "localized": true,
+          "multiple": false
+        },
+        {
+          "key": "screens",
+          "label": {
+            "en": "Screenshots",
+            "ar": "الصور"
+          },
+          "type": "image",
+          "required": false,
+          "localized": false,
+          "multiple": true
+        },
+        {
+          "key": "android",
+          "label": {
+            "en": "Google Play",
+            "ar": "Google Play"
+          },
+          "type": "link",
+          "required": false,
+          "localized": false,
+          "multiple": false
+        },
+        {
+          "key": "ios",
+          "label": {
+            "en": "App Store",
+            "ar": "App Store"
+          },
+          "type": "link",
+          "required": false,
+          "localized": false,
+          "multiple": false
+        }
+      ],
+      "cardLayout": {
+        "titleField": "name",
+        "subtitleField": "description",
+        "mediaField": "banner"
+      },
+      "detailLayout": {
+        "titleField": "name",
+        "subtitleField": null,
+        "mediaField": "banner",
+        "galleryField": "screens",
+        "bodyFields": [
+          "description"
+        ],
+        "actionFields": [
+          "android",
+          "ios"
+        ]
+      },
+      "items": [
+        {
+          "id": "my-app",
+          "enabled": true,
+          "fields": {
+            "name": {
+              "en": "My App",
+              "ar": "القرآن الكريم - مكتبة الحكمة"
+            },
+            "banner": "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/quran/quran_banner.png",
+            "description": {
+              "en": "A sample app item. Edit this from /#/admin.",
+              "ar": "التطبيق الأمثل لقراءة القرآن الكريم"
+            },
+            "screens": [
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/quran/screen%201.png",
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/quran/screen%202.png",
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/quran/screen%203.png",
+              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/quran/screen%204.png"
+            ],
+            "android": "https://play.google.com/store/apps/details?id=com.alheekmah.alquranalkareem.alquranalkareem",
+            "ios": "https://apps.apple.com/us/app/the-quran-alheekmah-library/id1500153222"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_packages",
+      "slug": "packages",
+      "title": {
+        "en": "Libraries",
+        "ar": "المكتبات"
+      },
+      "enabled": true,
+      "fieldDefinitions": [
+        {
+          "key": "name",
+          "label": {
+            "en": "Name",
+            "ar": "الاسم"
+          },
+          "type": "string",
+          "required": true,
+          "localized": true,
+          "multiple": false
+        },
+        {
+          "key": "banner",
+          "label": {
+            "en": "Banner",
+            "ar": "بنر"
+          },
+          "type": "image",
+          "required": true,
+          "localized": false,
+          "multiple": false
+        },
+        {
+          "key": "description",
+          "label": {
+            "en": "Description",
+            "ar": "الوصف"
+          },
+          "type": "markdown",
+          "required": false,
+          "localized": true,
+          "multiple": false
+        },
+        {
+          "key": "screens",
+          "label": {
+            "en": "Images",
+            "ar": "الصور"
+          },
+          "type": "image",
+          "required": false,
+          "localized": false,
+          "multiple": true
+        },
+        {
+          "key": "download",
+          "label": {
+            "en": "Download",
+            "ar": "تحميل"
+          },
+          "type": "link",
+          "required": false,
+          "localized": false,
+          "multiple": false
+        },
+        {
+          "key": "github",
+          "label": {
+            "en": "GitHub",
+            "ar": "GitHub"
+          },
+          "type": "link",
+          "required": false,
+          "localized": false,
+          "multiple": false
+        }
+      ],
+      "cardLayout": {
+        "titleField": "name",
+        "subtitleField": "description",
+        "mediaField": "banner"
+      },
+      "detailLayout": {
+        "titleField": "name",
+        "subtitleField": null,
+        "mediaField": "banner",
+        "galleryField": "screens",
+        "bodyFields": [
+          "description"
+        ],
+        "actionFields": [
+          "download",
+          "github"
+        ]
+      },
+      "items": []
+    },
+    {
+      "id": "sec_designs",
+      "slug": "designs",
+      "title": {
+        "en": "Designs",
+        "ar": "التصاميم"
+      },
+      "enabled": true,
+      "fieldDefinitions": [
+        {
+          "key": "name",
+          "label": {
+            "en": "Name",
+            "ar": "الاسم"
+          },
+          "type": "string",
+          "required": true,
+          "localized": true,
+          "multiple": false
+        },
+        {
+          "key": "banner",
+          "label": {
+            "en": "Banner",
+            "ar": "بنر"
+          },
+          "type": "image",
+          "required": true,
+          "localized": false,
+          "multiple": false
+        },
+        {
+          "key": "screens",
+          "label": {
+            "en": "Images",
+            "ar": "الصور"
+          },
+          "type": "image",
+          "required": false,
+          "localized": false,
+          "multiple": true
+        }
+      ],
+      "cardLayout": {
+        "titleField": "name",
+        "subtitleField": null,
+        "mediaField": "banner"
+      },
+      "detailLayout": {
+        "titleField": "name",
+        "subtitleField": null,
+        "mediaField": "banner",
+        "galleryField": "screens",
+        "bodyFields": [],
+        "actionFields": []
+      },
+      "items": []
+    }
+  ]
+}
