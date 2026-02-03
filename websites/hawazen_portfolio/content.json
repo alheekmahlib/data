@@ -583,7 +583,6 @@
         "mediaField": "banner",
         "galleryField": null,
         "bodyFields": [
-          "name",
           "subtitle"
         ],
         "actionFields": []
