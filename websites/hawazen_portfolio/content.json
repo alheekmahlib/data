@@ -574,12 +574,12 @@
       ],
       "cardLayout": {
         "titleField": "name",
-        "subtitleField": null,
+        "subtitleField": "field",
         "mediaField": "banner"
       },
       "detailLayout": {
         "titleField": "name",
-        "subtitleField": null,
+        "subtitleField": "name",
         "mediaField": "banner",
         "galleryField": null,
         "bodyFields": [],
