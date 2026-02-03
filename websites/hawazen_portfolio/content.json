@@ -539,6 +539,199 @@
           }
         }
       ]
+    },
+    {
+      "id": "sec_1770077568576",
+      "slug": "profile-summary",
+      "title": {
+        "en": "PROFILE SUMMARY",
+        "ar": "ملخص الملف الشخصي"
+      },
+      "enabled": true,
+      "fieldDefinitions": [
+        {
+          "key": "name",
+          "label": {
+            "en": "Name",
+            "ar": "الاسم"
+          },
+          "type": "string",
+          "required": true,
+          "localized": true,
+          "multiple": false
+        }
+      ],
+      "cardLayout": {
+        "titleField": "name",
+        "subtitleField": null,
+        "mediaField": "banner"
+      },
+      "detailLayout": {
+        "titleField": "name",
+        "subtitleField": null,
+        "mediaField": "banner",
+        "galleryField": null,
+        "bodyFields": [],
+        "actionFields": []
+      },
+      "items": [
+        {
+          "id": "item",
+          "enabled": true,
+          "fields": {
+            "name": {
+              "en": "A motivated and certified Mobile Application Developer specializing in cross-platform software development using the Flutter Framework. My professional focus lies in product design and development, and I have solid experience in the IT industry. With proven skills in programming, algorithms, problem-solving, and communication, I am adept at working on high-profile projects.\\n\\nIn addition, I offer expertise as a Graphic Designer, proficient in tools such as Photoshop, Illustrator, XD, and Figma. As a reliable and collaborative team player, I am seeking opportunities to further develop my management skills and make significant contributions to challenging projects.",
+              "ar": "مطور تطبيقات جوّال متحفّز ومعتمد، متخصص في تطوير البرمجيات متعددة المنصات باستخدام إطار عمل Flutter. يتركز اهتمامي المهني على تصميم المنتجات وتطويرها، ولدي خبرة قوية في مجال تقنية المعلومات. وبفضل مهاراتي المثبتة في البرمجة، والخوارزميات، وحل المشكلات، والتواصل، أتمتع بالقدرة على العمل على مشاريع رفيعة المستوى.\\n\\nبالإضافة إلى ذلك، أقدّم خبرة كمصمم جرافيك، مع إتقان أدوات مثل Photoshop وIllustrator وXD وFigma. وبوصفي عضو فريق موثوقًا ومتعاونًا، أسعى إلى فرص لتطوير مهاراتي الإدارية بشكل أكبر وتقديم إسهامات مؤثرة في مشاريع مليئة بالتحديات."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_1770078692540",
+      "slug": "technical-skills",
+      "title": {
+        "en": "TECHNICAL SKILLS",
+        "ar": "المهارات التقنية"
+      },
+      "enabled": true,
+      "fieldDefinitions": [
+        {
+          "key": "name",
+          "label": {
+            "en": "Name",
+            "ar": "الاسم"
+          },
+          "type": "string",
+          "required": true,
+          "localized": false,
+          "multiple": true
+        },
+        {
+          "key": "banner",
+          "label": {
+            "en": "Banner",
+            "ar": "بنر"
+          },
+          "type": "image",
+          "required": true,
+          "localized": false,
+          "multiple": false
+        }
+      ],
+      "cardLayout": {
+        "titleField": "name",
+        "subtitleField": null,
+        "mediaField": "banner"
+      },
+      "detailLayout": {
+        "titleField": "name",
+        "subtitleField": null,
+        "mediaField": "banner",
+        "galleryField": null,
+        "bodyFields": [],
+        "actionFields": []
+      },
+      "items": [
+        {
+          "id": "item",
+          "enabled": true,
+          "fields": {
+            "name": "Flutter Framework & Dart\\nObject-Oriented Programming (OOP)\\nREST API & JSON SQFlite\\nProblem Solving & Algorithms\\nState Management (Cubit, Getx)\\nLocalization & Pagination\\nAsynchronous Programming (Future, async & await)\\nArchitecture Patterns\\nGitHub, Android Studio IDE, IntelliJ IDEA, VS Code"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_1770078879273",
+      "slug": "design-skills",
+      "title": {
+        "en": "DESIGN SKILLS",
+        "ar": "مهارات التصميم"
+      },
+      "enabled": true,
+      "fieldDefinitions": [
+        {
+          "key": "name",
+          "label": {
+            "en": "Name",
+            "ar": "الاسم"
+          },
+          "type": "string",
+          "required": true,
+          "localized": false,
+          "multiple": true
+        }
+      ],
+      "cardLayout": {
+        "titleField": "name",
+        "subtitleField": null,
+        "mediaField": "banner"
+      },
+      "detailLayout": {
+        "titleField": "name",
+        "subtitleField": null,
+        "mediaField": "banner",
+        "galleryField": null,
+        "bodyFields": [],
+        "actionFields": []
+      },
+      "items": [
+        {
+          "id": "item",
+          "enabled": true,
+          "fields": {
+            "name": "Photoshop\\nIllustrator\\nAdobe XD\\nFigma"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_1770078961389",
+      "slug": "education",
+      "title": {
+        "en": "EDUCATION",
+        "ar": "التعليم"
+      },
+      "enabled": true,
+      "fieldDefinitions": [
+        {
+          "key": "name",
+          "label": {
+            "en": "Name",
+            "ar": "الاسم"
+          },
+          "type": "string",
+          "required": true,
+          "localized": true,
+          "multiple": false
+        }
+      ],
+      "cardLayout": {
+        "titleField": "name",
+        "subtitleField": null,
+        "mediaField": "banner"
+      },
+      "detailLayout": {
+        "titleField": "name",
+        "subtitleField": null,
+        "mediaField": "banner",
+        "galleryField": null,
+        "bodyFields": [],
+        "actionFields": []
+      },
+      "items": [
+        {
+          "id": "item",
+          "enabled": true,
+          "fields": {
+            "name": {
+              "en": "| Institute of Technology -Department of Electronic- Grade: Good, 2012. |",
+              "ar": "| معهد التكنولوجيا -قسم الإلكترونيات- التقدير: جيد، 2012. |"
+            }
+          }
+        }
+      ]
     }
   ]
 }
