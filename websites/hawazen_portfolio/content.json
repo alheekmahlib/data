@@ -368,8 +368,8 @@
               "ar": "التاريخ الهجري"
             },
             "description": {
-              "en": "التاريخ الهجري — مكتبة التقويم الهجري ومراحل القمر",
-              "ar": "Hijri Date — Hijri Calendar & Moon Phases Library"
+              "en": "Hijri Date — Hijri Calendar & Moon Phases Library",
+              "ar": "التاريخ الهجري — مكتبة التقويم الهجري ومراحل القمر"
             },
             "banner": "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/packages/hijri_date/banner.png",
             "screens": [],
