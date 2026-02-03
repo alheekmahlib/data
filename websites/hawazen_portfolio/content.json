@@ -561,7 +561,7 @@
           "multiple": false
         },
         {
-          "key": "field",
+          "key": "subtitle",
           "label": {
             "en": "Field",
             "ar": "حقل"
@@ -574,15 +574,18 @@
       ],
       "cardLayout": {
         "titleField": "name",
-        "subtitleField": "field",
+        "subtitleField": "subtitle",
         "mediaField": "banner"
       },
       "detailLayout": {
         "titleField": "name",
-        "subtitleField": "name",
+        "subtitleField": "subtitle",
         "mediaField": "banner",
         "galleryField": null,
-        "bodyFields": [],
+        "bodyFields": [
+          "name",
+          "subtitle"
+        ],
         "actionFields": []
       },
       "items": [
@@ -595,6 +598,10 @@
               "ar": "ملخص الملف الشخصي"
             },
             "field": {
+              "en": "A motivated and certified Mobile Application Developer specializing in cross-platform software development using the Flutter Framework. My professional focus lies in product design and development, and I have solid experience in the IT industry. With proven skills in programming, algorithms, problem-solving, and communication, I am adept at working on high-profile projects.\\n\\nIn addition, I offer expertise as a Graphic Designer, proficient in tools such as Photoshop, Illustrator, XD, and Figma. As a reliable and collaborative team player, I am seeking opportunities to further develop my management skills and make significant contributions to challenging projects.",
+              "ar": "مطور تطبيقات جوّال متحفّز ومعتمد، متخصص في تطوير البرمجيات متعددة المنصات باستخدام إطار عمل Flutter. يتركز اهتمامي المهني على تصميم المنتجات وتطويرها، ولدي خبرة قوية في مجال تقنية المعلومات. وبفضل مهاراتي المثبتة في البرمجة، والخوارزميات، وحل المشكلات، والتواصل، أتمتع بالقدرة على العمل على مشاريع رفيعة المستوى.\\n\\nبالإضافة إلى ذلك، أقدّم خبرة كمصمم جرافيك، مع إتقان أدوات مثل Photoshop وIllustrator وXD وFigma. وبوصفي عضو فريق موثوقًا ومتعاونًا، أسعى إلى فرص لتطوير مهاراتي الإدارية بشكل أكبر وتقديم إسهامات مؤثرة في مشاريع مليئة بالتحديات."
+            },
+            "subtitle": {
               "en": "A motivated and certified Mobile Application Developer specializing in cross-platform software development using the Flutter Framework. My professional focus lies in product design and development, and I have solid experience in the IT industry. With proven skills in programming, algorithms, problem-solving, and communication, I am adept at working on high-profile projects.\\n\\nIn addition, I offer expertise as a Graphic Designer, proficient in tools such as Photoshop, Illustrator, XD, and Figma. As a reliable and collaborative team player, I am seeking opportunities to further develop my management skills and make significant contributions to challenging projects.",
               "ar": "مطور تطبيقات جوّال متحفّز ومعتمد، متخصص في تطوير البرمجيات متعددة المنصات باستخدام إطار عمل Flutter. يتركز اهتمامي المهني على تصميم المنتجات وتطويرها، ولدي خبرة قوية في مجال تقنية المعلومات. وبفضل مهاراتي المثبتة في البرمجة، والخوارزميات، وحل المشكلات، والتواصل، أتمتع بالقدرة على العمل على مشاريع رفيعة المستوى.\\n\\nبالإضافة إلى ذلك، أقدّم خبرة كمصمم جرافيك، مع إتقان أدوات مثل Photoshop وIllustrator وXD وFigma. وبوصفي عضو فريق موثوقًا ومتعاونًا، أسعى إلى فرص لتطوير مهاراتي الإدارية بشكل أكبر وتقديم إسهامات مؤثرة في مشاريع مليئة بالتحديات."
             }
