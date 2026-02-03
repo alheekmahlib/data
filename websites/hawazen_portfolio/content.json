@@ -582,9 +582,7 @@
         "subtitleField": "subtitle",
         "mediaField": "banner",
         "galleryField": null,
-        "bodyFields": [
-          "subtitle"
-        ],
+        "bodyFields": [],
         "actionFields": []
       },
       "items": [
@@ -625,17 +623,17 @@
           },
           "type": "string",
           "required": true,
-          "localized": false,
+          "localized": true,
           "multiple": true
         },
         {
-          "key": "banner",
+          "key": "field",
           "label": {
-            "en": "Banner",
-            "ar": "بنر"
+            "en": "Field",
+            "ar": "حقل"
           },
-          "type": "image",
-          "required": true,
+          "type": "string",
+          "required": false,
           "localized": false,
           "multiple": false
         }
@@ -658,7 +656,11 @@
           "id": "item",
           "enabled": true,
           "fields": {
-            "name": "Flutter Framework & Dart\\nObject-Oriented Programming (OOP)\\nREST API & JSON SQFlite\\nProblem Solving & Algorithms\\nState Management (Cubit, Getx)\\nLocalization & Pagination\\nAsynchronous Programming (Future, async & await)\\nArchitecture Patterns\\nGitHub, Android Studio IDE, IntelliJ IDEA, VS Code"
+            "name": {
+              "en": "TECHNICAL SKILLS",
+              "ar": "المهارات التقنية"
+            },
+            "field": "Flutter Framework & Dart\\nObject-Oriented Programming (OOP)\\nREST API & JSON SQFlite\\nProblem Solving & Algorithms\\nState Management (Cubit, Getx)\\nLocalization & Pagination\\nAsynchronous Programming (Future, async & await)\\nArchitecture Patterns\\nGitHub, Android Studio IDE, IntelliJ IDEA, VS Code"
           }
         }
       ]
@@ -680,8 +682,19 @@
           },
           "type": "string",
           "required": true,
-          "localized": false,
+          "localized": true,
           "multiple": true
+        },
+        {
+          "key": "field",
+          "label": {
+            "en": "Field",
+            "ar": "حقل"
+          },
+          "type": "string",
+          "required": false,
+          "localized": false,
+          "multiple": false
         }
       ],
       "cardLayout": {
@@ -702,7 +715,11 @@
           "id": "item",
           "enabled": true,
           "fields": {
-            "name": "Photoshop\\nIllustrator\\nAdobe XD\\nFigma"
+            "name": {
+              "en": "DESIGN SKILLS",
+              "ar": "مهارات التصميم"
+            },
+            "field": "Photoshop\\nIllustrator\\nAdobe XD\\nFigma"
           }
         }
       ]
@@ -726,6 +743,17 @@
           "required": true,
           "localized": true,
           "multiple": false
+        },
+        {
+          "key": "field",
+          "label": {
+            "en": "Field",
+            "ar": "حقل"
+          },
+          "type": "string",
+          "required": false,
+          "localized": true,
+          "multiple": false
         }
       ],
       "cardLayout": {
@@ -747,6 +775,10 @@
           "enabled": true,
           "fields": {
             "name": {
+              "en": "EDUCATION",
+              "ar": "التعليم"
+            },
+            "field": {
               "en": "| Institute of Technology -Department of Electronic- Grade: Good, 2012. |",
               "ar": "| معهد التكنولوجيا -قسم الإلكترونيات- التقدير: جيد، 2012. |"
             }
