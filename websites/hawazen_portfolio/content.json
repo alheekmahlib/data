@@ -398,6 +398,26 @@
             "download": "https://pub.dev/packages/floating_menu_expendable",
             "github": "https://github.com/alheekmahlib/floating_menu_expendable"
           }
+        },
+        {
+          "id": "item-4",
+          "enabled": true,
+          "fields": {
+            "name": {
+              "en": "Tafsir Library",
+              "ar": "مكتبة التفسير"
+            },
+            "banner": "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/packages/tafsir_library/tafsir_library_banner.png",
+            "description": {
+              "en": "library for displaying Tafsir, Translations and Tajweed data",
+              "ar": "مكتبة لعرض بيانات التفسير والترجمات والتجويد"
+            },
+            "screens": [
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/packages/tafsir_library/tafsir_library_screenshot.png"
+            ],
+            "download": "https://pub.dev/packages/tafsir_library",
+            "github": "https://github.com/alheekmahlib/tafsir_library"
+          }
         }
       ]
     },
