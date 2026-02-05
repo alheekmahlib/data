@@ -93,10 +93,10 @@
           "multiple": true
         },
         {
-          "key": "downlwad",
+          "key": "field",
           "label": {
-            "en": "Google Play",
-            "ar": "Google Play"
+            "en": "Field",
+            "ar": "حقل"
           },
           "type": "link",
           "required": false,
@@ -144,10 +144,7 @@
               "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/quran/screen%202.png",
               "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/quran/screen%203.png",
               "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/quran/screen%204.png"
-            ],
-            "android": "https://play.google.com/store/apps/details?id=com.alheekmah.alquranalkareem.alquranalkareem",
-            "ios": "https://apps.apple.com/us/app/the-quran-alheekmah-library/id1500153222",
-            "appgallery": "https://appgallery.cloud.huawei.com/marketshare/app/C102051725?locale=en_US&source=appshare&subsource=C102051725",
+            ], 
             "downlwad": "https://alheekmahlib.github.io/alheekmahlib/#/download/quran"
           }
         },
