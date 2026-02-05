@@ -121,7 +121,8 @@
           "android",
           "ios",
           "appgallery",
-          "macappstore"
+          "macappstore",
+          "downlwad"
         ]
       },
       "items": [
