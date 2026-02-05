@@ -126,7 +126,7 @@
       },
       "items": [
         {
-          "id": "my-app",
+          "id": "the-holy-quran-al-hikmah-library",
           "enabled": true,
           "fields": {
             "name": {
@@ -151,7 +151,7 @@
           }
         },
         {
-          "id": "item",
+          "id": "sunnati-al-hikmah-library",
           "enabled": true,
           "fields": {
             "name": {
@@ -173,7 +173,7 @@
           }
         },
         {
-          "id": "item-2",
+          "id": "aqim-al-hikmah-library",
           "enabled": true,
           "fields": {
             "name": {
@@ -194,7 +194,7 @@
           }
         },
         {
-          "id": "item-3",
+          "id": "nahwi-arabic-grammar",
           "enabled": true,
           "fields": {
             "name": {
@@ -216,7 +216,7 @@
           }
         },
         {
-          "id": "item-4",
+          "id": "athkary-from-the-quran-and-sunnah",
           "enabled": true,
           "fields": {
             "name": {
@@ -335,7 +335,7 @@
       },
       "items": [
         {
-          "id": "item",
+          "id": "quran-library",
           "enabled": true,
           "fields": {
             "name": {
@@ -360,7 +360,7 @@
           }
         },
         {
-          "id": "item-2",
+          "id": "hijri-date",
           "enabled": true,
           "fields": {
             "name": {
@@ -378,7 +378,7 @@
           }
         },
         {
-          "id": "item-3",
+          "id": "floating-menu-expendable",
           "enabled": true,
           "fields": {
             "name": {
@@ -400,7 +400,7 @@
           }
         },
         {
-          "id": "item-4",
+          "id": "tafsir-library",
           "enabled": true,
           "fields": {
             "name": {
@@ -479,7 +479,7 @@
       },
       "items": [
         {
-          "id": "item",
+          "id": "ayah-tafsir",
           "enabled": true,
           "fields": {
             "name": {
@@ -502,7 +502,7 @@
           }
         },
         {
-          "id": "item-2",
+          "id": "paradise-from-the-holy-quran",
           "enabled": true,
           "fields": {
             "name": {
@@ -525,7 +525,7 @@
           }
         },
         {
-          "id": "item-3",
+          "id": "ramadan-quotes",
           "enabled": true,
           "fields": {
             "name": {
@@ -542,7 +542,7 @@
           }
         },
         {
-          "id": "item-4",
+          "id": "confession",
           "enabled": true,
           "fields": {
             "name": {
@@ -607,7 +607,7 @@
       },
       "items": [
         {
-          "id": "item",
+          "id": "profile-summary",
           "enabled": true,
           "fields": {
             "name": {
@@ -673,7 +673,7 @@
       },
       "items": [
         {
-          "id": "item",
+          "id": "technical-skills",
           "enabled": true,
           "fields": {
             "name": {
@@ -732,7 +732,7 @@
       },
       "items": [
         {
-          "id": "item",
+          "id": "design-skills",
           "enabled": true,
           "fields": {
             "name": {
@@ -791,7 +791,7 @@
       },
       "items": [
         {
-          "id": "item",
+          "id": "education",
           "enabled": true,
           "fields": {
             "name": {
