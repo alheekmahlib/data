@@ -1,0 +1,49 @@
+{
+  "updatedAt": "2026-02-05",
+  "sections": [
+    {
+      "id": "libraries",
+      "type": "libraries",
+      "titleKey": "developers_libraries",
+      "description": "Flutter libraries and UI kits from Alheekmah.",
+      "items": [
+        {
+          "id": "quran_library",
+          "title": "Quran Library",
+          "subtitle": "Comprehensive Quran Library for Flutter",
+          "description": "Read, search, and navigate the Quran with rich tooling.",
+          "logoUrl": "https://example.com/logos/quran_library.svg",
+          "bannerUrl": "https://example.com/banners/quran_library.jpg",
+          "docsUrl": "https://example.com/docs/quran-library",
+          "githubUrl": "https://github.com/alheekmahlib/quran_library",
+          "downloadUrl": "https://pub.dev/packages/quran_library",
+          "screenshots": [
+            "https://example.com/screens/quran_library_1.png",
+            "https://example.com/screens/quran_library_2.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "api",
+      "type": "api",
+      "titleKey": "developers_api",
+      "description": "Public APIs for Quran datasets.",
+      "items": [
+        {
+          "id": "quran_api",
+          "name": "Quran JSON API",
+          "version": "v1",
+          "baseUrl": "https://api.example.com",
+          "description": "Endpoints for surahs, ayahs, and translations.",
+          "docsUrl": "https://example.com/docs/quran-api",
+          "endpoints": [
+            {"method": "GET", "path": "/surahs", "summary": "List surahs"},
+            {"method": "GET", "path": "/surahs/{id}", "summary": "Get surah"},
+            {"method": "GET", "path": "/ayahs/{id}", "summary": "Get ayah"}
+          ]
+        }
+      ]
+    }
+  ]
+}
