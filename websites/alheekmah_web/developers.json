@@ -2,21 +2,29 @@
   "updatedAt": "2026-02-05",
   "sections": [
     {
-      "id": "libraries",
+      "slug": "libraries",
+      "enabled": true,
       "type": "libraries",
-      "titleKey": "developers_libraries",
-      "description": "Flutter libraries and UI kits from Alheekmah.",
+      "title": {"en": "Libraries", "ar": "المكتبات"},
+      "description": {
+        "en": "Flutter libraries and UI kits from Alheekmah.",
+        "ar": "مكتبات وأدوات Flutter من مكتبة الحكمة."
+      },
       "items": [
         {
-          "id": "quran_library",
-          "title": "Quran Library",
-          "subtitle": "Comprehensive Quran Library for Flutter",
-          "description": "Read, search, and navigate the Quran with rich tooling.",
-          "logoUrl": "https://example.com/logos/quran_library.svg",
+          "id": "quran-library",
+          "enabled": true,
+          "title": {"en": "Quran Library", "ar": "مكتبة القرآن"},
+          "description": {
+            "en": "Read, search, and navigate the Quran with rich tooling.",
+            "ar": "قراءة وبحث وتصفح القرآن بأدوات متقدمة."
+          },
           "bannerUrl": "https://example.com/banners/quran_library.jpg",
+          "logoUrl": "https://example.com/logos/quran_library.svg",
           "docsUrl": "https://example.com/docs/quran-library",
           "githubUrl": "https://github.com/alheekmahlib/quran_library",
           "downloadUrl": "https://pub.dev/packages/quran_library",
+          "readmeUrl": "https://raw.githubusercontent.com/alheekmahlib/quran_library/main/README.md",
           "screenshots": [
             "https://example.com/screens/quran_library_1.png",
             "https://example.com/screens/quran_library_2.png"
@@ -25,22 +33,42 @@
       ]
     },
     {
-      "id": "api",
+      "slug": "api",
+      "enabled": true,
       "type": "api",
-      "titleKey": "developers_api",
-      "description": "Public APIs for Quran datasets.",
+      "title": {"en": "API", "ar": "الـ API"},
+      "description": {
+        "en": "Public APIs for Quran datasets.",
+        "ar": "واجهات برمجية عامة لبيانات القرآن."
+      },
       "items": [
         {
-          "id": "quran_api",
-          "name": "Quran JSON API",
-          "version": "v1",
+          "id": "quran-api",
+          "enabled": true,
+          "title": {"en": "Quran JSON API", "ar": "API القرآن"},
+          "description": {
+            "en": "Endpoints for surahs, ayahs, and translations.",
+            "ar": "مسارات للسور والآيات والترجمات."
+          },
           "baseUrl": "https://api.example.com",
-          "description": "Endpoints for surahs, ayahs, and translations.",
+          "version": "v1",
           "docsUrl": "https://example.com/docs/quran-api",
           "endpoints": [
-            {"method": "GET", "path": "/surahs", "summary": "List surahs"},
-            {"method": "GET", "path": "/surahs/{id}", "summary": "Get surah"},
-            {"method": "GET", "path": "/ayahs/{id}", "summary": "Get ayah"}
+            {
+              "method": "GET",
+              "path": "/surahs",
+              "summary": {"en": "List surahs", "ar": "عرض السور"}
+            },
+            {
+              "method": "GET",
+              "path": "/surahs/{id}",
+              "summary": {"en": "Get surah", "ar": "تفاصيل سورة"}
+            },
+            {
+              "method": "GET",
+              "path": "/ayahs/{id}",
+              "summary": {"en": "Get ayah", "ar": "تفاصيل آية"}
+            }
           ]
         }
       ]
