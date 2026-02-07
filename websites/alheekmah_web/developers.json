@@ -63,12 +63,12 @@
             "ar": "مسارات للسور والآيات والترجمات."
           },
           "bannerUrl": "",
-          "docsUrl": "https://quran-api-phi-lemon.vercel.app/",
+          "docsUrl": "https://quran-api-phi-lemon.vercel.app",
           "githubUrl": "",
           "downloadUrl": "",
           "readmeUrl": "",
           "url": "",
-          "baseUrl": "https://quran-api-phi-lemon.vercel.app/",
+          "baseUrl": "https://quran-api-phi-lemon.vercel.app",
           "version": "v1",
           "screenshots": [],
           "endpoints": [
