@@ -1,14 +1,11 @@
 {
-  "updatedAt": "2026-02-06",
+  "updatedAt": "2026-02-07",
   "sections": [
     {
       "slug": "libraries",
       "enabled": true,
       "type": "libraries",
-      "title": {
-        "en": "Libraries",
-        "ar": "المكتبات"
-      },
+      "title": {"en": "Libraries", "ar": "المكتبات"},
       "description": {
         "en": "Flutter libraries and UI kits from Alheekmah.",
         "ar": "مكتبات وأدوات Flutter من مكتبة الحكمة."
@@ -17,24 +14,21 @@
         {
           "id": "quran-library",
           "enabled": true,
-          "title": {
-            "en": "Quran Library",
-            "ar": "مكتبة القرآن"
-          },
+          "title": {"en": "Quran Library", "ar": "مكتبة القرآن"},
           "description": {
             "en": "Read, search, and navigate the Quran with rich tooling.",
             "ar": "قراءة وبحث وتصفح القرآن بأدوات متقدمة."
           },
-          "bannerUrl": "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Packages/quran_library/quran_library_banner.png",
-          "docsUrl": "https://alheekmahlib.github.io/quran_library_web/#/ar/section/about-library",
+          "bannerUrl": "https://example.com/banners/quran_library.jpg",
+          "logoUrl": "https://example.com/logos/quran_library.svg",
+          "docsUrl": "https://example.com/docs/quran-library",
           "githubUrl": "https://github.com/alheekmahlib/quran_library",
           "downloadUrl": "https://pub.dev/packages/quran_library",
           "readmeUrl": "https://raw.githubusercontent.com/alheekmahlib/quran_library/main/README.md",
-          "url": "",
-          "baseUrl": "",
-          "version": "",
-          "screenshots": [],
-          "endpoints": []
+          "screenshots": [
+            "https://example.com/screens/quran_library_1.png",
+            "https://example.com/screens/quran_library_2.png"
+          ]
         }
       ]
     },
@@ -42,10 +36,7 @@
       "slug": "api",
       "enabled": true,
       "type": "api",
-      "title": {
-        "en": "API",
-        "ar": "الـ API"
-      },
+      "title": {"en": "API", "ar": "الـ API"},
       "description": {
         "en": "Public APIs for Quran datasets.",
         "ar": "واجهات برمجية عامة لبيانات القرآن."
@@ -54,47 +45,34 @@
         {
           "id": "quran-api",
           "enabled": true,
-          "title": {
-            "en": "Quran JSON API",
-            "ar": "API القرآن"
-          },
+          "title": {"en": "Quran JSON API", "ar": "API القرآن"},
           "description": {
             "en": "Endpoints for surahs, ayahs, and translations.",
             "ar": "مسارات للسور والآيات والترجمات."
           },
-          "bannerUrl": "",
-          "docsUrl": "https://quran-api-phi-lemon.vercel.app",
-          "githubUrl": "",
-          "downloadUrl": "",
-          "readmeUrl": "",
-          "url": "",
           "baseUrl": "https://quran-api-phi-lemon.vercel.app",
           "version": "v1",
-          "screenshots": [],
+          "docsUrl": "https://example.com/docs/quran-api",
           "endpoints": [
             {
               "method": "GET",
               "path": "/surahs",
-              "summary": {
-                "en": "List surahs",
-                "ar": "عرض السور"
-              }
+              "summary": {"en": "List surahs", "ar": "عرض السور"}
             },
             {
               "method": "GET",
-              "path": "/surahs/{id}",
-              "summary": {
-                "en": "Get surah",
-                "ar": "تفاصيل سورة"
-              }
+              "path": "/surah/{id}",
+              "summary": {"en": "Get surah", "ar": "تفاصيل سورة"}
             },
             {
               "method": "GET",
-              "path": "/ayahs/{id}",
-              "summary": {
-                "en": "Get ayah",
-                "ar": "تفاصيل آية"
-              }
+              "path": "/ayah?surah={surah}&number={number}",
+              "summary": {"en": "Get ayah", "ar": "تفاصيل آية"}
+            },
+            {
+              "method": "GET",
+              "path": "/search?keyword={keyword}",
+              "summary": {"en": "Search", "ar": "بحث"}
             }
           ]
         }
