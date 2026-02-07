@@ -1,11 +1,14 @@
 {
-  "updatedAt": "2026-02-07",
+  "updatedAt": "2026-02-06",
   "sections": [
     {
       "slug": "libraries",
       "enabled": true,
       "type": "libraries",
-      "title": {"en": "Libraries", "ar": "المكتبات"},
+      "title": {
+        "en": "Libraries",
+        "ar": "المكتبات"
+      },
       "description": {
         "en": "Flutter libraries and UI kits from Alheekmah.",
         "ar": "مكتبات وأدوات Flutter من مكتبة الحكمة."
@@ -14,21 +17,24 @@
         {
           "id": "quran-library",
           "enabled": true,
-          "title": {"en": "Quran Library", "ar": "مكتبة القرآن"},
+          "title": {
+            "en": "Quran Library",
+            "ar": "مكتبة القرآن"
+          },
           "description": {
             "en": "Read, search, and navigate the Quran with rich tooling.",
             "ar": "قراءة وبحث وتصفح القرآن بأدوات متقدمة."
           },
-          "bannerUrl": "https://example.com/banners/quran_library.jpg",
-          "logoUrl": "https://example.com/logos/quran_library.svg",
-          "docsUrl": "https://example.com/docs/quran-library",
+          "bannerUrl": "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/Packages/quran_library/quran_library_banner.png",
+          "docsUrl": "https://alheekmahlib.github.io/quran_library_web/#/ar/section/about-library",
           "githubUrl": "https://github.com/alheekmahlib/quran_library",
           "downloadUrl": "https://pub.dev/packages/quran_library",
           "readmeUrl": "https://raw.githubusercontent.com/alheekmahlib/quran_library/main/README.md",
-          "screenshots": [
-            "https://example.com/screens/quran_library_1.png",
-            "https://example.com/screens/quran_library_2.png"
-          ]
+          "url": "",
+          "baseUrl": "",
+          "version": "",
+          "screenshots": [],
+          "endpoints": []
         }
       ]
     },
@@ -36,7 +42,10 @@
       "slug": "api",
       "enabled": true,
       "type": "api",
-      "title": {"en": "API", "ar": "الـ API"},
+      "title": {
+        "en": "API",
+        "ar": "الـ API"
+      },
       "description": {
         "en": "Public APIs for Quran datasets.",
         "ar": "واجهات برمجية عامة لبيانات القرآن."
