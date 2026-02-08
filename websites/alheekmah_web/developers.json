@@ -86,6 +86,28 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "downloads",
+      "enabled": true,
+      "type": "downloads",
+      "title": {"en": "Downloads", "ar": "التحميلات"},
+      "description": {
+        "en": "Direct files and releases for Alheekmah resources.",
+        "ar": "ملفات وإصدارات مباشرة لموارد مكتبة الحكمة."
+      },
+      "items": [
+        {
+          "id": "quran-data",
+          "enabled": true,
+          "title": {"en": "Quran Dataset", "ar": "بيانات القرآن"},
+          "description": {
+            "en": "Download the latest Quran JSON dataset.",
+            "ar": "تحميل أحدث نسخة من بيانات القرآن بصيغة JSON."
+          },
+          "downloadUrl": "https://example.com/files/quran.json"
+        }
+      ]
     }
   ]
 }
