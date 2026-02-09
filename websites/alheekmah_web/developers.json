@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-06",
+  "updatedAt": "2026-02-08",
   "sections": [
     {
       "slug": "libraries",
@@ -35,6 +35,72 @@
           "version": "",
           "screenshots": [],
           "endpoints": []
+        },
+        {
+          "id": "tafsir_library",
+          "enabled": true,
+          "title": {
+            "en": "Tafsir Library",
+            "ar": "مكتبة التفسير"
+          },
+          "description": {
+            "en": "A Flutter/Dart library for displaying and accessing Tafsir, Translations and Tajweed data with ready-made UI widgets and a direct API facade.",
+            "ar": "مكتبة Flutter/Dart لعرض بيانات التفسير والترجمات والتجويد والوصول إليها باستخدام عناصر واجهة مستخدم جاهزة وواجهة API مباشرة."
+          },
+          "bannerUrl": "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/packages/tafsir_library/tafsir_library_banner.png",
+          "docsUrl": "",
+          "githubUrl": "https://github.com/alheekmahlib/tafsir_library",
+          "downloadUrl": "https://pub.dev/packages/tafsir_library",
+          "readmeUrl": "https://github.com/alheekmahlib/tafsir_library/raw/refs/heads/main/README.md",
+          "url": "",
+          "baseUrl": "",
+          "version": "",
+          "screenshots": [],
+          "endpoints": []
+        },
+        {
+          "id": "hijri_date",
+          "enabled": true,
+          "title": {
+            "en": "Hijri Date",
+            "ar": "التاريخ الهجري"
+          },
+          "description": {
+            "en": "Hijri Date — Hijri Calendar & Moon Phases Library",
+            "ar": "التاريخ الهجري — مكتبة التقويم الهجري ومراحل القمر"
+          },
+          "bannerUrl": "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/packages/hijri_date/banner.png",
+          "docsUrl": "",
+          "githubUrl": "https://github.com/alheekmahlib/hijri_date",
+          "downloadUrl": "https://pub.dev/packages/hijri_date",
+          "readmeUrl": "https://github.com/alheekmahlib/hijri_date/raw/refs/heads/master/README.md",
+          "url": "",
+          "baseUrl": "",
+          "version": "",
+          "screenshots": [],
+          "endpoints": []
+        },
+        {
+          "id": "floating_menu_expendable",
+          "enabled": true,
+          "title": {
+            "en": "Floating Menu Expendable",
+            "ar": "القائمة العائمة قابلة للتمدد"
+          },
+          "description": {
+            "en": "A draggable floating handle that opens a customizable panel (side or vertical)",
+            "ar": "مقبض عائم قابل للسحب يفتح لوحة قابلة للتخصيص (جانبية أو رأسية)"
+          },
+          "bannerUrl": "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/packages/floating_menu_expendable/Screenshot.png",
+          "docsUrl": "",
+          "githubUrl": "https://github.com/alheekmahlib/floating_menu_expendable",
+          "downloadUrl": "https://pub.dev/packages/floating_menu_expendable",
+          "readmeUrl": "https://github.com/alheekmahlib/floating_menu_expendable/raw/refs/heads/main/README.md",
+          "url": "",
+          "baseUrl": "",
+          "version": "",
+          "screenshots": [],
+          "endpoints": []
         }
       ]
     },
@@ -54,34 +120,55 @@
         {
           "id": "quran-api",
           "enabled": true,
-          "title": {"en": "Quran JSON API", "ar": "API القرآن"},
+          "title": {
+            "en": "Quran JSON API",
+            "ar": "API القرآن"
+          },
           "description": {
             "en": "Endpoints for surahs, ayahs, and translations.",
             "ar": "مسارات للسور والآيات والترجمات."
           },
+          "bannerUrl": "",
+          "docsUrl": "https://example.com/docs/quran-api",
+          "githubUrl": "",
+          "downloadUrl": "",
+          "readmeUrl": "",
+          "url": "",
           "baseUrl": "https://quran-api-phi-lemon.vercel.app",
           "version": "v1",
-          "docsUrl": "https://example.com/docs/quran-api",
+          "screenshots": [],
           "endpoints": [
             {
               "method": "GET",
               "path": "/surahs",
-              "summary": {"en": "List surahs", "ar": "عرض السور"}
+              "summary": {
+                "en": "List surahs",
+                "ar": "عرض السور"
+              }
             },
             {
               "method": "GET",
               "path": "/surah/{id}",
-              "summary": {"en": "Get surah", "ar": "تفاصيل سورة"}
+              "summary": {
+                "en": "Get surah",
+                "ar": "تفاصيل سورة"
+              }
             },
             {
               "method": "GET",
               "path": "/ayah?surah={surah}&number={number}",
-              "summary": {"en": "Get ayah", "ar": "تفاصيل آية"}
+              "summary": {
+                "en": "Get ayah",
+                "ar": "تفاصيل آية"
+              }
             },
             {
               "method": "GET",
               "path": "/search?keyword={keyword}",
-              "summary": {"en": "Search", "ar": "بحث"}
+              "summary": {
+                "en": "Search",
+                "ar": "بحث"
+              }
             }
           ]
         }
@@ -91,7 +178,10 @@
       "slug": "downloads",
       "enabled": true,
       "type": "downloads",
-      "title": {"en": "Downloads", "ar": "التحميلات"},
+      "title": {
+        "en": "Downloads",
+        "ar": "التحميلات"
+      },
       "description": {
         "en": "Direct files and releases for Alheekmah resources.",
         "ar": "ملفات وإصدارات مباشرة لموارد مكتبة الحكمة."
@@ -100,12 +190,112 @@
         {
           "id": "quran-data",
           "enabled": true,
-          "title": {"en": "Quran Dataset", "ar": "بيانات القرآن"},
+          "title": {
+            "en": "Quran Dataset",
+            "ar": "بيانات القرآن"
+          },
           "description": {
             "en": "Download the latest Quran JSON dataset.",
             "ar": "تحميل أحدث نسخة من بيانات القرآن بصيغة JSON."
           },
-          "downloadUrl": "https://example.com/files/quran.json"
+          "bannerUrl": "",
+          "docsUrl": "",
+          "githubUrl": "",
+          "downloadUrl": "https://github.com/alheekmahlib/Islamic_database/releases/download/quran_data/quranV3.json",
+          "readmeUrl": "",
+          "url": "",
+          "baseUrl": "",
+          "version": "",
+          "screenshots": [],
+          "endpoints": []
+        },
+        {
+          "id": "quran-data 2",
+          "enabled": true,
+          "title": {
+            "en": "Quran Dataset 2",
+            "ar": "بيانات القرآن ٢"
+          },
+          "description": {
+            "en": "Download the latest version of the Quran data in JSON format with a different structure.",
+            "ar": "تحميل أحدث نسخة من بيانات القرآن بصيغة JSON بهيكلية مختلفة."
+          },
+          "bannerUrl": "",
+          "docsUrl": "",
+          "githubUrl": "",
+          "downloadUrl": "https://github.com/alheekmahlib/Islamic_database/releases/download/quran_data/quran_hafs.json",
+          "readmeUrl": "",
+          "url": "",
+          "baseUrl": "",
+          "version": "",
+          "screenshots": [],
+          "endpoints": []
+        },
+        {
+          "id": "surah_names",
+          "enabled": true,
+          "title": {
+            "en": "Surah names and their information",
+            "ar": "أسماء السور وبياناتها"
+          },
+          "description": {
+            "en": "This file contains the names of the surahs and their information.",
+            "ar": "هذا الملف يحتوي على أسماء السور وبياناتها."
+          },
+          "bannerUrl": "",
+          "docsUrl": "",
+          "githubUrl": "",
+          "downloadUrl": "https://github.com/alheekmahlib/Islamic_database/releases/download/quran_data/surahs_name.json",
+          "readmeUrl": "",
+          "url": "",
+          "baseUrl": "",
+          "version": "",
+          "screenshots": [],
+          "endpoints": []
+        },
+        {
+          "id": "Quran_fonts_ttf",
+          "enabled": true,
+          "title": {
+            "en": "Quran Fonts TTF",
+            "ar": "خطوط القرآن TTF"
+          },
+          "description": {
+            "en": "A compressed file containing 604 lines, each line representing a page of the Qur’an to make the pages look identical to newspapers printed with Hafs reading.",
+            "ar": "ملف مضغوط يحتوي على ٦٠٤ خط، كل خط يمثل صفحة من صفحات المصحف لجعل شكل الصفحات مطابق للصحف المطبوع بقراءة حفص."
+          },
+          "bannerUrl": "",
+          "docsUrl": "",
+          "githubUrl": "",
+          "downloadUrl": "https://github.com/alheekmahlib/Islamic_database/releases/download/fonts/qcf4_ttf.zip",
+          "readmeUrl": "",
+          "url": "",
+          "baseUrl": "",
+          "version": "",
+          "screenshots": [],
+          "endpoints": []
+        },
+        {
+          "id": "Quran_fonts_woff",
+          "enabled": true,
+          "title": {
+            "en": "Quran Fonts WOFF",
+            "ar": "خطوط المصحف WOFF"
+          },
+          "description": {
+            "en": "A compressed file containing 604 lines, each line representing a page of the Qur’an to make the pages look identical to newspapers printed with Hafs reading.",
+            "ar": "ملف مضغوط يحتوي على ٦٠٤ خط، كل خط يمثل صفحة من صفحات المصحف لجعل شكل الصفحات مطابق للصحف المطبوع بقراءة حفص."
+          },
+          "bannerUrl": "",
+          "docsUrl": "",
+          "githubUrl": "",
+          "downloadUrl": "https://github.com/alheekmahlib/Islamic_database/releases/download/fonts/qcf4_woff.zip",
+          "readmeUrl": "",
+          "url": "",
+          "baseUrl": "",
+          "version": "",
+          "screenshots": [],
+          "endpoints": []
         }
       ]
     }
