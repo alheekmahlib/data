@@ -276,15 +276,15 @@
           "endpoints": []
         },
         {
-          "id": "Quran_fonts_woff",
+          "id": "Quran_fonts_tajweed",
           "enabled": true,
           "title": {
-            "en": "Quran Fonts WOFF",
-            "ar": "خطوط المصحف WOFF"
+            "en": "Quran Fonts with Tajweed",
+            "ar": "خطوط المصحف مع التجويد"
           },
           "description": {
-            "en": "A compressed file containing 604 lines, each line representing a page of the Qur’an to make the pages look identical to newspapers printed with Hafs reading.",
-            "ar": "ملف مضغوط يحتوي على ٦٠٤ خط، كل خط يمثل صفحة من صفحات المصحف لجعل شكل الصفحات مطابق للصحف المطبوع بقراءة حفص."
+            "en": "A compressed file containing 604 lines, each line representing a page of the Qur’an to make the pages look identical to newspapers printed with Tajweed with Hafs reading.",
+            "ar": "ملف مضغوط يحتوي على ٦٠٤ خط، كل خط يمثل صفحة من صفحات المصحف لجعل شكل الصفحات مطابق للصحف المطبوع مع التجويد بقراءة حفص."
           },
           "bannerUrl": "",
           "docsUrl": "",
