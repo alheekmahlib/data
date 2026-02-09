@@ -254,11 +254,11 @@
           "endpoints": []
         },
         {
-          "id": "Quran_fonts_ttf",
+          "id": "Quran_fonts",
           "enabled": true,
           "title": {
-            "en": "Quran Fonts TTF",
-            "ar": "خطوط القرآن TTF"
+            "en": "Quran Fonts",
+            "ar": "خطوط القرآن"
           },
           "description": {
             "en": "A compressed file containing 604 lines, each line representing a page of the Qur’an to make the pages look identical to newspapers printed with Hafs reading.",
@@ -267,7 +267,7 @@
           "bannerUrl": "",
           "docsUrl": "",
           "githubUrl": "",
-          "downloadUrl": "https://github.com/alheekmahlib/Islamic_database/releases/download/fonts/qcf4_ttf.zip",
+          "downloadUrl": "https://qul.tarteel.ai/resources/font/249",
           "readmeUrl": "",
           "url": "",
           "baseUrl": "",
