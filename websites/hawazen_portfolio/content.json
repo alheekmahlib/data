@@ -144,7 +144,7 @@
               "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/quran/screen%202.png",
               "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/quran/screen%203.png",
               "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/quran/screen%204.png"
-            ], 
+            ],
             "downlwad": "https://alheekmahlib.github.io/alheekmahlib/#/download/quran"
           }
         },
@@ -415,6 +415,28 @@
             ],
             "download": "https://pub.dev/packages/tafsir_library",
             "github": "https://github.com/alheekmahlib/tafsir_library"
+          }
+        },
+        {
+          "id": "item",
+          "enabled": true,
+          "fields": {
+            "name": {
+              "en": "Flexible Sheet",
+              "ar": "لوحة مرنة"
+            },
+            "banner": "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/packages/flexible_sheet/flexible_sheet_banner.png",
+            "description": {
+              "en": "A flexible, persistent sheet widget for Flutter that supports top-to-bottom and bottom-to-top directions with configurable snap behavior, spring physics, and programmatic control.",
+              "ar": "ودجت لوحة مرنة ودائمة لـ Flutter تدعم الاتجاه من الأعلى إلى الأسفل ومن الأسفل إلى الأعلى، مع إمكانية تخصيص سلوك التثبيت، وفيزياء النابض، والتحكم البرمجي."
+            },
+            "download": "https://pub.dev/packages/flexible_sheet",
+            "github": "https://github.com/alheekmahlib/flexible_sheet",
+            "screens": [
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/packages/flexible_sheet/Screenshot.png",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/packages/flexible_sheet/Screenshot2.png",
+              "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/packages/flexible_sheet/Screenshot3.png"
+            ]
           }
         }
       ]
