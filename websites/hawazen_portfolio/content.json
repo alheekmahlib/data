@@ -438,6 +438,26 @@
               "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/packages/flexible_sheet/Screenshot3.png"
             ]
           }
+        },
+        {
+          "id": "item-2",
+          "enabled": true,
+          "fields": {
+            "name": {
+              "en": "Floatica",
+              "ar": "فلوتيكا"
+            },
+            "banner": "https://raw.githubusercontent.com/alheekmahlib/data/main/packages/floatica/floatica_banner.png",
+            "description": {
+              "en": "A highly customizable floating navigation bar for Flutter with glassmorphism effects, expandable menus, per-tab floating action buttons, and iOS 26 Liquid Glass support. Zero external dependencies.",
+              "ar": "شريط تنقل عائم قابل للتخصيص بدرجة عالية لـ Flutter، مع تأثيرات الزجاج الضبابي، وقوائم قابلة للتوسعة، وأزرار إجراءات عائمة لكل تبويب، ودعم زجاج Liquid Glass الخاص بـ iOS 26. بدون أي تبعيات خارجية."
+            },
+            "screens": [
+              "https://raw.githubusercontent.com/alheekmahlib/data/main/packages/floatica/floatica_banner.png"
+            ],
+            "download": "https://pub.dev/packages/floatica",
+            "github": "https://github.com/alheekmahlib/floatica"
+          }
         }
       ]
     },
