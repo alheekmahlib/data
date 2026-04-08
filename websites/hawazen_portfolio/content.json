@@ -134,16 +134,17 @@
               "en": "The Holy Qur’an – Al-Hikmah Library",
               "ar": "القرآن الكريم - مكتبة الحكمة"
             },
-            "banner": "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/quran/quran_banner.png",
+            "banner": "https://raw.githubusercontent.com/alheekmahlib/data/refs/heads/main/apps_photos/quran_app/play%20store/Feature%20graphic.png",
             "description": {
               "en": "The ideal application for reading the Holy Qur’an",
               "ar": "التطبيق الأمثل لقراءة القرآن الكريم"
             },
             "screens": [
-              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/quran/screen%201.png",
-              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/quran/screen%202.png",
-              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/quran/screen%203.png",
-              "https://raw.githubusercontent.com/alheekmahlib/thegarlanded/master/Photos/quran/screen%204.png"
+              "https://raw.githubusercontent.com/alheekmahlib/data/main/apps_photos/quran_app/app%20store/p1.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/main/apps_photos/quran_app/app%20store/p2.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/main/apps_photos/quran_app/app%20store/p3.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/main/apps_photos/quran_app/app%20store/p4.jpg",
+              "https://raw.githubusercontent.com/alheekmahlib/data/main/apps_photos/quran_app/app%20store/p5.jpg"
             ],
             "downlwad": "https://alheekmahlib.github.io/alheekmahlib/#/download/quran"
           }
