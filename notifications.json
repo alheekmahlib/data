@@ -3,7 +3,7 @@
     "id": 1,
     "appName": "quran",
     "title": "تجربة",
-    "body": "هذا الاشعار مجرد تجربة",
+    "body": "تجربة",
     "isLottie": true,
     "lottie": "https://lottie.host/f914e435-1540-4eb2-a536-cf7b070ca49c/9JJMKqCscK.json",
     "isImage": true,
@@ -11,6 +11,6 @@
     "isVideo": true,
     "video": "https://github.com/alheekmahlib/data/blob/main/packages/flexible_sheet/demo.gif?raw=true",
     "active": true,
-    "expiresAt": "2026-04-26T04:09:00.000Z"
+    "expiresAt": "2026-04-29T04:16:00.000Z"
   }
 ]
