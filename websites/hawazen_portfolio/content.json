@@ -419,7 +419,7 @@
           }
         },
         {
-          "id": "item",
+          "id": "flexible-sheet",
           "enabled": true,
           "fields": {
             "name": {
@@ -441,7 +441,7 @@
           }
         },
         {
-          "id": "item-2",
+          "id": "floatica",
           "enabled": true,
           "fields": {
             "name": {
@@ -458,6 +458,26 @@
             ],
             "download": "https://pub.dev/packages/floatica",
             "github": "https://github.com/alheekmahlib/floatica"
+          }
+        },
+        {
+          "id": "quranaudio",
+          "enabled": true,
+          "fields": {
+            "name": {
+              "en": "quran_audio",
+              "ar": "القرآن الصوتي"
+            },
+            "banner": "https://external-images.pub.dev/6WECKCUCoLX7QTwomYv81vC3ppuZfRA3pv%2FO5fnlj1g%3D/1783728000000/https%3A%2F%2Fraw.githubusercontent.com%2Falheekmahlib%2Fdata%2Fmain%2Fpackages%2Fquran_audio%2Fimg.png",
+            "description": {
+              "en": "A Flutter package for Quran audio playback — logic only, no UI. It supports two independent playback systems (full-surah and per-ayah), system media notifications, offline downloads, and repeat modes — all through a single unified QuranAudio facade.",
+              "ar": "حزمة Flutter لتشغيل صوت القرآن - المنطق فقط، بدون واجهة مستخدم. وهو يدعم نظامين تشغيل مستقلين (سورة كاملة وكل آية)، وإشعارات وسائط النظام، والتنزيلات دون اتصال بالإنترنت، وأوضاع التكرار - كل ذلك من خلال واجهة صوتية موحدة للقرآن الكريم."
+            },
+            "screens": [
+              "https://external-images.pub.dev/6WECKCUCoLX7QTwomYv81vC3ppuZfRA3pv%2FO5fnlj1g%3D/1783728000000/https%3A%2F%2Fraw.githubusercontent.com%2Falheekmahlib%2Fdata%2Fmain%2Fpackages%2Fquran_audio%2Fimg.png"
+            ],
+            "download": "https://pub.dev/packages/quran_audio",
+            "github": "https://github.com/alheekmahlib/quran_audio"
           }
         }
       ]
