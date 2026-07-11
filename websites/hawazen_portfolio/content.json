@@ -465,7 +465,7 @@
           "enabled": true,
           "fields": {
             "name": {
-              "en": "quran_audio",
+              "en": "Quran Audio",
               "ar": "القرآن الصوتي"
             },
             "banner": "https://raw.githubusercontent.com/alheekmahlib/data/main/packages/quran_audio/quran_audio_logo.png",
